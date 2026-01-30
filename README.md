@@ -5,7 +5,7 @@ Custom ComfyUI node that applies curated style **prefix/suffix** templates to yo
 ## Install
 
 1. Copy this folder to: `ComfyUI/custom_nodes/ComfyUI_PromptStyler`
-2. Restart ComfyUI (or use "Reload custom nodes").
+2. Restart ComfyUI.
 
 ## Nodes
 
