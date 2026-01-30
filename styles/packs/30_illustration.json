@@ -1,0 +1,905 @@
+{
+  "version": 1,
+  "styles": [
+    {
+      "id": "ink_wash_illustration",
+      "name": "Ink Wash Illustration",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, ink wash illustration, expressive brushwork, paper texture",
+        "suffix": "soft diffusion, monochrome ink tones, subtle bleeding edges, cohesive palette, clean composition, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: ink wash illustration on textured paper. Lighting: soft ambient light emphasizing paper texture and brush edges. Mood: calm, minimal, expressive."
+        }
+      },
+      "tags": [
+        "ink",
+        "wash",
+        "illustration"
+      ]
+    },
+    {
+      "id": "anime_style",
+      "name": "Anime Style",
+      "category": "Anime/Manga",
+      "default": {
+        "prefix": "anime/manga illustration, clean linework, cel shading, expressive character design, vibrant palette, anime style, clean line art, vibrant colors",
+        "suffix": "sharp eyes, expressive face, crisp edges, detailed background, high clarity, clean gradients"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: anime illustration with clean linework and cel shading. Lighting: clear, readable key light with soft fill. Mood: vibrant, expressive, high clarity."
+        }
+      },
+      "tags": [
+        "anime",
+        "manga",
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_watercolor_illustration",
+      "name": "Watercolor Illustration",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, watercolor illustration, translucent washes, soft edges, granulation, textured paper",
+        "suffix": "clean composition, cohesive palette, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: watercolor illustration. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_gouache_painting",
+      "name": "Gouache Painting",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, gouache painting, opaque matte paint, bold shapes, flat color blocks, brush strokes",
+        "suffix": "clean composition, cohesive palette, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: gouache painting. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_oil_painting",
+      "name": "Oil Painting",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, oil painting, painterly, rich brush strokes, impasto texture, canvas texture",
+        "suffix": "clean composition, cohesive palette, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: oil painting. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_acrylic_painting",
+      "name": "Acrylic Painting",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, acrylic painting, bold brushwork, layered paint, matte finish, clean edges",
+        "suffix": "clean composition, cohesive palette, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: acrylic painting. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_colored_pencil_drawing",
+      "name": "Colored Pencil Drawing",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, colored pencil drawing, fine hatching, paper grain, soft shading, hand-drawn texture",
+        "suffix": "clean composition, cohesive palette, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: colored pencil drawing. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_graphite_pencil_sketch",
+      "name": "Graphite Pencil Sketch",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, graphite pencil sketch, linework, shaded rendering, paper texture, loose sketch",
+        "suffix": "clean composition, cohesive palette, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: graphite pencil sketch. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_charcoal_drawing",
+      "name": "Charcoal Drawing",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, charcoal drawing, smudged shading, dusty texture, high contrast, paper grain",
+        "suffix": "clean composition, cohesive palette, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: charcoal drawing. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_pastel_drawing",
+      "name": "Pastel Drawing",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, soft pastel drawing, powdery texture, blended gradients, soft edges, paper tooth",
+        "suffix": "clean composition, cohesive palette, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: pastel drawing. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_ink_line_art",
+      "name": "Ink Line Art",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, ink line art, clean linework, high contrast, minimal shading, smooth contours",
+        "suffix": "clean composition, cohesive palette, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: ink line art. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_marker_illustration",
+      "name": "Marker Illustration",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, marker illustration, smooth gradients, bold shapes, clean outlines, paper texture",
+        "suffix": "clean composition, cohesive palette, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: marker illustration. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_children_s_book_illustration",
+      "name": "Children's Book Illustration",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, children's book illustration, storybook style, soft shapes, warm palette, gentle shading",
+        "suffix": "clean composition, cohesive palette, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: children's book illustration. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_graphic_novel_panel",
+      "name": "Graphic Novel Panel",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, graphic novel panel, dramatic inking, heavy shadows, panel composition, high contrast",
+        "suffix": "clean composition, cohesive palette, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: graphic novel panel. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_manga_panel",
+      "name": "Manga Panel",
+      "category": "Anime/Manga",
+      "default": {
+        "prefix": "anime/manga illustration, clean linework, cel shading, expressive character design, vibrant palette, manga panel, black ink, screentones, dynamic paneling",
+        "suffix": "clean composition, cohesive palette, high clarity, crisp edges, clean gradients, sharp eyes"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: manga panel. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_anime_keyframe",
+      "name": "Anime Keyframe",
+      "category": "Anime/Manga",
+      "default": {
+        "prefix": "anime/manga illustration, clean linework, cel shading, expressive character design, vibrant palette, anime key visual, clean lineart, expressive faces, vibrant colors",
+        "suffix": "clean composition, cohesive palette, high clarity, crisp edges, clean gradients, sharp eyes"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: anime keyframe. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_pixel_art",
+      "name": "Pixel Art",
+      "category": "Pixel Art",
+      "default": {
+        "prefix": "pixel art, 16-bit, limited palette, pixel-perfect, dithering, crisp pixels",
+        "suffix": "clean composition, cohesive palette, crisp pixels, dithered shading, readable silhouette, sprite-like clarity"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: pixel art. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_vector_flat",
+      "name": "Vector Flat",
+      "category": "Vector",
+      "default": {
+        "prefix": "vector illustration, flat colors, clean shapes, crisp edges, smooth curves, minimal shading",
+        "suffix": "clean composition, cohesive palette, clean layout, consistent stroke weight, crisp edges, smooth curves"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: vector flat. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_isometric_vector",
+      "name": "Isometric Vector",
+      "category": "Vector",
+      "default": {
+        "prefix": "vector illustration, flat colors, clean shapes, crisp edges, smooth curves, isometric vector illustration, clean geometry, consistent shadows, crisp lines",
+        "suffix": "clean composition, cohesive palette, clean layout, consistent stroke weight, crisp edges, smooth curves"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: isometric vector. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_technical_diagram",
+      "name": "Technical Diagram",
+      "category": "Technical",
+      "default": {
+        "prefix": "technical illustration, clean lines, diagrammatic layout, precise geometry, labels and callouts, labeled parts, flat lighting",
+        "suffix": "clean composition, cohesive palette, high legibility, crisp lines, precise layout, flat lighting"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: technical diagram. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_linocut_print",
+      "name": "Linocut Print",
+      "category": "Printmaking",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, carved lines, high contrast, linocut print, carved line texture, rough edges",
+        "suffix": "clean composition, cohesive palette, paper texture, ink texture, rough edges, high contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: linocut print. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_woodcut_print",
+      "name": "Woodcut Print",
+      "category": "Printmaking",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, carved lines, high contrast, woodcut print, carved texture, bold lines",
+        "suffix": "clean composition, cohesive palette, paper texture, ink texture, rough edges, high contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: woodcut print. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_engraving",
+      "name": "Engraving",
+      "category": "Printmaking",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, carved lines, high contrast, engraving, fine hatching, crosshatching, vintage print, antique paper",
+        "suffix": "clean composition, cohesive palette, paper texture, ink texture, rough edges, high contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: engraving. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_etching",
+      "name": "Etching",
+      "category": "Printmaking",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, carved lines, high contrast, etching, crosshatching, fine lines, paper texture, vintage print",
+        "suffix": "clean composition, cohesive palette, paper texture, ink texture, rough edges, high contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: etching. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_stippling",
+      "name": "Stippling",
+      "category": "Printmaking",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, carved lines, high contrast, stippling, ink dots, dot shading, high detail, paper texture",
+        "suffix": "clean composition, cohesive palette, paper texture, ink texture, rough edges, high contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: stippling. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_pointillism",
+      "name": "Pointillism",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, pointillism, tiny color dots, optical blending, painterly, soft edges",
+        "suffix": "clean composition, cohesive palette, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: pointillism. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_ukiyo_e_woodblock",
+      "name": "Ukiyo-e Woodblock",
+      "category": "Printmaking",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, carved lines, high contrast, ukiyo-e woodblock print, flat color areas, stylized linework, traditional print texture, limited palette",
+        "suffix": "clean composition, cohesive palette, paper texture, ink texture, rough edges, high contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: ukiyo-e woodblock. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_impressionist_painting",
+      "name": "Impressionist Painting",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, impressionist painting, broken brush strokes, soft edges, painterly light, colorful palette",
+        "suffix": "clean composition, cohesive palette, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: impressionist painting. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_expressionist_painting",
+      "name": "Expressionist Painting",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, expressionist painting, bold color, emotional brushwork, strong shapes, high contrast",
+        "suffix": "clean composition, cohesive palette, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: expressionist painting. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_minimal_line_illustration",
+      "name": "Minimal Line Illustration",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, minimal line illustration, single line drawing, clean negative space, simple forms, minimal shading",
+        "suffix": "clean composition, cohesive palette, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: minimal line illustration. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_sticker_illustration",
+      "name": "Sticker Illustration",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, sticker illustration, thick outline, flat colors, simple shading, die-cut sticker",
+        "suffix": "clean composition, cohesive palette, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: sticker illustration. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_chalkboard_sketch",
+      "name": "Chalkboard Sketch",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, chalkboard drawing, chalk texture, hand-drawn, dusty strokes, blackboard background",
+        "suffix": "clean composition, cohesive palette, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: chalkboard sketch. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_blueprint_drawing",
+      "name": "Blueprint Drawing",
+      "category": "Technical",
+      "default": {
+        "prefix": "technical illustration, clean lines, diagrammatic layout, precise geometry, labels and callouts, blueprint drawing, white lines on blue, technical diagram, schematic layout, clean labels",
+        "suffix": "clean composition, cohesive palette, high legibility, crisp lines, precise layout, flat lighting"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: blueprint drawing. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_paper_cutout",
+      "name": "Paper Cutout",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, paper cutout illustration, layered paper, handcrafted, soft cast shadows, cut edges",
+        "suffix": "clean composition, cohesive palette, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: paper cutout. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_collage_illustration",
+      "name": "Collage Illustration",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, collage illustration, torn paper edges, mixed media, layered textures, paper grain",
+        "suffix": "clean composition, cohesive palette, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: collage illustration. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+        }
+      },
+      "tags": [
+        "illustration"
+      ]
+    },
+    {
+      "id": "illu_art_nouveau",
+      "name": "Art Nouveau",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, art nouveau illustration, ornamental lines, flowing forms",
+        "suffix": "cohesive palette, clean composition, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: art nouveau illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional."
+        }
+      },
+      "tags": [
+        "illustration",
+        "movement"
+      ]
+    },
+    {
+      "id": "illu_art_deco_illustration",
+      "name": "Art Deco Illustration",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, art deco illustration, geometric elegance, stylized forms",
+        "suffix": "cohesive palette, clean composition, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: art deco illustration illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional."
+        }
+      },
+      "tags": [
+        "illustration",
+        "movement"
+      ]
+    },
+    {
+      "id": "illu_surrealism",
+      "name": "Surrealism",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, surreal illustration, dream logic, unexpected juxtapositions",
+        "suffix": "cohesive palette, clean composition, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: surrealism illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional."
+        }
+      },
+      "tags": [
+        "illustration",
+        "movement"
+      ]
+    },
+    {
+      "id": "illu_cubism",
+      "name": "Cubism",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, cubist painting style, geometric planes, fragmented forms",
+        "suffix": "cohesive palette, clean composition, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: cubism illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional."
+        }
+      },
+      "tags": [
+        "illustration",
+        "movement"
+      ]
+    },
+    {
+      "id": "illu_fauvism",
+      "name": "Fauvism",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, fauvist colors, bold palette, simplified shapes",
+        "suffix": "cohesive palette, clean composition, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: fauvism illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional."
+        }
+      },
+      "tags": [
+        "illustration",
+        "movement"
+      ]
+    },
+    {
+      "id": "illu_minimalist_illustration",
+      "name": "Minimalist Illustration",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, minimalist illustration, simple forms, strong negative space",
+        "suffix": "cohesive palette, clean composition, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: minimalist illustration illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional."
+        }
+      },
+      "tags": [
+        "illustration",
+        "movement"
+      ]
+    },
+    {
+      "id": "illu_retro_1950s_illustration",
+      "name": "Retro 1950s Illustration",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, retro 1950s illustration, mid-century shapes, limited palette",
+        "suffix": "cohesive palette, clean composition, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: retro 1950s illustration illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional."
+        }
+      },
+      "tags": [
+        "illustration",
+        "movement"
+      ]
+    },
+    {
+      "id": "illu_vintage_scientific_plate",
+      "name": "Vintage Scientific Plate",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, vintage scientific illustration, fine lines, paper texture",
+        "suffix": "cohesive palette, clean composition, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: vintage scientific plate illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional."
+        }
+      },
+      "tags": [
+        "illustration",
+        "movement"
+      ]
+    },
+    {
+      "id": "illu_fantasy_map",
+      "name": "Fantasy Map",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, fantasy map illustration, ink lines, parchment texture",
+        "suffix": "cohesive palette, clean composition, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: fantasy map illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional."
+        }
+      },
+      "tags": [
+        "illustration",
+        "movement"
+      ]
+    },
+    {
+      "id": "illu_isometric_pixel_art",
+      "name": "Isometric Pixel Art",
+      "category": "Pixel Art",
+      "default": {
+        "prefix": "pixel art, 16-bit, limited palette, pixel-perfect, isometric pixel art, crisp pixels",
+        "suffix": "cohesive palette, clean composition, crisp pixels, dithered shading, readable silhouette, sprite-like clarity"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: isometric pixel art illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional."
+        }
+      },
+      "tags": [
+        "illustration",
+        "movement"
+      ]
+    },
+    {
+      "id": "illu_chibi_character",
+      "name": "Chibi Character",
+      "category": "Anime/Manga",
+      "default": {
+        "prefix": "anime/manga illustration, clean linework, cel shading, expressive character design, vibrant palette, chibi style, cute proportions, clean outlines",
+        "suffix": "cohesive palette, clean composition, high clarity, crisp edges, clean gradients, sharp eyes"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: chibi character illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional."
+        }
+      },
+      "tags": [
+        "illustration",
+        "movement"
+      ]
+    },
+    {
+      "id": "illu_mecha_blueprint",
+      "name": "Mecha Blueprint",
+      "category": "Anime/Manga",
+      "default": {
+        "prefix": "anime/manga illustration, clean linework, cel shading, expressive character design, vibrant palette, mecha blueprint, technical drawing, clean labels",
+        "suffix": "cohesive palette, clean composition, high clarity, crisp edges, clean gradients, sharp eyes"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mecha blueprint illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional."
+        }
+      },
+      "tags": [
+        "illustration",
+        "movement"
+      ]
+    },
+    {
+      "id": "illu_storybook_pencil",
+      "name": "Storybook Pencil",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, storybook pencil drawing, soft shading, gentle lines",
+        "suffix": "cohesive palette, clean composition, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: storybook pencil illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional."
+        }
+      },
+      "tags": [
+        "illustration",
+        "movement"
+      ]
+    },
+    {
+      "id": "illu_painterly_concept_art",
+      "name": "Painterly Concept Art",
+      "category": "Illustration",
+      "default": {
+        "prefix": "detailed illustration, cohesive style, readable shapes, intentional composition, handcrafted look, painterly concept art, loose brushwork, atmospheric perspective",
+        "suffix": "cohesive palette, clean composition, high detail, believable texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: painterly concept art illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional."
+        }
+      },
+      "tags": [
+        "illustration",
+        "movement"
+      ]
+    }
+  ]
+}

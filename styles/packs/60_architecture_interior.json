@@ -1,0 +1,309 @@
+{
+  "version": 1,
+  "styles": [
+    {
+      "id": "arch_minimalist_interior",
+      "name": "Minimalist Interior",
+      "category": "Architecture/Interior",
+      "default": {
+        "prefix": "architectural photography, straight verticals, clean geometry, wide-angle lens, realistic materials, balanced natural light, minimalist interior, clean lines, neutral palette, natural light",
+        "suffix": "realistic materials, clean perspective, crisp lines, balanced exposure, clean shadows, high detail, material realism"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: minimalist interior, realistic architectural photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Composition: clean verticals, strong geometry, intentional lines."
+        }
+      },
+      "tags": [
+        "architecture",
+        "interior"
+      ]
+    },
+    {
+      "id": "arch_scandinavian_interior",
+      "name": "Scandinavian Interior",
+      "category": "Architecture/Interior",
+      "default": {
+        "prefix": "architectural photography, straight verticals, clean geometry, wide-angle lens, realistic materials, balanced natural light, scandinavian interior, light wood, cozy minimalism",
+        "suffix": "realistic materials, clean perspective, crisp lines, balanced exposure, clean shadows, high detail, material realism"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: scandinavian interior, realistic architectural photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Composition: clean verticals, strong geometry, intentional lines."
+        }
+      },
+      "tags": [
+        "architecture",
+        "interior"
+      ]
+    },
+    {
+      "id": "arch_brutalist_architecture",
+      "name": "Brutalist Architecture",
+      "category": "Architecture/Interior",
+      "default": {
+        "prefix": "architectural photography, straight verticals, clean geometry, wide-angle lens, realistic materials, balanced natural light, brutalist architecture, raw concrete, monolithic forms",
+        "suffix": "realistic materials, clean perspective, crisp lines, balanced exposure, clean shadows, high detail, material realism"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: brutalist architecture, realistic architectural photograph. Lighting: overcast daylight, even illumination, soft shadow transitions. Composition: clean verticals, strong geometry, intentional lines."
+        }
+      },
+      "tags": [
+        "architecture",
+        "interior"
+      ]
+    },
+    {
+      "id": "arch_art_deco_lobby",
+      "name": "Art Deco Lobby",
+      "category": "Architecture/Interior",
+      "default": {
+        "prefix": "architectural photography, straight verticals, clean geometry, wide-angle lens, realistic materials, balanced natural light, art deco interior, geometric ornament, luxury materials",
+        "suffix": "realistic materials, clean perspective, crisp lines, balanced exposure, clean shadows, high detail, material realism"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: art deco lobby, realistic architectural photograph. Lighting: warm art deco sconces and soft ambient glow. Composition: clean verticals, strong geometry, intentional lines."
+        }
+      },
+      "tags": [
+        "architecture",
+        "interior"
+      ]
+    },
+    {
+      "id": "arch_modern_glass_tower",
+      "name": "Modern Glass Tower",
+      "category": "Architecture/Interior",
+      "default": {
+        "prefix": "architectural photography, straight verticals, clean geometry, wide-angle lens, realistic materials, balanced natural light, modern architecture, glass facade",
+        "suffix": "realistic materials, clean perspective, crisp lines, balanced exposure, clean shadows, high detail, material realism"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: modern glass tower, realistic architectural photograph. Lighting: overcast daylight, even illumination, soft shadow transitions. Composition: clean verticals, strong geometry, intentional lines."
+        }
+      },
+      "tags": [
+        "architecture",
+        "interior"
+      ]
+    },
+    {
+      "id": "arch_cozy_cabin_interior",
+      "name": "Cozy Cabin Interior",
+      "category": "Architecture/Interior",
+      "default": {
+        "prefix": "architectural photography, straight verticals, clean geometry, wide-angle lens, realistic materials, balanced natural light, rustic cabin interior, wood textures, warm practical lights",
+        "suffix": "realistic materials, clean perspective, crisp lines, balanced exposure, clean shadows, high detail, material realism"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: cozy cabin interior, realistic architectural photograph. Lighting: warm fireplace glow mixed with soft lamp light. Composition: clean verticals, strong geometry, intentional lines."
+        }
+      },
+      "tags": [
+        "architecture",
+        "interior"
+      ]
+    },
+    {
+      "id": "arch_industrial_loft",
+      "name": "Industrial Loft",
+      "category": "Architecture/Interior",
+      "default": {
+        "prefix": "architectural photography, straight verticals, clean geometry, wide-angle lens, realistic materials, balanced natural light, industrial loft, exposed brick, steel beams, large windows",
+        "suffix": "realistic materials, clean perspective, crisp lines, balanced exposure, clean shadows, high detail, material realism"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: industrial loft, realistic architectural photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Composition: clean verticals, strong geometry, intentional lines."
+        }
+      },
+      "tags": [
+        "architecture",
+        "interior"
+      ]
+    },
+    {
+      "id": "arch_mid_century_modern",
+      "name": "Mid-Century Modern",
+      "category": "Architecture/Interior",
+      "default": {
+        "prefix": "architectural photography, straight verticals, clean geometry, wide-angle lens, realistic materials, balanced natural light, mid-century modern interior, clean lines, warm wood, retro furniture",
+        "suffix": "realistic materials, clean perspective, crisp lines, balanced exposure, clean shadows, high detail, material realism"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mid-century modern, realistic architectural photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Composition: clean verticals, strong geometry, intentional lines."
+        }
+      },
+      "tags": [
+        "architecture",
+        "interior"
+      ]
+    },
+    {
+      "id": "arch_japanese_wabi_sabi",
+      "name": "Japanese Wabi-Sabi",
+      "category": "Architecture/Interior",
+      "default": {
+        "prefix": "architectural photography, straight verticals, clean geometry, wide-angle lens, realistic materials, balanced natural light, wabi-sabi interior, natural materials, imperfection, calm minimalism",
+        "suffix": "realistic materials, clean perspective, crisp lines, balanced exposure, clean shadows, high detail, material realism"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: japanese wabi-sabi, realistic architectural photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Composition: clean verticals, strong geometry, intentional lines."
+        }
+      },
+      "tags": [
+        "architecture",
+        "interior"
+      ]
+    },
+    {
+      "id": "arch_mediterranean_villa",
+      "name": "Mediterranean Villa",
+      "category": "Architecture/Interior",
+      "default": {
+        "prefix": "architectural photography, straight verticals, clean geometry, wide-angle lens, realistic materials, balanced natural light, mediterranean architecture, stucco walls, arched openings, sunlit",
+        "suffix": "realistic materials, clean perspective, crisp lines, balanced exposure, clean shadows, high detail, material realism"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mediterranean villa, realistic architectural photograph. Lighting: warm sun, sharp but pleasing shadows, bright highlights. Composition: clean verticals, strong geometry, intentional lines."
+        }
+      },
+      "tags": [
+        "architecture",
+        "interior"
+      ]
+    },
+    {
+      "id": "arch_gothic_cathedral",
+      "name": "Gothic Cathedral",
+      "category": "Architecture/Interior",
+      "default": {
+        "prefix": "architectural photography, straight verticals, clean geometry, wide-angle lens, realistic materials, balanced natural light, gothic architecture, tall arches, stained glass, dramatic scale",
+        "suffix": "realistic materials, clean perspective, crisp lines, balanced exposure, clean shadows, high detail, material realism"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: gothic cathedral, realistic architectural photograph. Lighting: colored light beams through stained glass, dust in the air. Composition: clean verticals, strong geometry, intentional lines."
+        }
+      },
+      "tags": [
+        "architecture",
+        "interior"
+      ]
+    },
+    {
+      "id": "arch_futurist_interior",
+      "name": "Futurist Interior",
+      "category": "Architecture/Interior",
+      "default": {
+        "prefix": "architectural photography, straight verticals, clean geometry, wide-angle lens, realistic materials, balanced natural light, futurist interior, sleek curves, clean materials, ambient light",
+        "suffix": "realistic materials, clean perspective, crisp lines, balanced exposure, clean shadows, high detail, material realism"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: futurist interior, realistic architectural photograph. Lighting: soft ambient strips with crisp accent highlights. Composition: clean verticals, strong geometry, intentional lines."
+        }
+      },
+      "tags": [
+        "architecture",
+        "interior"
+      ]
+    },
+    {
+      "id": "arch_moroccan_riad",
+      "name": "Moroccan Riad",
+      "category": "Architecture/Interior",
+      "default": {
+        "prefix": "architectural photography, straight verticals, clean geometry, wide-angle lens, realistic materials, balanced natural light, moroccan architecture, tile patterns, courtyard light, arched doorways",
+        "suffix": "realistic materials, clean perspective, crisp lines, balanced exposure, clean shadows, high detail, material realism"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: moroccan riad, realistic architectural photograph. Lighting: warm sun filtering into courtyard, soft bounce light. Composition: clean verticals, strong geometry, intentional lines."
+        }
+      },
+      "tags": [
+        "architecture",
+        "interior"
+      ]
+    },
+    {
+      "id": "arch_tropical_modern",
+      "name": "Tropical Modern",
+      "category": "Architecture/Interior",
+      "default": {
+        "prefix": "architectural photography, straight verticals, clean geometry, wide-angle lens, realistic materials, balanced natural light, tropical modern architecture, open air, natural materials, lush greenery",
+        "suffix": "realistic materials, clean perspective, crisp lines, balanced exposure, clean shadows, high detail, material realism"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: tropical modern, realistic architectural photograph. Lighting: bright sun with soft shade from overhangs, humid ambience. Composition: clean verticals, strong geometry, intentional lines."
+        }
+      },
+      "tags": [
+        "architecture",
+        "interior"
+      ]
+    },
+    {
+      "id": "arch_victorian_parlor",
+      "name": "Victorian Parlor",
+      "category": "Architecture/Interior",
+      "default": {
+        "prefix": "architectural photography, straight verticals, clean geometry, wide-angle lens, realistic materials, balanced natural light, victorian interior, ornate details, rich textures",
+        "suffix": "realistic materials, clean perspective, crisp lines, balanced exposure, clean shadows, high detail, material realism"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: victorian parlor, realistic architectural photograph. Lighting: warm practical lamps with soft ambient fill. Composition: clean verticals, strong geometry, intentional lines."
+        }
+      },
+      "tags": [
+        "architecture",
+        "interior"
+      ]
+    },
+    {
+      "id": "arch_concrete_minimalism",
+      "name": "Concrete Minimalism",
+      "category": "Architecture/Interior",
+      "default": {
+        "prefix": "architectural photography, straight verticals, clean geometry, wide-angle lens, realistic materials, balanced natural light, concrete interior, minimalism, soft light",
+        "suffix": "realistic materials, clean perspective, crisp lines, balanced exposure, clean shadows, high detail, material realism"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: concrete minimalism, realistic architectural photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Composition: clean verticals, strong geometry, intentional lines."
+        }
+      },
+      "tags": [
+        "architecture",
+        "interior"
+      ]
+    }
+  ]
+}

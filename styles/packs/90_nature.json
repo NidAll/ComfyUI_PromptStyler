@@ -1,0 +1,271 @@
+{
+  "version": 1,
+  "styles": [
+    {
+      "id": "nature_misty_forest",
+      "name": "Misty Forest",
+      "category": "Nature",
+      "default": {
+        "prefix": "nature photography, natural light, atmospheric depth, fine detail, realistic textures, environmental realism, misty forest",
+        "suffix": "natural color, fine detail, realistic texture, clean contrast, high detail, fine microtexture, realistic atmosphere"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: misty forest, nature photograph. Lighting: diffused fog light, soft beams through trees. Mood: calm, immersive, natural."
+        }
+      },
+      "tags": [
+        "nature",
+        "landscape"
+      ]
+    },
+    {
+      "id": "nature_mountain_vista",
+      "name": "Mountain Vista",
+      "category": "Nature",
+      "default": {
+        "prefix": "nature photography, natural light, atmospheric depth, fine detail, realistic textures, environmental realism, landscape photography, mountain vista, wide angle",
+        "suffix": "natural color, fine detail, realistic texture, clean contrast, high detail, fine microtexture, realistic atmosphere"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mountain vista, nature photograph. Lighting: golden hour backlight with subtle lens flare and warm rim light. Mood: calm, immersive, natural."
+        }
+      },
+      "tags": [
+        "nature",
+        "landscape"
+      ]
+    },
+    {
+      "id": "nature_seascape",
+      "name": "Seascape",
+      "category": "Nature",
+      "default": {
+        "prefix": "nature photography, natural light, atmospheric depth, fine detail, realistic textures, environmental realism, seascape photography, waves, horizon line",
+        "suffix": "natural color, fine detail, realistic texture, clean contrast, high detail, fine microtexture, realistic atmosphere"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: seascape, nature photograph. Lighting: soft overcast coastal light, subtle specular highlights. Mood: calm, immersive, natural."
+        }
+      },
+      "tags": [
+        "nature",
+        "landscape"
+      ]
+    },
+    {
+      "id": "nature_desert_dunes",
+      "name": "Desert Dunes",
+      "category": "Nature",
+      "default": {
+        "prefix": "nature photography, natural light, atmospheric depth, fine detail, realistic textures, environmental realism, desert landscape, sand dunes, ripples, wide angle",
+        "suffix": "natural color, fine detail, realistic texture, clean contrast, high detail, fine microtexture, realistic atmosphere"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: desert dunes, nature photograph. Lighting: low sun casting long shadows across dune ridges. Mood: calm, immersive, natural."
+        }
+      },
+      "tags": [
+        "nature",
+        "landscape"
+      ]
+    },
+    {
+      "id": "nature_autumn_leaves",
+      "name": "Autumn Leaves",
+      "category": "Nature",
+      "default": {
+        "prefix": "nature photography, natural light, atmospheric depth, fine detail, realistic textures, environmental realism, nature close-up, autumn leaves, rich colors, bokeh",
+        "suffix": "natural color, fine detail, realistic texture, clean contrast, high detail, fine microtexture, realistic atmosphere"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: autumn leaves, nature photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: calm, immersive, natural."
+        }
+      },
+      "tags": [
+        "nature",
+        "landscape"
+      ]
+    },
+    {
+      "id": "nature_rainforest",
+      "name": "Rainforest",
+      "category": "Nature",
+      "default": {
+        "prefix": "nature photography, natural light, atmospheric depth, fine detail, realistic textures, environmental realism, rainforest, lush greens, humid haze, detailed foliage",
+        "suffix": "natural color, fine detail, realistic texture, clean contrast, high detail, fine microtexture, realistic atmosphere"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: rainforest, nature photograph. Lighting: filtered sunlight through canopy, humid atmosphere. Mood: calm, immersive, natural."
+        }
+      },
+      "tags": [
+        "nature",
+        "landscape"
+      ]
+    },
+    {
+      "id": "nature_aurora_night",
+      "name": "Aurora Night",
+      "category": "Nature",
+      "default": {
+        "prefix": "nature photography, natural light, atmospheric depth, fine detail, realistic textures, environmental realism, aurora, night sky, wide angle, stars",
+        "suffix": "natural color, fine detail, realistic texture, clean contrast, high detail, fine microtexture, realistic atmosphere"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: aurora night, nature photograph. Lighting: moonless night with aurora glow, crisp stars. Mood: calm, immersive, natural."
+        }
+      },
+      "tags": [
+        "nature",
+        "landscape"
+      ]
+    },
+    {
+      "id": "nature_stormy_coast",
+      "name": "Stormy Coast",
+      "category": "Nature",
+      "default": {
+        "prefix": "nature photography, natural light, atmospheric depth, fine detail, realistic textures, environmental realism, stormy seascape, dramatic clouds, waves",
+        "suffix": "natural color, fine detail, realistic texture, clean contrast, high detail, fine microtexture, realistic atmosphere"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: stormy coast, nature photograph. Lighting: storm light with high contrast clouds, moody atmosphere. Mood: calm, immersive, natural."
+        }
+      },
+      "tags": [
+        "nature",
+        "landscape"
+      ]
+    },
+    {
+      "id": "nature_wildflower_meadow",
+      "name": "Wildflower Meadow",
+      "category": "Nature",
+      "default": {
+        "prefix": "nature photography, natural light, atmospheric depth, fine detail, realistic textures, environmental realism, wildflower meadow, soft bokeh, pastel colors",
+        "suffix": "natural color, fine detail, realistic texture, clean contrast, high detail, fine microtexture, realistic atmosphere"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: wildflower meadow, nature photograph. Lighting: golden hour backlight with subtle lens flare and warm rim light. Mood: calm, immersive, natural."
+        }
+      },
+      "tags": [
+        "nature",
+        "landscape"
+      ]
+    },
+    {
+      "id": "nature_snowy_pines",
+      "name": "Snowy Pines",
+      "category": "Nature",
+      "default": {
+        "prefix": "nature photography, natural light, atmospheric depth, fine detail, realistic textures, environmental realism, snowy forest, cold palette",
+        "suffix": "natural color, fine detail, realistic texture, clean contrast, high detail, fine microtexture, realistic atmosphere"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: snowy pines, nature photograph. Lighting: bright overcast snow light, soft shadow transitions. Mood: calm, immersive, natural."
+        }
+      },
+      "tags": [
+        "nature",
+        "landscape"
+      ]
+    },
+    {
+      "id": "nature_waterfall_mist",
+      "name": "Waterfall Mist",
+      "category": "Nature",
+      "default": {
+        "prefix": "nature photography, natural light, atmospheric depth, fine detail, realistic textures, environmental realism, waterfall, mist, long exposure feel, lush rocks",
+        "suffix": "natural color, fine detail, realistic texture, clean contrast, high detail, fine microtexture, realistic atmosphere"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: waterfall mist, nature photograph. Lighting: overcast forest light with mist diffusion. Mood: calm, immersive, natural."
+        }
+      },
+      "tags": [
+        "nature",
+        "landscape"
+      ]
+    },
+    {
+      "id": "nature_volcanic_landscape",
+      "name": "Volcanic Landscape",
+      "category": "Nature",
+      "default": {
+        "prefix": "nature photography, natural light, atmospheric depth, fine detail, realistic textures, environmental realism, volcanic landscape, black rocks, dramatic sky",
+        "suffix": "natural color, fine detail, realistic texture, clean contrast, high detail, fine microtexture, realistic atmosphere"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: volcanic landscape, nature photograph. Lighting: dramatic overcast with breaks of sunlight. Mood: calm, immersive, natural."
+        }
+      },
+      "tags": [
+        "nature",
+        "landscape"
+      ]
+    },
+    {
+      "id": "nature_coral_reef",
+      "name": "Coral Reef",
+      "category": "Nature",
+      "default": {
+        "prefix": "nature photography, natural light, atmospheric depth, fine detail, realistic textures, environmental realism, coral reef, underwater, colorful fish, clear water",
+        "suffix": "natural color, fine detail, realistic texture, clean contrast, high detail, fine microtexture, realistic atmosphere"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: coral reef, nature photograph. Lighting: underwater caustics with clear blue light. Mood: calm, immersive, natural."
+        }
+      },
+      "tags": [
+        "nature",
+        "landscape"
+      ]
+    },
+    {
+      "id": "nature_savanna_sunset",
+      "name": "Savanna Sunset",
+      "category": "Nature",
+      "default": {
+        "prefix": "nature photography, natural light, atmospheric depth, fine detail, realistic textures, environmental realism, savanna, sunset, dust haze, warm tones",
+        "suffix": "natural color, fine detail, realistic texture, clean contrast, high detail, fine microtexture, realistic atmosphere"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: savanna sunset, nature photograph. Lighting: golden hour backlight with subtle lens flare and warm rim light. Mood: calm, immersive, natural."
+        }
+      },
+      "tags": [
+        "nature",
+        "landscape"
+      ]
+    }
+  ]
+}

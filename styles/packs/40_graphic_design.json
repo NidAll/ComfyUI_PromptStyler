@@ -1,0 +1,556 @@
+{
+  "version": 1,
+  "styles": [
+    {
+      "id": "gfx_risograph_print",
+      "name": "Risograph Print",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, risograph print, misregistration, paper texture, limited inks",
+        "suffix": "clean edges, intentional composition, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: risograph print, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+        }
+      },
+      "tags": [
+        "graphic",
+        "print"
+      ]
+    },
+    {
+      "id": "gfx_screen_print_poster",
+      "name": "Screen Print Poster",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, screen print, ink texture, poster design",
+        "suffix": "clean edges, intentional composition, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: screen print poster, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+        }
+      },
+      "tags": [
+        "graphic",
+        "print"
+      ]
+    },
+    {
+      "id": "gfx_halftone_comic",
+      "name": "Halftone Comic",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, halftone dots, comic print texture, high contrast",
+        "suffix": "clean edges, intentional composition, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: halftone comic, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+        }
+      },
+      "tags": [
+        "graphic",
+        "print"
+      ]
+    },
+    {
+      "id": "gfx_duotone_poster",
+      "name": "Duotone Poster",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, duotone, bold contrast, graphic poster",
+        "suffix": "clean edges, intentional composition, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: duotone poster, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+        }
+      },
+      "tags": [
+        "graphic",
+        "print"
+      ]
+    },
+    {
+      "id": "gfx_swiss_design",
+      "name": "Swiss Design",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, international typographic style, grid layout, minimal poster",
+        "suffix": "clean edges, intentional composition, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: swiss design, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+        }
+      },
+      "tags": [
+        "graphic",
+        "print"
+      ]
+    },
+    {
+      "id": "gfx_bauhaus",
+      "name": "Bauhaus",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, bauhaus design, geometric shapes, primary colors",
+        "suffix": "clean edges, intentional composition, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: bauhaus, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+        }
+      },
+      "tags": [
+        "graphic",
+        "print"
+      ]
+    },
+    {
+      "id": "gfx_constructivist_poster",
+      "name": "Constructivist Poster",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, constructivist poster, bold diagonals",
+        "suffix": "clean edges, intentional composition, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: constructivist poster, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+        }
+      },
+      "tags": [
+        "graphic",
+        "print"
+      ]
+    },
+    {
+      "id": "gfx_art_deco",
+      "name": "Art Deco",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, art deco poster, ornamental geometry, luxury vibe",
+        "suffix": "clean edges, intentional composition, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: art deco, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+        }
+      },
+      "tags": [
+        "graphic",
+        "print"
+      ]
+    },
+    {
+      "id": "gfx_pop_art",
+      "name": "Pop Art",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, pop art, bold outlines, saturated colors",
+        "suffix": "clean edges, intentional composition, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: pop art, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+        }
+      },
+      "tags": [
+        "graphic",
+        "print"
+      ]
+    },
+    {
+      "id": "gfx_psychedelic_poster",
+      "name": "Psychedelic Poster",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, psychedelic poster, wavy typography, vibrant gradients",
+        "suffix": "clean edges, intentional composition, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: psychedelic poster, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+        }
+      },
+      "tags": [
+        "graphic",
+        "print"
+      ]
+    },
+    {
+      "id": "gfx_vintage_travel_poster",
+      "name": "Vintage Travel Poster",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, vintage travel poster, flat illustration, retro palette",
+        "suffix": "clean edges, intentional composition, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: vintage travel poster, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+        }
+      },
+      "tags": [
+        "graphic",
+        "print"
+      ]
+    },
+    {
+      "id": "gfx_brutalist_graphic",
+      "name": "Brutalist Graphic",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, brutalist graphic design, raw typography, high contrast layout",
+        "suffix": "clean edges, intentional composition, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: brutalist graphic, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+        }
+      },
+      "tags": [
+        "graphic",
+        "print"
+      ]
+    },
+    {
+      "id": "gfx_memphis_pattern",
+      "name": "Memphis Pattern",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, memphis design, playful shapes, bold colors, pattern",
+        "suffix": "clean edges, intentional composition, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: memphis pattern, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+        }
+      },
+      "tags": [
+        "graphic",
+        "print"
+      ]
+    },
+    {
+      "id": "gfx_y2k_graphic",
+      "name": "Y2K Graphic",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, y2k design, chrome gradients, tech vibes, glossy",
+        "suffix": "clean edges, intentional composition, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: y2k graphic, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+        }
+      },
+      "tags": [
+        "graphic",
+        "print"
+      ]
+    },
+    {
+      "id": "gfx_vaporwave_poster",
+      "name": "Vaporwave Poster",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, vaporwave aesthetic, neon gradients, retro futurism",
+        "suffix": "clean edges, intentional composition, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: vaporwave poster, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+        }
+      },
+      "tags": [
+        "graphic",
+        "print"
+      ]
+    },
+    {
+      "id": "gfx_grunge_flyer",
+      "name": "Grunge Flyer",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, grunge design, rough texture, photocopy noise",
+        "suffix": "clean edges, intentional composition, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: grunge flyer, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+        }
+      },
+      "tags": [
+        "graphic",
+        "print"
+      ]
+    },
+    {
+      "id": "gfx_newspaper_collage",
+      "name": "Newspaper Collage",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, newspaper collage, cutout typography, paper texture",
+        "suffix": "clean edges, intentional composition, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: newspaper collage, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+        }
+      },
+      "tags": [
+        "graphic",
+        "print"
+      ]
+    },
+    {
+      "id": "gfx_minimal_poster",
+      "name": "Minimal Poster",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, minimal poster, simple shapes, strong negative space",
+        "suffix": "clean edges, intentional composition, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: minimal poster, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+        }
+      },
+      "tags": [
+        "graphic",
+        "print"
+      ]
+    },
+    {
+      "id": "gfx_geometric_pattern",
+      "name": "Geometric Pattern",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, geometric pattern, repeating shapes, clean layout",
+        "suffix": "clean edges, intentional composition, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: geometric pattern, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+        }
+      },
+      "tags": [
+        "graphic",
+        "print"
+      ]
+    },
+    {
+      "id": "gfx_retro_pixel_ui",
+      "name": "Retro Pixel UI",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, retro pixel ui, 8-bit interface",
+        "suffix": "clean edges, intentional composition, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: retro pixel ui, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+        }
+      },
+      "tags": [
+        "graphic",
+        "print"
+      ]
+    },
+    {
+      "id": "gfx_sticker_bomb",
+      "name": "Sticker Bomb",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, sticker bomb, busy collage, bold outlines",
+        "suffix": "clean edges, intentional composition, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: sticker bomb, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+        }
+      },
+      "tags": [
+        "graphic",
+        "print"
+      ]
+    },
+    {
+      "id": "gfx_isometric_infographic",
+      "name": "Isometric Infographic",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, isometric infographic, icons, clean labels",
+        "suffix": "clean edges, intentional composition, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: isometric infographic, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+        }
+      },
+      "tags": [
+        "graphic",
+        "print"
+      ]
+    },
+    {
+      "id": "gfx_editorial_layout",
+      "name": "Editorial Layout",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, editorial layout, clean typography, grid composition",
+        "suffix": "clean edges, intentional composition, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: editorial layout, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+        }
+      },
+      "tags": [
+        "graphic",
+        "print"
+      ]
+    },
+    {
+      "id": "gfx_monochrome_typography",
+      "name": "Monochrome Typography",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, monochrome typography, bold type, high contrast",
+        "suffix": "clean edges, intentional composition, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: monochrome typography, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+        }
+      },
+      "tags": [
+        "graphic",
+        "print"
+      ]
+    },
+    {
+      "id": "gfx_holographic_chrome",
+      "name": "Holographic Chrome",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, holographic chrome, iridescent gradient, glossy",
+        "suffix": "clean edges, intentional composition, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: holographic chrome, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+        }
+      },
+      "tags": [
+        "graphic",
+        "print"
+      ]
+    },
+    {
+      "id": "gfx_liquid_gradient",
+      "name": "Liquid Gradient",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, liquid gradient, smooth color blends, modern poster",
+        "suffix": "clean edges, intentional composition, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: liquid gradient, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+        }
+      },
+      "tags": [
+        "graphic",
+        "print"
+      ]
+    },
+    {
+      "id": "gfx_sticker_sheet",
+      "name": "Sticker Sheet",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, sticker sheet, die-cut outlines, playful icons",
+        "suffix": "clean edges, intentional composition, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: sticker sheet, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+        }
+      },
+      "tags": [
+        "graphic",
+        "print"
+      ]
+    },
+    {
+      "id": "gfx_packaging_label",
+      "name": "Packaging Label",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, packaging label design, clean hierarchy, print-ready",
+        "suffix": "clean edges, intentional composition, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: packaging label, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+        }
+      },
+      "tags": [
+        "graphic",
+        "print"
+      ]
+    },
+    {
+      "id": "gfx_blueprint_poster",
+      "name": "Blueprint Poster",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, blueprint poster, technical lines, clean labels",
+        "suffix": "clean edges, intentional composition, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: blueprint poster, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+        }
+      },
+      "tags": [
+        "graphic",
+        "print"
+      ]
+    }
+  ]
+}

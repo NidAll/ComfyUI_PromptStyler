@@ -1,0 +1,1231 @@
+{
+  "version": 1,
+  "styles": [
+    {
+      "id": "clean_product_photo",
+      "name": "Clean Product Photo",
+      "category": "Product",
+      "default": {
+        "prefix": "commercial product photography, studio strobe lighting, seamless background, controlled reflections, clean composition, studio product photography, clean background, softbox lighting, sharp focus",
+        "suffix": "high detail, minimal reflections, crisp edges, clean specular highlights, premium look, minimal clutter"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: professional studio product photograph on a clean seamless background. Lighting: studio strobe with a large softbox, clean specular highlights. Composition: centered, clean silhouette, crisp edges."
+        }
+      },
+      "tags": [
+        "product",
+        "studio",
+        "commercial"
+      ]
+    },
+    {
+      "id": "photo_rembrandt_portrait",
+      "name": "Rembrandt Portrait",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, portrait photography, Rembrandt lighting, 85mm lens, shallow depth of field",
+        "suffix": "natural skin texture, sharp eyes, subtle background blur, sharp focus, high detail, balanced exposure, fine texture detail, natural contrast, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: rembrandt portrait, realistic photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Focus: sharp eyes, natural skin texture, gentle background blur."
+        }
+      },
+      "tags": [
+        "photo",
+        "portrait"
+      ]
+    },
+    {
+      "id": "photo_butterfly_lighting_portrait",
+      "name": "Butterfly Lighting Portrait",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, portrait photography, butterfly lighting, beauty dish, clean catchlights",
+        "suffix": "natural skin texture, sharp eyes, subtle background blur, sharp focus, high detail, balanced exposure, fine texture detail, natural contrast, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: butterfly lighting portrait, realistic photograph. Lighting: beauty dish overhead, soft fill, clean shadows under cheekbones. Focus: sharp eyes, natural skin texture, gentle background blur."
+        }
+      },
+      "tags": [
+        "photo",
+        "portrait"
+      ]
+    },
+    {
+      "id": "photo_split_lighting_portrait",
+      "name": "Split Lighting Portrait",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, portrait photography, split lighting, high contrast",
+        "suffix": "natural skin texture, sharp eyes, subtle background blur, sharp focus, high detail, balanced exposure, fine texture detail, natural contrast, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: split lighting portrait, realistic photograph. Lighting: dramatic side lighting with deep shadows and bright highlights. Focus: sharp eyes, natural skin texture, gentle background blur."
+        }
+      },
+      "tags": [
+        "photo",
+        "portrait"
+      ]
+    },
+    {
+      "id": "photo_high_key_studio_portrait",
+      "name": "High Key Studio Portrait",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, high key portrait, bright background, soft shadows",
+        "suffix": "natural skin texture, sharp eyes, subtle background blur, sharp focus, high detail, balanced exposure, fine texture detail, natural contrast, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: high key studio portrait, realistic photograph. Lighting: broad soft key, high fill ratio, bright seamless background. Focus: sharp eyes, natural skin texture, gentle background blur."
+        }
+      },
+      "tags": [
+        "photo",
+        "portrait"
+      ]
+    },
+    {
+      "id": "photo_low_key_studio_portrait",
+      "name": "Low Key Studio Portrait",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, low key portrait, deep shadows, dramatic contrast",
+        "suffix": "natural skin texture, sharp eyes, subtle background blur, sharp focus, high detail, balanced exposure, fine texture detail, natural contrast, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: low key studio portrait, realistic photograph. Lighting: dramatic side lighting with deep shadows and bright highlights. Focus: sharp eyes, natural skin texture, gentle background blur."
+        }
+      },
+      "tags": [
+        "photo",
+        "portrait"
+      ]
+    },
+    {
+      "id": "photo_golden_hour_portrait",
+      "name": "Golden Hour Portrait",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, golden hour portrait, warm backlight, natural skin tones",
+        "suffix": "natural skin texture, sharp eyes, subtle background blur, sharp focus, high detail, balanced exposure, fine texture detail, natural contrast, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: golden hour portrait, realistic photograph. Lighting: golden hour backlight with subtle lens flare and warm rim light. Focus: sharp eyes, natural skin texture, gentle background blur."
+        }
+      },
+      "tags": [
+        "photo",
+        "portrait"
+      ]
+    },
+    {
+      "id": "photo_street_portrait",
+      "name": "Street Portrait",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, street portrait, candid, natural light",
+        "suffix": "natural skin texture, sharp eyes, subtle background blur, sharp focus, high detail, balanced exposure, fine texture detail, natural contrast, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: street portrait, realistic photograph. Lighting: overcast daylight, even illumination, soft shadow transitions. Focus: sharp eyes, natural skin texture, gentle background blur."
+        }
+      },
+      "tags": [
+        "photo",
+        "portrait"
+      ]
+    },
+    {
+      "id": "photo_editorial_portrait",
+      "name": "Editorial Portrait",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, editorial portrait, stylized lighting, clean composition",
+        "suffix": "natural skin texture, sharp eyes, subtle background blur, sharp focus, high detail, balanced exposure, fine texture detail, natural contrast, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: editorial portrait, realistic photograph. Lighting: studio strobe with a large softbox, clean specular highlights. Focus: sharp eyes, natural skin texture, gentle background blur."
+        }
+      },
+      "tags": [
+        "photo",
+        "portrait"
+      ]
+    },
+    {
+      "id": "photo_rim_light_portrait",
+      "name": "Rim Light Portrait",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, portrait photography, rim light, dark background, subject separation",
+        "suffix": "natural skin texture, sharp eyes, subtle background blur, sharp focus, high detail, balanced exposure, fine texture detail, natural contrast, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: rim light portrait, realistic photograph. Lighting: strong rim light from behind, soft key, deep background. Focus: sharp eyes, natural skin texture, gentle background blur."
+        }
+      },
+      "tags": [
+        "photo",
+        "portrait"
+      ]
+    },
+    {
+      "id": "photo_broad_lighting_portrait",
+      "name": "Broad Lighting Portrait",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, portrait photography, broad lighting, soft shadows",
+        "suffix": "natural skin texture, sharp eyes, subtle background blur, sharp focus, high detail, balanced exposure, fine texture detail, natural contrast, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: broad lighting portrait, realistic photograph. Lighting: key light on the camera side of the face, soft fill. Focus: sharp eyes, natural skin texture, gentle background blur."
+        }
+      },
+      "tags": [
+        "photo",
+        "portrait"
+      ]
+    },
+    {
+      "id": "photo_short_lighting_portrait",
+      "name": "Short Lighting Portrait",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, portrait photography, short lighting, sculpted face",
+        "suffix": "natural skin texture, sharp eyes, subtle background blur, sharp focus, high detail, balanced exposure, fine texture detail, natural contrast, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: short lighting portrait, realistic photograph. Lighting: key light on the far side of the face, controlled fill. Focus: sharp eyes, natural skin texture, gentle background blur."
+        }
+      },
+      "tags": [
+        "photo",
+        "portrait"
+      ]
+    },
+    {
+      "id": "photo_street_photography",
+      "name": "Street Photography",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, street photography, candid moment, natural light",
+        "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: street photography, realistic photograph. Lighting: overcast daylight, even illumination, soft shadow transitions. Mood: grounded, natural, believable."
+        }
+      },
+      "tags": [
+        "photo"
+      ]
+    },
+    {
+      "id": "photo_travel_documentary",
+      "name": "Travel Documentary",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, travel documentary photography, authentic details, natural color",
+        "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: travel documentary, realistic photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: grounded, natural, believable."
+        }
+      },
+      "tags": [
+        "photo"
+      ]
+    },
+    {
+      "id": "photo_food_photography",
+      "name": "Food Photography",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, food photography, shallow depth of field, appetizing lighting",
+        "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: food photography, realistic photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: grounded, natural, believable."
+        }
+      },
+      "tags": [
+        "photo"
+      ]
+    },
+    {
+      "id": "photo_macro_photography",
+      "name": "Macro Photography",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, macro photography, extreme close-up, micro texture, shallow depth of field",
+        "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: macro photography, realistic photograph. Lighting: diffused macro lighting, controlled reflections, crisp microtexture. Mood: grounded, natural, believable."
+        }
+      },
+      "tags": [
+        "photo"
+      ]
+    },
+    {
+      "id": "photo_wildlife_photography",
+      "name": "Wildlife Photography",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, wildlife photography, telephoto lens, natural habitat",
+        "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: wildlife photography, realistic photograph. Lighting: golden hour backlight with subtle lens flare and warm rim light. Mood: grounded, natural, believable."
+        }
+      },
+      "tags": [
+        "photo"
+      ]
+    },
+    {
+      "id": "photo_architecture_photography",
+      "name": "Architecture Photography",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, architecture photography, straight lines, clean geometry",
+        "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: architecture photography, realistic photograph. Lighting: overcast daylight, even illumination, soft shadow transitions. Mood: grounded, natural, believable."
+        }
+      },
+      "tags": [
+        "photo"
+      ]
+    },
+    {
+      "id": "photo_interior_photography",
+      "name": "Interior Photography",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, interior photography, wide angle lens, natural window light",
+        "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: interior photography, realistic photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: grounded, natural, believable."
+        }
+      },
+      "tags": [
+        "photo"
+      ]
+    },
+    {
+      "id": "photo_aerial_drone_photo",
+      "name": "Aerial Drone Photo",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, aerial drone photography, top-down view, sharp detail",
+        "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: aerial drone photo, realistic photograph. Lighting: clear daylight with defined but soft shadows. Mood: grounded, natural, believable."
+        }
+      },
+      "tags": [
+        "photo"
+      ]
+    },
+    {
+      "id": "photo_long_exposure",
+      "name": "Long Exposure",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, long exposure photography, motion blur trails, tripod shot",
+        "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: long exposure, realistic photograph. Lighting: dusk ambient with long exposure light trails. Mood: grounded, natural, believable."
+        }
+      },
+      "tags": [
+        "photo"
+      ]
+    },
+    {
+      "id": "photo_black_and_white",
+      "name": "Black and White",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, black and white photography, strong tonal range, fine grain",
+        "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: black and white, realistic photograph. Lighting: dramatic side lighting with deep shadows and bright highlights. Mood: grounded, natural, believable."
+        }
+      },
+      "tags": [
+        "photo"
+      ]
+    },
+    {
+      "id": "photo_infrared",
+      "name": "Infrared",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, infrared photography, surreal foliage tones, high contrast",
+        "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: infrared, realistic photograph. Lighting: bright midday sun, strong infrared contrast. Mood: grounded, natural, believable."
+        }
+      },
+      "tags": [
+        "photo"
+      ]
+    },
+    {
+      "id": "photo_tilt_shift_miniature",
+      "name": "Tilt-Shift Miniature",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, tilt-shift photography, miniature effect, selective focus",
+        "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: tilt-shift miniature, realistic photograph. Lighting: daylight with crisp miniature-scale shadows. Mood: grounded, natural, believable."
+        }
+      },
+      "tags": [
+        "photo"
+      ]
+    },
+    {
+      "id": "photo_night_street_photo",
+      "name": "Night Street Photo",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, night street photography, city lights, bokeh, wet reflections",
+        "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: night street photo, realistic photograph. Lighting: mixed neon and streetlight sources, colored rim light, reflective surfaces. Mood: grounded, natural, believable."
+        }
+      },
+      "tags": [
+        "photo"
+      ]
+    },
+    {
+      "id": "photo_concert_photography",
+      "name": "Concert Photography",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, concert photography, stage lights, dynamic contrast",
+        "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: concert photography, realistic photograph. Lighting: dramatic stage lighting with colored highlights. Mood: grounded, natural, believable."
+        }
+      },
+      "tags": [
+        "photo"
+      ]
+    },
+    {
+      "id": "photo_automotive_photo",
+      "name": "Automotive Photo",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, automotive photography, clean reflections, sharp lines",
+        "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: automotive photo, realistic photograph. Lighting: controlled reflections, crisp highlights, studio or golden hour. Mood: grounded, natural, believable."
+        }
+      },
+      "tags": [
+        "photo"
+      ]
+    },
+    {
+      "id": "photo_wedding_photo",
+      "name": "Wedding Photo",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, wedding photography, soft romantic light, candid moments",
+        "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: wedding photo, realistic photograph. Lighting: golden hour backlight with subtle lens flare and warm rim light. Mood: grounded, natural, believable."
+        }
+      },
+      "tags": [
+        "photo"
+      ]
+    },
+    {
+      "id": "photo_still_life_photo",
+      "name": "Still Life Photo",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, still life photography, careful composition, soft shadows",
+        "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: still life photo, realistic photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: grounded, natural, believable."
+        }
+      },
+      "tags": [
+        "photo"
+      ]
+    },
+    {
+      "id": "photo_flat_lay",
+      "name": "Flat Lay",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, flat lay photography, top-down, organized composition",
+        "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: flat lay, realistic photograph. Lighting: soft overhead diffused light, minimal harsh shadows. Mood: grounded, natural, believable."
+        }
+      },
+      "tags": [
+        "photo"
+      ]
+    },
+    {
+      "id": "photo_on_camera_flash",
+      "name": "On-Camera Flash",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, direct flash photography, hard shadows, party snapshot",
+        "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: on-camera flash, realistic photograph. Lighting: on-camera flash, hard shadows, punchy contrast. Mood: grounded, natural, believable."
+        }
+      },
+      "tags": [
+        "photo"
+      ]
+    },
+    {
+      "id": "photo_ring_flash_portrait",
+      "name": "Ring Flash Portrait",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, ring flash portrait, crisp catchlight, high clarity",
+        "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: ring flash portrait, realistic photograph. Lighting: ring flash with crisp shadows and clean contrast. Mood: grounded, natural, believable."
+        }
+      },
+      "tags": [
+        "photo"
+      ]
+    },
+    {
+      "id": "photo_cinematic_backlight",
+      "name": "Cinematic Backlight",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, backlit photography, rim light, atmospheric haze",
+        "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: cinematic backlight, realistic photograph. Lighting: golden hour backlight with subtle lens flare and warm rim light. Mood: grounded, natural, believable."
+        }
+      },
+      "tags": [
+        "photo"
+      ]
+    },
+    {
+      "id": "photo_silhouette",
+      "name": "Silhouette",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, silhouette photography, strong backlight, clean outline",
+        "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: silhouette, realistic photograph. Lighting: strong backlight creating a crisp silhouette. Mood: grounded, natural, believable."
+        }
+      },
+      "tags": [
+        "photo"
+      ]
+    },
+    {
+      "id": "photo_rainy_window",
+      "name": "Rainy Window",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, moody window scene, raindrops on glass, soft bokeh",
+        "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: rainy window, realistic photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: grounded, natural, believable."
+        }
+      },
+      "tags": [
+        "photo"
+      ]
+    },
+    {
+      "id": "photo_astrophotography",
+      "name": "Astrophotography",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, astrophotography, night sky, stars, clean exposure",
+        "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: astrophotography, realistic photograph. Lighting: moonless night, crisp stars, low noise look. Mood: grounded, natural, believable."
+        }
+      },
+      "tags": [
+        "photo"
+      ]
+    },
+    {
+      "id": "photo_milky_way_landscape",
+      "name": "Milky Way Landscape",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, milky way, night landscape, wide angle, stars",
+        "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: milky way landscape, realistic photograph. Lighting: starlight and faint airglow, crisp night contrast. Mood: grounded, natural, believable."
+        }
+      },
+      "tags": [
+        "photo"
+      ]
+    },
+    {
+      "id": "photo_underwater_photo",
+      "name": "Underwater Photo",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, underwater photography, clear water, floating particles, blue tones",
+        "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: underwater photo, realistic photograph. Lighting: underwater light beams and caustics, soft particulate haze. Mood: grounded, natural, believable."
+        }
+      },
+      "tags": [
+        "photo"
+      ]
+    },
+    {
+      "id": "photo_real_estate_photo",
+      "name": "Real Estate Photo",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, real estate photography, wide angle, clean lines, bright interior",
+        "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: real estate photo, realistic photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: grounded, natural, believable."
+        }
+      },
+      "tags": [
+        "photo"
+      ]
+    },
+    {
+      "id": "photo_sports_action_freeze",
+      "name": "Sports Action Freeze",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, sports photography, fast shutter, sharp action, telephoto",
+        "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: sports action freeze, realistic photograph. Lighting: stadium lighting, crisp highlights, frozen motion. Mood: grounded, natural, believable."
+        }
+      },
+      "tags": [
+        "photo"
+      ]
+    },
+    {
+      "id": "photo_motion_blur_action",
+      "name": "Motion Blur Action",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, motion blur, panning shot, dynamic movement",
+        "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: motion blur action, realistic photograph. Lighting: controlled highlights supporting motion blur and panning. Mood: grounded, natural, believable."
+        }
+      },
+      "tags": [
+        "photo"
+      ]
+    },
+    {
+      "id": "film_soft_35mm_film_look",
+      "name": "Soft 35mm Film Look",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, 35mm film look, soft contrast, gentle grain",
+        "suffix": "natural skin tones, subtle halation, film grain, sharp focus, high detail, balanced exposure, fine texture detail, natural contrast, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: soft 35mm film look, realistic photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Texture: subtle grain and gentle halation."
+        }
+      },
+      "tags": [
+        "film",
+        "photo"
+      ]
+    },
+    {
+      "id": "film_vibrant_slide_film_look",
+      "name": "Vibrant Slide Film Look",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, slide film look, punchy colors, crisp contrast",
+        "suffix": "natural skin tones, subtle halation, film grain, sharp focus, high detail, balanced exposure, fine texture detail, natural contrast, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: vibrant slide film look, realistic photograph. Lighting: bright daylight with saturated color separation. Texture: subtle grain and gentle halation."
+        }
+      },
+      "tags": [
+        "film",
+        "photo"
+      ]
+    },
+    {
+      "id": "film_muted_documentary_film",
+      "name": "Muted Documentary Film",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, documentary film look, muted palette, fine grain",
+        "suffix": "natural skin tones, subtle halation, film grain, sharp focus, high detail, balanced exposure, fine texture detail, natural contrast, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: muted documentary film, realistic photograph. Lighting: overcast daylight, even illumination, soft shadow transitions. Texture: subtle grain and gentle halation."
+        }
+      },
+      "tags": [
+        "film",
+        "photo"
+      ]
+    },
+    {
+      "id": "film_warm_tungsten_film",
+      "name": "Warm Tungsten Film",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, warm tungsten film look, practical lights, soft glow",
+        "suffix": "natural skin tones, subtle halation, film grain, sharp focus, high detail, balanced exposure, fine texture detail, natural contrast, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: warm tungsten film, realistic photograph. Lighting: warm practical lamps, gentle falloff, cozy ambience. Texture: subtle grain and gentle halation."
+        }
+      },
+      "tags": [
+        "film",
+        "photo"
+      ]
+    },
+    {
+      "id": "film_cool_blue_hour_film",
+      "name": "Cool Blue Hour Film",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, blue hour film look, cool tones, city lights",
+        "suffix": "natural skin tones, subtle halation, film grain, sharp focus, high detail, balanced exposure, fine texture detail, natural contrast, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: cool blue hour film, realistic photograph. Lighting: blue hour ambient mixed with warm practicals, subtle glow. Texture: subtle grain and gentle halation."
+        }
+      },
+      "tags": [
+        "film",
+        "photo"
+      ]
+    },
+    {
+      "id": "tech_deep_focus",
+      "name": "Deep Focus",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, deep focus, sharp foreground and background, clean optics",
+        "suffix": "realistic detail, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: deep focus, realistic photograph. Lighting: even controlled light supporting deep focus clarity. Focus: clear subject, believable materials, coherent lighting."
+        }
+      },
+      "tags": [
+        "photo",
+        "technique"
+      ]
+    },
+    {
+      "id": "tech_shallow_dof_bokeh",
+      "name": "Shallow DOF Bokeh",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, shallow depth of field, creamy bokeh, subject isolation",
+        "suffix": "realistic detail, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: shallow dof bokeh, realistic photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Focus: clear subject, believable materials, coherent lighting."
+        }
+      },
+      "tags": [
+        "photo",
+        "technique"
+      ]
+    },
+    {
+      "id": "tech_high_dynamic_range",
+      "name": "High Dynamic Range",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, high dynamic range, balanced highlights and shadows, realistic tones",
+        "suffix": "realistic detail, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: high dynamic range, realistic photograph. Lighting: naturalistic scene lighting with preserved highlights. Focus: clear subject, believable materials, coherent lighting."
+        }
+      },
+      "tags": [
+        "photo",
+        "technique"
+      ]
+    },
+    {
+      "id": "tech_soft_diffusion_glow",
+      "name": "Soft Diffusion Glow",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, soft diffusion, gentle glow, dreamy highlights",
+        "suffix": "realistic detail, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: soft diffusion glow, realistic photograph. Lighting: soft diffused key light with gentle bloom. Focus: clear subject, believable materials, coherent lighting."
+        }
+      },
+      "tags": [
+        "photo",
+        "technique"
+      ]
+    },
+    {
+      "id": "tech_hard_flash_shadow",
+      "name": "Hard Flash Shadow",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, hard flash, sharp shadows, crisp contrast",
+        "suffix": "realistic detail, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: hard flash shadow, realistic photograph. Lighting: hard flash with sharp shadows and specular highlights. Focus: clear subject, believable materials, coherent lighting."
+        }
+      },
+      "tags": [
+        "photo",
+        "technique"
+      ]
+    },
+    {
+      "id": "tech_moody_window_light",
+      "name": "Moody Window Light",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, window light, soft shadows, intimate mood",
+        "suffix": "realistic detail, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: moody window light, realistic photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Focus: clear subject, believable materials, coherent lighting."
+        }
+      },
+      "tags": [
+        "photo",
+        "technique"
+      ]
+    },
+    {
+      "id": "tech_backlit_rim_light",
+      "name": "Backlit Rim Light",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, backlit, rim light, atmospheric haze",
+        "suffix": "realistic detail, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: backlit rim light, realistic photograph. Lighting: golden hour backlight with subtle lens flare and warm rim light. Focus: clear subject, believable materials, coherent lighting."
+        }
+      },
+      "tags": [
+        "photo",
+        "technique"
+      ]
+    },
+    {
+      "id": "tech_volumetric_light_beams",
+      "name": "Volumetric Light Beams",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, volumetric light, god rays, haze",
+        "suffix": "realistic detail, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: volumetric light beams, realistic photograph. Lighting: strong directional light creating volumetric beams through haze. Focus: clear subject, believable materials, coherent lighting."
+        }
+      },
+      "tags": [
+        "photo",
+        "technique"
+      ]
+    },
+    {
+      "id": "tech_rain_reflections",
+      "name": "Rain Reflections",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, wet streets, reflections, night bokeh",
+        "suffix": "realistic detail, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: rain reflections, realistic photograph. Lighting: mixed neon and streetlight sources, colored rim light, reflective surfaces. Focus: clear subject, believable materials, coherent lighting."
+        }
+      },
+      "tags": [
+        "photo",
+        "technique"
+      ]
+    },
+    {
+      "id": "tech_minimalist_studio",
+      "name": "Minimalist Studio",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, minimalist studio photo, clean seamless, controlled reflections",
+        "suffix": "realistic detail, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: minimalist studio, realistic photograph. Lighting: studio strobe with a large softbox, clean specular highlights. Focus: clear subject, believable materials, coherent lighting."
+        }
+      },
+      "tags": [
+        "photo",
+        "technique"
+      ]
+    },
+    {
+      "id": "tech_close_up_texture_study",
+      "name": "Close-Up Texture Study",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, close-up photo, micro texture, tactile detail",
+        "suffix": "realistic detail, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: close-up texture study, realistic photograph. Lighting: raking light to reveal texture and surface detail. Focus: clear subject, believable materials, coherent lighting."
+        }
+      },
+      "tags": [
+        "photo",
+        "technique"
+      ]
+    },
+    {
+      "id": "tech_soft_overcast_natural",
+      "name": "Soft Overcast Natural",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, soft overcast, even skin tones, gentle contrast",
+        "suffix": "realistic detail, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: soft overcast natural, realistic photograph. Lighting: overcast daylight, even illumination, soft shadow transitions. Focus: clear subject, believable materials, coherent lighting."
+        }
+      },
+      "tags": [
+        "photo",
+        "technique"
+      ]
+    },
+    {
+      "id": "tech_high_key_commercial",
+      "name": "High Key Commercial",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, high key commercial, clean whites, soft shadows",
+        "suffix": "realistic detail, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: high key commercial, realistic photograph. Lighting: large soft sources with high fill for clean whites. Focus: clear subject, believable materials, coherent lighting."
+        }
+      },
+      "tags": [
+        "photo",
+        "technique"
+      ]
+    },
+    {
+      "id": "tech_low_key_dramatic",
+      "name": "Low Key Dramatic",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, low key, deep shadows, controlled highlights",
+        "suffix": "realistic detail, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: low key dramatic, realistic photograph. Lighting: dramatic side lighting with deep shadows and bright highlights. Focus: clear subject, believable materials, coherent lighting."
+        }
+      },
+      "tags": [
+        "photo",
+        "technique"
+      ]
+    },
+    {
+      "id": "tech_specular_highlight_study",
+      "name": "Specular Highlight Study",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, specular highlights, controlled reflections, shiny surfaces",
+        "suffix": "realistic detail, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: specular highlight study, realistic photograph. Lighting: small hard sources for crisp specular highlights with controlled fill. Focus: clear subject, believable materials, coherent lighting."
+        }
+      },
+      "tags": [
+        "photo",
+        "technique"
+      ]
+    },
+    {
+      "id": "lens_24mm_wide_angle",
+      "name": "Lens Vibe: 24mm Wide Angle",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, wide angle, 24mm lens feel, strong perspective",
+        "suffix": "clean optics, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: realistic photograph with a specific lens perspective. Composition: wide-angle perspective with strong leading lines. Lighting: overcast daylight, even illumination, soft shadow transitions."
+        }
+      },
+      "tags": [
+        "photo",
+        "lens"
+      ]
+    },
+    {
+      "id": "lens_35mm_documentary",
+      "name": "Lens Vibe: 35mm Documentary",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, 35mm lens feel, documentary framing, natural perspective",
+        "suffix": "clean optics, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: realistic photograph with a specific lens perspective. Composition: documentary framing with natural perspective. Lighting: overcast daylight, even illumination, soft shadow transitions."
+        }
+      },
+      "tags": [
+        "photo",
+        "lens"
+      ]
+    },
+    {
+      "id": "lens_50mm_natural",
+      "name": "Lens Vibe: 50mm Natural",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, 50mm lens feel, natural perspective, balanced framing",
+        "suffix": "clean optics, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: realistic photograph with a specific lens perspective. Composition: balanced perspective and natural proportions. Lighting: overcast daylight, even illumination, soft shadow transitions."
+        }
+      },
+      "tags": [
+        "photo",
+        "lens"
+      ]
+    },
+    {
+      "id": "lens_85mm_portrait",
+      "name": "Lens Vibe: 85mm Portrait",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, 85mm lens feel, portrait compression, shallow depth of field",
+        "suffix": "clean optics, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: realistic photograph with a specific lens perspective. Composition: flattering compression with shallow depth of field. Lighting: overcast daylight, even illumination, soft shadow transitions."
+        }
+      },
+      "tags": [
+        "photo",
+        "lens"
+      ]
+    },
+    {
+      "id": "lens_135mm_telephoto",
+      "name": "Lens Vibe: 135mm Telephoto",
+      "category": "Photography",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, telephoto compression, 135mm lens feel, compressed background",
+        "suffix": "clean optics, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: realistic photograph with a specific lens perspective. Composition: strong telephoto compression and layered background. Lighting: overcast daylight, even illumination, soft shadow transitions."
+        }
+      },
+      "tags": [
+        "photo",
+        "lens"
+      ]
+    }
+  ]
+}

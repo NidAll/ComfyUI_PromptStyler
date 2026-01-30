@@ -1,0 +1,347 @@
+{
+  "version": 1,
+  "styles": [
+    {
+      "id": "cg_photoreal_3d_render",
+      "name": "Photoreal 3D Render",
+      "category": "3D/CG",
+      "default": {
+        "prefix": "3d render, high quality render, clean geometry, global illumination, studio lighting, soft shadows, photorealistic 3d render, physically based materials",
+        "suffix": "high detail, clean render, sharp edges, high resolution, clean shading"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: photoreal 3d render, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+        }
+      },
+      "tags": [
+        "3d",
+        "cg"
+      ]
+    },
+    {
+      "id": "cg_stylized_3d_toon",
+      "name": "Stylized 3D Toon",
+      "category": "3D/CG",
+      "default": {
+        "prefix": "3d render, high quality render, clean geometry, global illumination, studio lighting, soft shadows, stylized 3d, toon shading, soft gradients",
+        "suffix": "high detail, clean render, sharp edges, high resolution, clean shading"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: stylized 3d toon, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+        }
+      },
+      "tags": [
+        "3d",
+        "cg"
+      ]
+    },
+    {
+      "id": "cg_clay_render",
+      "name": "Clay Render",
+      "category": "3D/CG",
+      "default": {
+        "prefix": "3d render, high quality render, clean geometry, global illumination, studio lighting, soft shadows, clay render, matte material, soft studio lighting",
+        "suffix": "high detail, clean render, sharp edges, high resolution, clean shading"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: clay render, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+        }
+      },
+      "tags": [
+        "3d",
+        "cg"
+      ]
+    },
+    {
+      "id": "cg_wireframe_overlay",
+      "name": "Wireframe Overlay",
+      "category": "3D/CG",
+      "default": {
+        "prefix": "3d render, high quality render, clean geometry, global illumination, studio lighting, soft shadows, wireframe overlay, technical render, clean topology",
+        "suffix": "high detail, clean render, sharp edges, high resolution, clean shading"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: wireframe overlay, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+        }
+      },
+      "tags": [
+        "3d",
+        "cg"
+      ]
+    },
+    {
+      "id": "cg_low_poly",
+      "name": "Low Poly",
+      "category": "3D/CG",
+      "default": {
+        "prefix": "3d render, high quality render, clean geometry, global illumination, studio lighting, soft shadows, low poly 3d, faceted geometry, flat shading",
+        "suffix": "high detail, clean render, sharp edges, high resolution, clean shading"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: low poly, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+        }
+      },
+      "tags": [
+        "3d",
+        "cg"
+      ]
+    },
+    {
+      "id": "cg_isometric_3d_room",
+      "name": "Isometric 3D Room",
+      "category": "3D/CG",
+      "default": {
+        "prefix": "3d render, high quality render, clean geometry, global illumination, studio lighting, soft shadows, isometric 3d room, miniature diorama, clean lighting",
+        "suffix": "high detail, clean render, sharp edges, high resolution, clean shading"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: isometric 3d room, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+        }
+      },
+      "tags": [
+        "3d",
+        "cg"
+      ]
+    },
+    {
+      "id": "cg_subsurface_skin_render",
+      "name": "Subsurface Skin Render",
+      "category": "3D/CG",
+      "default": {
+        "prefix": "3d render, high quality render, clean geometry, global illumination, studio lighting, soft shadows, subsurface scattering, realistic skin shader",
+        "suffix": "high detail, clean render, sharp edges, high resolution, clean shading"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: subsurface skin render, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+        }
+      },
+      "tags": [
+        "3d",
+        "cg"
+      ]
+    },
+    {
+      "id": "cg_hard_surface_sci_fi",
+      "name": "Hard Surface Sci-Fi",
+      "category": "3D/CG",
+      "default": {
+        "prefix": "3d render, high quality render, clean geometry, global illumination, studio lighting, soft shadows, hard surface 3d, sci-fi details, panel lines, clean bevels",
+        "suffix": "high detail, clean render, sharp edges, high resolution, clean shading"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: hard surface sci-fi, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+        }
+      },
+      "tags": [
+        "3d",
+        "cg"
+      ]
+    },
+    {
+      "id": "cg_miniature_diorama",
+      "name": "Miniature Diorama",
+      "category": "3D/CG",
+      "default": {
+        "prefix": "3d render, high quality render, clean geometry, global illumination, studio lighting, soft shadows, miniature diorama, tiny details, tilt-shift feel",
+        "suffix": "high detail, clean render, sharp edges, high resolution, clean shading"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: miniature diorama, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+        }
+      },
+      "tags": [
+        "3d",
+        "cg"
+      ]
+    },
+    {
+      "id": "cg_stop_motion_look",
+      "name": "Stop Motion Look",
+      "category": "3D/CG",
+      "default": {
+        "prefix": "3d render, high quality render, clean geometry, global illumination, studio lighting, soft shadows, stop motion aesthetic, handmade texture, slight imperfections",
+        "suffix": "high detail, clean render, sharp edges, high resolution, clean shading"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: stop motion look, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+        }
+      },
+      "tags": [
+        "3d",
+        "cg"
+      ]
+    },
+    {
+      "id": "cg_plastic_toy_render",
+      "name": "Plastic Toy Render",
+      "category": "3D/CG",
+      "default": {
+        "prefix": "3d render, high quality render, clean geometry, global illumination, studio lighting, soft shadows, toy photography look, plastic materials, clean highlights",
+        "suffix": "high detail, clean render, sharp edges, high resolution, clean shading"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: plastic toy render, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+        }
+      },
+      "tags": [
+        "3d",
+        "cg"
+      ]
+    },
+    {
+      "id": "cg_glass_and_caustics",
+      "name": "Glass and Caustics",
+      "category": "3D/CG",
+      "default": {
+        "prefix": "3d render, high quality render, clean geometry, global illumination, studio lighting, soft shadows, glass render, caustics, refractive highlights",
+        "suffix": "high detail, clean render, sharp edges, high resolution, clean shading"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: glass and caustics, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+        }
+      },
+      "tags": [
+        "3d",
+        "cg"
+      ]
+    },
+    {
+      "id": "cg_subtle_stylized_pbr",
+      "name": "Subtle Stylized PBR",
+      "category": "3D/CG",
+      "default": {
+        "prefix": "3d render, high quality render, clean geometry, global illumination, studio lighting, soft shadows, stylized pbr, clean shapes, soft materials",
+        "suffix": "high detail, clean render, sharp edges, high resolution, clean shading"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: subtle stylized pbr, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+        }
+      },
+      "tags": [
+        "3d",
+        "cg"
+      ]
+    },
+    {
+      "id": "cg_cad_product_render",
+      "name": "CAD Product Render",
+      "category": "3D/CG",
+      "default": {
+        "prefix": "3d render, high quality render, clean geometry, global illumination, studio lighting, soft shadows, cad render, clean surfaces, studio reflections",
+        "suffix": "high detail, clean render, sharp edges, high resolution, clean shading"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: cad product render, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+        }
+      },
+      "tags": [
+        "3d",
+        "cg"
+      ]
+    },
+    {
+      "id": "cg_neon_cyber_render",
+      "name": "Neon Cyber Render",
+      "category": "3D/CG",
+      "default": {
+        "prefix": "3d render, high quality render, clean geometry, global illumination, studio lighting, soft shadows, neon emissive, wet reflections, fog",
+        "suffix": "high detail, clean render, sharp edges, high resolution, clean shading"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: neon cyber render, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+        }
+      },
+      "tags": [
+        "3d",
+        "cg"
+      ]
+    },
+    {
+      "id": "cg_stylized_miniature_set",
+      "name": "Stylized Miniature Set",
+      "category": "3D/CG",
+      "default": {
+        "prefix": "3d render, high quality render, clean geometry, global illumination, studio lighting, soft shadows, miniature set, tiny props, diorama lighting",
+        "suffix": "high detail, clean render, sharp edges, high resolution, clean shading"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: stylized miniature set, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+        }
+      },
+      "tags": [
+        "3d",
+        "cg"
+      ]
+    },
+    {
+      "id": "cg_paper_craft_3d",
+      "name": "Paper Craft 3D",
+      "category": "3D/CG",
+      "default": {
+        "prefix": "3d render, high quality render, clean geometry, global illumination, studio lighting, soft shadows, paper craft, folded paper, layered cutouts",
+        "suffix": "high detail, clean render, sharp edges, high resolution, clean shading"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: paper craft 3d, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+        }
+      },
+      "tags": [
+        "3d",
+        "cg"
+      ]
+    },
+    {
+      "id": "cg_wax_subsurface_render",
+      "name": "Wax Subsurface Render",
+      "category": "3D/CG",
+      "default": {
+        "prefix": "3d render, high quality render, clean geometry, global illumination, studio lighting, soft shadows, subsurface scattering, wax material, soft translucency",
+        "suffix": "high detail, clean render, sharp edges, high resolution, clean shading"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: wax subsurface render, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+        }
+      },
+      "tags": [
+        "3d",
+        "cg"
+      ]
+    }
+  ]
+}

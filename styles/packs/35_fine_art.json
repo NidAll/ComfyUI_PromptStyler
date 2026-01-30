@@ -1,0 +1,689 @@
+{
+  "version": 1,
+  "styles": [
+    {
+      "id": "fine_old_master_chiaroscuro",
+      "name": "Old Master Chiaroscuro",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, old master painting, baroque chiaroscuro, tenebrism, oil on canvas",
+        "suffix": "warm highlights, deep shadows, classical composition, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: old master oil painting with dramatic chiaroscuro. Lighting: dramatic side lighting with deep shadows and bright highlights. Texture: rich brushwork and subtle canvas grain."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_dutch_golden_age_still_life",
+      "name": "Dutch Golden Age Still Life",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, dutch golden age still life, oil on canvas, dramatic light, rich materials",
+        "suffix": "realistic textures, careful composition, deep shadows, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Dutch golden age still life oil painting. Lighting: dramatic side lighting with deep shadows and bright highlights. Texture: fine brushwork, varnished depth, canvas grain."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_baroque_religious_painting",
+      "name": "Baroque Religious Painting",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, baroque painting, dramatic composition, chiaroscuro, oil on canvas",
+        "suffix": "smoke haze, golden highlights, deep shadows, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: baroque religious painting, dramatic and monumental. Lighting: dramatic side lighting with deep shadows and bright highlights. Mood: solemn, powerful, cinematic."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_renaissance_fresco",
+      "name": "Renaissance Fresco",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, renaissance fresco, classical anatomy, balanced composition, plaster wall texture",
+        "suffix": "muted pigments, aged patina, architectural framing, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Renaissance fresco painting on plaster. Lighting: soft ambient daylight like a museum interior. Texture: subtle plaster grain and aged pigment."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_rococo_pastel_elegance",
+      "name": "Rococo Pastel Elegance",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, rococo painting, pastel palette, ornate details, soft romantic light",
+        "suffix": "delicate brushwork, silky fabrics, light airy mood, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: rococo fine art painting with pastel colors and ornate detail. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: elegant, playful, airy."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_neoclassical_painting",
+      "name": "Neoclassical Painting",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, neoclassical painting, clean forms, classical composition, marble-like skin tones",
+        "suffix": "precise edges, balanced lighting, restrained palette, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: neoclassical fine art painting with clean forms and balanced composition. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: calm, disciplined, timeless."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_romantic_sublime_landscape",
+      "name": "Romantic Sublime Landscape",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, romantic landscape painting, dramatic sky, atmospheric perspective, sublime scale",
+        "suffix": "mist, light rays, painterly clouds, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: romantic landscape oil painting with sublime atmosphere. Lighting: dramatic breaks in cloud cover with volumetric rays. Mood: awe, grandeur, nature overpowering."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_symbolist_dream_painting",
+      "name": "Symbolist Dream Painting",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, symbolist painting, mystical symbolism, dreamlike atmosphere, soft haze",
+        "suffix": "muted jewel tones, ornamental motifs, surreal calm, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: symbolist fine art painting, dreamlike and mystical. Lighting: soft diffuse light with gentle glow. Mood: enigmatic, poetic, symbolic."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_pre_raphaelite_detail",
+      "name": "Pre-Raphaelite Detail",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, pre-raphaelite painting, intricate detail, luminous color, naturalistic textures",
+        "suffix": "delicate florals, sharp detail, storybook realism, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: pre-raphaelite inspired fine art painting with meticulous detail. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Texture: fine brushwork with luminous color."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_academic_realism",
+      "name": "Academic Realism",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, academic realism, oil painting, realistic anatomy, studio composition",
+        "suffix": "controlled edges, subtle gradients, natural skin tones, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: academic realism oil painting with controlled edges. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: refined, realistic, classical."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_classical_portrait_painting",
+      "name": "Classical Portrait Painting",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, classical portrait painting, oil on canvas, soft modeling, elegant pose",
+        "suffix": "subtle skin shading, rich fabrics, balanced composition, high detail, handcrafted surface texture, gallery lighting"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: classical portrait oil painting. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: dignified, timeless, refined."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_icon_painting_with_gold_leaf",
+      "name": "Icon Painting with Gold Leaf",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, icon painting, gold leaf, flat stylization, ornamental halo",
+        "suffix": "tempera, aged varnish, ornate border, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: traditional icon painting with gold leaf accents. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: gilded highlights, painted tempera surface."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_illuminated_manuscript",
+      "name": "Illuminated Manuscript",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, illuminated manuscript, gold leaf, vellum parchment, ornate border",
+        "suffix": "medieval miniature, fine ink lines, decorative motifs, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: illuminated manuscript on parchment with ornate borders. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: vellum grain, gold leaf shine, ink linework."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_persian_miniature_painting",
+      "name": "Persian Miniature Painting",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, persian miniature painting, intricate detail, flat perspective, ornate patterns",
+        "suffix": "bright pigments, gold accents, decorative motifs, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Persian miniature painting with intricate detail and flat perspective. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Mood: ornate, delicate, storybook."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_mughal_miniature_painting",
+      "name": "Mughal Miniature Painting",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, mughal miniature painting, fine detail, flat perspective, ornamental patterns",
+        "suffix": "jewel tones, gold accents, delicate linework, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Mughal miniature painting with fine detail and ornate motifs. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Mood: refined, decorative, historical."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_japanese_sumi_e_ink_painting",
+      "name": "Japanese Sumi-e Ink Painting",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, sumi-e ink painting, expressive brush strokes, rice paper texture, minimal composition",
+        "suffix": "monochrome ink, negative space, soft ink bleed, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Japanese sumi-e ink painting on rice paper. Lighting: soft ambient light emphasizing paper texture. Mood: calm, minimal, expressive."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_chinese_ink_landscape_shan_shui",
+      "name": "Chinese Ink Landscape (Shan Shui)",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, shan shui ink painting, mountain landscape, mist, rice paper texture",
+        "suffix": "monochrome ink, atmospheric depth, soft ink wash, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Chinese ink landscape painting with misty mountains. Lighting: soft diffuse light, gentle contrast. Mood: serene, expansive, meditative."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_stained_glass_art",
+      "name": "Stained Glass Art",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, stained glass, lead outlines, translucent colored glass, ornamental pattern",
+        "suffix": "glowing light, high contrast shapes, jewel tones, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: stained glass artwork with bold lead lines. Lighting: backlit translucent glass with glowing color. Mood: luminous, ornate, sacred."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_mosaic_tile_art",
+      "name": "Mosaic Tile Art",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, mosaic art, tesserae, stone tiles, handcrafted texture",
+        "suffix": "tactile surface, irregular pieces, historic feel, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mosaic tile artwork made from small tesserae. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: tactile tile surface with irregular pieces."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_fresco_mural",
+      "name": "Fresco Mural",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, fresco mural, plaster wall texture, pigment, large-scale composition",
+        "suffix": "aged patina, subtle cracks, historic atmosphere, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: large fresco mural on plaster wall. Lighting: soft ambient light revealing wall texture and patina. Mood: monumental, historical, timeless."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_encaustic_wax_painting",
+      "name": "Encaustic Wax Painting",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, encaustic painting, wax medium, layered translucency, tactile texture",
+        "suffix": "subtle cracks, surface depth, handmade feel, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: encaustic wax painting with layered translucency. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: tactile wax surface with depth and subtle cracking."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_tempera_painting",
+      "name": "Tempera Painting",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, tempera painting, matte surface, fine detail, egg tempera",
+        "suffix": "clean edges, layered strokes, historic palette, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: egg tempera fine art painting with a matte surface. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: fine layered strokes, crisp detail."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_impressionism_plein_air",
+      "name": "Impressionism (Plein Air)",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, plein air painting, impressionist brushwork, broken color, sunlit atmosphere",
+        "suffix": "visible strokes, soft edges, light-filled palette, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: impressionist plein-air oil painting with broken brushwork. Lighting: golden hour backlight with subtle lens flare and warm rim light. Mood: lively, light-filled, outdoors."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_post_impressionist_bold_brushwork",
+      "name": "Post-Impressionist Bold Brushwork",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, post-impressionist painting, bold brushwork, strong outlines, rich color",
+        "suffix": "textured paint, expressive strokes, vivid palette, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: post-impressionist painting with bold brushwork and rich color. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: expressive, vibrant, painterly."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_expressionism_emotive",
+      "name": "Expressionism (Emotive)",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, expressionist painting, emotive color, exaggerated forms, energetic brushwork",
+        "suffix": "strong contrast, painterly texture, raw emotion, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: expressionist painting with emotive color and energetic brushwork. Lighting: dramatic but painterly, emphasizing form and color. Mood: intense, emotional, raw."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_cubist_still_life",
+      "name": "Cubist Still Life",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, cubist still life, geometric planes, fragmented forms, muted palette",
+        "suffix": "hard edges, abstracted shapes, structured composition, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: cubist still life painting with geometric planes. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Mood: analytical, structured, modernist."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_surreal_oil_painting",
+      "name": "Surreal Oil Painting",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, surreal oil painting, dreamlike realism, unexpected juxtapositions, soft haze",
+        "suffix": "smooth gradients, quiet atmosphere, symbolic imagery, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: surreal oil painting with dreamlike realism. Lighting: soft controlled light with subtle shadows. Mood: uncanny, calm, symbolic."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_abstract_expressionism_gestural",
+      "name": "Abstract Expressionism (Gestural)",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, abstract expressionism, gestural brushstrokes, paint splatter, dynamic composition",
+        "suffix": "thick paint, high energy, raw texture, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: abstract expressionist painting with gestural brushstrokes. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: thick paint, visible strokes, energetic marks."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_color_field_painting",
+      "name": "Color Field Painting",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, color field painting, large color blocks, soft edges, minimal forms",
+        "suffix": "smooth gradients, subtle texture, meditative mood, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: color field painting with large blocks of color. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Mood: calm, meditative, minimal."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_geometric_abstraction",
+      "name": "Geometric Abstraction",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, geometric abstraction, clean shapes, balanced composition, flat color planes",
+        "suffix": "crisp edges, minimal texture, modern palette, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: geometric abstract painting with clean shapes and balanced composition. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Mood: modern, designed, calm."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_suprematist_composition",
+      "name": "Suprematist Composition",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, suprematism, geometric forms, minimal palette, floating shapes",
+        "suffix": "flat colors, strong negative space, bold composition, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: suprematist abstract composition with floating geometric forms. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Mood: minimal, bold, abstract."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_de_stijl_composition",
+      "name": "De Stijl Composition",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, de stijl, primary colors, black lines, grid composition",
+        "suffix": "flat color blocks, clean geometry, balanced layout, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: De Stijl composition with primary colors and black grid lines. Lighting: flat graphic lighting with minimal shading. Mood: clean, rational, designed."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_op_art_illusion",
+      "name": "Op Art Illusion",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, op art, optical illusion pattern, high contrast geometry, repeating lines",
+        "suffix": "sharp edges, bold contrast, graphic rhythm, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: op art optical illusion with high-contrast repeating geometry. Lighting: flat even lighting, emphasis on contrast and pattern. Mood: energetic, vibrating, graphic."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_hard_edge_painting",
+      "name": "Hard-Edge Painting",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, hard-edge painting, flat color areas, crisp boundaries, minimal texture",
+        "suffix": "clean shapes, bold palette, precise edges, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: hard-edge painting with crisp boundaries and flat color areas. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Mood: clean, modern, precise."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_minimalist_painting",
+      "name": "Minimalist Painting",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, minimalist painting, simple forms, strong negative space, restrained palette",
+        "suffix": "quiet composition, subtle texture, calm mood, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: minimalist painting with simple forms and strong negative space. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Mood: calm, quiet, minimal."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_neo_expressionist_canvas",
+      "name": "Neo-Expressionist Canvas",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, neo-expressionism, bold brushwork, raw texture, intense color",
+        "suffix": "aggressive strokes, high contrast, emotive forms, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: neo-expressionist painting with bold brushwork and intense color. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Mood: raw, energetic, contemporary."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_art_brut_outsider_art",
+      "name": "Art Brut / Outsider Art",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, outsider art, raw naive style, bold lines, textured paint",
+        "suffix": "handmade imperfections, vivid color, childlike forms, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: outsider art with raw naive forms and bold lines. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Mood: raw, honest, handmade."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    },
+    {
+      "id": "fine_naive_folk_painting",
+      "name": "Naive Folk Painting",
+      "category": "Fine Art",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, naive folk art painting, flat perspective, bright colors, simple forms",
+        "suffix": "hand-painted texture, decorative motifs, cheerful mood, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: naive folk painting with simple forms and bright color. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: charming, playful, handmade."
+        }
+      },
+      "tags": [
+        "fine_art"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "styles": [
+    {
+      "id": "street_graffiti_wildstyle_lettering",
+      "name": "Graffiti Wildstyle Lettering",
+      "category": "Street Art",
+      "default": {
+        "prefix": "street art mural, spray paint texture, urban wall, bold graphic shapes, graffiti, wildstyle lettering, spray paint",
+        "suffix": "paint drips, overspray, high contrast, bold color, wall texture, urban grit, spray paint overspray"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: graffiti wildstyle lettering on an urban wall. Lighting: harsh streetlight with strong highlights and deep shadows. Texture: spray paint overspray, drips, wall grit."
+        }
+      },
+      "tags": [
+        "street_art"
+      ]
+    },
+    {
+      "id": "street_stencil_street_art",
+      "name": "Stencil Street Art",
+      "category": "Street Art",
+      "default": {
+        "prefix": "street art mural, spray paint texture, urban wall, bold graphic shapes, stencil street art, spray paint, sharp cutout shapes, wall texture",
+        "suffix": "paint bleed, rough edges, high contrast, bold color, wall texture, urban grit, spray paint overspray"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: stencil street art sprayed on a textured wall. Lighting: streetlight with strong contrast. Texture: wall grit, paint bleed, sharp stencil edges."
+        }
+      },
+      "tags": [
+        "street_art"
+      ]
+    },
+    {
+      "id": "street_spray_paint_mural",
+      "name": "Spray Paint Mural",
+      "category": "Street Art",
+      "default": {
+        "prefix": "street art mural, spray paint texture, urban wall, bold graphic shapes, spray paint mural, bold color, large shapes",
+        "suffix": "overspray, wall texture, vibrant palette, bold color, high contrast, urban grit, spray paint overspray"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: large spray paint mural with bold color and clean shapes. Lighting: daylight or streetlight depending on scene, crisp contrast. Texture: subtle overspray and wall grain."
+        }
+      },
+      "tags": [
+        "street_art"
+      ]
+    },
+    {
+      "id": "street_wheatpaste_poster_wall",
+      "name": "Wheatpaste Poster Wall",
+      "category": "Street Art",
+      "default": {
+        "prefix": "street art mural, spray paint texture, urban wall, bold graphic shapes, wheatpaste poster wall, layered posters, torn paper, street texture",
+        "suffix": "paper wrinkles, glue stains, gritty wall, bold color, high contrast, wall texture, urban grit, spray paint overspray"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: wheatpaste posters layered on a city wall. Lighting: overcast daylight for clear texture. Texture: torn paper, wrinkles, glue stains, wall grit."
+        }
+      },
+      "tags": [
+        "street_art"
+      ]
+    },
+    {
+      "id": "street_sticker_slap_wall",
+      "name": "Sticker Slap Wall",
+      "category": "Street Art",
+      "default": {
+        "prefix": "street art mural, spray paint texture, urban wall, bold graphic shapes, sticker slap wall, sticker collage, layered decals, urban grit",
+        "suffix": "scratches, torn stickers, street texture, bold color, high contrast, wall texture, urban grit, spray paint overspray"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: sticker slap wall covered in layered decals. Lighting: overcast daylight with even illumination. Texture: scratches, torn stickers, adhesive residue."
+        }
+      },
+      "tags": [
+        "street_art"
+      ]
+    }
+  ]
+}

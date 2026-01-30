@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "styles": [
+    {
+      "id": "mixed_paper_collage_mixed_media",
+      "name": "Paper Collage (Mixed Media)",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, paper collage, torn paper edges, cutout shapes",
+        "suffix": "glue marks, paper grain, handmade feel, high detail, tactile texture, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media paper collage with torn edges and layered shapes. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: paper grain, glue marks, layered cutouts."
+        }
+      },
+      "tags": [
+        "mixed_media"
+      ]
+    },
+    {
+      "id": "mixed_photomontage_collage",
+      "name": "Photomontage Collage",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, photomontage, cutout photo fragments, layered collage, high contrast",
+        "suffix": "paper texture, rough edges, analog zine aesthetic, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: photomontage collage made from cutout photo fragments. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Mood: bold, surreal, graphic."
+        }
+      },
+      "tags": [
+        "mixed_media"
+      ]
+    },
+    {
+      "id": "mixed_mixed_media_acrylic_ink",
+      "name": "Mixed Media Acrylic + Ink",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, mixed media, acrylic paint, ink linework, layered marks",
+        "suffix": "texture paste, splatter, handmade imperfections, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media artwork combining acrylic paint and ink linework. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: layered paint, ink marks, tactile surface."
+        }
+      },
+      "tags": [
+        "mixed_media"
+      ]
+    },
+    {
+      "id": "mixed_gel_plate_monoprint",
+      "name": "Gel Plate Monoprint",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, gel plate monoprint, ink layers, brayer texture, printmaking",
+        "suffix": "paper grain, ink transfer artifacts, handmade print, high detail, tactile texture, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: gel plate monoprint with layered ink textures. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: ink transfer artifacts, paper grain, layered prints."
+        }
+      },
+      "tags": [
+        "mixed_media"
+      ]
+    },
+    {
+      "id": "mixed_cyanotype_print_analog",
+      "name": "Cyanotype Print (Analog)",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, cyanotype print, blue monochrome, sun print, paper texture",
+        "suffix": "grain, chemical texture, vintage print, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: analog cyanotype print on paper. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Mood: minimal, photographic, deep blue."
+        }
+      },
+      "tags": [
+        "mixed_media"
+      ]
+    },
+    {
+      "id": "mixed_assemblage_artwork",
+      "name": "Assemblage Artwork",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, assemblage, found objects, mixed materials, handcrafted",
+        "suffix": "tactile texture, rough surfaces, layered depth, high detail, paper grain, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: assemblage artwork built from found objects and mixed materials. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: rough surfaces, layered depth, tactile materials."
+        }
+      },
+      "tags": [
+        "mixed_media"
+      ]
+    },
+    {
+      "id": "mixed_textured_impasto_mixed_media",
+      "name": "Textured Impasto Mixed Media",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, impasto texture, palette knife marks, thick paint, mixed media",
+        "suffix": "surface relief, paint ridges, tactile depth, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: textured mixed media with thick impasto paint and palette knife marks. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: surface relief, paint ridges, tactile depth."
+        }
+      },
+      "tags": [
+        "mixed_media"
+      ]
+    }
+  ]
+}

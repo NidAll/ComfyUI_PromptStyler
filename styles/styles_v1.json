@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "styles": [
+    {
+      "id": "cinematic_anamorphic",
+      "name": "Cinematic Anamorphic",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic, anamorphic lens, shallow depth of field, dramatic lighting",
+        "suffix": "film grain, subtle halation, rich contrast, color graded"
+      },
+      "models": {
+        "z_image_turbo": {
+          "prefix": "photorealistic cinematic frame, anamorphic lens, shallow depth of field, dramatic lighting",
+          "suffix": "film grain, subtle halation, color graded, natural skin texture"
+        },
+        "flux_2_klein": {
+          "prefix": "cinematic frame, anamorphic lens, shallow depth of field, dramatic lighting",
+          "suffix": "film grain, halation, color graded"
+        }
+      },
+      "tags": ["cinematic", "film", "anamorphic"]
+    },
+    {
+      "id": "clean_product_photo",
+      "name": "Clean Product Photo",
+      "category": "Product",
+      "default": {
+        "prefix": "studio product photography, clean background, softbox lighting, sharp focus",
+        "suffix": "high detail, minimal reflections, crisp edges"
+      },
+      "tags": ["product", "studio", "commercial"]
+    },
+    {
+      "id": "ink_wash_illustration",
+      "name": "Ink Wash Illustration",
+      "category": "Illustration",
+      "default": {
+        "prefix": "ink wash illustration, expressive brushwork, paper texture",
+        "suffix": "soft diffusion, monochrome ink tones, subtle bleeding edges"
+      },
+      "tags": ["ink", "wash", "illustration"]
+    }
+  ]
+}
+

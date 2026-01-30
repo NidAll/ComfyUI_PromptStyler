@@ -1,0 +1,309 @@
+{
+  "version": 1,
+  "styles": [
+    {
+      "id": "exp_glitch_art",
+      "name": "Glitch Art",
+      "category": "Experimental",
+      "default": {
+        "prefix": "experimental aesthetic, bold composition, graphic lighting, textural detail, glitch art, digital distortion, chromatic aberration, scanlines",
+        "suffix": "clean composition, intentional design, high contrast, tactile texture, coherent palette"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: glitch art, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+        }
+      },
+      "tags": [
+        "experimental",
+        "abstract"
+      ]
+    },
+    {
+      "id": "exp_double_exposure",
+      "name": "Double Exposure",
+      "category": "Experimental",
+      "default": {
+        "prefix": "experimental aesthetic, bold composition, graphic lighting, textural detail, double exposure, layered silhouettes, surreal composition",
+        "suffix": "clean composition, intentional design, high contrast, tactile texture, coherent palette"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: double exposure, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+        }
+      },
+      "tags": [
+        "experimental",
+        "abstract"
+      ]
+    },
+    {
+      "id": "exp_light_painting",
+      "name": "Light Painting",
+      "category": "Experimental",
+      "default": {
+        "prefix": "experimental aesthetic, bold composition, graphic lighting, textural detail, light painting, long exposure trails, dark background",
+        "suffix": "clean composition, intentional design, high contrast, tactile texture, coherent palette"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: light painting, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+        }
+      },
+      "tags": [
+        "experimental",
+        "abstract"
+      ]
+    },
+    {
+      "id": "exp_prismatic_refraction",
+      "name": "Prismatic Refraction",
+      "category": "Experimental",
+      "default": {
+        "prefix": "experimental aesthetic, bold composition, graphic lighting, textural detail, prismatic refraction, rainbow dispersion, glass texture",
+        "suffix": "clean composition, intentional design, high contrast, tactile texture, coherent palette"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: prismatic refraction, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+        }
+      },
+      "tags": [
+        "experimental",
+        "abstract"
+      ]
+    },
+    {
+      "id": "exp_abstract_geometry",
+      "name": "Abstract Geometry",
+      "category": "Experimental",
+      "default": {
+        "prefix": "experimental aesthetic, bold composition, graphic lighting, textural detail, abstract geometric, clean shapes",
+        "suffix": "clean composition, intentional design, high contrast, tactile texture, coherent palette"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: abstract geometry, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+        }
+      },
+      "tags": [
+        "experimental",
+        "abstract"
+      ]
+    },
+    {
+      "id": "exp_minimal_monochrome",
+      "name": "Minimal Monochrome",
+      "category": "Experimental",
+      "default": {
+        "prefix": "experimental aesthetic, bold composition, graphic lighting, textural detail, minimal monochrome, high contrast, negative space",
+        "suffix": "clean composition, intentional design, high contrast, tactile texture, coherent palette"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: minimal monochrome, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+        }
+      },
+      "tags": [
+        "experimental",
+        "abstract"
+      ]
+    },
+    {
+      "id": "exp_analog_photocopy",
+      "name": "Analog Photocopy",
+      "category": "Experimental",
+      "default": {
+        "prefix": "experimental aesthetic, bold composition, graphic lighting, textural detail, photocopy aesthetic, paper noise, high contrast, xerox texture",
+        "suffix": "clean composition, intentional design, high contrast, tactile texture, coherent palette"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: analog photocopy, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+        }
+      },
+      "tags": [
+        "experimental",
+        "abstract"
+      ]
+    },
+    {
+      "id": "exp_datamosh",
+      "name": "Datamosh",
+      "category": "Experimental",
+      "default": {
+        "prefix": "experimental aesthetic, bold composition, graphic lighting, textural detail, datamosh, compression artifacts, blocky smears",
+        "suffix": "clean composition, intentional design, high contrast, tactile texture, coherent palette"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: datamosh, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+        }
+      },
+      "tags": [
+        "experimental",
+        "abstract"
+      ]
+    },
+    {
+      "id": "exp_liquid_marble",
+      "name": "Liquid Marble",
+      "category": "Experimental",
+      "default": {
+        "prefix": "experimental aesthetic, bold composition, graphic lighting, textural detail, liquid marble, swirling ink, organic patterns",
+        "suffix": "clean composition, intentional design, high contrast, tactile texture, coherent palette"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: liquid marble, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+        }
+      },
+      "tags": [
+        "experimental",
+        "abstract"
+      ]
+    },
+    {
+      "id": "exp_neon_wireframe",
+      "name": "Neon Wireframe",
+      "category": "Experimental",
+      "default": {
+        "prefix": "experimental aesthetic, bold composition, graphic lighting, textural detail, neon wireframe, glowing lines, dark background",
+        "suffix": "clean composition, intentional design, high contrast, tactile texture, coherent palette"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: neon wireframe, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+        }
+      },
+      "tags": [
+        "experimental",
+        "abstract"
+      ]
+    },
+    {
+      "id": "exp_kaleidoscope",
+      "name": "Kaleidoscope",
+      "category": "Experimental",
+      "default": {
+        "prefix": "experimental aesthetic, bold composition, graphic lighting, textural detail, kaleidoscope, symmetry, prismatic pattern",
+        "suffix": "clean composition, intentional design, high contrast, tactile texture, coherent palette"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: kaleidoscope, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+        }
+      },
+      "tags": [
+        "experimental",
+        "abstract"
+      ]
+    },
+    {
+      "id": "exp_minimal_gradient",
+      "name": "Minimal Gradient",
+      "category": "Experimental",
+      "default": {
+        "prefix": "experimental aesthetic, bold composition, graphic lighting, textural detail, minimal gradient, soft color field, smooth transitions",
+        "suffix": "clean composition, intentional design, high contrast, tactile texture, coherent palette"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: minimal gradient, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+        }
+      },
+      "tags": [
+        "experimental",
+        "abstract"
+      ]
+    },
+    {
+      "id": "exp_paper_grain_texture",
+      "name": "Paper Grain Texture",
+      "category": "Experimental",
+      "default": {
+        "prefix": "experimental aesthetic, bold composition, graphic lighting, textural detail, paper grain, subtle texture, soft noise",
+        "suffix": "clean composition, intentional design, high contrast, tactile texture, coherent palette"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: paper grain texture, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+        }
+      },
+      "tags": [
+        "experimental",
+        "abstract"
+      ]
+    },
+    {
+      "id": "exp_chromatic_prism",
+      "name": "Chromatic Prism",
+      "category": "Experimental",
+      "default": {
+        "prefix": "experimental aesthetic, bold composition, graphic lighting, textural detail, chromatic prism, color separation, light leaks",
+        "suffix": "clean composition, intentional design, high contrast, tactile texture, coherent palette"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: chromatic prism, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+        }
+      },
+      "tags": [
+        "experimental",
+        "abstract"
+      ]
+    },
+    {
+      "id": "exp_mirror_kaleidoscope",
+      "name": "Mirror Kaleidoscope",
+      "category": "Experimental",
+      "default": {
+        "prefix": "experimental aesthetic, bold composition, graphic lighting, textural detail, mirror kaleidoscope, fragmented reflections, symmetry",
+        "suffix": "clean composition, intentional design, high contrast, tactile texture, coherent palette"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mirror kaleidoscope, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+        }
+      },
+      "tags": [
+        "experimental",
+        "abstract"
+      ]
+    },
+    {
+      "id": "exp_thermal_vision",
+      "name": "Thermal Vision",
+      "category": "Experimental",
+      "default": {
+        "prefix": "experimental aesthetic, bold composition, graphic lighting, textural detail, thermal vision, false color, heat map look",
+        "suffix": "clean composition, intentional design, high contrast, tactile texture, coherent palette"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: thermal vision, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+        }
+      },
+      "tags": [
+        "experimental",
+        "abstract"
+      ]
+    }
+  ]
+}

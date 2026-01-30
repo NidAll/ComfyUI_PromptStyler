@@ -1,0 +1,167 @@
+{
+  "version": 1,
+  "styles": [
+    {
+      "id": "prod_luxury_watch_ad",
+      "name": "Luxury Watch Ad",
+      "category": "Product",
+      "default": {
+        "prefix": "commercial product photography, studio strobe lighting, seamless background, controlled reflections, clean composition, luxury product shot, watch photography",
+        "suffix": "crisp edges, high detail, clean background, clean specular highlights, premium look, minimal clutter"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: luxury watch ad, commercial product photograph. Lighting: studio strobe with a large softbox, clean specular highlights. Composition: clean silhouette, premium materials, crisp details."
+        }
+      },
+      "tags": [
+        "product"
+      ]
+    },
+    {
+      "id": "prod_cosmetics_packshot",
+      "name": "Cosmetics Packshot",
+      "category": "Product",
+      "default": {
+        "prefix": "commercial product photography, studio strobe lighting, seamless background, controlled reflections, clean composition, cosmetics product shot, clean studio setup, soft reflections",
+        "suffix": "crisp edges, high detail, clean background, clean specular highlights, premium look, minimal clutter"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: cosmetics packshot, commercial product photograph. Lighting: studio strobe with a large softbox, clean specular highlights. Composition: clean silhouette, premium materials, crisp details."
+        }
+      },
+      "tags": [
+        "product"
+      ]
+    },
+    {
+      "id": "prod_food_packshot",
+      "name": "Food Packshot",
+      "category": "Product",
+      "default": {
+        "prefix": "commercial product photography, studio strobe lighting, seamless background, controlled reflections, clean composition, food packshot, studio tabletop, appetizing highlights",
+        "suffix": "crisp edges, high detail, clean background, clean specular highlights, premium look, minimal clutter"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: food packshot, commercial product photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Composition: clean silhouette, premium materials, crisp details."
+        }
+      },
+      "tags": [
+        "product"
+      ]
+    },
+    {
+      "id": "prod_perfume_ad",
+      "name": "Perfume Ad",
+      "category": "Product",
+      "default": {
+        "prefix": "commercial product photography, studio strobe lighting, seamless background, controlled reflections, clean composition, perfume product shot, glass bottle, luxury lighting",
+        "suffix": "crisp edges, high detail, clean background, clean specular highlights, premium look, minimal clutter"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: perfume ad, commercial product photograph. Lighting: studio strobe with a large softbox, clean specular highlights. Composition: clean silhouette, premium materials, crisp details."
+        }
+      },
+      "tags": [
+        "product"
+      ]
+    },
+    {
+      "id": "prod_tech_gadget_shot",
+      "name": "Tech Gadget Shot",
+      "category": "Product",
+      "default": {
+        "prefix": "commercial product photography, studio strobe lighting, seamless background, controlled reflections, clean composition, tech product photography, clean highlights, premium materials",
+        "suffix": "crisp edges, high detail, clean background, clean specular highlights, premium look, minimal clutter"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: tech gadget shot, commercial product photograph. Lighting: studio strobe with a large softbox, clean specular highlights. Composition: clean silhouette, premium materials, crisp details."
+        }
+      },
+      "tags": [
+        "product"
+      ]
+    },
+    {
+      "id": "prod_jewelry_macro",
+      "name": "Jewelry Macro",
+      "category": "Product",
+      "default": {
+        "prefix": "commercial product photography, studio strobe lighting, seamless background, controlled reflections, clean composition, jewelry macro photography, sparkle highlights, shallow depth of field",
+        "suffix": "crisp edges, high detail, clean background, clean specular highlights, premium look, minimal clutter"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: jewelry macro, commercial product photograph. Lighting: small hard highlights for sparkle, controlled fill, clean reflections. Composition: clean silhouette, premium materials, crisp details."
+        }
+      },
+      "tags": [
+        "product"
+      ]
+    },
+    {
+      "id": "prod_skincare_bottle_ad",
+      "name": "Skincare Bottle Ad",
+      "category": "Product",
+      "default": {
+        "prefix": "commercial product photography, studio strobe lighting, seamless background, controlled reflections, clean composition, skincare product shot, clean studio, dewy highlights",
+        "suffix": "crisp edges, high detail, clean background, clean specular highlights, premium look, minimal clutter"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: skincare bottle ad, commercial product photograph. Lighting: studio strobe with a large softbox, clean specular highlights. Composition: clean silhouette, premium materials, crisp details."
+        }
+      },
+      "tags": [
+        "product"
+      ]
+    },
+    {
+      "id": "prod_sneaker_product_shot",
+      "name": "Sneaker Product Shot",
+      "category": "Product",
+      "default": {
+        "prefix": "commercial product photography, studio strobe lighting, seamless background, controlled reflections, clean composition, sneaker photography, clean background, sharp detail",
+        "suffix": "crisp edges, high detail, clean background, clean specular highlights, premium look, minimal clutter"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: sneaker product shot, commercial product photograph. Lighting: studio strobe with a large softbox, clean specular highlights. Composition: clean silhouette, premium materials, crisp details."
+        }
+      },
+      "tags": [
+        "product"
+      ]
+    },
+    {
+      "id": "prod_beverage_splash",
+      "name": "Beverage Splash",
+      "category": "Product",
+      "default": {
+        "prefix": "commercial product photography, studio strobe lighting, seamless background, controlled reflections, clean composition, beverage ad, splash photography, frozen droplets",
+        "suffix": "crisp edges, high detail, clean background, clean specular highlights, premium look, minimal clutter"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: beverage splash, commercial product photograph. Lighting: hard backlight with crisp droplets, high-speed flash feel. Composition: clean silhouette, premium materials, crisp details."
+        }
+      },
+      "tags": [
+        "product"
+      ]
+    }
+  ]
+}

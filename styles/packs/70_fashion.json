@@ -1,0 +1,233 @@
+{
+  "version": 1,
+  "styles": [
+    {
+      "id": "fash_glossy_fashion_editorial",
+      "name": "Glossy Fashion Editorial",
+      "category": "Fashion",
+      "default": {
+        "prefix": "fashion editorial photography, magazine look, high-end styling, clean composition, stylized studio lighting, fashion editorial, studio lighting, high contrast, clean backdrop",
+        "suffix": "sharp focus, editorial color grade, skin texture, catchlights, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: glossy fashion editorial, fashion photograph. Lighting: studio strobe with a large softbox, clean specular highlights. Mood: confident, curated, magazine-ready."
+        }
+      },
+      "tags": [
+        "fashion",
+        "editorial"
+      ]
+    },
+    {
+      "id": "fash_streetwear_lookbook",
+      "name": "Streetwear Lookbook",
+      "category": "Fashion",
+      "default": {
+        "prefix": "fashion editorial photography, magazine look, high-end styling, clean composition, stylized studio lighting, streetwear lookbook, candid pose, urban backdrop",
+        "suffix": "sharp focus, editorial color grade, skin texture, catchlights, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: streetwear lookbook, fashion photograph. Lighting: overcast daylight, even illumination, soft shadow transitions. Mood: confident, curated, magazine-ready."
+        }
+      },
+      "tags": [
+        "fashion",
+        "editorial"
+      ]
+    },
+    {
+      "id": "fash_runway_backstage",
+      "name": "Runway Backstage",
+      "category": "Fashion",
+      "default": {
+        "prefix": "fashion editorial photography, magazine look, high-end styling, clean composition, stylized studio lighting, backstage fashion, documentary feel, available light",
+        "suffix": "sharp focus, editorial color grade, skin texture, catchlights, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: runway backstage, fashion photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: confident, curated, magazine-ready."
+        }
+      },
+      "tags": [
+        "fashion",
+        "editorial"
+      ]
+    },
+    {
+      "id": "fash_high_fashion_beauty_shot",
+      "name": "High Fashion Beauty Shot",
+      "category": "Fashion",
+      "default": {
+        "prefix": "fashion editorial photography, magazine look, high-end styling, clean composition, stylized studio lighting, beauty shot, clean skin, beauty lighting, sharp eyes",
+        "suffix": "sharp focus, editorial color grade, skin texture, catchlights, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: high fashion beauty shot, fashion photograph. Lighting: beauty dish with soft fill, clean catchlights, smooth gradients. Mood: confident, curated, magazine-ready."
+        }
+      },
+      "tags": [
+        "fashion",
+        "editorial"
+      ]
+    },
+    {
+      "id": "fash_minimal_editorial",
+      "name": "Minimal Editorial",
+      "category": "Fashion",
+      "default": {
+        "prefix": "fashion editorial photography, magazine look, high-end styling, clean composition, stylized studio lighting, minimal fashion editorial, neutral palette",
+        "suffix": "sharp focus, editorial color grade, skin texture, catchlights, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: minimal editorial, fashion photograph. Lighting: studio strobe with a large softbox, clean specular highlights. Mood: confident, curated, magazine-ready."
+        }
+      },
+      "tags": [
+        "fashion",
+        "editorial"
+      ]
+    },
+    {
+      "id": "fash_vintage_editorial",
+      "name": "Vintage Editorial",
+      "category": "Fashion",
+      "default": {
+        "prefix": "fashion editorial photography, magazine look, high-end styling, clean composition, stylized studio lighting, vintage fashion editorial, film grain, muted palette",
+        "suffix": "sharp focus, editorial color grade, skin texture, catchlights, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: vintage editorial, fashion photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: confident, curated, magazine-ready."
+        }
+      },
+      "tags": [
+        "fashion",
+        "editorial"
+      ]
+    },
+    {
+      "id": "fash_outdoor_editorial",
+      "name": "Outdoor Editorial",
+      "category": "Fashion",
+      "default": {
+        "prefix": "fashion editorial photography, magazine look, high-end styling, clean composition, stylized studio lighting, fashion editorial outdoors, wind, natural light",
+        "suffix": "sharp focus, editorial color grade, skin texture, catchlights, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: outdoor editorial, fashion photograph. Lighting: golden hour backlight with subtle lens flare and warm rim light. Mood: confident, curated, magazine-ready."
+        }
+      },
+      "tags": [
+        "fashion",
+        "editorial"
+      ]
+    },
+    {
+      "id": "fash_street_style_snapshot",
+      "name": "Street Style Snapshot",
+      "category": "Fashion",
+      "default": {
+        "prefix": "fashion editorial photography, magazine look, high-end styling, clean composition, stylized studio lighting, street style, candid, natural color",
+        "suffix": "sharp focus, editorial color grade, skin texture, catchlights, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: street style snapshot, fashion photograph. Lighting: overcast daylight, even illumination, soft shadow transitions. Mood: confident, curated, magazine-ready."
+        }
+      },
+      "tags": [
+        "fashion",
+        "editorial"
+      ]
+    },
+    {
+      "id": "fash_luxury_beauty_macro",
+      "name": "Luxury Beauty Macro",
+      "category": "Fashion",
+      "default": {
+        "prefix": "fashion editorial photography, magazine look, high-end styling, clean composition, stylized studio lighting, beauty macro, skin texture, cosmetic detail",
+        "suffix": "sharp focus, editorial color grade, skin texture, catchlights, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: luxury beauty macro, fashion photograph. Lighting: soft macro beauty light, clean specular highlights. Mood: confident, curated, magazine-ready."
+        }
+      },
+      "tags": [
+        "fashion",
+        "editorial"
+      ]
+    },
+    {
+      "id": "fash_athleisure_campaign",
+      "name": "Athleisure Campaign",
+      "category": "Fashion",
+      "default": {
+        "prefix": "fashion editorial photography, magazine look, high-end styling, clean composition, stylized studio lighting, athleisure campaign, clean energy, natural light",
+        "suffix": "sharp focus, editorial color grade, skin texture, catchlights, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: athleisure campaign, fashion photograph. Lighting: overcast daylight, even illumination, soft shadow transitions. Mood: confident, curated, magazine-ready."
+        }
+      },
+      "tags": [
+        "fashion",
+        "editorial"
+      ]
+    },
+    {
+      "id": "fash_couture_runway",
+      "name": "Couture Runway",
+      "category": "Fashion",
+      "default": {
+        "prefix": "fashion editorial photography, magazine look, high-end styling, clean composition, stylized studio lighting, couture runway, runway lights, dramatic pose",
+        "suffix": "sharp focus, editorial color grade, skin texture, catchlights, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: couture runway, fashion photograph. Lighting: runway spotlights with controlled haze and crisp highlights. Mood: confident, curated, magazine-ready."
+        }
+      },
+      "tags": [
+        "fashion",
+        "editorial"
+      ]
+    },
+    {
+      "id": "fash_vintage_street_fashion",
+      "name": "Vintage Street Fashion",
+      "category": "Fashion",
+      "default": {
+        "prefix": "fashion editorial photography, magazine look, high-end styling, clean composition, stylized studio lighting, vintage street fashion, film grain, candid",
+        "suffix": "sharp focus, editorial color grade, skin texture, catchlights, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: vintage street fashion, fashion photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: confident, curated, magazine-ready."
+        }
+      },
+      "tags": [
+        "fashion",
+        "editorial"
+      ]
+    }
+  ]
+}

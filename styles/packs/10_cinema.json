@@ -1,0 +1,880 @@
+{
+  "version": 1,
+  "styles": [
+    {
+      "id": "cinematic_anamorphic",
+      "name": "Cinematic Anamorphic",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, cinematic, anamorphic lens, shallow depth of field, dramatic lighting",
+        "suffix": "film grain, subtle halation, rich contrast, color graded, filmic color science, smooth highlight rolloff, deep blacks, subtle film grain, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: cinematic anamorphic film still, shallow depth of field. Lighting: dramatic side lighting with deep shadows and bright highlights. Mood: tense, grounded, realistic. Texture: subtle film grain and halation."
+        }
+      },
+      "tags": [
+        "cinematic",
+        "film",
+        "anamorphic"
+      ]
+    },
+    {
+      "id": "cin_film_noir",
+      "name": "Film Noir",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, film noir, high contrast, hard shadows, black and white",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: film noir, cinematic film still. Lighting: dramatic side lighting with deep shadows and bright highlights. Mood: cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_neo_noir",
+      "name": "Neo Noir",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, neo-noir, moody contrast, deep shadows, night scene",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: neo noir, cinematic film still. Lighting: mixed neon and streetlight sources, colored rim light, reflective surfaces. Mood: cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_gritty_crime_thriller",
+      "name": "Gritty Crime Thriller",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, gritty crime thriller, handheld feel, muted colors",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: gritty crime thriller, cinematic film still. Lighting: dramatic side lighting with deep shadows and bright highlights. Mood: cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_dreamy_romance",
+      "name": "Dreamy Romance",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, dreamy cinematic, soft focus, warm tones",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: dreamy romance, cinematic film still. Lighting: golden hour backlight with subtle lens flare and warm rim light. Mood: cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_sci_fi_neon",
+      "name": "Sci-Fi Neon",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, sci-fi cinematic, neon glow, wet streets, atmospheric haze",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: sci-fi neon, cinematic film still. Lighting: mixed neon and streetlight sources, colored rim light, reflective surfaces. Mood: cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_epic_fantasy",
+      "name": "Epic Fantasy",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, epic cinematic, volumetric light rays, dramatic scale",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: epic fantasy, cinematic film still. Lighting: god rays through haze, high dynamic range. Mood: cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_documentary_handheld",
+      "name": "Documentary Handheld",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, documentary, handheld camera, natural light, authentic moments",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: documentary handheld, cinematic film still. Lighting: overcast daylight, even illumination, soft shadow transitions. Mood: cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_vintage_16mm",
+      "name": "Vintage 16mm",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, 16mm film look, visible grain, soft contrast",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: vintage 16mm, cinematic film still. Lighting: practical tungsten lamps, warm falloff. Mood: cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_vintage_35mm",
+      "name": "Vintage 35mm",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, 35mm film look, gentle grain, natural color",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: vintage 35mm, cinematic film still. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_imax_blockbuster",
+      "name": "IMAX Blockbuster",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, large format cinema, crisp detail, dramatic composition",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: imax blockbuster, cinematic film still. Lighting: high-impact key light with controlled fill. Mood: cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_horror_suspense",
+      "name": "Horror Suspense",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, cinematic horror, low key lighting, ominous atmosphere",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: horror suspense, cinematic film still. Lighting: dramatic side lighting with deep shadows and bright highlights. Mood: cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_cozy_slice_of_life",
+      "name": "Cozy Slice-of-Life",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, warm cinematic, intimate framing, soft contrast",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: cozy slice-of-life, cinematic film still. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_desert_western",
+      "name": "Desert Western",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, cinematic western, wide landscape, dusty atmosphere",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: desert western, cinematic film still. Lighting: harsh sun with long shadows, heat haze. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_cold_war_spy_thriller",
+      "name": "Cold War Spy Thriller",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, spy thriller, moody interiors, controlled palette",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: cold war spy thriller, cinematic film still. Lighting: dramatic side lighting with deep shadows and bright highlights. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_post_apocalyptic",
+      "name": "Post-Apocalyptic",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, post-apocalyptic cinematic, weathered textures, dusty haze",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: post-apocalyptic, cinematic film still. Lighting: harsh daylight filtered through dust and smoke. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_space_opera",
+      "name": "Space Opera",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, space opera cinematic, high contrast, dramatic scale",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: space opera, cinematic film still. Lighting: bright rim light against deep space, high contrast. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_underwater_drama",
+      "name": "Underwater Drama",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, underwater cinematic, caustics, floating particles",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: underwater drama, cinematic film still. Lighting: underwater caustic patterns, shafts of light through water. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_candlelit_period_drama",
+      "name": "Candlelit Period Drama",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, period drama, candlelit, warm shadows",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: candlelit period drama, cinematic film still. Lighting: warm candlelight with soft falloff and deep shadows. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_rainy_night_alley",
+      "name": "Rainy Night Alley",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, cinematic night scene, rainy street, wet reflections",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: rainy night alley, cinematic film still. Lighting: mixed neon and streetlight sources, colored rim light, reflective surfaces. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_bright_day_comedy",
+      "name": "Bright Day Comedy",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, bright cinematic, clean colors, lighthearted tone",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: bright day comedy, cinematic film still. Lighting: bright daylight with soft fill, cheerful contrast. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_mystery_thriller",
+      "name": "Mystery Thriller",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, mystery thriller, moody, subtle haze",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mystery thriller, cinematic film still. Lighting: dramatic side lighting with deep shadows and bright highlights. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_high_speed_action",
+      "name": "High-Speed Action",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, action blockbuster, dynamic camera, sharp highlights",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: high-speed action, cinematic film still. Lighting: high-impact lighting, crisp highlights, controlled motion blur. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_courtroom_drama",
+      "name": "Courtroom Drama",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, dramatic courtroom scene, serious tone, clean framing",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: courtroom drama, cinematic film still. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_coming_of_age",
+      "name": "Coming-of-Age",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, warm cinematic, naturalistic, gentle grain",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: coming-of-age, cinematic film still. Lighting: golden hour backlight with subtle lens flare and warm rim light. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_slow_cinema",
+      "name": "Slow Cinema",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, slow cinema, minimalist framing, quiet atmosphere",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: slow cinema, cinematic film still. Lighting: overcast daylight, even illumination, soft shadow transitions. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_surreal_dream_sequence",
+      "name": "Surreal Dream Sequence",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, surreal cinematic, soft diffusion, dreamlike haze",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: surreal dream sequence, cinematic film still. Lighting: ethereal soft light with gentle bloom and haze. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_war_documentary",
+      "name": "War Documentary",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, war documentary, gritty realism, handheld",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: war documentary, cinematic film still. Lighting: overcast daylight, even illumination, soft shadow transitions. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_sports_broadcast_cinematic",
+      "name": "Sports Broadcast Cinematic",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, sports cinematic, telephoto compression, fast shutter feel",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: sports broadcast cinematic, cinematic film still. Lighting: stadium lights, crisp highlights, dynamic contrast. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_retro_futurism",
+      "name": "Retro Futurism",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, retro futurism, clean shapes, neon accents",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: retro futurism, cinematic film still. Lighting: mixed neon and streetlight sources, colored rim light, reflective surfaces. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_urban_nightscape",
+      "name": "Urban Nightscape",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, urban night cinematic, city lights, bokeh",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: urban nightscape, cinematic film still. Lighting: mixed neon and streetlight sources, colored rim light, reflective surfaces. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_snowstorm_survival",
+      "name": "Snowstorm Survival",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, cinematic survival, snowstorm, cold palette",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: snowstorm survival, cinematic film still. Lighting: cold overcast light with blowing snow and low visibility. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_tropical_heat",
+      "name": "Tropical Heat",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, cinematic tropical, humid atmosphere, vibrant greens",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: tropical heat, cinematic film still. Lighting: bright sun filtered through foliage, humid haze. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_firelit_camp_scene",
+      "name": "Firelit Camp Scene",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, cinematic firelight, warm glow, night ambience",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: firelit camp scene, cinematic film still. Lighting: warm firelight with flicker and soft smoke haze. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_neon_club_scene",
+      "name": "Neon Club Scene",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, cinematic club, colored lights, smoke haze",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: neon club scene, cinematic film still. Lighting: saturated neon lights, moving beams, haze in the air. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_foggy_harbor",
+      "name": "Foggy Harbor",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, cinematic fog, dock lights",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: foggy harbor, cinematic film still. Lighting: fog diffusion around practical lights, soft silhouettes. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_vintage_home_video",
+      "name": "Vintage Home Video",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, retro home video, soft focus, analog feel",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: vintage home video, cinematic film still. Lighting: simple indoor practical lights, gentle falloff. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_coastal_road_trip",
+      "name": "Coastal Road Trip",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, cinematic road trip, sunlit coastline, nostalgic tone",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: coastal road trip, cinematic film still. Lighting: golden hour backlight with subtle lens flare and warm rim light. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_subway_platform",
+      "name": "Subway Platform",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, urban cinematic, subway platform, gritty realism",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: subway platform, cinematic film still. Lighting: practical fluorescent lights with mixed color temperature. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_rainy_car_interior",
+      "name": "Rainy Car Interior",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, cinematic car interior, rain streaks, reflections",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: rainy car interior, cinematic film still. Lighting: streetlights and dashboard glow, rain reflections on glass. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_desaturated_war_film",
+      "name": "Desaturated War Film",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, war film look, desaturated palette, gritty texture",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: desaturated war film, cinematic film still. Lighting: overcast daylight, even illumination, soft shadow transitions. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_bright_musical_number",
+      "name": "Bright Musical Number",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, classic musical, clean stage lighting, bold colors",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: bright musical number, cinematic film still. Lighting: bright stage key light with clean fill and saturated colors. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_sunlit_kitchen_scene",
+      "name": "Sunlit Kitchen Scene",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, slice-of-life cinematic, sunlit interior, warm realism",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: sunlit kitchen scene, cinematic film still. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_neon_diner",
+      "name": "Neon Diner",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, retro diner cinematic, neon accents, night scene",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: neon diner, cinematic film still. Lighting: mixed neon and streetlight sources, colored rim light, reflective surfaces. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_storm_chase",
+      "name": "Storm Chase",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, cinematic storm, dramatic clouds, high tension",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: storm chase, cinematic film still. Lighting: storm light with dramatic contrast and wind-driven rain. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    },
+    {
+      "id": "cin_quiet_library_mystery",
+      "name": "Quiet Library Mystery",
+      "category": "Cinema",
+      "default": {
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, mystery cinematic, dusty light beams, quiet tension",
+        "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: quiet library mystery, cinematic film still. Lighting: soft window beams through dust, warm practical accents. Mood: cinematic, cohesive, story-driven."
+        }
+      },
+      "tags": [
+        "cinema",
+        "film"
+      ]
+    }
+  ]
+}
