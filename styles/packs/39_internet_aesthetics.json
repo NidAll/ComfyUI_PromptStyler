@@ -1,0 +1,865 @@
+{
+  "version": 1,
+  "styles": [
+    {
+      "id": "aest_dreamcore",
+      "name": "Dreamcore",
+      "category": "Aesthetics/Liminal",
+      "default": {
+        "prefix": "internet aesthetic, dreamcore, liminal, surreal, nostalgic, soft focus, pastel haze, gentle bloom, dreamy atmosphere, quiet emptiness",
+        "suffix": "hazy glow, soft vignette, subtle film grain, gentle gradients, airy depth, calm uncanny mood"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: dreamcore liminal surreal aesthetic. Lighting: soft diffuse light with gentle bloom and low contrast. Mood: nostalgic, calm, slightly uncanny. Texture: subtle film grain, haze, soft vignette."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "dreamcore",
+        "liminal"
+      ]
+    },
+    {
+      "id": "aest_weirdcore",
+      "name": "Weirdcore",
+      "category": "Aesthetics/Liminal",
+      "default": {
+        "prefix": "internet aesthetic, weirdcore, uncanny, surreal, awkward composition, distorted perspective, unsettling nostalgia, odd props, mismatched lighting",
+        "suffix": "chromatic aberration, jpeg artifacts, subtle glitching, off-kilter framing, eerie liminality"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: weirdcore with uncanny, surreal, off-balance composition. Lighting: inconsistent and slightly wrong, like mixed sources. Mood: uncomfortable, curious, dreamlike. Texture: jpeg artifacts, mild glitches, chromatic aberration."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "weirdcore",
+        "uncanny"
+      ]
+    },
+    {
+      "id": "aest_liminal_spaces_fluorescent",
+      "name": "Liminal Spaces (Empty Fluorescent)",
+      "category": "Aesthetics/Liminal",
+      "default": {
+        "prefix": "internet aesthetic, liminal spaces, empty hallway, institutional interior, fluorescent lighting, neutral colors, quiet ambience, wide angle, symmetrical composition",
+        "suffix": "slight noise, sterile atmosphere, deep depth of field, soft reflections, uncanny stillness"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: liminal spaces, empty institutional interiors. Lighting: overhead fluorescent with flat, even illumination. Mood: quiet, sterile, uncanny. Composition: wide angle, symmetrical framing, deep depth of field."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "liminal",
+        "fluorescent"
+      ]
+    },
+    {
+      "id": "aest_backrooms_monoyellow",
+      "name": "Backrooms (Mono-Yellow)",
+      "category": "Aesthetics/Liminal",
+      "default": {
+        "prefix": "internet aesthetic, backrooms, mono-yellow office maze, yellow wallpaper, stained carpet, buzzing fluorescent lights, empty rooms, endless corridors, wide angle lens",
+        "suffix": "sickly yellow color cast, flat lighting, subtle noise, oppressive emptiness, unsettling mood"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: backrooms-inspired liminal office maze with mono-yellow tones. Lighting: buzzing fluorescent, flat and unflattering. Mood: oppressive, empty, unnerving. Texture: subtle noise, worn carpet, wallpaper grain."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "backrooms",
+        "liminal"
+      ]
+    },
+    {
+      "id": "aest_dead_mall_nostalgia",
+      "name": "Dead Mall Nostalgia",
+      "category": "Aesthetics/Liminal",
+      "default": {
+        "prefix": "internet aesthetic, dead mall, abandoned shopping center, 1990s nostalgia, empty food court, glossy tiles, escalators, pastel neon signage, wide angle",
+        "suffix": "soft ambient haze, muted pastels, gentle grain, melancholic nostalgia, spacious emptiness"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: dead mall liminality with 90s retail nostalgia. Lighting: soft mixed interior lighting with faint neon signage glow. Mood: melancholic, quiet, nostalgic. Texture: gentle grain, soft haze, reflective tile floors."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "dead_mall",
+        "nostalgia"
+      ]
+    },
+    {
+      "id": "aest_poolrooms_chlorine_dream",
+      "name": "Poolrooms (Chlorine Dream)",
+      "category": "Aesthetics/Liminal",
+      "default": {
+        "prefix": "internet aesthetic, poolrooms, liminal indoor pool, pale tiles, turquoise water, echoing space, humid air, artificial lighting, empty corridors",
+        "suffix": "chlorine haze, soft reflections, subtle caustics, clean geometry, calm unsettling mood"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: poolrooms liminal indoor pool aesthetic. Lighting: artificial overhead with soft reflections and gentle caustics. Mood: calm, empty, subtly unsettling. Texture: tile detail, humid haze, smooth water surface."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "poolrooms",
+        "liminal"
+      ]
+    },
+    {
+      "id": "aest_analog_horror_vhs_broadcast",
+      "name": "Analog Horror (VHS Broadcast)",
+      "category": "Aesthetics/Horror",
+      "default": {
+        "prefix": "analog horror, VHS tape, CRT scanlines, interlaced video, tracking noise, timecode overlay, broadcast graphics, unsettling broadcast",
+        "suffix": "static noise, chromatic aberration, tape warble, frame tearing, degraded footage, eerie ambience"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: analog horror VHS broadcast footage. Lighting: harsh broadcast exposure with crushed shadows and blown highlights. Mood: ominous, unsettling, detached. Texture: scanlines, static, tracking noise, tape warble, timecode overlays."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "analog_horror",
+        "vhs"
+      ]
+    },
+    {
+      "id": "aest_emergency_broadcast_eas",
+      "name": "Emergency Broadcast (EAS)",
+      "category": "Aesthetics/Horror",
+      "default": {
+        "prefix": "emergency alert broadcast, EAS screen, warning text overlay, official graphics, color bars, CRT display, analog signal interference, urgent message",
+        "suffix": "glitching text, rolling scanlines, static hiss texture, harsh compression, ominous calm, unsettling authority"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: emergency broadcast warning screen with official text overlays. Lighting: flat CRT display light, minimal shading. Mood: urgent but eerily calm, authoritative and unsettling. Texture: scanlines, static, compression, mild glitches."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "broadcast",
+        "warning"
+      ]
+    },
+    {
+      "id": "aest_found_footage_handheld_vhs",
+      "name": "Found Footage (Handheld Tape)",
+      "category": "Aesthetics/Horror",
+      "default": {
+        "prefix": "found footage, handheld camera, shaky framing, documentary realism, practical lighting, on-camera flash, grainy low light, VHS artifacts",
+        "suffix": "motion blur, focus hunting, tape dropout, gritty texture, tense realism, degraded contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: handheld found-footage tape with documentary realism. Lighting: practical, imperfect, sometimes from on-camera flash. Mood: tense, immediate, believable. Texture: motion blur, focus hunting, tape dropouts, grainy low light."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "found_footage",
+        "vhs"
+      ]
+    },
+    {
+      "id": "aest_lost_media_degraded_archive",
+      "name": "Lost Media (Degraded Archive)",
+      "category": "Aesthetics/Horror",
+      "default": {
+        "prefix": "lost media, degraded archive, damaged tape, corrupted frames, compression blocks, photocopy noise, dust and scratches, eerie nostalgia",
+        "suffix": "frame tearing, color drift, low resolution, analog distortion feel, unsettling ambiguity, archival grit"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: lost media archive with corrupted frames and damaged tape artifacts. Lighting: inconsistent, like an old transfer. Mood: unsettling, ambiguous, nostalgic. Texture: compression blocks, dust, scratches, frame tearing, color drift."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "lost_media",
+        "archive"
+      ]
+    },
+    {
+      "id": "aest_hauntology_analog_memory",
+      "name": "Hauntology (Analog Memory)",
+      "category": "Aesthetics/Horror",
+      "default": {
+        "prefix": "hauntology, memory haze, faded colors, analog warmth, ghostly nostalgia, empty places, timeless melancholy, dreamlike stillness",
+        "suffix": "washed highlights, gentle film grain, slight blur, vignette, muted palette, uncanny familiarity"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: hauntological nostalgia, like a half-remembered recording. Lighting: soft and diffuse, slightly dim. Mood: melancholic, uncanny, familiar. Texture: faded colors, gentle film grain, slight blur, subtle vignetting."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "hauntology",
+        "nostalgia"
+      ]
+    },
+    {
+      "id": "aest_retrofuturism_space_age",
+      "name": "Retrofuturism (Space Age)",
+      "category": "Aesthetics/Retro Future",
+      "default": {
+        "prefix": "retrofuturism, space age design, mid-century modern, sleek curves, chrome and plastic, optimistic future, clean geometry, bold color accents",
+        "suffix": "polished surfaces, crisp highlights, graphic silhouettes, tasteful retro tech details, optimistic mood"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: space age retrofuturism with mid-century optimism. Lighting: clean studio or bright daylight, crisp highlights on chrome and plastic. Mood: hopeful, sleek, designed. Materials: polished surfaces, smooth curves, bold accent colors."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "retrofuturism",
+        "space_age"
+      ]
+    },
+    {
+      "id": "aest_cassette_futurism_beige_tech",
+      "name": "Cassette Futurism (Beige Tech)",
+      "category": "Aesthetics/Retro Future",
+      "default": {
+        "prefix": "cassette futurism, 1980s sci-fi, beige computers, chunky buttons, CRT monitors, utilitarian panels, practical props, soft tungsten light",
+        "suffix": "subtle scanlines, warm shadows, plastic texture, slight film grain, period-correct labels, retro tech realism"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: cassette futurism 80s sci-fi tech with beige hardware and CRT glow. Lighting: warm tungsten practicals with screen light as fill. Mood: utilitarian, nostalgic, grounded. Texture: plastic grain, scanlines, light film grain."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "cassette_futurism",
+        "retro_tech"
+      ]
+    },
+    {
+      "id": "aest_atompunk_atomic_age",
+      "name": "Atompunk (Atomic Age)",
+      "category": "Aesthetics/Retro Future",
+      "default": {
+        "prefix": "atompunk, atomic age, 1950s futurism, rocket fins, chrome, ray guns, bold geometry, optimistic propaganda vibe, clean shapes",
+        "suffix": "saturated mid-century palette, clean gradients, glossy highlights, upbeat retro future mood, stylized forms"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: atompunk atomic-age futurism with bold geometry and optimistic design. Lighting: clean and bright with glossy highlights. Mood: upbeat, futuristic, playful. Color palette: saturated mid-century tones with clean gradients."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "atompunk",
+        "atomic_age"
+      ]
+    },
+    {
+      "id": "aest_dieselpunk_soot_chrome",
+      "name": "Dieselpunk (Soot + Chrome)",
+      "category": "Aesthetics/Retro Future",
+      "default": {
+        "prefix": "dieselpunk, 1930s futurism, riveted metal, soot and chrome, industrial machinery, war-era tech, Art Deco influence, gritty atmosphere",
+        "suffix": "smoky haze, hard rim lighting, oily metal textures, worn paint, dramatic contrast, gritty retro-industrial mood"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: dieselpunk retro-industrial futurism with riveted metal and Art Deco undertones. Lighting: hard rim light with smoky haze and strong contrast. Mood: gritty, mechanical, intense. Texture: oily metal, worn paint, soot patina."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "dieselpunk",
+        "industrial"
+      ]
+    },
+    {
+      "id": "aest_raygun_gothic_pulp_scifi",
+      "name": "Raygun Gothic (Pulp Sci-Fi)",
+      "category": "Aesthetics/Retro Future",
+      "default": {
+        "prefix": "raygun gothic, pulp sci-fi, bubble helmets, ray guns, rounded fins, space age props, vivid poster colors, adventurous optimism",
+        "suffix": "graphic lighting, crisp silhouettes, retro illustration vibe, saturated accents, playful futuristic mood"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: raygun gothic pulp sci-fi with rounded fins and playful space props. Lighting: graphic and intentional with crisp silhouettes. Mood: adventurous, optimistic, retro-fantastic. Color palette: vivid poster-like accents and clean shapes."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "raygun_gothic",
+        "pulp_scifi"
+      ]
+    },
+    {
+      "id": "aest_googie_space_age_neon",
+      "name": "Googie Space Age (Neon Architecture)",
+      "category": "Aesthetics/Retro Future",
+      "default": {
+        "prefix": "googie, space age architecture, neon signage, sweeping boomerang lines, starbursts, diner futurism, glossy surfaces, night glow",
+        "suffix": "bold neon accents, clean geometry, reflective materials, cinematic night lighting, playful retro atmosphere"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Googie space-age architecture with starbursts, boomerang lines, and neon signage. Lighting: cinematic night glow with reflective materials. Mood: playful, retro, optimistic. Composition: strong geometry and signage-driven framing."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "googie",
+        "space_age"
+      ]
+    },
+    {
+      "id": "aest_steampunk_brass_steam",
+      "name": "Steampunk (Brass + Steam)",
+      "category": "Aesthetics/Retro Future",
+      "default": {
+        "prefix": "steampunk, brass and copper, Victorian machinery, gears, leather straps, goggles, steam pipes, ornate rivets, warm lamplight",
+        "suffix": "sepia warmth, soot patina, volumetric steam, tactile metal textures, handcrafted detail, cozy industrial mood"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: steampunk with ornate Victorian machinery in brass and copper. Lighting: warm lamplight with soft shadows and steam haze. Mood: adventurous, cozy, mechanical. Texture: patina, rivets, leather, tactile metal surfaces."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "steampunk",
+        "victorian"
+      ]
+    },
+    {
+      "id": "aest_clockpunk_gilded_mechanics",
+      "name": "Clockpunk (Gilded Mechanisms)",
+      "category": "Aesthetics/Retro Future",
+      "default": {
+        "prefix": "clockpunk, gilded mechanisms, renaissance engineering, brass clockwork, intricate gears, polished wood, ornate engravings, museum artifact",
+        "suffix": "warm gallery light, fine detailing, precise mechanical textures, rich materials, elegant craftsmanship, timeless mood"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: clockpunk with gilded, precise mechanisms and renaissance-era craft. Lighting: warm gallery spotlights that reveal engravings and materials. Mood: elegant, curious, timeless. Texture: intricate gears, polished wood, fine metalwork."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "clockpunk",
+        "craft"
+      ]
+    },
+    {
+      "id": "aest_biopunk_wetware",
+      "name": "Biopunk (Wetware)",
+      "category": "Aesthetics/Retro Future",
+      "default": {
+        "prefix": "biopunk, wetware, bio-mechanical, organic machinery, translucent membranes, lab-grown textures, sterile lab lighting, ominous biotech",
+        "suffix": "glossy biofilm, clinical highlights, atmospheric mist, uneasy organic futurism, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: biopunk wetware with organic machinery and lab-grown textures. Lighting: sterile lab lighting with clinical highlights. Mood: uneasy, uncanny, futuristic. Texture: translucent membranes, glossy biofilm sheen, subtle mist."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "biopunk",
+        "biotech"
+      ]
+    },
+    {
+      "id": "aest_afrofuturism_speculative",
+      "name": "Afrofuturism (Speculative)",
+      "category": "Aesthetics/Retro Future",
+      "default": {
+        "prefix": "afrofuturism, speculative future, radiant color, bold patterning, elegant silhouettes, high-tech meets tradition, rich ornament, visionary design",
+        "suffix": "luminous lighting, rich color harmony, intricate motifs, sleek materials, dignified mood, futuristic art direction"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: afrofuturism-inspired visionary design with bold patterning and elegant silhouettes. Lighting: luminous and sculpting, emphasizing form and ornament. Mood: dignified, hopeful, powerful. Color palette: radiant harmonies with sleek futuristic materials."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "afrofuturism",
+        "speculative"
+      ]
+    },
+    {
+      "id": "aest_solarpunk_eco_utopia",
+      "name": "Solarpunk (Eco Utopia)",
+      "category": "Aesthetics/Retro Future",
+      "default": {
+        "prefix": "solarpunk, eco utopia, green architecture, renewable energy, sunlit gardens, biophilic design, clean materials, hopeful future",
+        "suffix": "bright natural light, airy atmosphere, vibrant greens, warm highlights, clean composition, optimistic sustainable mood"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: solarpunk eco-utopia with biophilic design and renewable tech. Lighting: bright natural sunlight with airy clarity. Mood: hopeful, optimistic, calm. Color palette: vibrant greens and warm highlights, clean composition."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "solarpunk",
+        "eco"
+      ]
+    },
+    {
+      "id": "aest_lunarpunk_moonlit_garden",
+      "name": "Lunarpunk (Moonlit Garden)",
+      "category": "Aesthetics/Retro Future",
+      "default": {
+        "prefix": "lunarpunk, moonlit gardens, nocturnal nature, bioluminescence, soft silver light, sustainable tech, quiet rebellion, dreamy night",
+        "suffix": "cool moon glow, subtle neon bioluminescence, soft shadows, misty atmosphere, serene mysterious mood"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: lunarpunk nocturnal eco-futurism with moonlit gardens and soft bioluminescence. Lighting: cool silver moon glow with gentle neon accents. Mood: serene, mysterious, quietly defiant. Texture: misty atmosphere, soft shadows, calm night air."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "lunarpunk",
+        "nocturnal"
+      ]
+    },
+    {
+      "id": "aest_frutiger_aero_glossy_nature_tech",
+      "name": "Frutiger Aero (Glossy Nature Tech)",
+      "category": "Aesthetics/Tech",
+      "default": {
+        "prefix": "frutiger aero, glossy UI, aqua gradients, glassy icons, bokeh, clean tech optimism, fresh nature imagery, sky blues, chrome highlights",
+        "suffix": "smooth gradients, glossy reflections, soft bloom, crisp edges, cheerful corporate-tech mood, high clarity"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Frutiger Aero with glossy glass-like UI and nature-tech optimism. Lighting: bright and clean with soft bloom and bokeh. Mood: cheerful, fresh, optimistic. Color palette: aqua blues and sky tones with chrome highlights."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "frutiger_aero",
+        "glossy"
+      ]
+    },
+    {
+      "id": "aest_dark_aero_sleek_tech_noir",
+      "name": "Dark Aero (Sleek Tech Noir)",
+      "category": "Aesthetics/Tech",
+      "default": {
+        "prefix": "dark aero, sleek UI, glossy black glass, deep blues, subtle glow, modern tech noir, minimal icons, high contrast",
+        "suffix": "controlled specular highlights, smooth shadows, crisp edges, moody atmosphere, premium tech aesthetic"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: dark aero with sleek glossy interfaces and deep blue-black glass. Lighting: controlled reflections and high-contrast speculars. Mood: moody, premium, tech-noir. Texture: smooth gradients, crisp edges, subtle glow."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "dark_aero",
+        "tech_noir"
+      ]
+    },
+    {
+      "id": "aest_frutiger_metro_flat_transit_ui",
+      "name": "Frutiger Metro (Flat Transit UI)",
+      "category": "Aesthetics/Tech",
+      "default": {
+        "prefix": "frutiger metro, flat transit UI, wayfinding signage, pictogram icons, clean grids, bright wayfinding colors, simplified shapes, modernist info design",
+        "suffix": "crisp lines, flat lighting, minimal shading, strong hierarchy, clean composition, friendly public design mood"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Frutiger Metro transit UI and wayfinding design with pictograms and clear grids. Lighting: flat graphic lighting with minimal shading. Mood: friendly, functional, clean. Composition: strong hierarchy, crisp lines, simplified shapes."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "frutiger_metro",
+        "wayfinding"
+      ]
+    },
+    {
+      "id": "aest_webcore_early_web_glitter",
+      "name": "Webcore (Early Web Glitter)",
+      "category": "Aesthetics/Tech",
+      "default": {
+        "prefix": "webcore, early 2000s internet, glossy buttons, glitter stickers, sparkly overlays, bright gradients, tiled backgrounds, messy collage, dial-up nostalgia",
+        "suffix": "jpeg artifacts, low-res icons, glitter sparkle, animated gif vibe, playful chaos, nostalgic web clutter"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: webcore early-2000s internet collage with glossy UI buttons and glittery overlays. Lighting: flat and graphic, like a screen composition. Mood: playful, chaotic, nostalgic. Texture: jpeg artifacts, low-res icons, sparkly sticker layers."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "webcore",
+        "early_web"
+      ]
+    },
+    {
+      "id": "aest_synthwave_outrun_grid",
+      "name": "Synthwave Outrun (Retrosun Grid)",
+      "category": "Aesthetics/Neon",
+      "default": {
+        "prefix": "synthwave, outrun, neon sunset, retro grid, magenta and cyan, palm silhouettes, chrome highlights, 1980s vibes, laser glow",
+        "suffix": "soft bloom, film grain, neon rim lighting, gradient sky, reflective surfaces, energetic retro mood"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: synthwave outrun with neon sunsets, retro grids, and chrome highlights. Lighting: strong neon rim light with soft bloom. Mood: energetic, nostalgic, stylish. Color palette: magenta and cyan gradients with reflective surfaces."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "synthwave",
+        "outrun"
+      ]
+    },
+    {
+      "id": "aest_darksynth_occult_neon",
+      "name": "Darksynth (Occult Neon)",
+      "category": "Aesthetics/Neon",
+      "default": {
+        "prefix": "darksynth, neon occult, smoky darkness, crimson and violet glow, sharp silhouettes, eerie atmosphere, retro neon horror, heavy contrast",
+        "suffix": "foggy haze, aggressive neon highlights, grainy texture, ominous mood, cinematic darkness"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: darksynth neon occult aesthetic with smoky darkness and sharp silhouettes. Lighting: aggressive neon highlights cutting through fog. Mood: ominous, intense, nocturnal. Texture: grain, haze, heavy contrast, retro neon horror tone."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "darksynth",
+        "neon_horror"
+      ]
+    },
+    {
+      "id": "aest_dreamwave_hazy_neon",
+      "name": "Dreamwave (Hazy Neon Romance)",
+      "category": "Aesthetics/Neon",
+      "default": {
+        "prefix": "dreamwave, hazy neon, soft romance, pastel neon lights, fog diffusion, gentle gradients, nostalgic nightlife, dreamy glow",
+        "suffix": "soft focus, dreamy bloom, low contrast, light leaks, warm-cool neon mix, wistful mood"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: dreamwave with hazy pastel neon and romantic nostalgia. Lighting: diffused neon through fog with soft bloom and light leaks. Mood: wistful, dreamy, gentle. Texture: soft focus, low contrast, smooth gradients."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "dreamwave",
+        "hazy_neon"
+      ]
+    },
+    {
+      "id": "aest_future_funk_disco_neon",
+      "name": "Future Funk (Disco Neon)",
+      "category": "Aesthetics/Neon",
+      "default": {
+        "prefix": "future funk, disco pop, glossy retro, bright neon, vibrant patterns, funky motion, chrome accents, colorful lighting",
+        "suffix": "high saturation, playful highlights, glittery accents, dynamic composition, upbeat party mood"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: future funk disco neon with glossy retro energy and vibrant patterning. Lighting: colorful party lights with playful speculars. Mood: upbeat, funky, energetic. Color palette: high saturation with chrome accents and glittery highlights."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "future_funk",
+        "disco"
+      ]
+    },
+    {
+      "id": "aest_mallsoft_empty_retail",
+      "name": "Mallsoft (Empty Retail Ambient)",
+      "category": "Aesthetics/Neon",
+      "default": {
+        "prefix": "mallsoft, empty retail, pastel lighting, soft neon signage, quiet ambience, polished floors, escalators, wide corridors, atmospheric haze",
+        "suffix": "muted pastels, soft reflections, light fog, gentle grain, nostalgic melancholy, spacious emptiness"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mallsoft with empty retail spaces, pastel signage, and quiet ambience. Lighting: soft interior light with gentle neon glow and haze. Mood: nostalgic, melancholic, calm. Texture: polished reflections, muted pastels, subtle grain."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "mallsoft",
+        "nostalgia"
+      ]
+    },
+    {
+      "id": "aest_hardvapour_industrial_neon",
+      "name": "Hardvapour (Industrial Neon)",
+      "category": "Aesthetics/Neon",
+      "default": {
+        "prefix": "hardvapour, industrial, aggressive vibe, harsh neon, concrete, metal textures, brutal lighting, dystopian club energy, gritty",
+        "suffix": "high contrast, stark shadows, harsh highlights, grainy texture, raw intensity, gritty neon mood"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: hardvapour industrial neon with concrete, metal, and brutal club energy. Lighting: harsh neon sources with stark shadows and strong contrast. Mood: aggressive, raw, dystopian. Texture: grain, grit, industrial surfaces."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "hardvapour",
+        "industrial"
+      ]
+    },
+    {
+      "id": "aest_seapunk_aquatic_cyber",
+      "name": "Seapunk (Aquatic Cyber)",
+      "category": "Aesthetics/Neon",
+      "default": {
+        "prefix": "seapunk, aquatic cyber, ocean blues, teal gradients, chrome shells, water ripples, iridescent textures, digital sea motifs, playful surreal",
+        "suffix": "watery reflections, caustic highlights, glossy chrome accents, shimmering color shifts, ocean-tech vibe"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: seapunk aquatic cyber aesthetic with teal gradients, chrome, and digital ocean motifs. Lighting: watery reflections with caustic highlights and glossy speculars. Mood: playful, surreal, futuristic. Texture: ripples, shimmer, iridescent color shifts."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "seapunk",
+        "aquatic"
+      ]
+    },
+    {
+      "id": "aest_hyperpop_candy_chrome",
+      "name": "Hyperpop (Candy Chrome)",
+      "category": "Aesthetics/Maximal",
+      "default": {
+        "prefix": "hyperpop, candy chrome, iridescent plastic, high saturation, glossy highlights, maximalist accessories, bright gradients, sparkles, bold shapes",
+        "suffix": "specular shine, bold color clashes, sharp clarity, glitter texture, energetic chaotic-cute mood"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: hyperpop candy chrome maximalism with iridescent plastics and bold gradients. Lighting: bright and glossy with strong specular highlights. Mood: energetic, playful, chaotic-cute. Color palette: high saturation with deliberate color clashes and sparkle."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "hyperpop",
+        "maximal"
+      ]
+    },
+    {
+      "id": "aest_glitchcore_neon_sparkle",
+      "name": "Glitchcore (Neon Sparkle)",
+      "category": "Aesthetics/Maximal",
+      "default": {
+        "prefix": "glitchcore, neon sparkle, digital distortion, chromatic splits, holographic gradients, sticker collage, high energy, broken pixels",
+        "suffix": "glitch artifacts, jitter, rgb shift, sharp contrast, luminous highlights, frantic futuristic vibe"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: glitchcore maximalism with holographic gradients and neon sparkle overlays. Lighting: bright, graphic, high contrast. Mood: frantic, futuristic, energetic. Texture: rgb shift, jitter, glitch artifacts, sticker-collage layering."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "glitchcore",
+        "holographic"
+      ]
+    },
+    {
+      "id": "aest_cottagecore_pastoral_handmade",
+      "name": "Cottagecore (Pastoral Handmade)",
+      "category": "Aesthetics/Core",
+      "default": {
+        "prefix": "cottagecore, pastoral, handmade, warm sunlight, linen textures, wildflowers, rustic wood, cozy domestic calm, soft colors",
+        "suffix": "gentle natural light, warm tones, subtle film grain, soft vignette, serene cozy mood, tactile textures"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: cottagecore pastoral handmade aesthetic. Lighting: warm natural sunlight with gentle shadows. Mood: cozy, serene, comforting. Texture: linen weave, rustic wood grain, wildflower softness, subtle film grain."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "cottagecore",
+        "cozy"
+      ]
+    },
+    {
+      "id": "aest_fairycore_iridescent_ethereal",
+      "name": "Fairycore (Iridescent Ethereal)",
+      "category": "Aesthetics/Core",
+      "default": {
+        "prefix": "fairycore, ethereal, iridescent shimmer, soft mist, glowing particles, dreamy forest light, pastel blooms, delicate magic",
+        "suffix": "soft bloom, bioluminescent glows, gentle haze, sparkles, romantic dream mood, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: fairycore ethereal aesthetic with iridescent shimmer and floating particles. Lighting: dreamy soft light through mist with gentle bloom. Mood: romantic, magical, tender. Texture: sparkles, haze, delicate highlights, pastel blooms."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "fairycore",
+        "ethereal"
+      ]
+    },
+    {
+      "id": "aest_goblincore_moss_trinkets",
+      "name": "Goblincore (Moss + Trinkets)",
+      "category": "Aesthetics/Core",
+      "default": {
+        "prefix": "goblincore, mossy textures, earthy greens, trinkets, mushrooms, damp forest, found objects, messy cozy, natural clutter",
+        "suffix": "tactile dirt and stone texture, soft diffused light, earthy palette, whimsical oddities, cozy wild mood"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: goblincore with moss, mushrooms, and collected trinkets in earthy greens. Lighting: soft diffuse forest-like light, minimal harsh shadows. Mood: whimsical, cozy, a little wild. Texture: damp stone, dirt, moss fuzz, tactile clutter."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "goblincore",
+        "earthy"
+      ]
+    },
+    {
+      "id": "aest_angelcore_soft_celestial",
+      "name": "Angelcore (Soft Celestial)",
+      "category": "Aesthetics/Core",
+      "default": {
+        "prefix": "angelcore, soft celestial, pearly whites, golden light, airy fabrics, halos, gentle glow, serene purity, dreamy",
+        "suffix": "diffuse luminous lighting, soft bloom, pastel highlights, clean composition, calm uplifting mood"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: angelcore soft celestial aesthetic with pearly whites and warm gold glow. Lighting: diffuse luminous light with gentle bloom. Mood: calm, uplifting, serene. Texture: airy fabrics, soft highlights, clean minimal composition."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "angelcore",
+        "celestial"
+      ]
+    },
+    {
+      "id": "aest_dark_academia_dusty_library",
+      "name": "Dark Academia (Dusty Library)",
+      "category": "Aesthetics/Core",
+      "default": {
+        "prefix": "dark academia, old library, dusty books, candlelight, mahogany, tweed, classical sculpture, muted browns, moody shadows",
+        "suffix": "warm low light, soft grain, subtle vignette, rich textures, scholarly melancholic mood, cinematic chiaroscuro"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: dark academia with old libraries, candlelight, and muted browns. Lighting: warm low light with moody shadows and chiaroscuro. Mood: scholarly, melancholic, introspective. Texture: paper grain, worn leather, wood polish, soft film grain."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "dark_academia",
+        "moody"
+      ]
+    },
+    {
+      "id": "aest_whimsigoth_mystic_90s",
+      "name": "Whimsigoth (Mystic 90s)",
+      "category": "Aesthetics/Core",
+      "default": {
+        "prefix": "whimsigoth, 1990s mystical, velvet textures, celestial patterns, deep jewel tones, candle glow, bohemian decor, dreamy occult",
+        "suffix": "warm candlelight, soft haze, rich saturated jewels, ornate details, cozy mystical mood"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: whimsigoth 90s mysticism with velvet, candles, and celestial patterns. Lighting: warm candle glow with soft haze. Mood: cozy, magical, dreamy, slightly occult. Color palette: deep jewel tones with ornate bohemian decor details."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "whimsigoth",
+        "mystical"
+      ]
+    },
+    {
+      "id": "aest_pastel_goth_cute_dark",
+      "name": "Pastel Goth (Cute + Dark)",
+      "category": "Aesthetics/Core",
+      "default": {
+        "prefix": "pastel goth, cute and dark, pastel palette, black accents, soft gradients, edgy accessories, playful spooky, high contrast",
+        "suffix": "soft lighting with sharp accents, glossy highlights, crisp detail, pastel haze, playful eerie mood"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: pastel goth mixing cute pastels with dark accents and edgy details. Lighting: soft and bright with sharp contrast highlights. Mood: playful, spooky-cute, stylish. Color palette: pastel gradients with deep blacks and crisp detail."
+        }
+      },
+      "tags": [
+        "aesthetic",
+        "pastel_goth",
+        "cute_dark"
+      ]
+    }
+  ]
+}

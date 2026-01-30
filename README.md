@@ -13,6 +13,7 @@ Custom ComfyUI node that applies curated style **prefix/suffix** templates to yo
   - What it does: takes your `prompt`, applies exactly **one** style (prefix + suffix), and returns `positive` CONDITIONING.
   - Inputs:
     - `prompt` (STRING)
+    - `apply_style` (BOOLEAN) - disable to pass your prompt through unchanged
     - `style` (single-select dropdown, sorted + categorized)
     - `text_encoder` (CLIP) (wire this from your model loader node)
   - Outputs:

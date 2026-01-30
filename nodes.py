@@ -109,6 +109,7 @@ class PromptStylerConditioning:
             "required": {
                 # Prompt is the main input; CLIP is just a wire from your model loader.
                 "prompt": ("STRING", {"multiline": True, "default": ""}),
+                "apply_style": ("BOOLEAN", {"default": True}),
                 "style": (_choices_for_styles(styles),),
                 "text_encoder": ("CLIP",),
             }
@@ -119,22 +120,27 @@ class PromptStylerConditioning:
     FUNCTION = "encode"
     CATEGORY = "PromptStyler"
 
-    def encode(self, prompt: str, style: str, text_encoder):
-        styles = load_styles()
-        chosen = _style_by_choice(styles, style)
-        if chosen is None:
-            raise ValueError("No style selected.")
-
-        sep = ", "
-        prefix_phrases = _split_phrases(chosen.prefix, sep=sep)
-        prompt_phrases = _split_phrases(prompt, sep=sep)
-        suffix_phrases = _split_phrases(chosen.suffix, sep=sep)
-
-        phrases = _dedupe_phrases(prefix_phrases + prompt_phrases + suffix_phrases)
-        styled_prompt = sep.join([p for p in phrases if p])
-
+    def encode(self, prompt: str, apply_style: bool, style: str, text_encoder):
         if text_encoder is None:
             raise RuntimeError("ERROR: text_encoder input is invalid: None")
+
+        prompt = prompt or ""
+
+        if not apply_style:
+            styled_prompt = prompt
+        else:
+            styles = load_styles()
+            chosen = _style_by_choice(styles, style)
+            if chosen is None:
+                raise ValueError("No style selected.")
+
+            sep = ", "
+            prefix_phrases = _split_phrases(chosen.prefix, sep=sep)
+            prompt_phrases = _split_phrases(prompt, sep=sep)
+            suffix_phrases = _split_phrases(chosen.suffix, sep=sep)
+
+            phrases = _dedupe_phrases(prefix_phrases + prompt_phrases + suffix_phrases)
+            styled_prompt = sep.join([p for p in phrases if p])
 
         tokens = text_encoder.tokenize(styled_prompt)
         conditioning = text_encoder.encode_from_tokens_scheduled(tokens)

@@ -1,0 +1,245 @@
+{
+  "version": 1,
+  "styles": [
+    {
+      "id": "decor_kintsugi_ceramic",
+      "name": "Kintsugi Ceramics",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, kintsugi, repaired ceramic, gold-filled cracks, wabi-sabi, glazed pottery texture",
+        "suffix": "fine crack lines, gold lacquer highlights, subtle glaze reflections, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: kintsugi-inspired decorative arts with visible gold repair seams. Materials: glazed ceramic with fine crack networks and gold lacquer. Lighting: soft studio key with controlled reflections. Mood: calm, wabi-sabi, premium craftsmanship."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "ceramics",
+        "wabi_sabi"
+      ]
+    },
+    {
+      "id": "decor_cloisonne_enamel",
+      "name": "Cloisonné Enamelwork",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, cloisonne enamel, metal wire outlines, vitreous enamel, intricate motifs, jewel-toned colors",
+        "suffix": "crisp enamel boundaries, glossy enamel surface, polished metal highlights, high craftsmanship, sharp detail, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: cloisonne enamelwork with fine metal wire partitions and jewel-toned enamel cells. Materials: glossy enamel and polished metal. Lighting: studio lighting that emphasizes specular highlights without blowing out. Mood: ornate, precise, luxurious."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "enamel",
+        "ornate"
+      ]
+    },
+    {
+      "id": "decor_urushi_lacquerware",
+      "name": "Urushi Lacquerware (Maki-e)",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, urushi lacquerware, deep glossy lacquer, maki-e gold dust, refined ornament, elegant minimal forms",
+        "suffix": "mirror-like reflections, subtle gold sparkle, smooth lacquer finish, premium craftsmanship, controlled studio lighting, clean composition, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Japanese urushi lacquerware with maki-e gold dust detailing. Materials: deep glossy lacquer with subtle micro-texture and gold shimmer. Lighting: controlled studio reflections, soft gradients. Mood: refined, minimal, luxurious."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "lacquer",
+        "gold"
+      ]
+    },
+    {
+      "id": "decor_marquetry_wood_inlay",
+      "name": "Marquetry Wood Inlay",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, marquetry, wood veneer inlay, precise geometry, natural wood grain, fine joinery, artisan craftsmanship",
+        "suffix": "polished wood surface, warm tonal range, crisp inlay boundaries, subtle sheen, tactile wood texture, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: marquetry wood inlay with crisp veneer boundaries and geometric patterns. Materials: natural wood grain with warm tones and subtle sheen. Lighting: soft studio key with gentle falloff to reveal texture. Mood: crafted, elegant, precise."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "wood",
+        "inlay"
+      ]
+    },
+    {
+      "id": "decor_batik_wax_resist_textile",
+      "name": "Batik Textile (Wax-Resist Dye)",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, batik textile, wax resist dye, hand-dyed fabric, organic motifs, indigo and earth tones, traditional pattern",
+        "suffix": "cloth weave texture, subtle dye bleed, wax crackle details, handmade imperfections, tactile textile surface, soft diffuse lighting, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: batik textile with wax-resist patterning and subtle crackle. Materials: hand-dyed fabric with visible weave and dye diffusion. Lighting: soft diffuse light emphasizing texture without harsh shadows. Mood: warm, artisanal, patterned."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "textile",
+        "batik"
+      ]
+    },
+    {
+      "id": "decor_sashiko_stitching",
+      "name": "Sashiko Stitching",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, sashiko stitching, white thread on indigo fabric, geometric stitch patterns, hand embroidery, slow craft",
+        "suffix": "visible thread texture, crisp stitchwork, cloth weave detail, tactile textile surface, soft diffuse lighting, clean composition, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: sashiko embroidery with neat white running stitches over indigo fabric. Materials: visible thread fibers and cloth weave. Lighting: soft diffuse light revealing texture and stitch relief. Mood: calm, disciplined, handcrafted."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "textile",
+        "embroidery"
+      ]
+    },
+    {
+      "id": "decor_jacquard_tapestry_weave",
+      "name": "Jacquard Tapestry Weave",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, jacquard tapestry, woven textile, intricate threadwork, rich texture, ornamental pattern, fiber detail",
+        "suffix": "woven depth, visible fibers, subtle fuzz, warm ambient light, tactile textile surface, high detail, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: jacquard tapestry with dense woven patterns and rich thread texture. Materials: layered fibers with subtle fuzz and weave depth. Lighting: warm ambient light with gentle shadows to show relief. Mood: ornate, cozy, crafted."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "textile",
+        "weaving"
+      ]
+    },
+    {
+      "id": "decor_paper_quilling_filigree",
+      "name": "Paper Quilling Filigree",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, paper quilling, rolled paper strips, delicate curls, layered coils, filigree, clean cut edges",
+        "suffix": "paper texture, slight cast shadows, macro detail, soft studio lighting, crisp edges, precise craftsmanship, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: paper quilling with fine filigree curls and layered coils. Materials: matte colored paper with clean cut edges. Lighting: soft studio light creating gentle micro-shadows between layers. Mood: delicate, precise, decorative."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "paper",
+        "filigree"
+      ]
+    },
+    {
+      "id": "decor_suminagashi_marbling",
+      "name": "Suminagashi Paper Marbling",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, suminagashi paper marbling, floating ink on water, concentric rings, delicate swirls, minimal palette, handmade paper",
+        "suffix": "organic flow lines, ink diffusion, subtle feathering, paper grain texture, calm negative space, soft diffuse lighting, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: suminagashi marbled paper with delicate concentric ink rings and gentle swirls. Materials: handmade paper with visible grain and ink diffusion. Lighting: soft diffuse light, minimal glare. Mood: calm, minimal, refined."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "paper",
+        "marbling"
+      ]
+    },
+    {
+      "id": "decor_ebru_marbling",
+      "name": "Ebru Marbling (Vibrant)",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, ebru marbling, marbled paper, vibrant pigments, fluid swirls, organic patterns, artisan craft",
+        "suffix": "paper grain texture, pigment diffusion, high saturation, fluid motion, handmade imperfections, soft diffuse lighting, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: ebru marbled paper with vibrant swirling pigments and organic flow. Materials: paper with visible grain and pigment diffusion. Lighting: soft diffuse light preserving color and surface texture. Mood: lively, decorative, handcrafted."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "paper",
+        "marbling"
+      ]
+    },
+    {
+      "id": "decor_alcohol_ink_blooms",
+      "name": "Alcohol Ink Blooms",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, alcohol ink, fluid blooms, translucent layers, ink diffusion, high contrast edges, abstract",
+        "suffix": "smooth gradients, pigment pooling, micro-speckle texture, glossy highlights, vibrant palette, soft studio lighting, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: alcohol ink abstract with fluid blooms, translucent layers, and sharp diffusion edges. Materials: glossy ink surface with subtle pooling artifacts. Lighting: soft studio light with controlled highlights. Mood: modern, energetic, decorative."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "ink",
+        "abstract"
+      ]
+    },
+    {
+      "id": "decor_millefiori_glasswork",
+      "name": "Millefiori Glasswork",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, millefiori glasswork, glass canes, floral cross-sections, colorful mosaic patterns, translucent glass, artisan craft",
+        "suffix": "glass reflections, caustic highlights, smooth polished surface, vibrant color, high detail, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: millefiori glasswork with colorful floral cane patterns and translucent depth. Materials: polished glass with crisp internal motifs. Lighting: studio lighting with caustic highlights and controlled reflections. Mood: vivid, artisanal, jewel-like."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "glass",
+        "colorful"
+      ]
+    }
+  ]
+}
