@@ -2,6 +2,12 @@
 
 Custom ComfyUI node that applies curated style **prefix/suffix** templates to your positive prompt and outputs **CONDITIONING** for KSampler.
 
+## Versioning / Releases
+
+- Version: `VERSION` (also mirrored as `__version__` in `__init__.py`).
+- Changelog: `CHANGELOG.md`.
+- Releases: automated via Release Please (`.github/workflows/release-please.yml`).
+
 ## Install
 
 1. Copy this folder to: `ComfyUI/custom_nodes/ComfyUI_PromptStyler`
