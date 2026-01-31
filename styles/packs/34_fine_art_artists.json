@@ -1,0 +1,405 @@
+{
+  "version": 1,
+  "styles": [
+    {
+      "id": "artist_leonardo_da_vinci_sfumato",
+      "name": "Artist: Leonardo da Vinci (Sfumato + Subtle Chiaroscuro)",
+      "category": "Fine Art/Artists",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, in the style of Leonardo da Vinci, High Renaissance, sfumato, subtle tonal transitions, delicate glazing, gentle chiaroscuro, atmospheric perspective",
+        "suffix": "smooth gradients, refined realism, calm harmony, soft atmospheric depth, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: High Renaissance painting in the style of Leonardo da Vinci, refined realism with sfumato. Lighting: gentle chiaroscuro with soft shadow transitions. Technique: delicate glazing, subtle tonal gradients, atmospheric perspective. Key cues: in the style of Leonardo da Vinci, High Renaissance, sfumato, subtle tonal transitions, delicate glazing, gentle chiaroscuro, atmospheric perspective. Finish cues: smooth gradients, refined realism, calm harmony, soft atmospheric depth. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": ["fine_art", "artist", "leonardo_da_vinci", "high_renaissance", "sfumato"]
+    },
+    {
+      "id": "artist_raphael_harmonious_renaissance",
+      "name": "Artist: Raphael (Harmonious High Renaissance)",
+      "category": "Fine Art/Artists",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, in the style of Raphael, High Renaissance, harmonious composition, idealized forms, graceful linework, clear perspective, soft modeling, balanced symmetry",
+        "suffix": "serene mood, smooth paint handling, gentle highlights, harmonious color, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: High Renaissance painting in the style of Raphael, clarity and harmony. Composition: balanced symmetry, clear perspective, idealized forms, graceful contours. Color: harmonious palette with soft transitions and calm unity. Key cues: in the style of Raphael, High Renaissance, harmonious composition, idealized forms, graceful linework, clear perspective, balanced symmetry. Finish cues: serene mood, smooth paint handling, gentle highlights, harmonious color. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": ["fine_art", "artist", "raphael", "high_renaissance"]
+    },
+    {
+      "id": "artist_michelangelo_monumental_fresco",
+      "name": "Artist: Michelangelo (Monumental Forms + Fresco)",
+      "category": "Fine Art/Artists",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, in the style of Michelangelo, High Renaissance, monumental forms, sculptural anatomy, dramatic foreshortening, powerful gestures, fresco painting, bold modeling",
+        "suffix": "monumental scale, dramatic value range, strong highlights and shadows, dynamic composition, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: monumental High Renaissance fresco painting in the style of Michelangelo. Form: sculptural anatomy, heroic scale, dramatic foreshortening, powerful gestures. Shading: bold modeling with a wide value range and clear form separation. Key cues: in the style of Michelangelo, High Renaissance, monumental forms, sculptural anatomy, dramatic foreshortening, fresco painting, bold modeling. Finish cues: monumental scale, dramatic value range, strong highlights and shadows, dynamic composition. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": ["fine_art", "artist", "michelangelo", "high_renaissance", "fresco"]
+    },
+    {
+      "id": "artist_botticelli_linear_grace_tempera",
+      "name": "Artist: Sandro Botticelli (Linear Grace + Tempera)",
+      "category": "Fine Art/Artists",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, in the style of Sandro Botticelli, Early Renaissance, linear grace, flowing contours, delicate tempera-like handling, decorative patterning, clear silhouettes, gentle pastel palette",
+        "suffix": "crisp contours, delicate shading, ornamental detail, elegant rhythm, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Early Renaissance painting in the style of Sandro Botticelli, emphasizing linear grace. Line: flowing contours, clear silhouettes, elegant rhythm, ornamental detail. Technique: tempera-like precision with delicate shading and gentle color harmony. Key cues: in the style of Sandro Botticelli, Early Renaissance, linear grace, flowing contours, decorative patterning, clear silhouettes. Finish cues: crisp contours, delicate shading, ornamental detail, elegant rhythm. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": ["fine_art", "artist", "botticelli", "early_renaissance"]
+    },
+    {
+      "id": "artist_caravaggio_tenebrism",
+      "name": "Artist: Caravaggio (Tenebrism + Dramatic Realism)",
+      "category": "Fine Art/Artists",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, in the style of Caravaggio, Baroque, tenebrism, intense chiaroscuro, dramatic realism, strong directional light, deep shadow fields, theatrical contrast",
+        "suffix": "high contrast, hard-edged light falloff, rich darks, warm highlights, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Baroque oil painting in the style of Caravaggio, dramatic realism with tenebrism. Lighting: intense chiaroscuro with deep shadow fields and hard-edged light falloff. Mood: tense and theatrical, with bold value contrasts. Key cues: in the style of Caravaggio, Baroque, tenebrism, intense chiaroscuro, dramatic realism, strong directional light. Finish cues: high contrast, rich darks, warm highlights, hard-edged light falloff. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": ["fine_art", "artist", "caravaggio", "baroque", "tenebrism"]
+    },
+    {
+      "id": "artist_rembrandt_chiaroscuro_impasto",
+      "name": "Artist: Rembrandt van Rijn (Chiaroscuro + Impasto)",
+      "category": "Fine Art/Artists",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, in the style of Rembrandt van Rijn, Dutch Golden Age, warm chiaroscuro, impasto highlights, rich earth tones, painterly brushwork, subtle glazing, psychological depth",
+        "suffix": "thick paint texture, warm amber light, deep soft shadows, rich tonal range, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Dutch Golden Age oil painting in the style of Rembrandt van Rijn, warm chiaroscuro and painterly depth. Lighting: dramatic but warm light with deep soft shadows and strong form modeling. Texture: impasto highlights with visible brushwork and subtle glazing in midtones. Key cues: in the style of Rembrandt van Rijn, Dutch Golden Age, warm chiaroscuro, impasto highlights, rich earth tones, painterly brushwork. Finish cues: thick paint texture, warm amber light, deep soft shadows, rich tonal range. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": ["fine_art", "artist", "rembrandt", "dutch_golden_age", "chiaroscuro", "impasto"]
+    },
+    {
+      "id": "artist_vermeer_luminous_daylight",
+      "name": "Artist: Johannes Vermeer (Luminous Soft Daylight)",
+      "category": "Fine Art/Artists",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, in the style of Johannes Vermeer, Dutch Golden Age, luminous daylight, soft diffused side light, tranquil composition, subtle color harmony, smooth glazing, quiet realism",
+        "suffix": "pearl-like highlights, clean edges, calm atmosphere, delicate texture, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Dutch Golden Age painting in the style of Johannes Vermeer, luminous realism and calm clarity. Lighting: soft diffused daylight from one side, gentle shadow transitions, pearl-like highlights. Technique: smooth glazing, clean edges, subtle color harmony, quiet atmosphere. Key cues: in the style of Johannes Vermeer, Dutch Golden Age, luminous daylight, soft diffused side light, smooth glazing, subtle color harmony. Finish cues: pearl-like highlights, clean edges, calm atmosphere, delicate texture. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": ["fine_art", "artist", "vermeer", "dutch_golden_age", "luminous"]
+    },
+    {
+      "id": "artist_velazquez_tonal_realism",
+      "name": "Artist: Diego Velázquez (Tonal Realism + Loose Brushwork)",
+      "category": "Fine Art/Artists",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, in the style of Diego Velázquez, Spanish Baroque, tonal realism, loose confident brushwork, subdued palette, atmospheric space, naturalistic rendering, understated highlights",
+        "suffix": "painterly edges, tonal unity, subtle highlights, atmospheric depth, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Spanish Baroque painting in the style of Diego Velázquez, naturalistic tonal realism. Brushwork: loose and confident with painterly edges and subtle transitions. Color: subdued palette with tonal unity and understated highlights, emphasizing atmosphere. Key cues: in the style of Diego Velázquez, Spanish Baroque, tonal realism, loose confident brushwork, subdued palette, atmospheric space. Finish cues: painterly edges, tonal unity, subtle highlights, atmospheric depth. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": ["fine_art", "artist", "velazquez", "spanish_baroque", "tonal_painting"]
+    },
+    {
+      "id": "artist_goya_expressive_romanticism",
+      "name": "Artist: Francisco Goya (Expressive Romanticism)",
+      "category": "Fine Art/Artists",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, in the style of Francisco Goya, Romanticism, expressive brushwork, somber palette, dramatic contrast, psychological intensity, raw painterly texture, moody atmosphere",
+        "suffix": "bold value contrasts, rough brush texture, dark tonal weight, intense mood, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Romantic-era painting in the style of Francisco Goya, expressive and psychologically intense. Tone: somber palette with dark tonal weight and bold value contrasts. Brushwork: raw painterly texture, energetic marks, heightened dramatic contrast. Key cues: in the style of Francisco Goya, Romanticism, expressive brushwork, somber palette, dramatic contrast, psychological intensity. Finish cues: bold value contrasts, rough brush texture, dark tonal weight, intense mood. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": ["fine_art", "artist", "goya", "romanticism", "expressive"]
+    },
+    {
+      "id": "artist_turner_luminous_atmosphere",
+      "name": "Artist: J. M. W. Turner (Luminous Atmosphere)",
+      "category": "Fine Art/Artists",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, in the style of J. M. W. Turner, Romanticism, luminous atmosphere, dissolving forms, swirling light, vaporous haze, radiant color, atmospheric perspective",
+        "suffix": "glowing light effects, soft edges, misty diffusion, energetic paint movement, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Romantic painting in the style of J. M. W. Turner, luminous atmosphere and radiant color. Atmosphere: vaporous haze, dissolving forms, soft edges, misty diffusion. Light: glowing light effects with energetic paint movement and dramatic tonal transitions. Key cues: in the style of J. M. W. Turner, Romanticism, luminous atmosphere, dissolving forms, swirling light, vaporous haze. Finish cues: glowing light effects, soft edges, misty diffusion, radiant color. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": ["fine_art", "artist", "turner", "romanticism", "atmospheric"]
+    },
+    {
+      "id": "artist_monet_impressionist_light",
+      "name": "Artist: Claude Monet (Impressionist Light)",
+      "category": "Fine Art/Artists",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, in the style of Claude Monet, Impressionism, broken brushstrokes, plein-air light, shimmering color, soft edges, optical color mixing, atmospheric haze",
+        "suffix": "sparkling highlights, loose strokes, airy atmosphere, light-drenched palette, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Impressionist painting in the style of Claude Monet, focused on light and atmosphere. Brushwork: short broken strokes with soft edges and shimmering color transitions. Color: optical mixing and plein-air light effects with a light-drenched palette and gentle haze. Key cues: in the style of Claude Monet, Impressionism, broken brushstrokes, plein-air light, shimmering color, atmospheric haze. Finish cues: sparkling highlights, loose strokes, airy atmosphere, light-drenched palette. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": ["fine_art", "artist", "monet", "impressionism"]
+    },
+    {
+      "id": "artist_seurat_pointillism",
+      "name": "Artist: Georges Seurat (Pointillism)",
+      "category": "Fine Art/Artists",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, in the style of Georges Seurat, Neo-Impressionism, pointillism, tiny color dots, optical color mixing, precise composition, clear silhouettes, controlled palette",
+        "suffix": "granular dot texture, luminous color vibration, crisp contours, structured composition, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Neo-Impressionist painting in the style of Georges Seurat, built from pointillist color dots. Technique: tiny dots and dabs that create optical color mixing and luminous vibration at a distance. Composition: precise and structured with crisp contours and controlled rhythm. Key cues: in the style of Georges Seurat, Neo-Impressionism, pointillism, tiny color dots, optical color mixing, precise composition. Finish cues: granular dot texture, luminous color vibration, crisp contours, structured composition. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": ["fine_art", "artist", "seurat", "neo_impressionism", "pointillism"]
+    },
+    {
+      "id": "artist_cezanne_constructive_brushwork",
+      "name": "Artist: Paul Cézanne (Constructive Brushwork)",
+      "category": "Fine Art/Artists",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, in the style of Paul Cézanne, Post-Impressionism, constructive brushwork, chromatic planes, simplified geometry, underlying structure, warm-cool modulation, architectonic composition",
+        "suffix": "blocky color planes, structured forms, balanced weight, textured strokes, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Post-Impressionist painting in the style of Paul Cézanne, emphasizing structure and form. Brushwork: constructive strokes that build planes of color and underlying geometry. Color: warm-cool modulation and chromatic planes that create solid, architectonic composition. Key cues: in the style of Paul Cézanne, Post-Impressionism, constructive brushwork, chromatic planes, simplified geometry, underlying structure. Finish cues: blocky color planes, structured forms, balanced weight, textured strokes. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": ["fine_art", "artist", "cezanne", "post_impressionism", "constructive"]
+    },
+    {
+      "id": "artist_van_gogh_expressive_impasto",
+      "name": "Artist: Vincent van Gogh (Expressive Impasto)",
+      "category": "Fine Art/Artists",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, in the style of Vincent van Gogh, Post-Impressionism, striking color, emphatic brushwork, thick impasto, swirling directional strokes, bold outlines, high-chroma palette",
+        "suffix": "visible paint texture, energetic strokes, intense complementary contrast, dynamic movement, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Post-Impressionist oil painting in the style of Vincent van Gogh, energetic and expressive. Brushwork: emphatic directional strokes with thick impasto and visible paint texture. Color: striking high-chroma palette with intense complementary contrasts and bold outlines. Key cues: in the style of Vincent van Gogh, Post-Impressionism, striking color, emphatic brushwork, thick impasto, bold outlines. Finish cues: visible paint texture, energetic strokes, intense complementary contrast, dynamic movement. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": ["fine_art", "artist", "van_gogh", "post_impressionism", "impasto", "expressive"]
+    },
+    {
+      "id": "artist_gauguin_synthetism",
+      "name": "Artist: Paul Gauguin (Synthetism)",
+      "category": "Fine Art/Artists",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, in the style of Paul Gauguin, Post-Impressionism, synthetism, bold flat color areas, simplified shapes, strong outlines, symbolic color, decorative pattern",
+        "suffix": "flat planes, clean contours, saturated color blocks, poster-like clarity, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Post-Impressionist painting in the style of Paul Gauguin, synthetist and decorative. Shape: simplified forms with strong outlines and bold flat color areas. Color: symbolic, saturated blocks with poster-like clarity and patterned surfaces. Key cues: in the style of Paul Gauguin, Post-Impressionism, synthetism, bold flat color areas, simplified shapes, strong outlines. Finish cues: flat planes, clean contours, saturated color blocks, poster-like clarity. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": ["fine_art", "artist", "gauguin", "post_impressionism", "synthetism"]
+    },
+    {
+      "id": "artist_matisse_fauvist_color",
+      "name": "Artist: Henri Matisse (Fauvist Color)",
+      "category": "Fine Art/Artists",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, in the style of Henri Matisse, Fauvism, bold saturated color, expressive contours, flattened space, decorative pattern, simplified forms, lively composition",
+        "suffix": "vivid palette, clean color fields, strong outlines, rhythmic shapes, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Fauvist painting in the style of Henri Matisse, emphasizing bold expressive color. Color: vivid saturated palette with large luminous patches and simplified forms. Line: expressive contours and flattened space with decorative rhythm and strong outlines. Key cues: in the style of Henri Matisse, Fauvism, bold saturated color, expressive contours, flattened space, decorative pattern. Finish cues: vivid palette, clean color fields, strong outlines, rhythmic shapes. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": ["fine_art", "artist", "matisse", "fauvism", "color"]
+    },
+    {
+      "id": "artist_picasso_analytical_cubism",
+      "name": "Artist: Pablo Picasso (Analytical Cubism)",
+      "category": "Fine Art/Artists",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, in the style of Pablo Picasso, Cubism, multiple viewpoints, fractured planes, faceted geometry, flattened picture plane, angular forms, limited earthy palette",
+        "suffix": "geometric fragmentation, sharp edges, planar shading, abstracted structure, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: analytical Cubism in the style of Pablo Picasso, fractured structure and multiple viewpoints. Form: faceted geometry, angular planes, flattened picture plane, abstracted construction. Color: limited earthy palette with planar shading and sharp edges. Key cues: in the style of Pablo Picasso, Cubism, multiple viewpoints, fractured planes, faceted geometry, flattened picture plane. Finish cues: geometric fragmentation, sharp edges, planar shading, abstracted structure. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": ["fine_art", "artist", "picasso", "cubism", "geometric"]
+    },
+    {
+      "id": "artist_kandinsky_geometric_abstraction",
+      "name": "Artist: Wassily Kandinsky (Geometric Abstraction)",
+      "category": "Fine Art/Artists",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, in the style of Wassily Kandinsky, abstract art, geometric abstraction, dynamic lines, bold shapes, color-form relationships, rhythmic composition, nonobjective",
+        "suffix": "vibrant color interplay, clean shapes, energetic balance, abstract spatial tension, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: geometric abstraction in the style of Wassily Kandinsky, nonobjective and rhythmic. Composition: dynamic lines and bold shapes arranged with energetic balance and abstract spatial tension. Color: intentional color-form relationships with vibrant interplay and clear structure. Key cues: in the style of Wassily Kandinsky, abstract art, geometric abstraction, dynamic lines, bold shapes, color-form relationships. Finish cues: vibrant color interplay, clean shapes, energetic balance, abstract spatial tension. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": ["fine_art", "artist", "kandinsky", "abstract", "geometric"]
+    },
+    {
+      "id": "artist_mondrian_de_stijl_grid",
+      "name": "Artist: Piet Mondrian (De Stijl Grid)",
+      "category": "Fine Art/Artists",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, in the style of Piet Mondrian, De Stijl, neoplasticism, orthogonal grid, primary colors, black lines, flat planes, strict geometry",
+        "suffix": "clean grid structure, flat color blocks, sharp edges, minimal composition, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: De Stijl abstraction in the style of Piet Mondrian, rigorous geometric order. Composition: orthogonal grid with black lines and flat planes of primary colors. Design: minimal, balanced, and precise with sharp edges and clean structure. Key cues: in the style of Piet Mondrian, De Stijl, neoplasticism, orthogonal grid, primary colors, black lines. Finish cues: clean grid structure, flat color blocks, sharp edges, minimal composition. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": ["fine_art", "artist", "mondrian", "de_stijl", "neoplasticism"]
+    },
+    {
+      "id": "artist_klimt_ornamental_gold",
+      "name": "Artist: Gustav Klimt (Ornamental Gold)",
+      "category": "Fine Art/Artists",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, in the style of Gustav Klimt, Vienna Secession, ornamental patterning, gold leaf accents, flat decorative surfaces, linear drawing, mosaic-like texture, symbolic elegance",
+        "suffix": "golden shimmer, intricate ornament, flat stylization, rich decorative detail, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Vienna Secession painting in the style of Gustav Klimt, ornamental and richly decorative. Surface: flat stylization with linear drawing, intricate patterning, and gold leaf accents. Texture: mosaic-like ornament with golden shimmer and refined symbolic elegance. Key cues: in the style of Gustav Klimt, Vienna Secession, ornamental patterning, gold leaf accents, flat decorative surfaces, linear drawing. Finish cues: golden shimmer, intricate ornament, flat stylization, rich decorative detail. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": ["fine_art", "artist", "klimt", "vienna_secession", "ornament", "gold_leaf"]
+    },
+    {
+      "id": "artist_dali_surreal_precision",
+      "name": "Artist: Salvador Dalí (Surreal Precision)",
+      "category": "Fine Art/Artists",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, in the style of Salvador Dalí, Surrealism, dreamlike atmosphere, meticulous realism, crisp detail, uncanny juxtaposition, smooth gradients, sharp highlights",
+        "suffix": "surreal mood, highly detailed realism, clean edges, uncanny clarity, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Surrealist painting in the style of Salvador Dalí, dreamlike and uncanny with meticulous realism. Detail: crisp rendering and clean edges with smooth gradients and sharp highlights. Mood: surreal and disquieting, emphasizing precise clarity and uncanny juxtaposition. Key cues: in the style of Salvador Dalí, Surrealism, dreamlike atmosphere, meticulous realism, crisp detail, uncanny juxtaposition. Finish cues: surreal mood, highly detailed realism, clean edges, uncanny clarity. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": ["fine_art", "artist", "dali", "surrealism", "meticulous"]
+    },
+    {
+      "id": "artist_pollock_action_painting",
+      "name": "Artist: Jackson Pollock (Action Painting Drips)",
+      "category": "Fine Art/Artists",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, in the style of Jackson Pollock, Abstract Expressionism, action painting, drip and pour technique, all-over composition, layered splatter lines, energetic rhythm, tangled paint trails",
+        "suffix": "dense layered drips, dynamic movement, intertwined lines, raw texture, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Abstract Expressionist action painting in the style of Jackson Pollock, energetic and all-over. Technique: drip and pour marks with layered splatter lines and tangled paint trails across the full surface. Texture: dense intertwined lines and raw motion, emphasizing gesture and rhythm. Key cues: in the style of Jackson Pollock, Abstract Expressionism, action painting, drip and pour technique, all-over composition, layered splatter lines. Finish cues: dense layered drips, dynamic movement, intertwined lines, raw texture. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": ["fine_art", "artist", "pollock", "abstract_expressionism", "action_painting"]
+    },
+    {
+      "id": "artist_warhol_pop_art_silkscreen",
+      "name": "Artist: Andy Warhol (Pop Art Silkscreen)",
+      "category": "Fine Art/Artists",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, in the style of Andy Warhol, Pop Art, silkscreen print, bold flat colors, repetition, high-contrast graphic shapes, commercial print aesthetic, halftone texture",
+        "suffix": "flat color fields, crisp edges, screenprint texture, repeating motif structure, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Pop Art print in the style of Andy Warhol, bold and graphic with silkscreen aesthetics. Color: flat high-contrast fields with repetition and commercial print clarity. Texture: screenprint feel with halftone texture and crisp edges, emphasizing iconic simplicity. Key cues: in the style of Andy Warhol, Pop Art, silkscreen print, bold flat colors, repetition, commercial print aesthetic. Finish cues: flat color fields, crisp edges, screenprint texture, repeating motif structure. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": ["fine_art", "artist", "warhol", "pop_art", "silkscreen"]
+    },
+    {
+      "id": "artist_hokusai_ukiyo_e_woodblock",
+      "name": "Artist: Katsushika Hokusai (Ukiyo-e Woodblock)",
+      "category": "Fine Art/Artists",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, in the style of Katsushika Hokusai, ukiyo-e, Japanese woodblock print, bold fluid outlines, flat color planes, stylized perspective, patterned surfaces, clear silhouettes",
+        "suffix": "crisp linework, flat ink-and-color finish, paper texture, clean negative space, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: ukiyo-e woodblock print in the style of Katsushika Hokusai, graphic and refined. Line: bold fluid outlines with clear silhouettes and stylized perspective. Color: flat planes and patterned surfaces with a crisp ink-and-color finish and paper texture. Key cues: in the style of Katsushika Hokusai, ukiyo-e, Japanese woodblock print, bold fluid outlines, flat color planes, patterned surfaces. Finish cues: crisp linework, flat ink-and-color finish, paper texture, clean negative space. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": ["fine_art", "artist", "hokusai", "ukiyo_e", "woodblock"]
+    },
+    {
+      "id": "artist_kahlo_symbolic_realism",
+      "name": "Artist: Frida Kahlo (Symbolic Realism)",
+      "category": "Fine Art/Artists",
+      "default": {
+        "prefix": "fine art, museum-quality, traditional techniques, gallery piece, handcrafted, in the style of Frida Kahlo, Mexican modernism, folk art influence, vivid palette, symbolic surrealism, detailed brushwork, frontal composition, crisp outlines",
+        "suffix": "high-detail rendering, saturated colors, emblematic symbolism, strong central framing, high detail, handcrafted surface texture, gallery lighting, balanced composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Mexican modernist painting in the style of Frida Kahlo, symbolic and vividly rendered. Composition: frontal, centered, with crisp outlines and strong central framing. Color: saturated palette with folk-art influence and emblematic surreal symbolism, rendered with high detail. Key cues: in the style of Frida Kahlo, Mexican modernism, folk art influence, vivid palette, symbolic surrealism, frontal composition. Finish cues: high-detail rendering, saturated colors, emblematic symbolism, strong central framing. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": ["fine_art", "artist", "kahlo", "mexican_modernism", "symbolic"]
+    }
+  ]
+}

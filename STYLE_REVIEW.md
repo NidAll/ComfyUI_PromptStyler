@@ -2,7 +2,7 @@
 
 ## Current Library Snapshot (as of 2026-01-31)
 
-- Total styles: 500 (merged from `styles/packs/*.json` in filename order).
+- Total styles: 525 (merged from `styles/packs/*.json` in filename order).
 - Categories are consistent and already cover the big buckets: Photography, Cinema, Illustration, Fine Art, Graphic Design, 3D/CG, Architecture/Interior, Fashion/Product, Nature, Experimental, Color Grade, plus focused sub-buckets (e.g. `Photography/Alt Process`, `Decorative Arts/Textiles`, `Color Grade/Film Lab`).
 - Style format is stable: each style has `id`, `name`, `category`, and `default.prefix`/`default.suffix` (comma+space separated phrases). The node de-dupes phrases case-insensitively.
 
@@ -39,6 +39,16 @@ When tightening a technique or movement, prefer authoritative glossaries and mus
 - Printmaking processes (etching, aquatint, mezzotint), and chiaroscuro definitions: Encyclopedia Britannica; National Portrait Gallery (UK) glossary.
 - Cyanotype process characteristics: National Gallery of Art (USA) and similar museum education references.
 - Film noir traits (low-key lighting, high-contrast look, mood conventions): established film history references (e.g., Britannica / major film institutes).
+
+## New Additions: Fine Art/Artists Pack
+
+Added `styles/packs/34_fine_art_artists.json` with 25 artist-referenced styles under `Fine Art/Artists`. Each style is written to stay **subject-agnostic** (palette, brushwork, surface, composition, light) and avoid photo/cinema gear terms.
+
+Research references used while drafting these templates (high quality / museum / encyclopedia sources):
+
+- Encyclopaedia Britannica (artist biographies + movement/technique definitions): https://www.britannica.com/
+- The Metropolitan Museum of Art (movement essays and collection learning resources): https://www.metmuseum.org/
+- The Museum of Modern Art (artist/movement resources, e.g. action painting / Pollock): https://www.moma.org/
 
 ## New Additions: 500-style Expansion Packs
 
