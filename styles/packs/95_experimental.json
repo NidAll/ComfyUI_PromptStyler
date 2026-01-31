@@ -12,7 +12,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: glitch art, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+          "suffix": "Style: glitch art, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed. Key cues: glitch art, digital distortion, chromatic aberration, scanlines. Finish cues: clean composition, intentional design. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -31,7 +31,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: double exposure, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+          "suffix": "Style: double exposure, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed. Key cues: double exposure, layered silhouettes, surreal composition. Finish cues: clean composition, intentional design. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -50,7 +50,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: light painting, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+          "suffix": "Style: light painting, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed. Key cues: light painting, long exposure trails, dark background. Finish cues: clean composition, intentional design. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -69,7 +69,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: prismatic refraction, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+          "suffix": "Style: prismatic refraction, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed. Key cues: prismatic refraction, rainbow dispersion, glass texture. Finish cues: clean composition, intentional design. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -88,7 +88,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: abstract geometry, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+          "suffix": "Style: abstract geometry, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed. Key cues: abstract geometric, clean shapes, bold composition. Finish cues: clean composition, intentional design. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -107,7 +107,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: minimal monochrome, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+          "suffix": "Style: minimal monochrome, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed. Key cues: minimal monochrome, high contrast, negative space. Finish cues: clean composition, intentional design. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -126,7 +126,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: analog photocopy, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+          "suffix": "Style: analog photocopy, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed. Key cues: photocopy aesthetic, paper noise, high contrast, xerox texture. Finish cues: clean composition, intentional design. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -145,7 +145,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: datamosh, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+          "suffix": "Style: datamosh, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed. Key cues: datamosh, compression artifacts, blocky smears. Finish cues: clean composition, intentional design. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -164,7 +164,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: liquid marble, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+          "suffix": "Style: liquid marble, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed. Key cues: liquid marble, swirling ink, organic patterns. Finish cues: clean composition, intentional design. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -183,7 +183,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: neon wireframe, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+          "suffix": "Style: neon wireframe, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed. Key cues: neon wireframe, glowing lines, dark background. Finish cues: clean composition, intentional design. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -202,7 +202,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: kaleidoscope, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+          "suffix": "Style: kaleidoscope, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed. Key cues: kaleidoscope, symmetry, prismatic pattern. Finish cues: clean composition, intentional design. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -221,7 +221,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: minimal gradient, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+          "suffix": "Style: minimal gradient, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed. Key cues: minimal gradient, soft color field, smooth transitions. Finish cues: clean composition, intentional design. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -240,7 +240,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: paper grain texture, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+          "suffix": "Style: paper grain texture, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed. Key cues: paper grain, subtle texture, soft noise. Finish cues: clean composition, intentional design. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -259,7 +259,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: chromatic prism, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+          "suffix": "Style: chromatic prism, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed. Key cues: chromatic prism, color separation, light leaks. Finish cues: clean composition, intentional design. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -278,7 +278,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: mirror kaleidoscope, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+          "suffix": "Style: mirror kaleidoscope, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed. Key cues: mirror kaleidoscope, fragmented reflections, symmetry. Finish cues: clean composition, intentional design. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -297,7 +297,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: thermal vision, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed."
+          "suffix": "Style: thermal vision, experimental visual aesthetic. Lighting: intentional and graphic, emphasizing form and contrast. Mood: bold, modern, designed. Key cues: thermal vision, false color, heat map look. Finish cues: clean composition, intentional design. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [

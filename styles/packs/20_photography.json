@@ -6,13 +6,13 @@
       "name": "Clean Product Photo",
       "category": "Product",
       "default": {
-        "prefix": "commercial product photography, studio strobe lighting, seamless background, controlled reflections, clean composition, studio product photography, clean background, softbox lighting, sharp focus",
+        "prefix": "commercial product photography, controlled studio lighting, minimal background, controlled reflections, clean composition, studio product photography, clean background, diffused studio lighting, sharp focus",
         "suffix": "high detail, minimal reflections, crisp edges, clean specular highlights, premium look, minimal clutter"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: professional studio product photograph on a clean seamless background. Lighting: studio strobe with a large softbox, clean specular highlights. Composition: centered, clean silhouette, crisp edges."
+          "suffix": "Style: professional studio product photograph on a clean minimal background. Lighting: large diffused key light with clean specular highlights. Composition: centered, clean silhouette, crisp edges. Key cues: studio product photography, clean background, diffused studio lighting, sharp focus. Finish cues: high detail, minimal reflections, crisp edges. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -26,13 +26,13 @@
       "name": "Rembrandt Portrait",
       "category": "Photography",
       "default": {
-        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, portrait photography, Rembrandt lighting, 85mm lens, shallow depth of field",
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, portrait photography, Rembrandt lighting, portrait compression, shallow depth of field",
         "suffix": "natural skin texture, sharp eyes, subtle background blur, sharp focus, high detail, balanced exposure, fine texture detail, natural contrast, clean highlights"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: rembrandt portrait, realistic photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Focus: sharp eyes, natural skin texture, gentle background blur."
+          "suffix": "Style: rembrandt portrait, realistic photograph. Lighting: soft, diffused key light from viewer-left, gentle shadows. Focus: sharp eyes, natural skin texture, gentle background blur. Key cues: portrait photography, Rembrandt lighting, portrait compression, shallow depth of field. Finish cues: natural skin texture, sharp eyes, subtle background blur. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -45,13 +45,13 @@
       "name": "Butterfly Lighting Portrait",
       "category": "Photography",
       "default": {
-        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, portrait photography, butterfly lighting, beauty dish, clean catchlights",
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, portrait photography, butterfly lighting, centered key light, clean catchlights",
         "suffix": "natural skin texture, sharp eyes, subtle background blur, sharp focus, high detail, balanced exposure, fine texture detail, natural contrast, clean highlights"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: butterfly lighting portrait, realistic photograph. Lighting: beauty dish overhead, soft fill, clean shadows under cheekbones. Focus: sharp eyes, natural skin texture, gentle background blur."
+          "suffix": "Style: butterfly lighting portrait, realistic photograph. Lighting: centered overhead key light with soft fill, clean shadows under cheekbones. Focus: sharp eyes, natural skin texture, gentle background blur. Key cues: portrait photography, butterfly lighting, centered key light, clean catchlights. Finish cues: natural skin texture, sharp eyes, subtle background blur. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -70,7 +70,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: split lighting portrait, realistic photograph. Lighting: dramatic side lighting with deep shadows and bright highlights. Focus: sharp eyes, natural skin texture, gentle background blur."
+          "suffix": "Style: split lighting portrait, realistic photograph. Lighting: dramatic side lighting with deep shadows and bright highlights. Focus: sharp eyes, natural skin texture, gentle background blur. Key cues: portrait photography, split lighting, high contrast. Finish cues: natural skin texture, sharp eyes, subtle background blur. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -89,7 +89,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: high key studio portrait, realistic photograph. Lighting: broad soft key, high fill ratio, bright seamless background. Focus: sharp eyes, natural skin texture, gentle background blur."
+          "suffix": "Style: high key studio portrait, realistic photograph. Lighting: broad soft key, high fill ratio, bright seamless background. Focus: sharp eyes, natural skin texture, gentle background blur. Key cues: high key portrait, bright background, soft shadows. Finish cues: natural skin texture, sharp eyes, subtle background blur. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -108,7 +108,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: low key studio portrait, realistic photograph. Lighting: dramatic side lighting with deep shadows and bright highlights. Focus: sharp eyes, natural skin texture, gentle background blur."
+          "suffix": "Style: low key studio portrait, realistic photograph. Lighting: dramatic side lighting with deep shadows and bright highlights. Focus: sharp eyes, natural skin texture, gentle background blur. Key cues: low key portrait, deep shadows, dramatic contrast. Finish cues: natural skin texture, sharp eyes, subtle background blur. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -127,7 +127,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: golden hour portrait, realistic photograph. Lighting: golden hour backlight with subtle lens flare and warm rim light. Focus: sharp eyes, natural skin texture, gentle background blur."
+          "suffix": "Style: golden hour portrait, realistic photograph. Lighting: golden hour backlight with warm rim light and gentle bloom. Focus: sharp eyes, natural skin texture, gentle background blur. Key cues: golden hour portrait, warm backlight, natural skin tones. Finish cues: natural skin texture, sharp eyes, subtle background blur. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -146,7 +146,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: street portrait, realistic photograph. Lighting: overcast daylight, even illumination, soft shadow transitions. Focus: sharp eyes, natural skin texture, gentle background blur."
+          "suffix": "Style: street portrait, realistic photograph. Lighting: overcast daylight, even illumination, soft shadow transitions. Focus: sharp eyes, natural skin texture, gentle background blur. Key cues: street portrait, candid, natural light. Finish cues: natural skin texture, sharp eyes, subtle background blur. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -165,7 +165,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: editorial portrait, realistic photograph. Lighting: studio strobe with a large softbox, clean specular highlights. Focus: sharp eyes, natural skin texture, gentle background blur."
+          "suffix": "Style: editorial portrait, realistic photograph. Lighting: large diffused key light with clean specular highlights. Focus: sharp eyes, natural skin texture, gentle background blur. Key cues: editorial portrait, stylized lighting, clean composition. Finish cues: natural skin texture, sharp eyes, subtle background blur. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -184,7 +184,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: rim light portrait, realistic photograph. Lighting: strong rim light from behind, soft key, deep background. Focus: sharp eyes, natural skin texture, gentle background blur."
+          "suffix": "Style: rim light portrait, realistic photograph. Lighting: strong rim light from behind, soft key, deep background. Focus: sharp eyes, natural skin texture, gentle background blur. Key cues: portrait photography, rim light, dark background, subject separation. Finish cues: natural skin texture, sharp eyes, subtle background blur. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -203,7 +203,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: broad lighting portrait, realistic photograph. Lighting: key light on the camera side of the face, soft fill. Focus: sharp eyes, natural skin texture, gentle background blur."
+          "suffix": "Style: broad lighting portrait, realistic photograph. Lighting: key light on the near side of the face, soft fill. Focus: sharp eyes, natural skin texture, gentle background blur. Key cues: portrait photography, broad lighting, soft shadows. Finish cues: natural skin texture, sharp eyes, subtle background blur. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -222,7 +222,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: short lighting portrait, realistic photograph. Lighting: key light on the far side of the face, controlled fill. Focus: sharp eyes, natural skin texture, gentle background blur."
+          "suffix": "Style: short lighting portrait, realistic photograph. Lighting: key light on the far side of the face, controlled fill. Focus: sharp eyes, natural skin texture, gentle background blur. Key cues: portrait photography, short lighting, sculpted face. Finish cues: natural skin texture, sharp eyes, subtle background blur. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -241,7 +241,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: street photography, realistic photograph. Lighting: overcast daylight, even illumination, soft shadow transitions. Mood: grounded, natural, believable."
+          "suffix": "Style: street photography, realistic photograph. Lighting: overcast daylight, even illumination, soft shadow transitions. Mood: grounded, natural, believable. Key cues: street photography, candid moment, natural light. Finish cues: realistic detail, clean color, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -259,7 +259,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: travel documentary, realistic photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: grounded, natural, believable."
+          "suffix": "Style: travel documentary, realistic photograph. Lighting: soft, diffused key light from viewer-left, gentle shadows. Mood: grounded, natural, believable. Key cues: travel documentary photography, authentic details, natural color. Finish cues: realistic detail, clean color, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -277,7 +277,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: food photography, realistic photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: grounded, natural, believable."
+          "suffix": "Style: food photography, realistic photograph. Lighting: soft, diffused key light from viewer-left, gentle shadows. Mood: grounded, natural, believable. Key cues: food photography, shallow depth of field, appetizing lighting. Finish cues: realistic detail, clean color, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -295,7 +295,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: macro photography, realistic photograph. Lighting: diffused macro lighting, controlled reflections, crisp microtexture. Mood: grounded, natural, believable."
+          "suffix": "Style: macro photography, realistic photograph. Lighting: diffused macro lighting, controlled reflections, crisp microtexture. Mood: grounded, natural, believable. Key cues: macro photography, extreme close-up, micro texture, shallow depth of field. Finish cues: realistic detail, clean color, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -307,13 +307,13 @@
       "name": "Wildlife Photography",
       "category": "Photography",
       "default": {
-        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, wildlife photography, telephoto lens, natural habitat",
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, wildlife photography, compressed perspective, natural habitat",
         "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: wildlife photography, realistic photograph. Lighting: golden hour backlight with subtle lens flare and warm rim light. Mood: grounded, natural, believable."
+          "suffix": "Style: wildlife photography, realistic photograph. Lighting: golden hour backlight with warm rim light and gentle bloom. Mood: grounded, natural, believable. Key cues: wildlife photography, compressed perspective, natural habitat. Finish cues: realistic detail, clean color, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -331,7 +331,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: architecture photography, realistic photograph. Lighting: overcast daylight, even illumination, soft shadow transitions. Mood: grounded, natural, believable."
+          "suffix": "Style: architecture photography, realistic photograph. Lighting: overcast daylight, even illumination, soft shadow transitions. Mood: grounded, natural, believable. Key cues: architecture photography, straight lines, clean geometry. Finish cues: realistic detail, clean color, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -343,13 +343,13 @@
       "name": "Interior Photography",
       "category": "Photography",
       "default": {
-        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, interior photography, wide angle lens, natural window light",
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, interior photography, wide field of view, soft natural light",
         "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: interior photography, realistic photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: grounded, natural, believable."
+          "suffix": "Style: interior photography, realistic photograph. Lighting: soft, diffused key light from viewer-left, gentle shadows. Mood: grounded, natural, believable. Key cues: interior photography, wide field of view, soft natural light. Finish cues: realistic detail, clean color, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -361,13 +361,13 @@
       "name": "Aerial Drone Photo",
       "category": "Photography",
       "default": {
-        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, aerial drone photography, top-down view, sharp detail",
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, aerial photography, top-down view, sharp detail",
         "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: aerial drone photo, realistic photograph. Lighting: clear daylight with defined but soft shadows. Mood: grounded, natural, believable."
+          "suffix": "Style: aerial top-down photograph, realistic photograph. Lighting: clear daylight with defined but soft shadows. Mood: grounded, natural, believable. Key cues: aerial photography, top-down view, sharp detail. Finish cues: realistic detail, clean color, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -379,13 +379,13 @@
       "name": "Long Exposure",
       "category": "Photography",
       "default": {
-        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, long exposure photography, motion blur trails, tripod shot",
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, long exposure photography, motion blur trails, locked-off frame",
         "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: long exposure, realistic photograph. Lighting: dusk ambient with long exposure light trails. Mood: grounded, natural, believable."
+          "suffix": "Style: long exposure, realistic photograph. Lighting: dusk ambient with long exposure light trails. Mood: grounded, natural, believable. Key cues: long exposure photography, motion blur trails, locked-off frame. Finish cues: realistic detail, clean color, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -403,7 +403,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: black and white, realistic photograph. Lighting: dramatic side lighting with deep shadows and bright highlights. Mood: grounded, natural, believable."
+          "suffix": "Style: black and white, realistic photograph. Lighting: dramatic side lighting with deep shadows and bright highlights. Mood: grounded, natural, believable. Key cues: black and white photography, strong tonal range, fine grain. Finish cues: realistic detail, clean color, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -421,7 +421,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: infrared, realistic photograph. Lighting: bright midday sun, strong infrared contrast. Mood: grounded, natural, believable."
+          "suffix": "Style: infrared, realistic photograph. Lighting: bright midday sun, strong infrared contrast. Mood: grounded, natural, believable. Key cues: infrared photography, surreal foliage tones, high contrast. Finish cues: realistic detail, clean color, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -433,13 +433,13 @@
       "name": "Tilt-Shift Miniature",
       "category": "Photography",
       "default": {
-        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, tilt-shift photography, miniature effect, selective focus",
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, miniature perspective effect, selective focus, diorama-like scale",
         "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: tilt-shift miniature, realistic photograph. Lighting: daylight with crisp miniature-scale shadows. Mood: grounded, natural, believable."
+          "suffix": "Style: miniature diorama perspective effect, realistic photograph. Lighting: daylight with crisp miniature-scale shadows. Mood: grounded, natural, believable. Key cues: miniature perspective effect, selective focus, diorama-like scale. Finish cues: realistic detail, clean color, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -457,7 +457,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: night street photo, realistic photograph. Lighting: mixed neon and streetlight sources, colored rim light, reflective surfaces. Mood: grounded, natural, believable."
+          "suffix": "Style: night street photo, realistic photograph. Lighting: mixed neon and streetlight sources, colored rim light, reflective surfaces. Mood: grounded, natural, believable. Key cues: night street photography, city lights, bokeh, wet reflections. Finish cues: realistic detail, clean color, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -475,7 +475,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: concert photography, realistic photograph. Lighting: dramatic stage lighting with colored highlights. Mood: grounded, natural, believable."
+          "suffix": "Style: concert photography, realistic photograph. Lighting: dramatic stage lighting with colored highlights. Mood: grounded, natural, believable. Key cues: concert photography, stage lights, dynamic contrast. Finish cues: realistic detail, clean color, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -493,7 +493,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: automotive photo, realistic photograph. Lighting: controlled reflections, crisp highlights, studio or golden hour. Mood: grounded, natural, believable."
+          "suffix": "Style: automotive photo, realistic photograph. Lighting: controlled reflections, crisp highlights, studio or golden hour. Mood: grounded, natural, believable. Key cues: automotive photography, clean reflections, sharp lines. Finish cues: realistic detail, clean color, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -511,7 +511,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: wedding photo, realistic photograph. Lighting: golden hour backlight with subtle lens flare and warm rim light. Mood: grounded, natural, believable."
+          "suffix": "Style: wedding photo, realistic photograph. Lighting: golden hour backlight with warm rim light and gentle bloom. Mood: grounded, natural, believable. Key cues: wedding photography, soft romantic light, candid moments. Finish cues: realistic detail, clean color, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -529,7 +529,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: still life photo, realistic photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: grounded, natural, believable."
+          "suffix": "Style: still life photo, realistic photograph. Lighting: soft, diffused key light from viewer-left, gentle shadows. Mood: grounded, natural, believable. Key cues: still life photography, careful composition, soft shadows. Finish cues: realistic detail, clean color, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -547,7 +547,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: flat lay, realistic photograph. Lighting: soft overhead diffused light, minimal harsh shadows. Mood: grounded, natural, believable."
+          "suffix": "Style: flat lay, realistic photograph. Lighting: soft overhead diffused light, minimal harsh shadows. Mood: grounded, natural, believable. Key cues: flat lay photography, top-down, organized composition. Finish cues: realistic detail, clean color, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -565,7 +565,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: on-camera flash, realistic photograph. Lighting: on-camera flash, hard shadows, punchy contrast. Mood: grounded, natural, believable."
+          "suffix": "Style: direct flash snapshot, realistic photograph. Lighting: direct on-axis flash, hard shadows, punchy contrast. Mood: grounded, natural, believable. Key cues: direct flash photography, hard shadows, party snapshot. Finish cues: realistic detail, clean color, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -577,13 +577,13 @@
       "name": "Ring Flash Portrait",
       "category": "Photography",
       "default": {
-        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, ring flash portrait, crisp catchlight, high clarity",
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, on-axis circular flash portrait, crisp catchlight, high clarity",
         "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: ring flash portrait, realistic photograph. Lighting: ring flash with crisp shadows and clean contrast. Mood: grounded, natural, believable."
+          "suffix": "Style: on-axis circular flash portrait, realistic photograph. Lighting: on-axis circular flash with crisp shadows and clean contrast. Mood: grounded, natural, believable. Key cues: on-axis circular flash portrait, crisp catchlight, high clarity. Finish cues: realistic detail, clean color, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -601,7 +601,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: cinematic backlight, realistic photograph. Lighting: golden hour backlight with subtle lens flare and warm rim light. Mood: grounded, natural, believable."
+          "suffix": "Style: cinematic backlight, realistic photograph. Lighting: golden hour backlight with warm rim light and gentle bloom. Mood: grounded, natural, believable. Key cues: backlit photography, rim light, atmospheric haze. Finish cues: realistic detail, clean color, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -619,7 +619,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: silhouette, realistic photograph. Lighting: strong backlight creating a crisp silhouette. Mood: grounded, natural, believable."
+          "suffix": "Style: silhouette, realistic photograph. Lighting: strong backlight creating a crisp silhouette. Mood: grounded, natural, believable. Key cues: silhouette photography, strong backlight, clean outline. Finish cues: realistic detail, clean color, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -637,7 +637,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: rainy window, realistic photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: grounded, natural, believable."
+          "suffix": "Style: rainy window, realistic photograph. Lighting: soft, diffused key light from viewer-left, gentle shadows. Mood: grounded, natural, believable. Key cues: moody window scene, raindrops on glass, soft bokeh. Finish cues: realistic detail, clean color, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -655,7 +655,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: astrophotography, realistic photograph. Lighting: moonless night, crisp stars, low noise look. Mood: grounded, natural, believable."
+          "suffix": "Style: astrophotography, realistic photograph. Lighting: moonless night, crisp stars, low noise look. Mood: grounded, natural, believable. Key cues: astrophotography, night sky, stars, clean exposure. Finish cues: realistic detail, clean color, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -667,13 +667,13 @@
       "name": "Milky Way Landscape",
       "category": "Photography",
       "default": {
-        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, milky way, night landscape, wide angle, stars",
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, milky way, night landscape, wide field of view, stars",
         "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: milky way landscape, realistic photograph. Lighting: starlight and faint airglow, crisp night contrast. Mood: grounded, natural, believable."
+          "suffix": "Style: milky way landscape, realistic photograph. Lighting: starlight and faint airglow, crisp night contrast. Mood: grounded, natural, believable. Key cues: milky way, night landscape, wide field of view, stars. Finish cues: realistic detail, clean color, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -691,7 +691,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: underwater photo, realistic photograph. Lighting: underwater light beams and caustics, soft particulate haze. Mood: grounded, natural, believable."
+          "suffix": "Style: underwater photo, realistic photograph. Lighting: underwater light beams and caustics, soft particulate haze. Mood: grounded, natural, believable. Key cues: underwater photography, clear water, floating particles, blue tones. Finish cues: realistic detail, clean color, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -703,13 +703,13 @@
       "name": "Real Estate Photo",
       "category": "Photography",
       "default": {
-        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, real estate photography, wide angle, clean lines, bright interior",
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, real estate photography, wide field of view, clean lines, bright interior",
         "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: real estate photo, realistic photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: grounded, natural, believable."
+          "suffix": "Style: real estate photo, realistic photograph. Lighting: soft, diffused key light from viewer-left, gentle shadows. Mood: grounded, natural, believable. Key cues: real estate photography, wide field of view, clean lines, bright interior. Finish cues: realistic detail, clean color, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -721,13 +721,13 @@
       "name": "Sports Action Freeze",
       "category": "Photography",
       "default": {
-        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, sports photography, fast shutter, sharp action, telephoto",
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, sports photography, fast shutter, sharp action, compressed perspective",
         "suffix": "realistic detail, clean color, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: sports action freeze, realistic photograph. Lighting: stadium lighting, crisp highlights, frozen motion. Mood: grounded, natural, believable."
+          "suffix": "Style: sports action freeze, realistic photograph. Lighting: stadium lighting, crisp highlights, frozen motion. Mood: grounded, natural, believable. Key cues: sports photography, fast shutter, sharp action, compressed perspective. Finish cues: realistic detail, clean color, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -745,7 +745,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: motion blur action, realistic photograph. Lighting: controlled highlights supporting motion blur and panning. Mood: grounded, natural, believable."
+          "suffix": "Style: motion blur action, realistic photograph. Lighting: controlled highlights supporting motion blur and panning. Mood: grounded, natural, believable. Key cues: motion blur, panning shot, dynamic movement. Finish cues: realistic detail, clean color, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -763,7 +763,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: soft 35mm film look, realistic photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Texture: subtle grain and gentle halation."
+          "suffix": "Style: soft 35mm film look, realistic photograph. Lighting: soft, diffused key light from viewer-left, gentle shadows. Texture: subtle grain and gentle halation. Key cues: 35mm film look, soft contrast, gentle grain. Finish cues: natural skin tones, subtle halation, film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -782,7 +782,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: vibrant slide film look, realistic photograph. Lighting: bright daylight with saturated color separation. Texture: subtle grain and gentle halation."
+          "suffix": "Style: vibrant slide film look, realistic photograph. Lighting: bright daylight with saturated color separation. Texture: subtle grain and gentle halation. Key cues: slide film look, punchy colors, crisp contrast. Finish cues: natural skin tones, subtle halation, film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -801,7 +801,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: muted documentary film, realistic photograph. Lighting: overcast daylight, even illumination, soft shadow transitions. Texture: subtle grain and gentle halation."
+          "suffix": "Style: muted documentary film, realistic photograph. Lighting: overcast daylight, even illumination, soft shadow transitions. Texture: subtle grain and gentle halation. Key cues: documentary film look, muted palette, fine grain. Finish cues: natural skin tones, subtle halation, film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -820,7 +820,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: warm tungsten film, realistic photograph. Lighting: warm practical lamps, gentle falloff, cozy ambience. Texture: subtle grain and gentle halation."
+          "suffix": "Style: warm tungsten film, realistic photograph. Lighting: warm practical lamps, gentle falloff, cozy ambience. Texture: subtle grain and gentle halation. Key cues: warm tungsten film look, practical lights, soft glow. Finish cues: natural skin tones, subtle halation, film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -839,7 +839,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: cool blue hour film, realistic photograph. Lighting: blue hour ambient mixed with warm practicals, subtle glow. Texture: subtle grain and gentle halation."
+          "suffix": "Style: cool blue hour film, realistic photograph. Lighting: blue hour ambient mixed with warm practicals, subtle glow. Texture: subtle grain and gentle halation. Key cues: blue hour film look, cool tones, city lights. Finish cues: natural skin tones, subtle halation, film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -858,7 +858,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: deep focus, realistic photograph. Lighting: even controlled light supporting deep focus clarity. Focus: clear subject, believable materials, coherent lighting."
+          "suffix": "Style: deep focus, realistic photograph. Lighting: even controlled light supporting deep focus clarity. Focus: clear subject, believable materials, coherent lighting. Key cues: deep focus, sharp foreground and background, clean optics. Finish cues: realistic detail, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -877,7 +877,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: shallow dof bokeh, realistic photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Focus: clear subject, believable materials, coherent lighting."
+          "suffix": "Style: shallow dof bokeh, realistic photograph. Lighting: soft, diffused key light from viewer-left, gentle shadows. Focus: clear subject, believable materials, coherent lighting. Key cues: shallow depth of field, creamy bokeh, subject isolation. Finish cues: realistic detail, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -896,7 +896,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: high dynamic range, realistic photograph. Lighting: naturalistic scene lighting with preserved highlights. Focus: clear subject, believable materials, coherent lighting."
+          "suffix": "Style: high dynamic range, realistic photograph. Lighting: naturalistic scene lighting with preserved highlights. Focus: clear subject, believable materials, coherent lighting. Key cues: high dynamic range, balanced highlights and shadows, realistic tones. Finish cues: realistic detail, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -915,7 +915,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: soft diffusion glow, realistic photograph. Lighting: soft diffused key light with gentle bloom. Focus: clear subject, believable materials, coherent lighting."
+          "suffix": "Style: soft diffusion glow, realistic photograph. Lighting: soft diffused key light with gentle bloom. Focus: clear subject, believable materials, coherent lighting. Key cues: soft diffusion, gentle glow, dreamy highlights. Finish cues: realistic detail, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -934,7 +934,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: hard flash shadow, realistic photograph. Lighting: hard flash with sharp shadows and specular highlights. Focus: clear subject, believable materials, coherent lighting."
+          "suffix": "Style: hard flash shadow, realistic photograph. Lighting: hard flash with sharp shadows and specular highlights. Focus: clear subject, believable materials, coherent lighting. Key cues: hard flash, sharp shadows, crisp contrast. Finish cues: realistic detail, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -953,7 +953,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: moody window light, realistic photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Focus: clear subject, believable materials, coherent lighting."
+          "suffix": "Style: moody window light, realistic photograph. Lighting: soft, diffused key light from viewer-left, gentle shadows. Focus: clear subject, believable materials, coherent lighting. Key cues: window light, soft shadows, intimate mood. Finish cues: realistic detail, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -972,7 +972,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: backlit rim light, realistic photograph. Lighting: golden hour backlight with subtle lens flare and warm rim light. Focus: clear subject, believable materials, coherent lighting."
+          "suffix": "Style: backlit rim light, realistic photograph. Lighting: golden hour backlight with warm rim light and gentle bloom. Focus: clear subject, believable materials, coherent lighting. Key cues: backlit, rim light, atmospheric haze. Finish cues: realistic detail, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -991,7 +991,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: volumetric light beams, realistic photograph. Lighting: strong directional light creating volumetric beams through haze. Focus: clear subject, believable materials, coherent lighting."
+          "suffix": "Style: volumetric light beams, realistic photograph. Lighting: strong directional light creating volumetric beams through haze. Focus: clear subject, believable materials, coherent lighting. Key cues: volumetric light, god rays, haze. Finish cues: realistic detail, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -1004,13 +1004,13 @@
       "name": "Rain Reflections",
       "category": "Photography",
       "default": {
-        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, wet streets, reflections, night bokeh",
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, wet reflective surfaces, reflections, night bokeh",
         "suffix": "realistic detail, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: rain reflections, realistic photograph. Lighting: mixed neon and streetlight sources, colored rim light, reflective surfaces. Focus: clear subject, believable materials, coherent lighting."
+          "suffix": "Style: rain reflections, realistic photograph. Lighting: mixed neon and streetlight sources, colored rim light, reflective surfaces. Focus: clear subject, believable materials, coherent lighting. Key cues: wet reflective surfaces, reflections, night bokeh. Finish cues: realistic detail, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -1029,7 +1029,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: minimalist studio, realistic photograph. Lighting: studio strobe with a large softbox, clean specular highlights. Focus: clear subject, believable materials, coherent lighting."
+          "suffix": "Style: minimalist studio, realistic photograph. Lighting: large diffused key light with clean specular highlights. Focus: clear subject, believable materials, coherent lighting. Key cues: minimalist studio photo, clean seamless, controlled reflections. Finish cues: realistic detail, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -1048,7 +1048,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: close-up texture study, realistic photograph. Lighting: raking light to reveal texture and surface detail. Focus: clear subject, believable materials, coherent lighting."
+          "suffix": "Style: close-up texture study, realistic photograph. Lighting: raking light to reveal texture and surface detail. Focus: clear subject, believable materials, coherent lighting. Key cues: close-up photo, micro texture, tactile detail. Finish cues: realistic detail, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -1067,7 +1067,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: soft overcast natural, realistic photograph. Lighting: overcast daylight, even illumination, soft shadow transitions. Focus: clear subject, believable materials, coherent lighting."
+          "suffix": "Style: soft overcast natural, realistic photograph. Lighting: overcast daylight, even illumination, soft shadow transitions. Focus: clear subject, believable materials, coherent lighting. Key cues: soft overcast, even skin tones, gentle contrast. Finish cues: realistic detail, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -1086,7 +1086,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: high key commercial, realistic photograph. Lighting: large soft sources with high fill for clean whites. Focus: clear subject, believable materials, coherent lighting."
+          "suffix": "Style: high key commercial, realistic photograph. Lighting: large soft sources with high fill for clean whites. Focus: clear subject, believable materials, coherent lighting. Key cues: high key commercial, clean whites, soft shadows. Finish cues: realistic detail, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -1105,7 +1105,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: low key dramatic, realistic photograph. Lighting: dramatic side lighting with deep shadows and bright highlights. Focus: clear subject, believable materials, coherent lighting."
+          "suffix": "Style: low key dramatic, realistic photograph. Lighting: dramatic side lighting with deep shadows and bright highlights. Focus: clear subject, believable materials, coherent lighting. Key cues: low key, deep shadows, controlled highlights. Finish cues: realistic detail, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -1124,7 +1124,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: specular highlight study, realistic photograph. Lighting: small hard sources for crisp specular highlights with controlled fill. Focus: clear subject, believable materials, coherent lighting."
+          "suffix": "Style: specular highlight study, realistic photograph. Lighting: small hard sources for crisp specular highlights with controlled fill. Focus: clear subject, believable materials, coherent lighting. Key cues: specular highlights, controlled reflections, shiny surfaces. Finish cues: realistic detail, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -1137,13 +1137,13 @@
       "name": "Lens Vibe: 24mm Wide Angle",
       "category": "Photography",
       "default": {
-        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, wide angle, 24mm lens feel, strong perspective",
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, wide field of view, 24mm perspective, strong perspective",
         "suffix": "clean optics, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: realistic photograph with a specific lens perspective. Composition: wide-angle perspective with strong leading lines. Lighting: overcast daylight, even illumination, soft shadow transitions."
+          "suffix": "Style: realistic photograph with a specific perspective and field of view. Composition: wide field of view with strong leading lines. Lighting: overcast daylight, even illumination, soft shadow transitions. Key cues: wide field of view, 24mm perspective, strong perspective. Finish cues: clean optics, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -1156,13 +1156,13 @@
       "name": "Lens Vibe: 35mm Documentary",
       "category": "Photography",
       "default": {
-        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, 35mm lens feel, documentary framing, natural perspective",
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, 35mm perspective, documentary framing, natural perspective",
         "suffix": "clean optics, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: realistic photograph with a specific lens perspective. Composition: documentary framing with natural perspective. Lighting: overcast daylight, even illumination, soft shadow transitions."
+          "suffix": "Style: realistic photograph with a specific perspective and field of view. Composition: documentary framing with natural perspective. Lighting: overcast daylight, even illumination, soft shadow transitions. Key cues: 35mm perspective, documentary framing, natural perspective. Finish cues: clean optics, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -1175,13 +1175,13 @@
       "name": "Lens Vibe: 50mm Natural",
       "category": "Photography",
       "default": {
-        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, 50mm lens feel, natural perspective, balanced framing",
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, 50mm perspective, natural perspective, balanced framing",
         "suffix": "clean optics, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: realistic photograph with a specific lens perspective. Composition: balanced perspective and natural proportions. Lighting: overcast daylight, even illumination, soft shadow transitions."
+          "suffix": "Style: realistic photograph with a specific perspective and field of view. Composition: balanced perspective and natural proportions. Lighting: overcast daylight, even illumination, soft shadow transitions. Key cues: 50mm perspective, natural perspective, balanced framing. Finish cues: clean optics, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -1194,13 +1194,13 @@
       "name": "Lens Vibe: 85mm Portrait",
       "category": "Photography",
       "default": {
-        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, 85mm lens feel, portrait compression, shallow depth of field",
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, 85mm portrait perspective, portrait compression, shallow depth of field",
         "suffix": "clean optics, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: realistic photograph with a specific lens perspective. Composition: flattering compression with shallow depth of field. Lighting: overcast daylight, even illumination, soft shadow transitions."
+          "suffix": "Style: realistic photograph with a specific perspective and field of view. Composition: flattering compression with shallow depth of field. Lighting: overcast daylight, even illumination, soft shadow transitions. Key cues: 85mm portrait perspective, portrait compression, shallow depth of field. Finish cues: clean optics, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -1213,13 +1213,13 @@
       "name": "Lens Vibe: 135mm Telephoto",
       "category": "Photography",
       "default": {
-        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, telephoto compression, 135mm lens feel, compressed background",
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, strong compression, 135mm compressed perspective, compressed background",
         "suffix": "clean optics, natural contrast, sharp focus, high detail, balanced exposure, fine texture detail, clean highlights"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: realistic photograph with a specific lens perspective. Composition: strong telephoto compression and layered background. Lighting: overcast daylight, even illumination, soft shadow transitions."
+          "suffix": "Style: realistic photograph with a specific perspective and field of view. Composition: strong compression and layered background. Lighting: overcast daylight, even illumination, soft shadow transitions. Key cues: strong compression, 135mm compressed perspective, compressed background. Finish cues: clean optics, natural contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [

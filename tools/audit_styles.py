@@ -64,6 +64,23 @@ def main() -> int:
     comma_without_space: List[Tuple[str, str]] = []
     comma_re = re.compile(r",(?!\s)")
 
+    banned_gear_terms = (
+        "softbox",
+        "soft box",
+        "strobe",
+        "speedlight",
+        "beauty dish",
+        "octabox",
+        "umbrella",
+        "ring light",
+        "ringlight",
+        "on-camera",
+        "on camera",
+        "tripod shot",
+    )
+    banned_gear_hits: List[Tuple[str, str, str]] = []  # (id, field, term)
+    banned_gear_res = [(t, re.compile(re.escape(t), re.IGNORECASE)) for t in banned_gear_terms]
+
     for s in styles:
         sid = str(s.get("id", ""))
         default = s.get("default", None)
@@ -82,11 +99,24 @@ def main() -> int:
             if comma_re.search(text):
                 comma_without_space.append((sid, field))
 
+        models = s.get("models", {})
+        flux_suffix = ""
+        if isinstance(models, dict):
+            flux = models.get("flux_2_klein", {})
+            if isinstance(flux, dict):
+                flux_suffix = str(flux.get("suffix", "") or "")
+
+        for field, text in (("prefix", prefix), ("suffix", suffix), ("flux_2_klein.suffix", flux_suffix)):
+            if not text:
+                continue
+            for term, rx in banned_gear_res:
+                if rx.search(text):
+                    banned_gear_hits.append((sid, field, term))
+
         tags = s.get("tags", None)
         if not isinstance(tags, list) or not any(str(t).strip() for t in tags):
             missing_tags += 1
 
-        models = s.get("models", {})
         if not (isinstance(models, dict) and "flux_2_klein" in models):
             missing_flux_2_klein += 1
 
@@ -102,6 +132,8 @@ def main() -> int:
         warnings.append(f"missing_tags: {missing_tags}")
     if missing_flux_2_klein:
         warnings.append(f"missing_models.flux_2_klein: {missing_flux_2_klein}")
+    if banned_gear_hits:
+        warnings.append(f"banned_gear_terms: {len({sid for sid, _field, _term in banned_gear_hits})} styles")
 
     # Quick uniqueness sanity (validate_styles.py is the source of truth).
     if len(set(ids)) != len(ids):
@@ -113,6 +145,10 @@ def main() -> int:
         print("warnings:")
         for w in warnings:
             print(f"  - {w}")
+        if banned_gear_hits:
+            print("banned gear term examples:")
+            for sid, field, term in banned_gear_hits[:20]:
+                print(f"  - {sid} ({field}): {term}")
     else:
         print("warnings: none")
 

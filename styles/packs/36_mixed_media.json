@@ -12,7 +12,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: mixed media paper collage with torn edges and layered shapes. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: paper grain, glue marks, layered cutouts."
+          "suffix": "Style: mixed media paper collage with torn edges and layered shapes. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: paper grain, glue marks, layered cutouts. Key cues: paper collage, torn paper edges, layered textures, cutout shapes. Finish cues: glue marks, paper grain, handmade feel. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -30,7 +30,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: photomontage collage made from cutout photo fragments. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Mood: bold, surreal, graphic."
+          "suffix": "Style: photomontage collage made from cutout photo fragments. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Mood: bold, surreal, graphic. Key cues: photomontage, cutout photo fragments, layered collage, high contrast. Finish cues: paper texture, rough edges, analog zine aesthetic. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -48,7 +48,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: mixed media artwork combining acrylic paint and ink linework. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: layered paint, ink marks, tactile surface."
+          "suffix": "Style: mixed media artwork combining acrylic paint and ink linework. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: layered paint, ink marks, tactile surface. Key cues: mixed media, acrylic paint, ink linework, layered marks. Finish cues: texture paste, splatter, handmade imperfections. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -66,7 +66,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: gel plate monoprint with layered ink textures. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: ink transfer artifacts, paper grain, layered prints."
+          "suffix": "Style: gel plate monoprint with layered ink textures. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: ink transfer artifacts, paper grain, layered prints. Key cues: gel plate monoprint, ink layers, brayer texture, printmaking. Finish cues: paper grain, ink transfer artifacts, handmade print. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -84,7 +84,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: analog cyanotype print on paper. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Mood: minimal, photographic, deep blue."
+          "suffix": "Style: analog cyanotype print on paper. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Mood: minimal, photographic, deep blue. Key cues: cyanotype print, blue monochrome, sun print, paper texture. Finish cues: grain, chemical texture, vintage print. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -102,7 +102,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: assemblage artwork built from found objects and mixed materials. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: rough surfaces, layered depth, tactile materials."
+          "suffix": "Style: assemblage artwork built from found objects and mixed materials. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: rough surfaces, layered depth, tactile materials. Key cues: assemblage, found objects, mixed materials, handcrafted. Finish cues: tactile texture, rough surfaces, layered depth. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -120,7 +120,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: textured mixed media with thick impasto paint and palette knife marks. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: surface relief, paint ridges, tactile depth."
+          "suffix": "Style: textured mixed media with thick impasto paint and palette knife marks. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: surface relief, paint ridges, tactile depth. Key cues: impasto texture, palette knife marks, thick paint, mixed media. Finish cues: surface relief, paint ridges, tactile depth. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [

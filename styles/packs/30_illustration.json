@@ -12,7 +12,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: ink wash illustration on textured paper. Lighting: soft ambient light emphasizing paper texture and brush edges. Mood: calm, minimal, expressive."
+          "suffix": "Style: ink wash illustration on textured paper. Lighting: soft ambient light emphasizing paper texture and brush edges. Mood: calm, minimal, expressive. Key cues: ink wash illustration, expressive brushwork, paper texture. Finish cues: soft diffusion, monochrome ink tones, subtle bleeding edges. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -32,7 +32,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: anime illustration with clean linework and cel shading. Lighting: clear, readable key light with soft fill. Mood: vibrant, expressive, high clarity."
+          "suffix": "Style: anime illustration with clean linework and cel shading. Lighting: clear, readable key light with soft fill. Mood: vibrant, expressive, high clarity. Key cues: anime style, clean line art, cel shading, vibrant colors. Finish cues: sharp eyes, expressive face, crisp edges, detailed background. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -52,7 +52,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: watercolor illustration. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: watercolor illustration. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: watercolor illustration, translucent washes, soft edges, granulation, textured paper. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -70,7 +70,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: gouache painting. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: gouache painting. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: gouache painting, opaque matte paint, bold shapes, flat color blocks, brush strokes. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -88,7 +88,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: oil painting. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: oil painting. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: oil painting, painterly, rich brush strokes, impasto texture, canvas texture. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -106,7 +106,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: acrylic painting. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: acrylic painting. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: acrylic painting, bold brushwork, layered paint, matte finish, clean edges. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -124,7 +124,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: colored pencil drawing. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: colored pencil drawing. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: colored pencil drawing, fine hatching, paper grain, soft shading, hand-drawn texture. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -142,7 +142,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: graphite pencil sketch. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: graphite pencil sketch. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: graphite pencil sketch, linework, shaded rendering, paper texture, loose sketch. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -160,7 +160,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: charcoal drawing. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: charcoal drawing. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: charcoal drawing, smudged shading, dusty texture, high contrast, paper grain. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -178,7 +178,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: pastel drawing. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: pastel drawing. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: soft pastel drawing, powdery texture, blended gradients, soft edges, paper tooth. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -196,7 +196,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: ink line art. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: ink line art. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: ink line art, clean linework, high contrast, minimal shading, smooth contours. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -214,7 +214,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: marker illustration. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: marker illustration. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: marker illustration, smooth gradients, bold shapes, clean outlines, paper texture. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -232,7 +232,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: children's book illustration. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: children's book illustration. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: children's book illustration, storybook style, soft shapes, warm palette, gentle shading. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -250,7 +250,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: graphic novel panel. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: graphic novel panel. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: graphic novel panel, dramatic inking, heavy shadows, panel composition, high contrast. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -268,7 +268,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: manga panel. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: manga panel. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: manga panel, black ink, screentones, dynamic paneling, clean linework. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -286,7 +286,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: anime keyframe. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: anime keyframe. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: anime key visual, clean lineart, cel shading, expressive faces, vibrant colors. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -304,7 +304,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: pixel art. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: pixel art. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: pixel art, 16-bit, limited palette, dithering, crisp pixels. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -322,7 +322,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: vector flat. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: vector flat. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: vector illustration, flat colors, clean shapes, minimal shading, crisp edges. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -340,7 +340,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: isometric vector. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: isometric vector. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: isometric vector illustration, clean geometry, consistent shadows, flat colors, crisp lines. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -358,7 +358,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: technical diagram. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: technical diagram. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: technical illustration, clean lines, diagrammatic layout, labeled parts, flat lighting. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -376,7 +376,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: linocut print. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: linocut print. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: linocut print, carved line texture, rough edges, high contrast, ink on paper. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -394,7 +394,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: woodcut print. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: woodcut print. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: woodcut print, carved texture, bold lines, high contrast, ink on paper. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -412,7 +412,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: engraving. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: engraving. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: engraving, fine hatching, crosshatching, vintage print, antique paper. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -430,7 +430,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: etching. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: etching. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: etching, crosshatching, fine lines, paper texture, vintage print. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -448,7 +448,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: stippling. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: stippling. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: stippling, ink dots, dot shading, high detail, paper texture. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -466,7 +466,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: pointillism. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: pointillism. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: pointillism, tiny color dots, optical blending, painterly, soft edges. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -484,7 +484,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: ukiyo-e woodblock. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: ukiyo-e woodblock. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: ukiyo-e woodblock print, flat color areas, stylized linework, traditional print texture, limited palette. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -502,7 +502,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: impressionist painting. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: impressionist painting. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: impressionist painting, broken brush strokes, soft edges, painterly light, colorful palette. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -520,7 +520,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: expressionist painting. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: expressionist painting. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: expressionist painting, bold color, emotional brushwork, strong shapes, high contrast. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -538,7 +538,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: minimal line illustration. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: minimal line illustration. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: minimal line illustration, single line drawing, clean negative space, simple forms, minimal shading. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -556,7 +556,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: sticker illustration. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: sticker illustration. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: sticker illustration, thick outline, flat colors, simple shading, die-cut sticker. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -574,7 +574,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: chalkboard sketch. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: chalkboard sketch. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: chalkboard drawing, chalk texture, hand-drawn, dusty strokes, blackboard background. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -592,7 +592,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: blueprint drawing. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: blueprint drawing. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: blueprint drawing, white lines on blue, technical diagram, schematic layout, clean labels. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -610,7 +610,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: paper cutout. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: paper cutout. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: paper cutout illustration, layered paper, handcrafted, soft cast shadows, cut edges. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -628,7 +628,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: collage illustration. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive."
+          "suffix": "Style: collage illustration. Lighting: soft even light that supports the medium. Mood: consistent, intentional, cohesive. Key cues: collage illustration, torn paper edges, mixed media, layered textures, paper grain. Finish cues: clean composition, cohesive palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -646,7 +646,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: art nouveau illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional."
+          "suffix": "Style: art nouveau illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional. Key cues: art nouveau illustration, ornamental lines, flowing forms. Finish cues: cohesive palette, clean composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -665,7 +665,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: art deco illustration illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional."
+          "suffix": "Style: art deco illustration illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional. Key cues: art deco illustration, geometric elegance, stylized forms. Finish cues: cohesive palette, clean composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -684,7 +684,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: surrealism illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional."
+          "suffix": "Style: surrealism illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional. Key cues: surreal illustration, dream logic, unexpected juxtapositions. Finish cues: cohesive palette, clean composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -703,7 +703,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: cubism illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional."
+          "suffix": "Style: cubism illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional. Key cues: cubist painting style, geometric planes, fragmented forms. Finish cues: cohesive palette, clean composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -722,7 +722,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: fauvism illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional."
+          "suffix": "Style: fauvism illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional. Key cues: fauvist colors, bold palette, simplified shapes. Finish cues: cohesive palette, clean composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -741,7 +741,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: minimalist illustration illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional."
+          "suffix": "Style: minimalist illustration illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional. Key cues: minimalist illustration, simple forms, strong negative space. Finish cues: cohesive palette, clean composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -760,7 +760,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: retro 1950s illustration illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional."
+          "suffix": "Style: retro 1950s illustration illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional. Key cues: retro 1950s illustration, mid-century shapes, limited palette. Finish cues: cohesive palette, clean composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -779,7 +779,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: vintage scientific plate illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional."
+          "suffix": "Style: vintage scientific plate illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional. Key cues: vintage scientific illustration, fine lines, paper texture. Finish cues: cohesive palette, clean composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -798,7 +798,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: fantasy map illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional."
+          "suffix": "Style: fantasy map illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional. Key cues: fantasy map illustration, ink lines, parchment texture. Finish cues: cohesive palette, clean composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -817,7 +817,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: isometric pixel art illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional."
+          "suffix": "Style: isometric pixel art illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional. Key cues: isometric pixel art, limited palette, crisp pixels. Finish cues: cohesive palette, clean composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -836,7 +836,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: chibi character illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional."
+          "suffix": "Style: chibi character illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional. Key cues: chibi style, cute proportions, clean outlines. Finish cues: cohesive palette, clean composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -855,7 +855,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: mecha blueprint illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional."
+          "suffix": "Style: mecha blueprint illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional. Key cues: mecha blueprint, technical drawing, clean labels. Finish cues: cohesive palette, clean composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -874,7 +874,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: storybook pencil illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional."
+          "suffix": "Style: storybook pencil illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional. Key cues: storybook pencil drawing, soft shading, gentle lines. Finish cues: cohesive palette, clean composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -893,7 +893,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: painterly concept art illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional."
+          "suffix": "Style: painterly concept art illustration. Lighting: soft even light appropriate to the medium. Mood: cohesive and intentional. Key cues: painterly concept art, loose brushwork, atmospheric perspective. Finish cues: cohesive palette, clean composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [

@@ -12,7 +12,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: glossy fashion editorial, fashion photograph. Lighting: studio strobe with a large softbox, clean specular highlights. Mood: confident, curated, magazine-ready."
+          "suffix": "Style: glossy fashion editorial, fashion photograph. Lighting: large diffused key light with clean specular highlights. Mood: confident, curated, magazine-ready. Key cues: fashion editorial, studio lighting, high contrast, clean backdrop. Finish cues: sharp focus, editorial color grade. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -31,7 +31,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: streetwear lookbook, fashion photograph. Lighting: overcast daylight, even illumination, soft shadow transitions. Mood: confident, curated, magazine-ready."
+          "suffix": "Style: streetwear lookbook, fashion photograph. Lighting: overcast daylight, even illumination, soft shadow transitions. Mood: confident, curated, magazine-ready. Key cues: streetwear lookbook, candid pose, urban backdrop. Finish cues: sharp focus, editorial color grade. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -50,7 +50,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: runway backstage, fashion photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: confident, curated, magazine-ready."
+          "suffix": "Style: runway backstage, fashion photograph. Lighting: soft, diffused key light from viewer-left, gentle shadows. Mood: confident, curated, magazine-ready. Key cues: backstage fashion, documentary feel, available light. Finish cues: sharp focus, editorial color grade. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -69,7 +69,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: high fashion beauty shot, fashion photograph. Lighting: beauty dish with soft fill, clean catchlights, smooth gradients. Mood: confident, curated, magazine-ready."
+          "suffix": "Style: high fashion beauty shot, fashion photograph. Lighting: centered beauty lighting with soft fill, clean catchlights, smooth gradients. Mood: confident, curated, magazine-ready. Key cues: beauty shot, clean skin, beauty lighting, sharp eyes. Finish cues: sharp focus, editorial color grade. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -88,7 +88,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: minimal editorial, fashion photograph. Lighting: studio strobe with a large softbox, clean specular highlights. Mood: confident, curated, magazine-ready."
+          "suffix": "Style: minimal editorial, fashion photograph. Lighting: large diffused key light with clean specular highlights. Mood: confident, curated, magazine-ready. Key cues: minimal fashion editorial, neutral palette, clean composition. Finish cues: sharp focus, editorial color grade. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -107,7 +107,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: vintage editorial, fashion photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: confident, curated, magazine-ready."
+          "suffix": "Style: vintage editorial, fashion photograph. Lighting: soft, diffused key light from viewer-left, gentle shadows. Mood: confident, curated, magazine-ready. Key cues: vintage fashion editorial, film grain, muted palette. Finish cues: sharp focus, editorial color grade. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -126,7 +126,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: outdoor editorial, fashion photograph. Lighting: golden hour backlight with subtle lens flare and warm rim light. Mood: confident, curated, magazine-ready."
+          "suffix": "Style: outdoor editorial, fashion photograph. Lighting: golden hour backlight with warm rim light and gentle bloom. Mood: confident, curated, magazine-ready. Key cues: fashion editorial outdoors, wind, natural light. Finish cues: sharp focus, editorial color grade. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -145,7 +145,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: street style snapshot, fashion photograph. Lighting: overcast daylight, even illumination, soft shadow transitions. Mood: confident, curated, magazine-ready."
+          "suffix": "Style: street style snapshot, fashion photograph. Lighting: overcast daylight, even illumination, soft shadow transitions. Mood: confident, curated, magazine-ready. Key cues: street style, candid, natural color. Finish cues: sharp focus, editorial color grade. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -164,7 +164,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: luxury beauty macro, fashion photograph. Lighting: soft macro beauty light, clean specular highlights. Mood: confident, curated, magazine-ready."
+          "suffix": "Style: luxury beauty macro, fashion photograph. Lighting: soft macro beauty light, clean specular highlights. Mood: confident, curated, magazine-ready. Key cues: beauty macro, skin texture, cosmetic detail. Finish cues: sharp focus, editorial color grade. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -183,7 +183,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: athleisure campaign, fashion photograph. Lighting: overcast daylight, even illumination, soft shadow transitions. Mood: confident, curated, magazine-ready."
+          "suffix": "Style: athleisure campaign, fashion photograph. Lighting: overcast daylight, even illumination, soft shadow transitions. Mood: confident, curated, magazine-ready. Key cues: athleisure campaign, clean energy, natural light. Finish cues: sharp focus, editorial color grade. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -202,7 +202,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: couture runway, fashion photograph. Lighting: runway spotlights with controlled haze and crisp highlights. Mood: confident, curated, magazine-ready."
+          "suffix": "Style: couture runway, fashion photograph. Lighting: runway spotlights with controlled haze and crisp highlights. Mood: confident, curated, magazine-ready. Key cues: couture runway, runway lights, dramatic pose. Finish cues: sharp focus, editorial color grade. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -221,7 +221,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: vintage street fashion, fashion photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: confident, curated, magazine-ready."
+          "suffix": "Style: vintage street fashion, fashion photograph. Lighting: soft, diffused key light from viewer-left, gentle shadows. Mood: confident, curated, magazine-ready. Key cues: vintage street fashion, film grain, candid. Finish cues: sharp focus, editorial color grade. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [

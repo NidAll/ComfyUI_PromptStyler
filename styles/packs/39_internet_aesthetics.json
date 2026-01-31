@@ -66,7 +66,7 @@
       "name": "Backrooms (Mono-Yellow)",
       "category": "Aesthetics/Liminal",
       "default": {
-        "prefix": "internet aesthetic, backrooms, mono-yellow office maze, yellow wallpaper, stained carpet, buzzing fluorescent lights, empty rooms, endless corridors, wide angle lens",
+        "prefix": "internet aesthetic, backrooms, mono-yellow office maze, yellow wallpaper, stained carpet, buzzing fluorescent lights, empty rooms, endless corridors, wide field of view",
         "suffix": "sickly yellow color cast, flat lighting, subtle noise, oppressive emptiness, unsettling mood"
       },
       "models": {
@@ -166,13 +166,13 @@
       "name": "Found Footage (Handheld Tape)",
       "category": "Aesthetics/Horror",
       "default": {
-        "prefix": "found footage, handheld camera, shaky framing, documentary realism, practical lighting, on-camera flash, grainy low light, VHS artifacts",
+        "prefix": "found footage, handheld framing, shaky framing, documentary realism, practical lighting, direct on-axis flash, grainy low light, VHS artifacts",
         "suffix": "motion blur, focus hunting, tape dropout, gritty texture, tense realism, degraded contrast"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: handheld found-footage tape with documentary realism. Lighting: practical, imperfect, sometimes from on-camera flash. Mood: tense, immediate, believable. Texture: motion blur, focus hunting, tape dropouts, grainy low light."
+          "suffix": "Style: handheld found-footage tape with documentary realism. Lighting: practical, imperfect, sometimes from direct on-axis flash. Mood: tense, immediate, believable. Texture: motion blur, focus hunting, tape dropouts, grainy low light."
         }
       },
       "tags": [

@@ -6,6 +6,18 @@ The format is based on Keep a Changelog, and this project follows Semantic Versi
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-01-31
+
+### Added
+
+- More explicit Flux guidance for curated styles (adds key/finish cues and a “preserve the user subject” instruction).
+- New audit check to flag banned photography/cinema gear terms in style text.
+
+### Changed
+
+- Curated style text is more “style-only” and avoids photo gear wording (replaced with effect-language like diffused key light, wide field of view, compressed perspective).
+- README rewritten with a beginner-friendly walkthrough and v0.3.0 release checklist.
+
 ## [0.2.0] - 2026-01-31
 
 ### Added

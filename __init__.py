@@ -5,7 +5,7 @@ Drop this folder into: ComfyUI/custom_nodes/ComfyUI_PromptStyler
 Then restart ComfyUI (or use "Reload custom nodes").
 """
 
-__version__ = "0.2.0"
+__version__ = "0.3.0"
 
 from .nodes import NODE_CLASS_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS
 

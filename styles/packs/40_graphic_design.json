@@ -12,7 +12,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: risograph print, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+          "suffix": "Style: risograph print, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like. Key cues: risograph print, misregistration, paper texture, limited inks. Finish cues: clean edges, intentional composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -31,7 +31,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: screen print poster, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+          "suffix": "Style: screen print poster, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like. Key cues: screen print, bold shapes, ink texture, poster design. Finish cues: clean edges, intentional composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -50,7 +50,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: halftone comic, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+          "suffix": "Style: halftone comic, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like. Key cues: halftone dots, comic print texture, high contrast. Finish cues: clean edges, intentional composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -69,7 +69,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: duotone poster, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+          "suffix": "Style: duotone poster, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like. Key cues: duotone, bold contrast, graphic poster. Finish cues: clean edges, intentional composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -88,7 +88,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: swiss design, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+          "suffix": "Style: swiss design, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like. Key cues: international typographic style, grid layout, minimal poster. Finish cues: clean edges, intentional composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -107,7 +107,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: bauhaus, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+          "suffix": "Style: bauhaus, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like. Key cues: bauhaus design, geometric shapes, primary colors. Finish cues: clean edges, intentional composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -126,7 +126,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: constructivist poster, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+          "suffix": "Style: constructivist poster, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like. Key cues: constructivist poster, bold diagonals, limited palette. Finish cues: clean edges, intentional composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -145,7 +145,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: art deco, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+          "suffix": "Style: art deco, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like. Key cues: art deco poster, ornamental geometry, luxury vibe. Finish cues: clean edges, intentional composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -164,7 +164,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: pop art, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+          "suffix": "Style: pop art, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like. Key cues: pop art, bold outlines, saturated colors. Finish cues: clean edges, intentional composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -183,7 +183,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: psychedelic poster, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+          "suffix": "Style: psychedelic poster, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like. Key cues: psychedelic poster, wavy typography, vibrant gradients. Finish cues: clean edges, intentional composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -202,7 +202,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: vintage travel poster, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+          "suffix": "Style: vintage travel poster, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like. Key cues: vintage travel poster, flat illustration, retro palette. Finish cues: clean edges, intentional composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -221,7 +221,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: brutalist graphic, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+          "suffix": "Style: brutalist graphic, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like. Key cues: brutalist graphic design, raw typography, high contrast layout. Finish cues: clean edges, intentional composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -240,7 +240,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: memphis pattern, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+          "suffix": "Style: memphis pattern, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like. Key cues: memphis design, playful shapes, bold colors, pattern. Finish cues: clean edges, intentional composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -259,7 +259,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: y2k graphic, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+          "suffix": "Style: y2k graphic, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like. Key cues: y2k design, chrome gradients, tech vibes, glossy. Finish cues: clean edges, intentional composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -278,7 +278,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: vaporwave poster, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+          "suffix": "Style: vaporwave poster, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like. Key cues: vaporwave aesthetic, neon gradients, retro futurism. Finish cues: clean edges, intentional composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -297,7 +297,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: grunge flyer, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+          "suffix": "Style: grunge flyer, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like. Key cues: grunge design, rough texture, photocopy noise. Finish cues: clean edges, intentional composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -316,7 +316,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: newspaper collage, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+          "suffix": "Style: newspaper collage, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like. Key cues: newspaper collage, cutout typography, paper texture. Finish cues: clean edges, intentional composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -335,7 +335,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: minimal poster, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+          "suffix": "Style: minimal poster, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like. Key cues: minimal poster, simple shapes, strong negative space. Finish cues: clean edges, intentional composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -354,7 +354,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: geometric pattern, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+          "suffix": "Style: geometric pattern, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like. Key cues: geometric pattern, repeating shapes, clean layout. Finish cues: clean edges, intentional composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -373,7 +373,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: retro pixel ui, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+          "suffix": "Style: retro pixel ui, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like. Key cues: retro pixel ui, 8-bit interface, limited palette. Finish cues: clean edges, intentional composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -392,7 +392,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: sticker bomb, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+          "suffix": "Style: sticker bomb, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like. Key cues: sticker bomb, busy collage, bold outlines. Finish cues: clean edges, intentional composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -411,7 +411,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: isometric infographic, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+          "suffix": "Style: isometric infographic, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like. Key cues: isometric infographic, icons, clean labels. Finish cues: clean edges, intentional composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -430,7 +430,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: editorial layout, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+          "suffix": "Style: editorial layout, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like. Key cues: editorial layout, clean typography, grid composition. Finish cues: clean edges, intentional composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -449,7 +449,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: monochrome typography, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+          "suffix": "Style: monochrome typography, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like. Key cues: monochrome typography, bold type, high contrast. Finish cues: clean edges, intentional composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -468,7 +468,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: holographic chrome, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+          "suffix": "Style: holographic chrome, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like. Key cues: holographic chrome, iridescent gradient, glossy. Finish cues: clean edges, intentional composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -487,7 +487,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: liquid gradient, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+          "suffix": "Style: liquid gradient, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like. Key cues: liquid gradient, smooth color blends, modern poster. Finish cues: clean edges, intentional composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -506,7 +506,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: sticker sheet, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+          "suffix": "Style: sticker sheet, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like. Key cues: sticker sheet, die-cut outlines, playful icons. Finish cues: clean edges, intentional composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -525,7 +525,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: packaging label, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+          "suffix": "Style: packaging label, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like. Key cues: packaging label design, clean hierarchy, print-ready. Finish cues: clean edges, intentional composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -544,7 +544,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: blueprint poster, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like."
+          "suffix": "Style: blueprint poster, graphic print aesthetic. Lighting: flat even light, minimal shading. Mood: bold, designed, poster-like. Key cues: blueprint poster, technical lines, clean labels. Finish cues: clean edges, intentional composition. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [

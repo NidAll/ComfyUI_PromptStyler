@@ -12,7 +12,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: graffiti wildstyle lettering on an urban wall. Lighting: harsh streetlight with strong highlights and deep shadows. Texture: spray paint overspray, drips, wall grit."
+          "suffix": "Style: graffiti wildstyle lettering on an urban wall. Lighting: harsh streetlight with strong highlights and deep shadows. Texture: spray paint overspray, drips, wall grit. Key cues: graffiti, wildstyle lettering, spray paint, urban wall. Finish cues: paint drips, overspray, high contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -30,7 +30,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: stencil street art sprayed on a textured wall. Lighting: streetlight with strong contrast. Texture: wall grit, paint bleed, sharp stencil edges."
+          "suffix": "Style: stencil street art sprayed on a textured wall. Lighting: streetlight with strong contrast. Texture: wall grit, paint bleed, sharp stencil edges. Key cues: stencil street art, spray paint, sharp cutout shapes, wall texture. Finish cues: paint bleed, rough edges, high contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -48,7 +48,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: large spray paint mural with bold color and clean shapes. Lighting: daylight or streetlight depending on scene, crisp contrast. Texture: subtle overspray and wall grain."
+          "suffix": "Style: large spray paint mural with bold color and clean shapes. Lighting: daylight or streetlight depending on scene, crisp contrast. Texture: subtle overspray and wall grain. Key cues: spray paint mural, bold color, large shapes, urban wall. Finish cues: overspray, wall texture, vibrant palette. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -66,7 +66,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: wheatpaste posters layered on a city wall. Lighting: overcast daylight for clear texture. Texture: torn paper, wrinkles, glue stains, wall grit."
+          "suffix": "Style: wheatpaste posters layered on a city wall. Lighting: overcast daylight for clear texture. Texture: torn paper, wrinkles, glue stains, wall grit. Key cues: wheatpaste poster wall, layered posters, torn paper, street texture. Finish cues: paper wrinkles, glue stains, gritty wall. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -84,7 +84,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: sticker slap wall covered in layered decals. Lighting: overcast daylight with even illumination. Texture: scratches, torn stickers, adhesive residue."
+          "suffix": "Style: sticker slap wall covered in layered decals. Lighting: overcast daylight with even illumination. Texture: scratches, torn stickers, adhesive residue. Key cues: sticker slap wall, sticker collage, layered decals, urban grit. Finish cues: scratches, torn stickers, street texture. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [

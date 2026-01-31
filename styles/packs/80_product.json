@@ -6,13 +6,13 @@
       "name": "Luxury Watch Ad",
       "category": "Product",
       "default": {
-        "prefix": "commercial product photography, studio strobe lighting, seamless background, controlled reflections, clean composition, luxury product shot, watch photography",
+        "prefix": "commercial product photography, controlled studio lighting, minimal background, controlled reflections, clean composition, luxury product shot, watch photography",
         "suffix": "crisp edges, high detail, clean background, clean specular highlights, premium look, minimal clutter"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: luxury watch ad, commercial product photograph. Lighting: studio strobe with a large softbox, clean specular highlights. Composition: clean silhouette, premium materials, crisp details."
+          "suffix": "Style: luxury watch ad, commercial product photograph. Lighting: large diffused key light with clean specular highlights. Composition: clean silhouette, premium materials, crisp details. Key cues: luxury product shot, watch photography, controlled reflections. Finish cues: crisp edges, high detail, clean background. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -24,13 +24,13 @@
       "name": "Cosmetics Packshot",
       "category": "Product",
       "default": {
-        "prefix": "commercial product photography, studio strobe lighting, seamless background, controlled reflections, clean composition, cosmetics product shot, clean studio setup, soft reflections",
+        "prefix": "commercial product photography, controlled studio lighting, minimal background, controlled reflections, clean composition, cosmetics product shot, clean studio setup, soft reflections",
         "suffix": "crisp edges, high detail, clean background, clean specular highlights, premium look, minimal clutter"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: cosmetics packshot, commercial product photograph. Lighting: studio strobe with a large softbox, clean specular highlights. Composition: clean silhouette, premium materials, crisp details."
+          "suffix": "Style: cosmetics packshot, commercial product photograph. Lighting: large diffused key light with clean specular highlights. Composition: clean silhouette, premium materials, crisp details. Key cues: cosmetics product shot, clean studio setup, soft reflections. Finish cues: crisp edges, high detail, clean background. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -42,13 +42,13 @@
       "name": "Food Packshot",
       "category": "Product",
       "default": {
-        "prefix": "commercial product photography, studio strobe lighting, seamless background, controlled reflections, clean composition, food packshot, studio tabletop, appetizing highlights",
+        "prefix": "commercial product photography, controlled studio lighting, minimal background, controlled reflections, clean composition, food packshot, studio tabletop, appetizing highlights",
         "suffix": "crisp edges, high detail, clean background, clean specular highlights, premium look, minimal clutter"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: food packshot, commercial product photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Composition: clean silhouette, premium materials, crisp details."
+          "suffix": "Style: food packshot, commercial product photograph. Lighting: soft, diffused key light from viewer-left, gentle shadows. Composition: clean silhouette, premium materials, crisp details. Key cues: food packshot, studio tabletop, appetizing highlights. Finish cues: crisp edges, high detail, clean background. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -60,13 +60,13 @@
       "name": "Perfume Ad",
       "category": "Product",
       "default": {
-        "prefix": "commercial product photography, studio strobe lighting, seamless background, controlled reflections, clean composition, perfume product shot, glass bottle, luxury lighting",
+        "prefix": "commercial product photography, controlled studio lighting, minimal background, controlled reflections, clean composition, perfume product shot, glass bottle, luxury lighting",
         "suffix": "crisp edges, high detail, clean background, clean specular highlights, premium look, minimal clutter"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: perfume ad, commercial product photograph. Lighting: studio strobe with a large softbox, clean specular highlights. Composition: clean silhouette, premium materials, crisp details."
+          "suffix": "Style: perfume ad, commercial product photograph. Lighting: large diffused key light with clean specular highlights. Composition: clean silhouette, premium materials, crisp details. Key cues: perfume product shot, glass bottle, luxury lighting. Finish cues: crisp edges, high detail, clean background. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -78,13 +78,13 @@
       "name": "Tech Gadget Shot",
       "category": "Product",
       "default": {
-        "prefix": "commercial product photography, studio strobe lighting, seamless background, controlled reflections, clean composition, tech product photography, clean highlights, premium materials",
+        "prefix": "commercial product photography, controlled studio lighting, minimal background, controlled reflections, clean composition, tech product photography, clean highlights, premium materials",
         "suffix": "crisp edges, high detail, clean background, clean specular highlights, premium look, minimal clutter"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: tech gadget shot, commercial product photograph. Lighting: studio strobe with a large softbox, clean specular highlights. Composition: clean silhouette, premium materials, crisp details."
+          "suffix": "Style: tech gadget shot, commercial product photograph. Lighting: large diffused key light with clean specular highlights. Composition: clean silhouette, premium materials, crisp details. Key cues: tech product photography, clean highlights, premium materials. Finish cues: crisp edges, high detail, clean background. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -96,13 +96,13 @@
       "name": "Jewelry Macro",
       "category": "Product",
       "default": {
-        "prefix": "commercial product photography, studio strobe lighting, seamless background, controlled reflections, clean composition, jewelry macro photography, sparkle highlights, shallow depth of field",
+        "prefix": "commercial product photography, controlled studio lighting, minimal background, controlled reflections, clean composition, jewelry macro photography, sparkle highlights, shallow depth of field",
         "suffix": "crisp edges, high detail, clean background, clean specular highlights, premium look, minimal clutter"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: jewelry macro, commercial product photograph. Lighting: small hard highlights for sparkle, controlled fill, clean reflections. Composition: clean silhouette, premium materials, crisp details."
+          "suffix": "Style: jewelry macro, commercial product photograph. Lighting: small hard highlights for sparkle, controlled fill, clean reflections. Composition: clean silhouette, premium materials, crisp details. Key cues: jewelry macro photography, sparkle highlights, shallow depth of field. Finish cues: crisp edges, high detail, clean background. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -114,13 +114,13 @@
       "name": "Skincare Bottle Ad",
       "category": "Product",
       "default": {
-        "prefix": "commercial product photography, studio strobe lighting, seamless background, controlled reflections, clean composition, skincare product shot, clean studio, dewy highlights",
+        "prefix": "commercial product photography, controlled studio lighting, minimal background, controlled reflections, clean composition, skincare product shot, clean studio, dewy highlights",
         "suffix": "crisp edges, high detail, clean background, clean specular highlights, premium look, minimal clutter"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: skincare bottle ad, commercial product photograph. Lighting: studio strobe with a large softbox, clean specular highlights. Composition: clean silhouette, premium materials, crisp details."
+          "suffix": "Style: skincare bottle ad, commercial product photograph. Lighting: large diffused key light with clean specular highlights. Composition: clean silhouette, premium materials, crisp details. Key cues: skincare product shot, clean studio, dewy highlights. Finish cues: crisp edges, high detail, clean background. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -132,13 +132,13 @@
       "name": "Sneaker Product Shot",
       "category": "Product",
       "default": {
-        "prefix": "commercial product photography, studio strobe lighting, seamless background, controlled reflections, clean composition, sneaker photography, clean background, sharp detail",
+        "prefix": "commercial product photography, controlled studio lighting, minimal background, controlled reflections, clean composition, sneaker photography, clean background, sharp detail",
         "suffix": "crisp edges, high detail, clean background, clean specular highlights, premium look, minimal clutter"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: sneaker product shot, commercial product photograph. Lighting: studio strobe with a large softbox, clean specular highlights. Composition: clean silhouette, premium materials, crisp details."
+          "suffix": "Style: sneaker product shot, commercial product photograph. Lighting: large diffused key light with clean specular highlights. Composition: clean silhouette, premium materials, crisp details. Key cues: sneaker photography, clean background, sharp detail. Finish cues: crisp edges, high detail, clean background. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -150,13 +150,13 @@
       "name": "Beverage Splash",
       "category": "Product",
       "default": {
-        "prefix": "commercial product photography, studio strobe lighting, seamless background, controlled reflections, clean composition, beverage ad, splash photography, frozen droplets",
+        "prefix": "commercial product photography, controlled studio lighting, minimal background, controlled reflections, clean composition, beverage ad, splash photography, frozen droplets",
         "suffix": "crisp edges, high detail, clean background, clean specular highlights, premium look, minimal clutter"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: beverage splash, commercial product photograph. Lighting: hard backlight with crisp droplets, high-speed flash feel. Composition: clean silhouette, premium materials, crisp details."
+          "suffix": "Style: beverage splash, commercial product photograph. Lighting: hard backlight with crisp droplets, high-speed flash feel. Composition: clean silhouette, premium materials, crisp details. Key cues: beverage ad, splash photography, frozen droplets. Finish cues: crisp edges, high detail, clean background. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [

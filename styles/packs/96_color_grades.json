@@ -12,7 +12,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: realistic image with an intentional color grade. Color grade: teal shadows and warm highlights, cinematic contrast. Tone mapping: smooth highlights and coherent shadows."
+          "suffix": "Style: realistic image with an intentional color grade. Color grade: teal shadows and warm highlights, cinematic contrast. Tone mapping: smooth highlights and coherent shadows. Key cues: cinematic color grade, teal and orange, rich contrast. Finish cues: clean tones. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -31,7 +31,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: realistic image with an intentional color grade. Color palette: muted pastels with soft contrast. Tone mapping: smooth highlights and coherent shadows."
+          "suffix": "Style: realistic image with an intentional color grade. Color palette: muted pastels with soft contrast. Tone mapping: smooth highlights and coherent shadows. Key cues: muted pastel palette, soft contrast, gentle highlights. Finish cues: clean tones. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -50,7 +50,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: realistic image with an intentional color grade. Color grade: monochrome with deep blacks and bright whites. Tone mapping: smooth highlights and coherent shadows."
+          "suffix": "Style: realistic image with an intentional color grade. Color grade: monochrome with deep blacks and bright whites. Tone mapping: smooth highlights and coherent shadows. Key cues: black and white, high contrast, deep blacks. Finish cues: clean tones. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -69,7 +69,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: realistic image with an intentional color grade. Color grade: warm vintage tones with gentle fade. Tone mapping: smooth highlights and coherent shadows."
+          "suffix": "Style: realistic image with an intentional color grade. Color grade: warm vintage tones with gentle fade. Tone mapping: smooth highlights and coherent shadows. Key cues: warm vintage grade, slightly faded, soft highlights. Finish cues: clean tones. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -88,7 +88,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: realistic image with an intentional color grade. Color palette: cool and slightly desaturated. Tone mapping: smooth highlights and coherent shadows."
+          "suffix": "Style: realistic image with an intentional color grade. Color palette: cool and slightly desaturated. Tone mapping: smooth highlights and coherent shadows. Key cues: cool tones, desaturated palette, clean contrast. Finish cues: clean tones. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -107,7 +107,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: realistic image with an intentional color grade. Color grade: desaturated high-contrast bleach-bypass look. Tone mapping: smooth highlights and coherent shadows."
+          "suffix": "Style: realistic image with an intentional color grade. Color grade: desaturated high-contrast bleach-bypass look. Tone mapping: smooth highlights and coherent shadows. Key cues: bleach bypass look, desaturated, high contrast. Finish cues: clean tones. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -126,7 +126,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: realistic image with an intentional color grade. Color grade: soft cinematic pastel with gentle bloom. Tone mapping: smooth highlights and coherent shadows."
+          "suffix": "Style: realistic image with an intentional color grade. Color grade: soft cinematic pastel with gentle bloom. Tone mapping: smooth highlights and coherent shadows. Key cues: soft cinematic, pastel grade, subtle bloom. Finish cues: clean tones. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -145,7 +145,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: realistic image with an intentional color grade. Color grade: vibrant, punchy saturation with crisp contrast. Tone mapping: smooth highlights and coherent shadows."
+          "suffix": "Style: realistic image with an intentional color grade. Color grade: vibrant, punchy saturation with crisp contrast. Tone mapping: smooth highlights and coherent shadows. Key cues: vibrant colors, punchy saturation, crisp contrast. Finish cues: clean tones. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -164,7 +164,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: realistic image with an intentional color grade. Color palette: earthy documentary tones, natural contrast. Tone mapping: smooth highlights and coherent shadows."
+          "suffix": "Style: realistic image with an intentional color grade. Color palette: earthy documentary tones, natural contrast. Tone mapping: smooth highlights and coherent shadows. Key cues: earthy tones, natural contrast, subtle grain. Finish cues: clean tones. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -183,7 +183,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: realistic image with an intentional color grade. Color grade: deep shadows with bright neon highlights. Tone mapping: smooth highlights and coherent shadows."
+          "suffix": "Style: realistic image with an intentional color grade. Color grade: deep shadows with bright neon highlights. Tone mapping: smooth highlights and coherent shadows. Key cues: neon grade, deep shadows, bright neon. Finish cues: clean tones. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -202,7 +202,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: realistic image with an intentional color grade. Color grade: golden-hour warmth with soft shadow rolloff. Tone mapping: smooth highlights and coherent shadows."
+          "suffix": "Style: realistic image with an intentional color grade. Color grade: golden-hour warmth with soft shadow rolloff. Tone mapping: smooth highlights and coherent shadows. Key cues: golden hour grade, warm highlights, soft shadows. Finish cues: clean tones. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -221,7 +221,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: realistic image with an intentional color grade. Color palette: cold winter blues with crisp contrast. Tone mapping: smooth highlights and coherent shadows."
+          "suffix": "Style: realistic image with an intentional color grade. Color palette: cold winter blues with crisp contrast. Tone mapping: smooth highlights and coherent shadows. Key cues: cold winter grade, blue shadows, crisp air. Finish cues: clean tones. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -240,7 +240,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: realistic image with an intentional color grade. Color grade: sepia tone with vintage print feel. Tone mapping: smooth highlights and coherent shadows."
+          "suffix": "Style: realistic image with an intentional color grade. Color grade: sepia tone with vintage print feel. Tone mapping: smooth highlights and coherent shadows. Key cues: sepia tone, vintage print, soft contrast. Finish cues: clean tones. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -259,7 +259,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: realistic image with an intentional color grade. Color grade: matte look with lifted blacks and fine grain. Tone mapping: smooth highlights and coherent shadows."
+          "suffix": "Style: realistic image with an intentional color grade. Color grade: matte look with lifted blacks and fine grain. Tone mapping: smooth highlights and coherent shadows. Key cues: matte grade, lifted blacks, film grain. Finish cues: clean tones. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -278,7 +278,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: realistic image with an intentional color grade. Color grade: clean commercial neutrality with accurate whites. Tone mapping: smooth highlights and coherent shadows."
+          "suffix": "Style: realistic image with an intentional color grade. Color grade: clean commercial neutrality with accurate whites. Tone mapping: smooth highlights and coherent shadows. Key cues: clean commercial grade, neutral whites, natural color. Finish cues: clean tones. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -297,7 +297,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: realistic image with an intentional color grade. Color palette: low saturation with deep shadows and moody contrast. Tone mapping: smooth highlights and coherent shadows."
+          "suffix": "Style: realistic image with an intentional color grade. Color palette: low saturation with deep shadows and moody contrast. Tone mapping: smooth highlights and coherent shadows. Key cues: moody, low saturation, deep shadows. Finish cues: clean tones. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -316,7 +316,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: realistic image with an intentional color grade. Color grade: bright airy look with soft highlights. Tone mapping: smooth highlights and coherent shadows."
+          "suffix": "Style: realistic image with an intentional color grade. Color grade: bright airy look with soft highlights. Tone mapping: smooth highlights and coherent shadows. Key cues: bright airy, high key, soft highlights. Finish cues: clean tones. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -335,7 +335,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: realistic image with an intentional color grade. Color grade: rich reds and crisp contrast, vintage slide feel. Tone mapping: smooth highlights and coherent shadows."
+          "suffix": "Style: realistic image with an intentional color grade. Color grade: rich reds and crisp contrast, vintage slide feel. Tone mapping: smooth highlights and coherent shadows. Key cues: vintage slide look, rich reds, crisp contrast. Finish cues: clean tones. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -354,7 +354,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: realistic image with an intentional color grade. Color grade: blue monochrome cyanotype print feel. Tone mapping: smooth highlights and coherent shadows."
+          "suffix": "Style: realistic image with an intentional color grade. Color grade: blue monochrome cyanotype print feel. Tone mapping: smooth highlights and coherent shadows. Key cues: cyanotype look, blue monochrome, paper texture. Finish cues: clean tones. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -373,7 +373,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: realistic image with an intentional color grade. Color grade: duotone blue and red with graphic contrast. Tone mapping: smooth highlights and coherent shadows."
+          "suffix": "Style: realistic image with an intentional color grade. Color grade: duotone blue and red with graphic contrast. Tone mapping: smooth highlights and coherent shadows. Key cues: duotone, blue and red, graphic contrast. Finish cues: clean tones. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [

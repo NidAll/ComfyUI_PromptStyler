@@ -39,8 +39,8 @@ CATEGORY_BASE_PREFIX = {
     ),
     "Product": (
         "commercial product photography",
-        "studio strobe lighting",
-        "seamless background",
+        "controlled studio lighting",
+        "minimal background",
         "controlled reflections",
         "clean composition",
     ),
@@ -55,7 +55,7 @@ CATEGORY_BASE_PREFIX = {
         "architectural photography",
         "straight verticals",
         "clean geometry",
-        "wide-angle lens",
+        "wide field of view",
         "realistic materials",
         "balanced natural light",
     ),
@@ -215,6 +215,15 @@ def flux_join_sentences(parts: Sequence[str]) -> str:
 def to_style_dict(s: StyleSpec) -> Dict:
     base_prefix = CATEGORY_BASE_PREFIX.get(s.category, ())
     base_suffix = CATEGORY_BASE_SUFFIX.get(s.category, ())
+    flux_sentences = list(s.flux_suffix_sentences)
+    # Reinforce each style with explicit cues (keep it style-only; avoid gear words).
+    z_prefix_hint = z_join(tuple(s.z_prefix)[:8])
+    z_suffix_hint = z_join(tuple(s.z_suffix)[:8])
+    if z_prefix_hint:
+        flux_sentences.append(f"Key cues: {z_prefix_hint}")
+    if z_suffix_hint:
+        flux_sentences.append(f"Finish cues: {z_suffix_hint}")
+    flux_sentences.append("Instruction: preserve the user prompt subject and add only stylistic cues")
     d = {
         "id": s.id,
         "name": s.name,
@@ -226,7 +235,7 @@ def to_style_dict(s: StyleSpec) -> Dict:
         "models": {
             # For FLUX 2 Klein, we keep style annotations at the end so the user's prompt
             # can still lead with the subject/action (word order matters).
-            "flux_2_klein": {"prefix": "", "suffix": flux_join_sentences(s.flux_suffix_sentences)},
+            "flux_2_klein": {"prefix": "", "suffix": flux_join_sentences(flux_sentences)},
         },
         "tags": list(s.tags),
     }
@@ -263,13 +272,30 @@ def _uniq(specs: List[StyleSpec]) -> List[StyleSpec]:
 def build() -> None:
     # Shared, reusable FLUX lighting phrases (keep them positive and concrete).
     flux_light_soft_window = (
-        "Lighting: soft, diffused natural light from a large window camera-left, gentle shadows"
+        "Lighting: soft, diffused key light from viewer-left, gentle shadows"
     )
     flux_light_dramatic_side = "Lighting: dramatic side lighting with deep shadows and bright highlights"
-    flux_light_golden_back = "Lighting: golden hour backlight with subtle lens flare and warm rim light"
+    flux_light_golden_back = "Lighting: golden hour backlight with warm rim light and gentle bloom"
     flux_light_overcast = "Lighting: overcast daylight, even illumination, soft shadow transitions"
-    flux_light_studio_softbox = "Lighting: studio strobe with a large softbox, clean specular highlights"
+    flux_light_studio_softbox = "Lighting: large diffused key light with clean specular highlights"
     flux_light_neon = "Lighting: mixed neon and streetlight sources, colored rim light, reflective surfaces"
+
+    def _flux_style_label(name: str) -> str:
+        """
+        Convert UI-facing style names into gear-neutral prose for Flux guidance.
+
+        Goal: keep the style intent, but avoid explicit photo/cinema equipment words
+        that can accidentally bias the model into adding objects/props.
+        """
+
+        n = (name or "").strip().casefold()
+        overrides = {
+            "on-camera flash": "direct flash snapshot",
+            "ring flash portrait": "on-axis circular flash portrait",
+            "tilt-shift miniature": "miniature diorama perspective effect",
+            "aerial drone photo": "aerial top-down photograph",
+        }
+        return overrides.get(n, n)
 
     # A small seed set that we can scale via curated variations.
     cinema: List[StyleSpec] = []
@@ -309,7 +335,7 @@ def build() -> None:
             name="Cinematic Anamorphic",
             category="Cinema",
             tags=("cinematic", "film", "anamorphic"),
-            z_prefix=("cinematic", "anamorphic lens", "shallow depth of field", "dramatic lighting"),
+            z_prefix=("cinematic", "anamorphic look", "shallow depth of field", "dramatic lighting"),
             z_suffix=("film grain", "subtle halation", "rich contrast", "color graded"),
             flux_suffix_sentences=(
                 "Style: cinematic anamorphic film still, shallow depth of field",
@@ -325,9 +351,9 @@ def build() -> None:
         ("Neo Noir", ("neo-noir", "moody contrast", "deep shadows", "night scene"), flux_light_neon),
         ("Gritty Crime Thriller", ("gritty crime thriller", "handheld feel", "muted colors"), flux_light_dramatic_side),
         ("Dreamy Romance", ("dreamy cinematic", "soft focus", "warm tones"), flux_light_golden_back),
-        ("Sci-Fi Neon", ("sci-fi cinematic", "neon glow", "wet streets", "atmospheric haze"), flux_light_neon),
+        ("Sci-Fi Neon", ("sci-fi cinematic", "neon glow", "wet reflective surfaces", "atmospheric haze"), flux_light_neon),
         ("Epic Fantasy", ("epic cinematic", "volumetric light rays", "dramatic scale"), "Lighting: god rays through haze, high dynamic range"),
-        ("Documentary Handheld", ("documentary", "handheld camera", "natural light", "authentic moments"), flux_light_overcast),
+        ("Documentary Handheld", ("documentary", "handheld framing", "natural light", "authentic moments"), flux_light_overcast),
         ("Vintage 16mm", ("16mm film look", "visible grain", "soft contrast"), "Lighting: practical tungsten lamps, warm falloff"),
         ("Vintage 35mm", ("35mm film look", "gentle grain", "natural color"), flux_light_soft_window),
         ("IMAX Blockbuster", ("large format cinema", "crisp detail", "dramatic composition"), "Lighting: high-impact key light with controlled fill"),
@@ -361,13 +387,13 @@ def build() -> None:
         ("Rainy Night Alley", ("cinematic night scene", "rainy street", "wet reflections"), flux_light_neon),
         ("Bright Day Comedy", ("bright cinematic", "clean colors", "lighthearted tone"), "Lighting: bright daylight with soft fill, cheerful contrast"),
         ("Mystery Thriller", ("mystery thriller", "moody", "subtle haze"), flux_light_dramatic_side),
-        ("High-Speed Action", ("action blockbuster", "dynamic camera", "sharp highlights"), "Lighting: high-impact lighting, crisp highlights, controlled motion blur"),
+        ("High-Speed Action", ("action blockbuster", "dynamic framing", "sharp highlights"), "Lighting: high-impact lighting, crisp highlights, controlled motion blur"),
         ("Courtroom Drama", ("dramatic courtroom scene", "serious tone", "clean framing"), flux_light_soft_window),
         ("Coming-of-Age", ("warm cinematic", "naturalistic", "gentle grain"), flux_light_golden_back),
         ("Slow Cinema", ("slow cinema", "minimalist framing", "quiet atmosphere"), flux_light_overcast),
         ("Surreal Dream Sequence", ("surreal cinematic", "soft diffusion", "dreamlike haze"), "Lighting: ethereal soft light with gentle bloom and haze"),
         ("War Documentary", ("war documentary", "gritty realism", "handheld"), flux_light_overcast),
-        ("Sports Broadcast Cinematic", ("sports cinematic", "telephoto compression", "fast shutter feel"), "Lighting: stadium lights, crisp highlights, dynamic contrast"),
+        ("Sports Broadcast Cinematic", ("sports cinematic", "compressed perspective", "fast shutter feel"), "Lighting: stadium lights, crisp highlights, dynamic contrast"),
         ("Retro Futurism", ("retro futurism", "clean shapes", "neon accents"), flux_light_neon),
         ("Urban Nightscape", ("urban night cinematic", "city lights", "bokeh"), flux_light_neon),
         ("Snowstorm Survival", ("cinematic survival", "snowstorm", "cold palette"), "Lighting: cold overcast light with blowing snow and low visibility"),
@@ -450,10 +476,10 @@ def build() -> None:
             name="Clean Product Photo",
             category="Product",
             tags=("product", "studio", "commercial"),
-            z_prefix=("studio product photography", "clean background", "softbox lighting", "sharp focus"),
+            z_prefix=("studio product photography", "clean background", "diffused studio lighting", "sharp focus"),
             z_suffix=("high detail", "minimal reflections", "crisp edges"),
             flux_suffix_sentences=(
-                "Style: professional studio product photograph on a clean seamless background",
+                "Style: professional studio product photograph on a clean minimal background",
                 flux_light_studio_softbox,
                 "Composition: centered, clean silhouette, crisp edges",
             ),
@@ -461,8 +487,8 @@ def build() -> None:
     )
 
     portrait_light_setups = [
-        ("Rembrandt Portrait", ("portrait photography", "Rembrandt lighting", "85mm lens", "shallow depth of field"), flux_light_soft_window),
-        ("Butterfly Lighting Portrait", ("portrait photography", "butterfly lighting", "beauty dish", "clean catchlights"), "Lighting: beauty dish overhead, soft fill, clean shadows under cheekbones"),
+        ("Rembrandt Portrait", ("portrait photography", "Rembrandt lighting", "portrait compression", "shallow depth of field"), flux_light_soft_window),
+        ("Butterfly Lighting Portrait", ("portrait photography", "butterfly lighting", "centered key light", "clean catchlights"), "Lighting: centered overhead key light with soft fill, clean shadows under cheekbones"),
         ("Split Lighting Portrait", ("portrait photography", "split lighting", "high contrast"), flux_light_dramatic_side),
         ("High Key Studio Portrait", ("high key portrait", "bright background", "soft shadows"), "Lighting: broad soft key, high fill ratio, bright seamless background"),
         ("Low Key Studio Portrait", ("low key portrait", "deep shadows", "dramatic contrast"), flux_light_dramatic_side),
@@ -470,7 +496,7 @@ def build() -> None:
         ("Street Portrait", ("street portrait", "candid", "natural light"), flux_light_overcast),
         ("Editorial Portrait", ("editorial portrait", "stylized lighting", "clean composition"), flux_light_studio_softbox),
         ("Rim Light Portrait", ("portrait photography", "rim light", "dark background", "subject separation"), "Lighting: strong rim light from behind, soft key, deep background"),
-        ("Broad Lighting Portrait", ("portrait photography", "broad lighting", "soft shadows"), "Lighting: key light on the camera side of the face, soft fill"),
+        ("Broad Lighting Portrait", ("portrait photography", "broad lighting", "soft shadows"), "Lighting: key light on the near side of the face, soft fill"),
         ("Short Lighting Portrait", ("portrait photography", "short lighting", "sculpted face"), "Lighting: key light on the far side of the face, controlled fill"),
     ]
     for name, ztags, flux_light in portrait_light_setups:
@@ -495,30 +521,30 @@ def build() -> None:
         ("Travel Documentary", ("travel documentary photography", "authentic details", "natural color"), flux_light_soft_window),
         ("Food Photography", ("food photography", "shallow depth of field", "appetizing lighting"), flux_light_soft_window),
         ("Macro Photography", ("macro photography", "extreme close-up", "micro texture", "shallow depth of field"), "Lighting: diffused macro lighting, controlled reflections, crisp microtexture"),
-        ("Wildlife Photography", ("wildlife photography", "telephoto lens", "natural habitat"), flux_light_golden_back),
+        ("Wildlife Photography", ("wildlife photography", "compressed perspective", "natural habitat"), flux_light_golden_back),
         ("Architecture Photography", ("architecture photography", "straight lines", "clean geometry"), flux_light_overcast),
-        ("Interior Photography", ("interior photography", "wide angle lens", "natural window light"), flux_light_soft_window),
-        ("Aerial Drone Photo", ("aerial drone photography", "top-down view", "sharp detail"), "Lighting: clear daylight with defined but soft shadows"),
-        ("Long Exposure", ("long exposure photography", "motion blur trails", "tripod shot"), "Lighting: dusk ambient with long exposure light trails"),
+        ("Interior Photography", ("interior photography", "wide field of view", "soft natural light"), flux_light_soft_window),
+        ("Aerial Drone Photo", ("aerial photography", "top-down view", "sharp detail"), "Lighting: clear daylight with defined but soft shadows"),
+        ("Long Exposure", ("long exposure photography", "motion blur trails", "locked-off frame"), "Lighting: dusk ambient with long exposure light trails"),
         ("Black and White", ("black and white photography", "strong tonal range", "fine grain"), flux_light_dramatic_side),
         ("Infrared", ("infrared photography", "surreal foliage tones", "high contrast"), "Lighting: bright midday sun, strong infrared contrast"),
-        ("Tilt-Shift Miniature", ("tilt-shift photography", "miniature effect", "selective focus"), "Lighting: daylight with crisp miniature-scale shadows"),
+        ("Tilt-Shift Miniature", ("miniature perspective effect", "selective focus", "diorama-like scale"), "Lighting: daylight with crisp miniature-scale shadows"),
         ("Night Street Photo", ("night street photography", "city lights", "bokeh", "wet reflections"), flux_light_neon),
         ("Concert Photography", ("concert photography", "stage lights", "dynamic contrast"), "Lighting: dramatic stage lighting with colored highlights"),
         ("Automotive Photo", ("automotive photography", "clean reflections", "sharp lines"), "Lighting: controlled reflections, crisp highlights, studio or golden hour"),
         ("Wedding Photo", ("wedding photography", "soft romantic light", "candid moments"), flux_light_golden_back),
         ("Still Life Photo", ("still life photography", "careful composition", "soft shadows"), flux_light_soft_window),
         ("Flat Lay", ("flat lay photography", "top-down", "organized composition"), "Lighting: soft overhead diffused light, minimal harsh shadows"),
-        ("On-Camera Flash", ("direct flash photography", "hard shadows", "party snapshot"), "Lighting: on-camera flash, hard shadows, punchy contrast"),
-        ("Ring Flash Portrait", ("ring flash portrait", "crisp catchlight", "high clarity"), "Lighting: ring flash with crisp shadows and clean contrast"),
+        ("On-Camera Flash", ("direct flash photography", "hard shadows", "party snapshot"), "Lighting: direct on-axis flash, hard shadows, punchy contrast"),
+        ("Ring Flash Portrait", ("on-axis circular flash portrait", "crisp catchlight", "high clarity"), "Lighting: on-axis circular flash with crisp shadows and clean contrast"),
         ("Cinematic Backlight", ("backlit photography", "rim light", "atmospheric haze"), flux_light_golden_back),
         ("Silhouette", ("silhouette photography", "strong backlight", "clean outline"), "Lighting: strong backlight creating a crisp silhouette"),
         ("Rainy Window", ("moody window scene", "raindrops on glass", "soft bokeh"), flux_light_soft_window),
         ("Astrophotography", ("astrophotography", "night sky", "stars", "clean exposure"), "Lighting: moonless night, crisp stars, low noise look"),
-        ("Milky Way Landscape", ("milky way", "night landscape", "wide angle", "stars"), "Lighting: starlight and faint airglow, crisp night contrast"),
+        ("Milky Way Landscape", ("milky way", "night landscape", "wide field of view", "stars"), "Lighting: starlight and faint airglow, crisp night contrast"),
         ("Underwater Photo", ("underwater photography", "clear water", "floating particles", "blue tones"), "Lighting: underwater light beams and caustics, soft particulate haze"),
-        ("Real Estate Photo", ("real estate photography", "wide angle", "clean lines", "bright interior"), flux_light_soft_window),
-        ("Sports Action Freeze", ("sports photography", "fast shutter", "sharp action", "telephoto"), "Lighting: stadium lighting, crisp highlights, frozen motion"),
+        ("Real Estate Photo", ("real estate photography", "wide field of view", "clean lines", "bright interior"), flux_light_soft_window),
+        ("Sports Action Freeze", ("sports photography", "fast shutter", "sharp action", "compressed perspective"), "Lighting: stadium lighting, crisp highlights, frozen motion"),
         ("Motion Blur Action", ("motion blur", "panning shot", "dynamic movement"), "Lighting: controlled highlights supporting motion blur and panning"),
     ]
     for name, ztags, flux_light in photo_genres:
@@ -531,7 +557,7 @@ def build() -> None:
                 z_prefix=ztags,
                 z_suffix=("realistic detail", "clean color", "natural contrast"),
                 flux_suffix_sentences=(
-                    f"Style: {name.lower()}, realistic photograph",
+                    f"Style: {_flux_style_label(name)}, realistic photograph",
                     flux_light,
                     "Mood: grounded, natural, believable",
                 ),
@@ -573,7 +599,7 @@ def build() -> None:
         ("Moody Window Light", ("window light", "soft shadows", "intimate mood"), flux_light_soft_window),
         ("Backlit Rim Light", ("backlit", "rim light", "atmospheric haze"), flux_light_golden_back),
         ("Volumetric Light Beams", ("volumetric light", "god rays", "haze"), "Lighting: strong directional light creating volumetric beams through haze"),
-        ("Rain Reflections", ("wet streets", "reflections", "night bokeh"), flux_light_neon),
+        ("Rain Reflections", ("wet reflective surfaces", "reflections", "night bokeh"), flux_light_neon),
         ("Minimalist Studio", ("minimalist studio photo", "clean seamless", "controlled reflections"), flux_light_studio_softbox),
         ("Close-Up Texture Study", ("close-up photo", "micro texture", "tactile detail"), "Lighting: raking light to reveal texture and surface detail"),
         ("Soft Overcast Natural", ("soft overcast", "even skin tones", "gentle contrast"), flux_light_overcast),
@@ -600,11 +626,11 @@ def build() -> None:
 
     # Lens / camera vibes (helpful shorthand; keep it generic).
     lens_vibes = [
-        ("24mm Wide Angle", ("wide angle", "24mm lens feel", "strong perspective"), "Composition: wide-angle perspective with strong leading lines"),
-        ("35mm Documentary", ("35mm lens feel", "documentary framing", "natural perspective"), "Composition: documentary framing with natural perspective"),
-        ("50mm Natural", ("50mm lens feel", "natural perspective", "balanced framing"), "Composition: balanced perspective and natural proportions"),
-        ("85mm Portrait", ("85mm lens feel", "portrait compression", "shallow depth of field"), "Composition: flattering compression with shallow depth of field"),
-        ("135mm Telephoto", ("telephoto compression", "135mm lens feel", "compressed background"), "Composition: strong telephoto compression and layered background"),
+        ("24mm Wide Angle", ("wide field of view", "24mm perspective", "strong perspective"), "Composition: wide field of view with strong leading lines"),
+        ("35mm Documentary", ("35mm perspective", "documentary framing", "natural perspective"), "Composition: documentary framing with natural perspective"),
+        ("50mm Natural", ("50mm perspective", "natural perspective", "balanced framing"), "Composition: balanced perspective and natural proportions"),
+        ("85mm Portrait", ("85mm portrait perspective", "portrait compression", "shallow depth of field"), "Composition: flattering compression with shallow depth of field"),
+        ("135mm Telephoto", ("strong compression", "135mm compressed perspective", "compressed background"), "Composition: strong compression and layered background"),
     ]
     for name, ztags, flux_comp in lens_vibes:
         photo.append(
@@ -616,7 +642,7 @@ def build() -> None:
                 z_prefix=ztags,
                 z_suffix=("clean optics", "natural contrast"),
                 flux_suffix_sentences=(
-                    "Style: realistic photograph with a specific lens perspective",
+                    "Style: realistic photograph with a specific perspective and field of view",
                     flux_comp,
                     flux_light_overcast,
                 ),
@@ -1439,7 +1465,7 @@ def build() -> None:
         ("Glossy Fashion Editorial", ("fashion editorial", "studio lighting", "high contrast", "clean backdrop"), flux_light_studio_softbox),
         ("Streetwear Lookbook", ("streetwear lookbook", "candid pose", "urban backdrop"), flux_light_overcast),
         ("Runway Backstage", ("backstage fashion", "documentary feel", "available light"), flux_light_soft_window),
-        ("High Fashion Beauty Shot", ("beauty shot", "clean skin", "beauty lighting", "sharp eyes"), "Lighting: beauty dish with soft fill, clean catchlights, smooth gradients"),
+        ("High Fashion Beauty Shot", ("beauty shot", "clean skin", "beauty lighting", "sharp eyes"), "Lighting: centered beauty lighting with soft fill, clean catchlights, smooth gradients"),
         ("Minimal Editorial", ("minimal fashion editorial", "neutral palette", "clean composition"), flux_light_studio_softbox),
         ("Vintage Editorial", ("vintage fashion editorial", "film grain", "muted palette"), flux_light_soft_window),
         ("Outdoor Editorial", ("fashion editorial outdoors", "wind", "natural light"), flux_light_golden_back),
@@ -1498,12 +1524,12 @@ def build() -> None:
     # --- Nature ---
     nature_styles = [
         ("Misty Forest", ("nature photography", "misty forest", "atmospheric depth"), "Lighting: diffused fog light, soft beams through trees"),
-        ("Mountain Vista", ("landscape photography", "mountain vista", "wide angle"), flux_light_golden_back),
+        ("Mountain Vista", ("landscape photography", "mountain vista", "wide field of view"), flux_light_golden_back),
         ("Seascape", ("seascape photography", "waves", "horizon line"), "Lighting: soft overcast coastal light, subtle specular highlights"),
-        ("Desert Dunes", ("desert landscape", "sand dunes", "ripples", "wide angle"), "Lighting: low sun casting long shadows across dune ridges"),
+        ("Desert Dunes", ("desert landscape", "sand dunes", "ripples", "wide field of view"), "Lighting: low sun casting long shadows across dune ridges"),
         ("Autumn Leaves", ("nature close-up", "autumn leaves", "rich colors", "bokeh"), flux_light_soft_window),
         ("Rainforest", ("rainforest", "lush greens", "humid haze", "detailed foliage"), "Lighting: filtered sunlight through canopy, humid atmosphere"),
-        ("Aurora Night", ("aurora", "night sky", "wide angle", "stars"), "Lighting: moonless night with aurora glow, crisp stars"),
+        ("Aurora Night", ("aurora", "night sky", "wide field of view", "stars"), "Lighting: moonless night with aurora glow, crisp stars"),
         ("Stormy Coast", ("stormy seascape", "dramatic clouds", "waves"), "Lighting: storm light with high contrast clouds, moody atmosphere"),
         ("Wildflower Meadow", ("wildflower meadow", "soft bokeh", "pastel colors"), flux_light_golden_back),
         ("Snowy Pines", ("snowy forest", "cold palette", "fine detail"), "Lighting: bright overcast snow light, soft shadow transitions"),

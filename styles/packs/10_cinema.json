@@ -6,13 +6,13 @@
       "name": "Cinematic Anamorphic",
       "category": "Cinema",
       "default": {
-        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, cinematic, anamorphic lens, shallow depth of field, dramatic lighting",
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, cinematic, anamorphic look, shallow depth of field, dramatic lighting",
         "suffix": "film grain, subtle halation, rich contrast, color graded, filmic color science, smooth highlight rolloff, deep blacks, subtle film grain, soft halation, high dynamic range"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: cinematic anamorphic film still, shallow depth of field. Lighting: dramatic side lighting with deep shadows and bright highlights. Mood: tense, grounded, realistic. Texture: subtle film grain and halation."
+          "suffix": "Style: cinematic anamorphic film still, shallow depth of field. Lighting: dramatic side lighting with deep shadows and bright highlights. Mood: tense, grounded, realistic. Texture: subtle film grain and halation. Key cues: cinematic, anamorphic look, shallow depth of field, dramatic lighting. Finish cues: film grain, subtle halation, rich contrast, color graded. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -32,7 +32,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: film noir, cinematic film still. Lighting: dramatic side lighting with deep shadows and bright highlights. Mood: cohesive, story-driven."
+          "suffix": "Style: film noir, cinematic film still. Lighting: dramatic side lighting with deep shadows and bright highlights. Mood: cohesive, story-driven. Key cues: film noir, high contrast, hard shadows, black and white. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -51,7 +51,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: neo noir, cinematic film still. Lighting: mixed neon and streetlight sources, colored rim light, reflective surfaces. Mood: cohesive, story-driven."
+          "suffix": "Style: neo noir, cinematic film still. Lighting: mixed neon and streetlight sources, colored rim light, reflective surfaces. Mood: cohesive, story-driven. Key cues: neo-noir, moody contrast, deep shadows, night scene. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -70,7 +70,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: gritty crime thriller, cinematic film still. Lighting: dramatic side lighting with deep shadows and bright highlights. Mood: cohesive, story-driven."
+          "suffix": "Style: gritty crime thriller, cinematic film still. Lighting: dramatic side lighting with deep shadows and bright highlights. Mood: cohesive, story-driven. Key cues: gritty crime thriller, handheld feel, muted colors. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -89,7 +89,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: dreamy romance, cinematic film still. Lighting: golden hour backlight with subtle lens flare and warm rim light. Mood: cohesive, story-driven."
+          "suffix": "Style: dreamy romance, cinematic film still. Lighting: golden hour backlight with warm rim light and gentle bloom. Mood: cohesive, story-driven. Key cues: dreamy cinematic, soft focus, warm tones. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -102,13 +102,13 @@
       "name": "Sci-Fi Neon",
       "category": "Cinema",
       "default": {
-        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, sci-fi cinematic, neon glow, wet streets, atmospheric haze",
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, sci-fi cinematic, neon glow, wet reflective surfaces, atmospheric haze",
         "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: sci-fi neon, cinematic film still. Lighting: mixed neon and streetlight sources, colored rim light, reflective surfaces. Mood: cohesive, story-driven."
+          "suffix": "Style: sci-fi neon, cinematic film still. Lighting: mixed neon and streetlight sources, colored rim light, reflective surfaces. Mood: cohesive, story-driven. Key cues: sci-fi cinematic, neon glow, wet reflective surfaces, atmospheric haze. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -127,7 +127,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: epic fantasy, cinematic film still. Lighting: god rays through haze, high dynamic range. Mood: cohesive, story-driven."
+          "suffix": "Style: epic fantasy, cinematic film still. Lighting: god rays through haze, high dynamic range. Mood: cohesive, story-driven. Key cues: epic cinematic, volumetric light rays, dramatic scale. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -140,13 +140,13 @@
       "name": "Documentary Handheld",
       "category": "Cinema",
       "default": {
-        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, documentary, handheld camera, natural light, authentic moments",
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, documentary, handheld framing, natural light, authentic moments",
         "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: documentary handheld, cinematic film still. Lighting: overcast daylight, even illumination, soft shadow transitions. Mood: cohesive, story-driven."
+          "suffix": "Style: documentary handheld, cinematic film still. Lighting: overcast daylight, even illumination, soft shadow transitions. Mood: cohesive, story-driven. Key cues: documentary, handheld framing, natural light, authentic moments. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -165,7 +165,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: vintage 16mm, cinematic film still. Lighting: practical tungsten lamps, warm falloff. Mood: cohesive, story-driven."
+          "suffix": "Style: vintage 16mm, cinematic film still. Lighting: practical tungsten lamps, warm falloff. Mood: cohesive, story-driven. Key cues: 16mm film look, visible grain, soft contrast. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -184,7 +184,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: vintage 35mm, cinematic film still. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: cohesive, story-driven."
+          "suffix": "Style: vintage 35mm, cinematic film still. Lighting: soft, diffused key light from viewer-left, gentle shadows. Mood: cohesive, story-driven. Key cues: 35mm film look, gentle grain, natural color. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -203,7 +203,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: imax blockbuster, cinematic film still. Lighting: high-impact key light with controlled fill. Mood: cohesive, story-driven."
+          "suffix": "Style: imax blockbuster, cinematic film still. Lighting: high-impact key light with controlled fill. Mood: cohesive, story-driven. Key cues: large format cinema, crisp detail, dramatic composition. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -222,7 +222,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: horror suspense, cinematic film still. Lighting: dramatic side lighting with deep shadows and bright highlights. Mood: cohesive, story-driven."
+          "suffix": "Style: horror suspense, cinematic film still. Lighting: dramatic side lighting with deep shadows and bright highlights. Mood: cohesive, story-driven. Key cues: cinematic horror, low key lighting, ominous atmosphere. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -241,7 +241,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: cozy slice-of-life, cinematic film still. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: cohesive, story-driven."
+          "suffix": "Style: cozy slice-of-life, cinematic film still. Lighting: soft, diffused key light from viewer-left, gentle shadows. Mood: cohesive, story-driven. Key cues: warm cinematic, intimate framing, soft contrast. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -260,7 +260,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: desert western, cinematic film still. Lighting: harsh sun with long shadows, heat haze. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: desert western, cinematic film still. Lighting: harsh sun with long shadows, heat haze. Mood: cinematic, cohesive, story-driven. Key cues: cinematic western, wide landscape, dusty atmosphere. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -279,7 +279,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: cold war spy thriller, cinematic film still. Lighting: dramatic side lighting with deep shadows and bright highlights. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: cold war spy thriller, cinematic film still. Lighting: dramatic side lighting with deep shadows and bright highlights. Mood: cinematic, cohesive, story-driven. Key cues: spy thriller, moody interiors, controlled palette. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -298,7 +298,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: post-apocalyptic, cinematic film still. Lighting: harsh daylight filtered through dust and smoke. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: post-apocalyptic, cinematic film still. Lighting: harsh daylight filtered through dust and smoke. Mood: cinematic, cohesive, story-driven. Key cues: post-apocalyptic cinematic, weathered textures, dusty haze. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -317,7 +317,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: space opera, cinematic film still. Lighting: bright rim light against deep space, high contrast. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: space opera, cinematic film still. Lighting: bright rim light against deep space, high contrast. Mood: cinematic, cohesive, story-driven. Key cues: space opera cinematic, high contrast, dramatic scale. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -336,7 +336,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: underwater drama, cinematic film still. Lighting: underwater caustic patterns, shafts of light through water. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: underwater drama, cinematic film still. Lighting: underwater caustic patterns, shafts of light through water. Mood: cinematic, cohesive, story-driven. Key cues: underwater cinematic, caustics, floating particles. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -355,7 +355,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: candlelit period drama, cinematic film still. Lighting: warm candlelight with soft falloff and deep shadows. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: candlelit period drama, cinematic film still. Lighting: warm candlelight with soft falloff and deep shadows. Mood: cinematic, cohesive, story-driven. Key cues: period drama, candlelit, warm shadows. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -374,7 +374,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: rainy night alley, cinematic film still. Lighting: mixed neon and streetlight sources, colored rim light, reflective surfaces. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: rainy night alley, cinematic film still. Lighting: mixed neon and streetlight sources, colored rim light, reflective surfaces. Mood: cinematic, cohesive, story-driven. Key cues: cinematic night scene, rainy street, wet reflections. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -393,7 +393,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: bright day comedy, cinematic film still. Lighting: bright daylight with soft fill, cheerful contrast. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: bright day comedy, cinematic film still. Lighting: bright daylight with soft fill, cheerful contrast. Mood: cinematic, cohesive, story-driven. Key cues: bright cinematic, clean colors, lighthearted tone. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -412,7 +412,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: mystery thriller, cinematic film still. Lighting: dramatic side lighting with deep shadows and bright highlights. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: mystery thriller, cinematic film still. Lighting: dramatic side lighting with deep shadows and bright highlights. Mood: cinematic, cohesive, story-driven. Key cues: mystery thriller, moody, subtle haze. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -425,13 +425,13 @@
       "name": "High-Speed Action",
       "category": "Cinema",
       "default": {
-        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, action blockbuster, dynamic camera, sharp highlights",
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, action blockbuster, dynamic framing, sharp highlights",
         "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: high-speed action, cinematic film still. Lighting: high-impact lighting, crisp highlights, controlled motion blur. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: high-speed action, cinematic film still. Lighting: high-impact lighting, crisp highlights, controlled motion blur. Mood: cinematic, cohesive, story-driven. Key cues: action blockbuster, dynamic framing, sharp highlights. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -450,7 +450,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: courtroom drama, cinematic film still. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: courtroom drama, cinematic film still. Lighting: soft, diffused key light from viewer-left, gentle shadows. Mood: cinematic, cohesive, story-driven. Key cues: dramatic courtroom scene, serious tone, clean framing. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -469,7 +469,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: coming-of-age, cinematic film still. Lighting: golden hour backlight with subtle lens flare and warm rim light. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: coming-of-age, cinematic film still. Lighting: golden hour backlight with warm rim light and gentle bloom. Mood: cinematic, cohesive, story-driven. Key cues: warm cinematic, naturalistic, gentle grain. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -488,7 +488,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: slow cinema, cinematic film still. Lighting: overcast daylight, even illumination, soft shadow transitions. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: slow cinema, cinematic film still. Lighting: overcast daylight, even illumination, soft shadow transitions. Mood: cinematic, cohesive, story-driven. Key cues: slow cinema, minimalist framing, quiet atmosphere. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -507,7 +507,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: surreal dream sequence, cinematic film still. Lighting: ethereal soft light with gentle bloom and haze. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: surreal dream sequence, cinematic film still. Lighting: ethereal soft light with gentle bloom and haze. Mood: cinematic, cohesive, story-driven. Key cues: surreal cinematic, soft diffusion, dreamlike haze. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -526,7 +526,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: war documentary, cinematic film still. Lighting: overcast daylight, even illumination, soft shadow transitions. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: war documentary, cinematic film still. Lighting: overcast daylight, even illumination, soft shadow transitions. Mood: cinematic, cohesive, story-driven. Key cues: war documentary, gritty realism, handheld. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -539,13 +539,13 @@
       "name": "Sports Broadcast Cinematic",
       "category": "Cinema",
       "default": {
-        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, sports cinematic, telephoto compression, fast shutter feel",
+        "prefix": "cinematic film still, professional cinematography, cinematic framing, carefully composed shot, atmospheric depth, realistic lighting, sports cinematic, compressed perspective, fast shutter feel",
         "suffix": "cinematic color grade, subtle film grain, filmic color science, smooth highlight rolloff, deep blacks, soft halation, high dynamic range"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: sports broadcast cinematic, cinematic film still. Lighting: stadium lights, crisp highlights, dynamic contrast. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: sports broadcast cinematic, cinematic film still. Lighting: stadium lights, crisp highlights, dynamic contrast. Mood: cinematic, cohesive, story-driven. Key cues: sports cinematic, compressed perspective, fast shutter feel. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -564,7 +564,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: retro futurism, cinematic film still. Lighting: mixed neon and streetlight sources, colored rim light, reflective surfaces. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: retro futurism, cinematic film still. Lighting: mixed neon and streetlight sources, colored rim light, reflective surfaces. Mood: cinematic, cohesive, story-driven. Key cues: retro futurism, clean shapes, neon accents. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -583,7 +583,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: urban nightscape, cinematic film still. Lighting: mixed neon and streetlight sources, colored rim light, reflective surfaces. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: urban nightscape, cinematic film still. Lighting: mixed neon and streetlight sources, colored rim light, reflective surfaces. Mood: cinematic, cohesive, story-driven. Key cues: urban night cinematic, city lights, bokeh. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -602,7 +602,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: snowstorm survival, cinematic film still. Lighting: cold overcast light with blowing snow and low visibility. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: snowstorm survival, cinematic film still. Lighting: cold overcast light with blowing snow and low visibility. Mood: cinematic, cohesive, story-driven. Key cues: cinematic survival, snowstorm, cold palette. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -621,7 +621,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: tropical heat, cinematic film still. Lighting: bright sun filtered through foliage, humid haze. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: tropical heat, cinematic film still. Lighting: bright sun filtered through foliage, humid haze. Mood: cinematic, cohesive, story-driven. Key cues: cinematic tropical, humid atmosphere, vibrant greens. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -640,7 +640,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: firelit camp scene, cinematic film still. Lighting: warm firelight with flicker and soft smoke haze. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: firelit camp scene, cinematic film still. Lighting: warm firelight with flicker and soft smoke haze. Mood: cinematic, cohesive, story-driven. Key cues: cinematic firelight, warm glow, night ambience. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -659,7 +659,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: neon club scene, cinematic film still. Lighting: saturated neon lights, moving beams, haze in the air. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: neon club scene, cinematic film still. Lighting: saturated neon lights, moving beams, haze in the air. Mood: cinematic, cohesive, story-driven. Key cues: cinematic club, colored lights, smoke haze. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -678,7 +678,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: foggy harbor, cinematic film still. Lighting: fog diffusion around practical lights, soft silhouettes. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: foggy harbor, cinematic film still. Lighting: fog diffusion around practical lights, soft silhouettes. Mood: cinematic, cohesive, story-driven. Key cues: cinematic fog, dock lights, atmospheric depth. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -697,7 +697,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: vintage home video, cinematic film still. Lighting: simple indoor practical lights, gentle falloff. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: vintage home video, cinematic film still. Lighting: simple indoor practical lights, gentle falloff. Mood: cinematic, cohesive, story-driven. Key cues: retro home video, soft focus, analog feel. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -716,7 +716,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: coastal road trip, cinematic film still. Lighting: golden hour backlight with subtle lens flare and warm rim light. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: coastal road trip, cinematic film still. Lighting: golden hour backlight with warm rim light and gentle bloom. Mood: cinematic, cohesive, story-driven. Key cues: cinematic road trip, sunlit coastline, nostalgic tone. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -735,7 +735,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: subway platform, cinematic film still. Lighting: practical fluorescent lights with mixed color temperature. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: subway platform, cinematic film still. Lighting: practical fluorescent lights with mixed color temperature. Mood: cinematic, cohesive, story-driven. Key cues: urban cinematic, subway platform, gritty realism. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -754,7 +754,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: rainy car interior, cinematic film still. Lighting: streetlights and dashboard glow, rain reflections on glass. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: rainy car interior, cinematic film still. Lighting: streetlights and dashboard glow, rain reflections on glass. Mood: cinematic, cohesive, story-driven. Key cues: cinematic car interior, rain streaks, reflections. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -773,7 +773,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: desaturated war film, cinematic film still. Lighting: overcast daylight, even illumination, soft shadow transitions. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: desaturated war film, cinematic film still. Lighting: overcast daylight, even illumination, soft shadow transitions. Mood: cinematic, cohesive, story-driven. Key cues: war film look, desaturated palette, gritty texture. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -792,7 +792,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: bright musical number, cinematic film still. Lighting: bright stage key light with clean fill and saturated colors. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: bright musical number, cinematic film still. Lighting: bright stage key light with clean fill and saturated colors. Mood: cinematic, cohesive, story-driven. Key cues: classic musical, clean stage lighting, bold colors. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -811,7 +811,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: sunlit kitchen scene, cinematic film still. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: sunlit kitchen scene, cinematic film still. Lighting: soft, diffused key light from viewer-left, gentle shadows. Mood: cinematic, cohesive, story-driven. Key cues: slice-of-life cinematic, sunlit interior, warm realism. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -830,7 +830,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: neon diner, cinematic film still. Lighting: mixed neon and streetlight sources, colored rim light, reflective surfaces. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: neon diner, cinematic film still. Lighting: mixed neon and streetlight sources, colored rim light, reflective surfaces. Mood: cinematic, cohesive, story-driven. Key cues: retro diner cinematic, neon accents, night scene. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -849,7 +849,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: storm chase, cinematic film still. Lighting: storm light with dramatic contrast and wind-driven rain. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: storm chase, cinematic film still. Lighting: storm light with dramatic contrast and wind-driven rain. Mood: cinematic, cohesive, story-driven. Key cues: cinematic storm, dramatic clouds, high tension. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -868,7 +868,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: quiet library mystery, cinematic film still. Lighting: soft window beams through dust, warm practical accents. Mood: cinematic, cohesive, story-driven."
+          "suffix": "Style: quiet library mystery, cinematic film still. Lighting: soft window beams through dust, warm practical accents. Mood: cinematic, cohesive, story-driven. Key cues: mystery cinematic, dusty light beams, quiet tension. Finish cues: cinematic color grade, subtle film grain. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [

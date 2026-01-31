@@ -12,7 +12,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: misty forest, nature photograph. Lighting: diffused fog light, soft beams through trees. Mood: calm, immersive, natural."
+          "suffix": "Style: misty forest, nature photograph. Lighting: diffused fog light, soft beams through trees. Mood: calm, immersive, natural. Key cues: nature photography, misty forest, atmospheric depth. Finish cues: natural color, fine detail, realistic texture. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -25,13 +25,13 @@
       "name": "Mountain Vista",
       "category": "Nature",
       "default": {
-        "prefix": "nature photography, natural light, atmospheric depth, fine detail, realistic textures, environmental realism, landscape photography, mountain vista, wide angle",
+        "prefix": "nature photography, natural light, atmospheric depth, fine detail, realistic textures, environmental realism, landscape photography, mountain vista, wide field of view",
         "suffix": "natural color, fine detail, realistic texture, clean contrast, high detail, fine microtexture, realistic atmosphere"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: mountain vista, nature photograph. Lighting: golden hour backlight with subtle lens flare and warm rim light. Mood: calm, immersive, natural."
+          "suffix": "Style: mountain vista, nature photograph. Lighting: golden hour backlight with warm rim light and gentle bloom. Mood: calm, immersive, natural. Key cues: landscape photography, mountain vista, wide field of view. Finish cues: natural color, fine detail, realistic texture. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -50,7 +50,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: seascape, nature photograph. Lighting: soft overcast coastal light, subtle specular highlights. Mood: calm, immersive, natural."
+          "suffix": "Style: seascape, nature photograph. Lighting: soft overcast coastal light, subtle specular highlights. Mood: calm, immersive, natural. Key cues: seascape photography, waves, horizon line. Finish cues: natural color, fine detail, realistic texture. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -63,13 +63,13 @@
       "name": "Desert Dunes",
       "category": "Nature",
       "default": {
-        "prefix": "nature photography, natural light, atmospheric depth, fine detail, realistic textures, environmental realism, desert landscape, sand dunes, ripples, wide angle",
+        "prefix": "nature photography, natural light, atmospheric depth, fine detail, realistic textures, environmental realism, desert landscape, sand dunes, ripples, wide field of view",
         "suffix": "natural color, fine detail, realistic texture, clean contrast, high detail, fine microtexture, realistic atmosphere"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: desert dunes, nature photograph. Lighting: low sun casting long shadows across dune ridges. Mood: calm, immersive, natural."
+          "suffix": "Style: desert dunes, nature photograph. Lighting: low sun casting long shadows across dune ridges. Mood: calm, immersive, natural. Key cues: desert landscape, sand dunes, ripples, wide field of view. Finish cues: natural color, fine detail, realistic texture. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -88,7 +88,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: autumn leaves, nature photograph. Lighting: soft, diffused natural light from a large window camera-left, gentle shadows. Mood: calm, immersive, natural."
+          "suffix": "Style: autumn leaves, nature photograph. Lighting: soft, diffused key light from viewer-left, gentle shadows. Mood: calm, immersive, natural. Key cues: nature close-up, autumn leaves, rich colors, bokeh. Finish cues: natural color, fine detail, realistic texture. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -107,7 +107,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: rainforest, nature photograph. Lighting: filtered sunlight through canopy, humid atmosphere. Mood: calm, immersive, natural."
+          "suffix": "Style: rainforest, nature photograph. Lighting: filtered sunlight through canopy, humid atmosphere. Mood: calm, immersive, natural. Key cues: rainforest, lush greens, humid haze, detailed foliage. Finish cues: natural color, fine detail, realistic texture. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -120,13 +120,13 @@
       "name": "Aurora Night",
       "category": "Nature",
       "default": {
-        "prefix": "nature photography, natural light, atmospheric depth, fine detail, realistic textures, environmental realism, aurora, night sky, wide angle, stars",
+        "prefix": "nature photography, natural light, atmospheric depth, fine detail, realistic textures, environmental realism, aurora, night sky, wide field of view, stars",
         "suffix": "natural color, fine detail, realistic texture, clean contrast, high detail, fine microtexture, realistic atmosphere"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: aurora night, nature photograph. Lighting: moonless night with aurora glow, crisp stars. Mood: calm, immersive, natural."
+          "suffix": "Style: aurora night, nature photograph. Lighting: moonless night with aurora glow, crisp stars. Mood: calm, immersive, natural. Key cues: aurora, night sky, wide field of view, stars. Finish cues: natural color, fine detail, realistic texture. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -145,7 +145,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: stormy coast, nature photograph. Lighting: storm light with high contrast clouds, moody atmosphere. Mood: calm, immersive, natural."
+          "suffix": "Style: stormy coast, nature photograph. Lighting: storm light with high contrast clouds, moody atmosphere. Mood: calm, immersive, natural. Key cues: stormy seascape, dramatic clouds, waves. Finish cues: natural color, fine detail, realistic texture. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -164,7 +164,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: wildflower meadow, nature photograph. Lighting: golden hour backlight with subtle lens flare and warm rim light. Mood: calm, immersive, natural."
+          "suffix": "Style: wildflower meadow, nature photograph. Lighting: golden hour backlight with warm rim light and gentle bloom. Mood: calm, immersive, natural. Key cues: wildflower meadow, soft bokeh, pastel colors. Finish cues: natural color, fine detail, realistic texture. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -183,7 +183,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: snowy pines, nature photograph. Lighting: bright overcast snow light, soft shadow transitions. Mood: calm, immersive, natural."
+          "suffix": "Style: snowy pines, nature photograph. Lighting: bright overcast snow light, soft shadow transitions. Mood: calm, immersive, natural. Key cues: snowy forest, cold palette, fine detail. Finish cues: natural color, fine detail, realistic texture. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -202,7 +202,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: waterfall mist, nature photograph. Lighting: overcast forest light with mist diffusion. Mood: calm, immersive, natural."
+          "suffix": "Style: waterfall mist, nature photograph. Lighting: overcast forest light with mist diffusion. Mood: calm, immersive, natural. Key cues: waterfall, mist, long exposure feel, lush rocks. Finish cues: natural color, fine detail, realistic texture. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -221,7 +221,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: volcanic landscape, nature photograph. Lighting: dramatic overcast with breaks of sunlight. Mood: calm, immersive, natural."
+          "suffix": "Style: volcanic landscape, nature photograph. Lighting: dramatic overcast with breaks of sunlight. Mood: calm, immersive, natural. Key cues: volcanic landscape, black rocks, dramatic sky. Finish cues: natural color, fine detail, realistic texture. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -240,7 +240,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: coral reef, nature photograph. Lighting: underwater caustics with clear blue light. Mood: calm, immersive, natural."
+          "suffix": "Style: coral reef, nature photograph. Lighting: underwater caustics with clear blue light. Mood: calm, immersive, natural. Key cues: coral reef, underwater, colorful fish, clear water. Finish cues: natural color, fine detail, realistic texture. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -259,7 +259,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: savanna sunset, nature photograph. Lighting: golden hour backlight with subtle lens flare and warm rim light. Mood: calm, immersive, natural."
+          "suffix": "Style: savanna sunset, nature photograph. Lighting: golden hour backlight with warm rim light and gentle bloom. Mood: calm, immersive, natural. Key cues: savanna, sunset, dust haze, warm tones. Finish cues: natural color, fine detail, realistic texture. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [

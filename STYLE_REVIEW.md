@@ -25,6 +25,21 @@ C:\Comfyui\python_embeded\python.exe .\tools\audit_styles.py
 - **Technique-level styles:** Many styles are movement-level (e.g., Impressionism, Cubism). Adding more “how it’s made” styles (materials, surface, process) tends to produce more controllable results across different subjects.
 - **Prompt token consistency:** The node splits on `", "` (comma + space). Avoid using commas without a following space inside a single token, or the phrase won’t split as expected.
 
+## Style Text Rules (Accuracy + No Object Injection)
+
+- **Style-only phrasing:** Prefer medium/process/palette/lighting/composition/texture cues. Avoid introducing unrelated objects not implied by the style name.
+- **Specific stays specific:** If a style is explicitly scene/subject-based (reflected in its `name`), keep its defining nouns (e.g., *Portrait*, *Street*, *Interior*).
+- **No gear words in templates:** Avoid photography/cinema equipment terms in `prefix`/`suffix`/Flux prose (e.g., softbox, strobe, beauty dish, tripod, lens). Prefer effect language (diffused key light, wide field of view, compressed perspective).
+- **Portrait/fashion OK cues:** Skin texture, catchlights, and sharp eyes are acceptable quality cues.
+
+## Academic / Museum References (for future refinements)
+
+When tightening a technique or movement, prefer authoritative glossaries and museum/encyclopedia references (examples):
+
+- Printmaking processes (etching, aquatint, mezzotint), and chiaroscuro definitions: Encyclopedia Britannica; National Portrait Gallery (UK) glossary.
+- Cyanotype process characteristics: National Gallery of Art (USA) and similar museum education references.
+- Film noir traits (low-key lighting, high-contrast look, mood conventions): established film history references (e.g., Britannica / major film institutes).
+
 ## New Additions: 500-style Expansion Packs
 
 Added four focused packs (25 styles each) to reach 500 total styles:

@@ -12,7 +12,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: photoreal 3d render, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+          "suffix": "Style: photoreal 3d render, clean 3D render. Lighting: large diffused key light with clean specular highlights. Materials: physically based, realistic roughness and specular response. Key cues: photorealistic 3d render, physically based materials, global illumination. Finish cues: high detail, clean render, sharp edges. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -31,7 +31,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: stylized 3d toon, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+          "suffix": "Style: stylized 3d toon, clean 3D render. Lighting: large diffused key light with clean specular highlights. Materials: physically based, realistic roughness and specular response. Key cues: stylized 3d, toon shading, soft gradients. Finish cues: high detail, clean render, sharp edges. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -50,7 +50,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: clay render, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+          "suffix": "Style: clay render, clean 3D render. Lighting: large diffused key light with clean specular highlights. Materials: physically based, realistic roughness and specular response. Key cues: clay render, matte material, soft studio lighting. Finish cues: high detail, clean render, sharp edges. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -69,7 +69,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: wireframe overlay, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+          "suffix": "Style: wireframe overlay, clean 3D render. Lighting: large diffused key light with clean specular highlights. Materials: physically based, realistic roughness and specular response. Key cues: wireframe overlay, technical render, clean topology. Finish cues: high detail, clean render, sharp edges. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -88,7 +88,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: low poly, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+          "suffix": "Style: low poly, clean 3D render. Lighting: large diffused key light with clean specular highlights. Materials: physically based, realistic roughness and specular response. Key cues: low poly 3d, faceted geometry, flat shading. Finish cues: high detail, clean render, sharp edges. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -107,7 +107,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: isometric 3d room, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+          "suffix": "Style: isometric 3d room, clean 3D render. Lighting: large diffused key light with clean specular highlights. Materials: physically based, realistic roughness and specular response. Key cues: isometric 3d room, miniature diorama, clean lighting. Finish cues: high detail, clean render, sharp edges. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -126,7 +126,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: subsurface skin render, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+          "suffix": "Style: subsurface skin render, clean 3D render. Lighting: large diffused key light with clean specular highlights. Materials: physically based, realistic roughness and specular response. Key cues: 3d render, subsurface scattering, realistic skin shader. Finish cues: high detail, clean render, sharp edges. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -145,7 +145,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: hard surface sci-fi, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+          "suffix": "Style: hard surface sci-fi, clean 3D render. Lighting: large diffused key light with clean specular highlights. Materials: physically based, realistic roughness and specular response. Key cues: hard surface 3d, sci-fi details, panel lines, clean bevels. Finish cues: high detail, clean render, sharp edges. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -164,7 +164,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: miniature diorama, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+          "suffix": "Style: miniature diorama, clean 3D render. Lighting: large diffused key light with clean specular highlights. Materials: physically based, realistic roughness and specular response. Key cues: miniature diorama, tiny details, tilt-shift feel. Finish cues: high detail, clean render, sharp edges. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -183,7 +183,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: stop motion look, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+          "suffix": "Style: stop motion look, clean 3D render. Lighting: large diffused key light with clean specular highlights. Materials: physically based, realistic roughness and specular response. Key cues: stop motion aesthetic, handmade texture, slight imperfections. Finish cues: high detail, clean render, sharp edges. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -202,7 +202,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: plastic toy render, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+          "suffix": "Style: plastic toy render, clean 3D render. Lighting: large diffused key light with clean specular highlights. Materials: physically based, realistic roughness and specular response. Key cues: toy photography look, plastic materials, clean highlights. Finish cues: high detail, clean render, sharp edges. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -221,7 +221,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: glass and caustics, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+          "suffix": "Style: glass and caustics, clean 3D render. Lighting: large diffused key light with clean specular highlights. Materials: physically based, realistic roughness and specular response. Key cues: glass render, caustics, refractive highlights. Finish cues: high detail, clean render, sharp edges. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -240,7 +240,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: subtle stylized pbr, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+          "suffix": "Style: subtle stylized pbr, clean 3D render. Lighting: large diffused key light with clean specular highlights. Materials: physically based, realistic roughness and specular response. Key cues: stylized pbr, clean shapes, soft materials. Finish cues: high detail, clean render, sharp edges. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -259,7 +259,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: cad product render, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+          "suffix": "Style: cad product render, clean 3D render. Lighting: large diffused key light with clean specular highlights. Materials: physically based, realistic roughness and specular response. Key cues: cad render, clean surfaces, studio reflections. Finish cues: high detail, clean render, sharp edges. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -278,7 +278,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: neon cyber render, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+          "suffix": "Style: neon cyber render, clean 3D render. Lighting: large diffused key light with clean specular highlights. Materials: physically based, realistic roughness and specular response. Key cues: 3d render, neon emissive, wet reflections, fog. Finish cues: high detail, clean render, sharp edges. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -297,7 +297,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: stylized miniature set, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+          "suffix": "Style: stylized miniature set, clean 3D render. Lighting: large diffused key light with clean specular highlights. Materials: physically based, realistic roughness and specular response. Key cues: miniature set, tiny props, diorama lighting. Finish cues: high detail, clean render, sharp edges. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -316,7 +316,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: paper craft 3d, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+          "suffix": "Style: paper craft 3d, clean 3D render. Lighting: large diffused key light with clean specular highlights. Materials: physically based, realistic roughness and specular response. Key cues: paper craft, folded paper, layered cutouts. Finish cues: high detail, clean render, sharp edges. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
@@ -335,7 +335,7 @@
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: wax subsurface render, clean 3D render. Lighting: studio strobe with a large softbox, clean specular highlights. Materials: physically based, realistic roughness and specular response."
+          "suffix": "Style: wax subsurface render, clean 3D render. Lighting: large diffused key light with clean specular highlights. Materials: physically based, realistic roughness and specular response. Key cues: subsurface scattering, wax material, soft translucency. Finish cues: high detail, clean render, sharp edges. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
