@@ -77,6 +77,7 @@ Outputs:
 Styles live in JSON packs:
 
 - `styles/packs/*.json` (merged at runtime in filename order)
+- Example curated pack: `styles/packs/34_fine_art_artists.json` (`Fine Art/Artists`) for artist-referenced fine art templates
 - Legacy fallback (only used if packs are missing): `styles/styles_v1.json`
 
 Pack file naming:

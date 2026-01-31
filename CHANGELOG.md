@@ -5,6 +5,12 @@ All notable changes to this project are documented in this file.
 The format is based on Keep a Changelog, and this project follows Semantic Versioning.
 
 
+## [0.3.1] - 2026-01-31
+
+### Added
+
+- New Fine Art artist-reference pack: `styles/packs/34_fine_art_artists.json` (25 styles under `Fine Art/Artists`).
+
 ## [0.3.0] - 2026-01-31
 
 ### Added
