@@ -29,6 +29,7 @@ import csv
 import importlib.util
 import json
 import os
+import re
 import sys
 from collections import Counter
 from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple
@@ -62,6 +63,18 @@ def _slugify(name: str) -> str:
     while "__" in base:
         base = base.replace("__", "_")
     return base or "style"
+
+
+def _normalize_user_subcategory(value: str) -> str:
+    """
+    Normalize a user subcategory string for "User/<subcategory>" categories:
+      - keep letters/numbers/spaces
+      - replace everything else with spaces
+      - collapse whitespace
+    """
+    cleaned = "".join(ch if (ch.isalnum() or ch.isspace()) else " " for ch in (value or ""))
+    cleaned = " ".join(cleaned.split()).strip()
+    return cleaned or "Custom"
 
 
 def _split_csv_list(value: Optional[str]) -> List[str]:
@@ -146,14 +159,20 @@ def _make_style_entry(
     tags: Sequence[str],
     style_id: Optional[str],
     id_prefix: str,
+    flux_suffix: Optional[str] = None,
+    existing_ids: Optional[set] = None,
+    existing_names: Optional[set] = None,
 ) -> Dict[str, Any]:
-    all_styles = _load_all_styles()
-    existing_ids = {str(s.get("id")) for s in all_styles if s.get("id") is not None}
-    existing_names = {str(s.get("name")) for s in all_styles if s.get("name") is not None}
+    if existing_ids is None or existing_names is None:
+        all_styles = _load_all_styles()
+        existing_ids = {str(s.get("id")) for s in all_styles if s.get("id") is not None}
+        existing_names = {str(s.get("name")) for s in all_styles if s.get("name") is not None}
 
     base_id = style_id.strip() if style_id else f"{id_prefix}_{_slugify(name)}"
     final_id = _ensure_unique_id(base_id, existing_ids)
     final_name = _ensure_unique_name(name.strip(), existing_names)
+    existing_ids.add(final_id)
+    existing_names.add(final_name)
 
     base_prefix = tuple((gen_mod.CATEGORY_BASE_PREFIX or {}).get(category, ()))
     base_suffix = tuple((gen_mod.CATEGORY_BASE_SUFFIX or {}).get(category, ()))
@@ -161,14 +180,34 @@ def _make_style_entry(
     prefix = gen_mod.z_join(tuple(base_prefix) + tuple(core))
     suffix = gen_mod.z_join(tuple(details) + tuple(base_suffix))
 
+    tags2 = [t.strip() for t in tags if (t or "").strip()]
+    if not tags2:
+        tags2 = ["user"]
+
+    if flux_suffix is None:
+        core_hint = gen_mod.z_join(core[:12]) if core else ""
+        detail_hint = gen_mod.z_join(details[:12]) if details else ""
+        parts = [f"Style: {final_name}"]
+        if core_hint:
+            parts.append(f"Core cues: {core_hint}")
+        if detail_hint:
+            parts.append(f"Details: {detail_hint}")
+        parts.append("Lighting: coherent and intentional")
+        parts.append("Mood: consistent with the user prompt")
+        flux_suffix2 = gen_mod.flux_join_sentences(parts)
+    else:
+        flux_suffix2 = str(flux_suffix or "").strip()
+        if flux_suffix2 and not re.search(r"[.!?]$", flux_suffix2):
+            flux_suffix2 = flux_suffix2 + "."
+
     entry: Dict[str, Any] = {
         "id": final_id,
         "name": final_name,
         "category": category,
         "default": {"prefix": prefix, "suffix": suffix},
+        "models": {"flux_2_klein": {"prefix": "", "suffix": flux_suffix2}},
+        "tags": tags2,
     }
-    if tags:
-        entry["tags"] = list(tags)
     return entry
 
 
@@ -210,6 +249,10 @@ def cmd_add(args) -> int:
     pack_path = os.path.abspath(args.pack)
     pack = _load_or_init_pack(pack_path)
 
+    all_styles = _load_all_styles()
+    existing_ids = {str(s.get("id")) for s in all_styles if s.get("id") is not None}
+    existing_names = {str(s.get("name")) for s in all_styles if s.get("name") is not None}
+
     core = _split_csv_list(args.core) + _split_csv_list(args.prefix_extra)
     details = _split_csv_list(args.details) + _split_csv_list(args.suffix_extra)
     tags = _split_csv_list(args.tags)
@@ -223,6 +266,8 @@ def cmd_add(args) -> int:
         tags=tags,
         style_id=args.id,
         id_prefix=args.id_prefix,
+        existing_ids=existing_ids,
+        existing_names=existing_names,
     )
 
     pack["styles"].append(entry)
@@ -267,6 +312,10 @@ def cmd_bulk(args) -> int:
     pack_path = os.path.abspath(args.pack)
     pack = _load_or_init_pack(pack_path)
 
+    all_styles = _load_all_styles()
+    existing_ids = {str(s.get("id")) for s in all_styles if s.get("id") is not None}
+    existing_names = {str(s.get("name")) for s in all_styles if s.get("name") is not None}
+
     if args.csv:
         items = _read_bulk_csv(os.path.abspath(args.csv))
     elif args.json:
@@ -285,6 +334,7 @@ def cmd_bulk(args) -> int:
         details = _split_csv_list(item.get("details")) + _split_csv_list(item.get("suffix_extra"))
         tags = _split_csv_list(item.get("tags"))
         style_id = (item.get("id") or "").strip() or None
+        flux_suffix = (item.get("flux") or item.get("flux_suffix") or "").strip() or None
 
         entry = _make_style_entry(
             gen_mod,
@@ -295,6 +345,9 @@ def cmd_bulk(args) -> int:
             tags=tags,
             style_id=style_id,
             id_prefix=args.id_prefix,
+            flux_suffix=flux_suffix,
+            existing_ids=existing_ids,
+            existing_names=existing_names,
         )
         pack["styles"].append(entry)
         added += 1
@@ -305,6 +358,100 @@ def cmd_bulk(args) -> int:
     )
     _write_json(pack_path, pack)
     print(f"Added {added} styles to {pack_path}")
+    return 0
+
+
+def _prompt_line(label: str, *, default: Optional[str] = None) -> str:
+    if default is None:
+        return input(f"{label}: ").strip()
+    v = input(f"{label} [{default}]: ").strip()
+    return v if v else default
+
+
+def cmd_wizard(args) -> int:
+    """
+    Interactive style creation helper.
+
+    Writes (or updates) a JSON pack under styles/packs/, defaulting to:
+      styles/packs/99_user_custom.json
+
+    User styles are always categorized under: User/<subcategory>
+    """
+    gen_mod = _load_generator_module()
+    pack_path = os.path.abspath(args.pack)
+    pack = _load_or_init_pack(pack_path)
+
+    all_styles = _load_all_styles()
+    existing_ids = {str(s.get("id")) for s in all_styles if s.get("id") is not None}
+    existing_names = {str(s.get("name")) for s in all_styles if s.get("name") is not None}
+
+    print("PromptStyler: User Style Wizard")
+    print("Tip: use comma-separated phrases (node splits default templates on ', ').")
+    print("")
+
+    subcat_raw = _prompt_line("User subcategory (creates category User/<subcategory>)", default="Custom")
+    subcat = _normalize_user_subcategory(subcat_raw)
+    category = f"User/{subcat}"
+
+    name = _prompt_line("Style name")
+    if not name.strip():
+        print("ERROR: style name is required")
+        return 2
+
+    core_raw = _prompt_line("Core descriptors (comma-separated)", default="")
+    details_raw = _prompt_line("Detail descriptors (comma-separated)", default="")
+    tags_raw = _prompt_line("Tags (comma-separated, optional)", default="")
+
+    core = _split_csv_list(core_raw)
+    details = _split_csv_list(details_raw)
+    tags = _split_csv_list(tags_raw)
+
+    # Always tag user styles for easier filtering/searching.
+    tags.extend(["user", _slugify(subcat)])
+
+    flux = _prompt_line("Flux suffix (optional; blank to auto-generate)", default="").strip() or None
+
+    entry = _make_style_entry(
+        gen_mod,
+        name=name,
+        category=category,
+        core=core,
+        details=details,
+        tags=tags,
+        style_id=None,
+        id_prefix=args.id_prefix,
+        flux_suffix=flux,
+        existing_ids=existing_ids,
+        existing_names=existing_names,
+    )
+
+    print("")
+    print("Preview")
+    print(f"  Category: {entry['category']}")
+    print(f"  Name:     {entry['name']}")
+    print(f"  ID:       {entry['id']}")
+    print(f"  Prefix:   {entry['default']['prefix']}")
+    print(f"  Suffix:   {entry['default']['suffix']}")
+    print(f"  Flux:     {entry['models']['flux_2_klein']['suffix']}")
+    print(f"  Tags:     {', '.join(entry.get('tags', []))}")
+    print(f"  Pack:     {pack_path}")
+
+    confirm = _prompt_line("Write this style? (y/n)", default="y").strip().lower()
+    if confirm not in ("y", "yes"):
+        print("Canceled.")
+        return 0
+
+    pack["styles"].append(entry)
+    pack["styles"] = sorted(
+        pack["styles"],
+        key=lambda s: (str(s.get("category", "")).casefold(), str(s.get("name", "")).casefold(), str(s.get("id", ""))),
+    )
+    _write_json(pack_path, pack)
+
+    print("")
+    print(f"Added: {entry['category']} | {entry['name']} | {entry['id']}")
+    print(f"Pack: {pack_path}")
+    print("Tip: paste the id into the node's style_id_override to use it immediately.")
     return 0
 
 
@@ -345,6 +492,11 @@ def main(argv: Optional[List[str]] = None) -> int:
     p_bulk.add_argument("--csv", default=None, help="CSV file path (columns: name,category,core,details,tags,id)")
     p_bulk.add_argument("--json", default=None, help="JSON file path (list of style objects)")
     p_bulk.set_defaults(func=cmd_bulk)
+
+    p_wizard = sub.add_parser("wizard", help="Interactive wizard to add a user style")
+    p_wizard.add_argument("--pack", default=DEFAULT_PACK_PATH, help="Output pack JSON path")
+    p_wizard.add_argument("--id-prefix", default="user", help="Prefix for generated ids (default: user)")
+    p_wizard.set_defaults(func=cmd_wizard)
 
     args = parser.parse_args(argv)
     return int(args.func(args))

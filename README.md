@@ -21,6 +21,8 @@ Custom ComfyUI node that applies curated style **prefix/suffix** templates to yo
     - `prompt` (STRING)
     - `apply_style` (BOOLEAN) - disable to pass your prompt through unchanged
     - `style` (single-select dropdown, sorted + categorized)
+    - `template_variant` (dropdown) - `default` (comma-phrase templates) or `flux_2_klein` (prose guidance)
+    - `style_id_override` (STRING) - optionally apply a style directly by `id` (useful for newly-added user styles)
     - `text_encoder` (CLIP) (wire this from your model loader node)
   - Outputs:
     - `positive` (CONDITIONING) -> connect to KSampler `positive`
@@ -40,6 +42,7 @@ Custom ComfyUI node that applies curated style **prefix/suffix** templates to yo
 - Each style entry contains:
   - `id`, `name`, `category`
   - `default`: `{ "prefix": "...", "suffix": "..." }`
+  - `models.flux_2_klein`: optional `{ "prefix": "", "suffix": "..." }` prose guidance used by `template_variant=flux_2_klein`
 
 ## Validate
 
@@ -69,6 +72,14 @@ Two options:
 ### Add Styles (Automated)
 
 Use `tools/add_styles.py` to append styles into a custom pack (default: `styles/packs/99_user_custom.json`).
+
+Interactive wizard (recommended):
+
+```powershell
+C:\Comfyui\python_embeded\python.exe .\tools\add_styles.py wizard
+```
+
+The wizard writes styles under `category: "User/<Subcategory>"`. After adding a style, copy the printed `id` into the node’s `style_id_override` to use it immediately (no reload required).
 
 List categories:
 

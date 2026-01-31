@@ -1,0 +1,530 @@
+{
+  "version": 1,
+  "styles": [
+    {
+      "id": "textile_shibori_arashi",
+      "name": "Textiles: Shibori (Arashi)",
+      "category": "Decorative Arts/Textiles",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, textile art, shibori dye, arashi shibori, pole-wrapped resist, diagonal streaks, indigo dye, fabric weave texture",
+        "suffix": "cloth weave detail, resist dye patterns, subtle dye bleed, handmade imperfections, tactile fibers, soft diffuse lighting, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: arashi shibori textile with diagonal pole-wrapped resist patterns. Materials: indigo-dyed fabric with visible weave and soft dye diffusion. Lighting: soft diffuse light emphasizing fibers and texture. Mood: artisanal, calm, crafted."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "textiles",
+        "shibori",
+        "indigo"
+      ]
+    },
+    {
+      "id": "textile_shibori_itajime",
+      "name": "Textiles: Shibori (Itajime)",
+      "category": "Decorative Arts/Textiles",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, textile art, shibori dye, itajime shibori, clamp resist, geometric folds, crisp pattern blocks, indigo dye, fabric texture",
+        "suffix": "cloth weave detail, crisp geometric motifs, subtle dye bleed, handmade irregularities, tactile fibers, soft diffuse lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: itajime shibori clamp-resist textile with crisp geometric pattern blocks. Materials: indigo-dyed cloth with visible weave and slight dye bleed at edges. Lighting: soft even light for texture clarity. Mood: crafted, patterned, calm."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "textiles",
+        "shibori",
+        "geometric"
+      ]
+    },
+    {
+      "id": "textile_shibori_nui",
+      "name": "Textiles: Shibori (Nui)",
+      "category": "Decorative Arts/Textiles",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, textile art, shibori dye, nui shibori, stitched resist, gathered fabric, organic circular motifs, indigo dye, cloth texture",
+        "suffix": "cloth weave detail, stitched resist marks, subtle puckering, dye diffusion, handmade imperfections, tactile fibers, soft diffuse lighting"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: nui shibori stitched-resist textile with organic gathered motifs. Materials: indigo-dyed fabric showing puckering, stitch traces, and dye diffusion. Lighting: soft diffuse light highlighting folds and fibers. Mood: artisanal, organic, tactile."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "textiles",
+        "shibori",
+        "stitch_resist"
+      ]
+    },
+    {
+      "id": "textile_ikat_weave_pattern",
+      "name": "Textiles: Ikat Weave Pattern",
+      "category": "Decorative Arts/Textiles",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, textile art, ikat weave, resist-dyed yarns, soft-edged motifs, traditional patterning, fabric weave texture, artisanal",
+        "suffix": "cloth weave detail, feathered edges, subtle irregularities, tactile fibers, warm ambient light, cohesive composition, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: ikat textile woven from resist-dyed yarns. Pattern: soft-edged motifs with feathered transitions and slight irregularities. Materials: visible cloth weave and tactile fibers. Lighting: warm ambient light for a crafted, museum-quality feel."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "textiles",
+        "ikat",
+        "weaving"
+      ]
+    },
+    {
+      "id": "textile_indigo_dye_aizome",
+      "name": "Textiles: Indigo Dye (Aizome)",
+      "category": "Decorative Arts/Textiles",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, textile art, aizome, indigo dye, deep blue cloth, natural dye variation, fabric weave texture, slow craft",
+        "suffix": "cloth weave detail, subtle dye variation, matte fabric surface, tactile fibers, soft diffuse lighting, calm mood, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: aizome indigo-dyed textile. Color: deep natural indigo with subtle variation and matte fabric character. Materials: visible weave and tactile fibers. Lighting: soft diffuse light emphasizing texture. Mood: calm, disciplined, handcrafted."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "textiles",
+        "indigo",
+        "aizome"
+      ]
+    },
+    {
+      "id": "textile_brocade_weave",
+      "name": "Textiles: Brocade Weave (Ornate)",
+      "category": "Decorative Arts/Textiles",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, textile art, brocade weave, ornate patterns, raised texture, metallic thread accents, luxurious fabric, woven texture",
+        "suffix": "cloth weave detail, raised motifs, subtle sheen, metallic highlights, tactile fibers, soft studio lighting, high craftsmanship"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: ornate brocade textile with raised woven motifs. Materials: dense weave with subtle sheen and occasional metallic thread sparkle. Lighting: soft studio light to show relief and highlights. Mood: luxurious, ceremonial, crafted."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "textiles",
+        "brocade",
+        "luxury"
+      ]
+    },
+    {
+      "id": "textile_damask_pattern",
+      "name": "Textiles: Damask Pattern Textile",
+      "category": "Decorative Arts/Textiles",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, textile art, damask pattern, tonal weave, elegant motifs, subtle sheen, woven texture, refined",
+        "suffix": "cloth weave detail, tonal patterning, soft highlights, tactile fibers, clean composition, high detail, premium craftsmanship"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: damask textile with elegant tonal woven motifs. Materials: refined weave with subtle sheen and pattern visible through light direction. Lighting: soft controlled highlights to reveal texture. Mood: formal, classic, premium."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "textiles",
+        "damask",
+        "pattern"
+      ]
+    },
+    {
+      "id": "textile_jacquard_knit",
+      "name": "Textiles: Jacquard Knit (Pattern)",
+      "category": "Decorative Arts/Textiles",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, textile art, jacquard knit, knitted patterning, yarn texture, soft fibers, cozy craft, fabric texture",
+        "suffix": "knit stitch detail, yarn fuzz, tactile fibers, soft diffuse lighting, warm mood, high detail, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: jacquard knit textile with patterned stitches. Materials: visible knit loops, yarn fuzz, and soft fiber texture. Lighting: warm diffuse light emphasizing stitch depth. Mood: cozy, crafted, tactile."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "textiles",
+        "knit",
+        "jacquard"
+      ]
+    },
+    {
+      "id": "textile_crochet_lacework",
+      "name": "Textiles: Crochet Lacework",
+      "category": "Decorative Arts/Textiles",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, textile art, crochet lace, openwork pattern, delicate thread loops, handmade doily texture, fiber craft",
+        "suffix": "fine thread detail, open holes, soft shadows between loops, tactile fibers, soft diffuse lighting, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: crochet lacework with delicate openwork patterns. Materials: fine thread loops and visible stitches with soft shadows between holes. Lighting: soft diffuse light for gentle relief. Mood: delicate, handmade, intimate."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "textiles",
+        "crochet",
+        "lace"
+      ]
+    },
+    {
+      "id": "textile_bobbin_lace",
+      "name": "Textiles: Bobbin Lace",
+      "category": "Decorative Arts/Textiles",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, textile art, bobbin lace, intricate openwork, fine thread crossings, delicate mesh, heirloom craft",
+        "suffix": "high intricacy, fine thread texture, crisp patterns, soft shadows, tactile fibers, clean composition, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: bobbin lace with intricate openwork and fine thread crossings. Detail: crisp patterns, delicate mesh, and subtle relief. Lighting: soft even illumination with gentle shadows. Mood: heirloom, meticulous, handcrafted."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "textiles",
+        "bobbin_lace",
+        "intricate"
+      ]
+    },
+    {
+      "id": "textile_tatting_lace",
+      "name": "Textiles: Tatting Lace",
+      "category": "Decorative Arts/Textiles",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, textile art, tatting lace, tiny knots and rings, delicate motifs, fine threadwork, vintage lace",
+        "suffix": "fine thread detail, crisp lace edges, openwork patterns, soft shadows, tactile fibers, high craftsmanship"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: tatting lace with tiny knotted rings and delicate motifs. Materials: fine threadwork with crisp edges and open spaces. Lighting: soft diffuse illumination showing gentle relief. Mood: vintage, delicate, handcrafted."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "textiles",
+        "tatting",
+        "lace"
+      ]
+    },
+    {
+      "id": "textile_goldwork_embroidery",
+      "name": "Textiles: Goldwork Embroidery",
+      "category": "Decorative Arts/Textiles",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, textile art, goldwork embroidery, metallic threads, bullion coils, ornate motifs, ceremonial craft, fabric texture",
+        "suffix": "metallic shimmer, crisp stitchwork, textile weave detail, controlled highlights, high craftsmanship, premium finish"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: goldwork embroidery with metallic threads and bullion details. Materials: fabric weave beneath shimmering stitches and ornate motifs. Lighting: controlled highlights to reveal metallic sparkle without blowing out. Mood: ceremonial, luxurious, crafted."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "textiles",
+        "embroidery",
+        "goldwork"
+      ]
+    },
+    {
+      "id": "textile_crewel_embroidery",
+      "name": "Textiles: Crewel Embroidery",
+      "category": "Decorative Arts/Textiles",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, textile art, crewel embroidery, wool threads, dense stitched motifs, traditional needlework, tactile stitching",
+        "suffix": "visible thread fibers, raised stitch relief, cloth weave detail, soft diffuse lighting, high detail, handmade warmth"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: crewel embroidery with dense wool-thread stitchwork. Materials: visible thread fibers and cloth weave with raised stitch relief. Lighting: soft diffuse light revealing texture and depth. Mood: warm, traditional, handcrafted."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "textiles",
+        "embroidery",
+        "crewel"
+      ]
+    },
+    {
+      "id": "textile_cross_stitch_sampler",
+      "name": "Textiles: Cross-stitch Sampler",
+      "category": "Decorative Arts/Textiles",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, textile art, cross-stitch, sampler cloth, counted stitches, grid fabric, folk motifs, needlework",
+        "suffix": "crisp stitched crosses, visible fabric grid, thread texture, soft diffuse lighting, clean composition, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: cross-stitch sampler on grid cloth. Detail: counted stitches forming crisp X shapes over a visible fabric grid. Materials: thread texture and cloth weave. Lighting: soft diffuse light with gentle shadows. Mood: folk, careful, handmade."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "textiles",
+        "cross_stitch",
+        "folk"
+      ]
+    },
+    {
+      "id": "textile_quilted_patchwork",
+      "name": "Textiles: Quilted Patchwork",
+      "category": "Decorative Arts/Textiles",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, textile art, quilted patchwork, stitched seams, layered fabric, geometric blocks, cozy craft, fabric texture",
+        "suffix": "visible quilting stitches, fabric weave detail, puffed quilting relief, soft diffuse lighting, warm mood, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: quilted patchwork textile with stitched seams and layered fabric blocks. Texture: visible quilting stitches, fabric weave, and gentle puffed relief. Lighting: soft diffuse light emphasizing warmth and craft. Mood: cozy, handmade, comforting."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "textiles",
+        "quilting",
+        "patchwork"
+      ]
+    },
+    {
+      "id": "textile_applique_cloth_art",
+      "name": "Textiles: Appliqué Cloth Art",
+      "category": "Decorative Arts/Textiles",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, textile art, applique, layered fabric cutouts, stitched edges, bold shapes, handmade textile collage",
+        "suffix": "fabric layers, stitched outlines, cloth weave detail, tactile fibers, soft diffuse lighting, clean composition, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: appliqué textile art with layered fabric cutouts and stitched edges. Texture: cloth weave, stacked layers, and visible stitch outlines. Lighting: soft diffuse light to reveal depth without harsh shadows. Mood: playful, crafted, tactile."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "textiles",
+        "applique",
+        "layered"
+      ]
+    },
+    {
+      "id": "textile_wet_felting_wool",
+      "name": "Textiles: Wet Felting Wool",
+      "category": "Decorative Arts/Textiles",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, textile art, wet felting, wool felt, matted fibers, organic texture, soft surface, handmade craft",
+        "suffix": "fiber fuzz, tactile felt texture, soft diffuse lighting, gentle shadows, high detail, warm handmade feel"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: wet-felted wool textile with matted fibers and organic surface texture. Materials: soft felt with visible fiber fuzz and gentle irregularities. Lighting: soft diffuse light to show texture. Mood: warm, cozy, handcrafted."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "textiles",
+        "felting",
+        "wool"
+      ]
+    },
+    {
+      "id": "textile_needle_felting",
+      "name": "Textiles: Needle Felting",
+      "category": "Decorative Arts/Textiles",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, textile art, needle felting, sculpted wool fibers, matted texture, soft shapes, handmade craft",
+        "suffix": "visible fiber fuzz, needle-punched texture, tactile surface, soft diffuse lighting, high detail, crafted imperfections"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: needle-felted wool with a sculpted, matted fiber surface. Texture: needle-punched marks, fuzzy fibers, soft edges. Lighting: soft diffuse light emphasizing tactile detail. Mood: handmade, charming, cozy."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "textiles",
+        "needle_felting",
+        "wool"
+      ]
+    },
+    {
+      "id": "textile_macrame_knotwork",
+      "name": "Textiles: Macram\u00e9 Knotwork",
+      "category": "Decorative Arts/Textiles",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, textile art, macrame, knotwork cords, braided fibers, fringe, handmade wall hanging texture",
+        "suffix": "rope fibers, knot detail, fringe texture, tactile surface, soft diffuse lighting, clean composition, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: macram\u00e9 textile with detailed knotwork cords and fringe. Materials: braided rope fibers with visible strands and tactile relief. Lighting: soft diffuse light with gentle shadows between knots. Mood: artisanal, earthy, handcrafted."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "textiles",
+        "macrame",
+        "knotwork"
+      ]
+    },
+    {
+      "id": "textile_tufted_rug",
+      "name": "Textiles: Tufted Rug Texture",
+      "category": "Decorative Arts/Textiles",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, textile art, tufted rug, dense pile fibers, looped yarn, tactile surface, cozy craft, fabric texture",
+        "suffix": "pile texture, yarn fuzz, soft shadows between tufts, high detail, soft diffuse lighting, warm mood"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: tufted rug textile with dense pile fibers. Materials: looped yarn and fuzzy texture with soft shadows between tufts. Lighting: soft diffuse light emphasizing thickness and relief. Mood: cozy, tactile, handcrafted."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "textiles",
+        "tufted",
+        "rug"
+      ]
+    },
+    {
+      "id": "textile_beadwork_embellishment",
+      "name": "Textiles: Beadwork Embellishment",
+      "category": "Decorative Arts/Textiles",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, textile art, beadwork, tiny beads, embroidered embellishment, ornamental motifs, reflective highlights, fabric texture",
+        "suffix": "sparkling bead highlights, thread and bead detail, cloth weave texture, controlled lighting, high craftsmanship, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: textile beadwork with embroidered embellishments. Materials: tiny beads stitched onto fabric with visible threadwork and cloth weave. Lighting: controlled highlights to show sparkle without clipping. Mood: ornate, crafted, premium."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "textiles",
+        "beadwork",
+        "ornate"
+      ]
+    },
+    {
+      "id": "textile_sequin_embroidery",
+      "name": "Textiles: Sequin Embroidery",
+      "category": "Decorative Arts/Textiles",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, textile art, sequin embroidery, shimmering sequins, stitched embellishment, reflective surfaces, fabric texture",
+        "suffix": "sparkling highlights, reflective glints, cloth weave detail, controlled studio lighting, high detail, premium craftsmanship"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: sequin-embroidered textile with shimmering reflective surfaces. Materials: sequins stitched to fabric with visible threadwork and weave texture. Lighting: controlled studio highlights for clean sparkle. Mood: glamorous, ornate, crafted."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "textiles",
+        "sequins",
+        "embroidery"
+      ]
+    },
+    {
+      "id": "textile_velvet_pile",
+      "name": "Textiles: Velvet Pile Fabric",
+      "category": "Decorative Arts/Textiles",
+      "default": {
+        "prefix": "decorative arts, artisan-made, museum-quality, textile art, velvet fabric, plush pile, directional sheen, rich color, soft texture, fabric weave",
+        "suffix": "soft highlights, pile texture, subtle sheen shifts, tactile fibers, controlled lighting, high detail, premium feel"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: velvet textile with plush pile and directional sheen. Materials: soft fibers creating smooth highlights and subtle sheen shifts. Lighting: controlled to emphasize depth without harsh glare. Mood: luxurious, rich, tactile."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "textiles",
+        "velvet",
+        "luxury"
+      ]
+    },
+    {
+      "id": "textile_tweed_boucle",
+      "name": "Textiles: Tweed Boucl\u00e9 Fabric",
+      "category": "Decorative Arts/Textiles",
+      "default": {
+        "prefix": "decorative arts, artisan-made, museum-quality, textile art, tweed, boucle fabric, nubby yarn texture, woven fibers, speckled threads, tactile surface",
+        "suffix": "nubby texture, yarn fuzz, woven detail, soft diffuse lighting, high detail, crafted feel"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: tweed boucl\u00e9 textile with nubby yarn texture. Materials: woven fibers, speckled threads, and tactile fuzz. Lighting: soft diffuse light emphasizing texture without harsh shadows. Mood: classic, warm, crafted."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "textiles",
+        "tweed",
+        "boucle"
+      ]
+    },
+    {
+      "id": "textile_screenprinted_fabric",
+      "name": "Textiles: Screenprinted Fabric",
+      "category": "Decorative Arts/Textiles",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, textile art, screenprinted fabric, ink layers on cloth, crisp pattern repeats, slight misregistration, fabric weave texture",
+        "suffix": "ink coverage on textile, cloth weave detail, crisp edges, subtle imperfections, soft diffuse lighting, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: screenprinted textile with ink layers on fabric. Pattern: crisp repeats with slight misregistration and handmade character. Materials: visible cloth weave beneath ink coverage. Lighting: soft diffuse light for texture clarity. Mood: crafted, graphic, artisanal."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "textiles",
+        "screenprint",
+        "fabric"
+      ]
+    }
+  ]
+}

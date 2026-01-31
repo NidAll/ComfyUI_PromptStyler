@@ -1,0 +1,530 @@
+{
+  "version": 1,
+  "styles": [
+    {
+      "id": "photo_alt_albumen_print",
+      "name": "Alt Process: Albumen Print",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "professional photography, realistic lighting, coherent shadows, true-to-life textures, alternative photographic process, albumen print, warm sepia tones, 19th century photograph, archival paper texture",
+        "suffix": "soft tonal range, gentle contrast, subtle vignetting, paper grain, fine detail, balanced exposure, sharp focus"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: historical albumen print photograph. Color: warm sepia with slightly faded tones. Texture: visible paper grain and subtle edge vignetting. Mood: archival, timeless, museum print."
+        }
+      },
+      "tags": [
+        "photography",
+        "alt_process",
+        "albumen",
+        "analog_print"
+      ]
+    },
+    {
+      "id": "photo_alt_salted_paper_print",
+      "name": "Alt Process: Salted Paper Print",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "professional photography, realistic lighting, coherent shadows, true-to-life textures, alternative photographic process, salted paper print, matte paper surface, warm brown tones, contact print, handmade look",
+        "suffix": "soft edges, gentle contrast, paper texture, subtle uneven toning, fine detail, balanced exposure"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: salted paper print with a matte surface. Tone: warm brown, low contrast, softly rendered edges. Texture: handmade paper grain and slight uneven toning. Mood: quiet, antique, archival."
+        }
+      },
+      "tags": [
+        "photography",
+        "alt_process",
+        "salted_paper",
+        "contact_print"
+      ]
+    },
+    {
+      "id": "photo_alt_platinum_palladium_print",
+      "name": "Alt Process: Platinum/Palladium Print",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "professional photography, realistic lighting, coherent shadows, true-to-life textures, alternative photographic process, platinum palladium print, matte fine art paper, wide tonal range, deep blacks, neutral warm highlights",
+        "suffix": "smooth tonal transitions, subtle contrast, paper grain, fine detail, balanced exposure, soft highlight rolloff"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: platinum/palladium print on matte fine art paper. Tone mapping: wide tonal range with smooth transitions and deep shadows. Texture: subtle paper grain, understated surface. Mood: refined, archival, gallery-quality."
+        }
+      },
+      "tags": [
+        "photography",
+        "alt_process",
+        "platinum",
+        "palladium"
+      ]
+    },
+    {
+      "id": "photo_alt_gum_bichromate_print",
+      "name": "Alt Process: Gum Bichromate Print",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "professional photography, realistic lighting, coherent shadows, true-to-life textures, alternative photographic process, gum bichromate print, painterly overlay, textured watercolor paper, handmade registration, soft tones",
+        "suffix": "brushy texture, subtle misregistration, matte surface, paper grain, gentle contrast, fine detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: gum bichromate print with a painterly, handmade look. Texture: watercolor paper grain with brushy pigment layers and slight registration shifts. Color: soft, muted, artisanal. Mood: intimate, crafted, fine-art print."
+        }
+      },
+      "tags": [
+        "photography",
+        "alt_process",
+        "gum_bichromate",
+        "painterly"
+      ]
+    },
+    {
+      "id": "photo_alt_van_dyke_brown_print",
+      "name": "Alt Process: Van Dyke Brown Print",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "professional photography, realistic lighting, coherent shadows, true-to-life textures, alternative photographic process, van dyke brown print, rich brown sepia, contact print, vintage paper texture",
+        "suffix": "warm brown toning, gentle contrast, paper grain, subtle vignetting, fine detail, balanced exposure"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Van Dyke brown print with warm sepia-brown toning. Tone mapping: soft contrast with gentle highlights. Texture: paper grain and contact-print character. Mood: vintage, archival, handcrafted."
+        }
+      },
+      "tags": [
+        "photography",
+        "alt_process",
+        "van_dyke",
+        "sepia"
+      ]
+    },
+    {
+      "id": "photo_alt_kallitype_print",
+      "name": "Alt Process: Kallitype Print",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "professional photography, realistic lighting, coherent shadows, true-to-life textures, alternative photographic process, kallitype print, warm brown tones, matte paper, contact print, handmade look",
+        "suffix": "subtle contrast, smooth tonal range, paper texture, slight uneven toning, fine detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: kallitype print on matte paper. Tone: warm brown with smooth midtones and modest contrast. Texture: handmade paper grain and subtle process irregularities. Mood: classic, quiet, archival."
+        }
+      },
+      "tags": [
+        "photography",
+        "alt_process",
+        "kallitype",
+        "contact_print"
+      ]
+    },
+    {
+      "id": "photo_alt_cyanotype_contact_print",
+      "name": "Alt Process: Cyanotype Contact Print",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "professional photography, realistic lighting, coherent shadows, true-to-life textures, alternative photographic process, cyanotype print, deep prussian blue, contact print, paper texture, white highlights",
+        "suffix": "high contrast, crisp silhouettes, paper grain, chemical texture, fine detail, clean edges"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: cyanotype contact print. Color: deep Prussian blue with bright white highlights. Texture: paper grain and subtle chemical mottling. Mood: minimal, graphic, archival."
+        }
+      },
+      "tags": [
+        "photography",
+        "alt_process",
+        "cyanotype",
+        "blueprint"
+      ]
+    },
+    {
+      "id": "photo_alt_anthotype_print",
+      "name": "Alt Process: Anthotype Print",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "professional photography, realistic lighting, coherent shadows, true-to-life textures, alternative photographic process, anthotype print, botanical dye print, delicate pastel tones, soft fading, handmade paper texture",
+        "suffix": "low contrast, gentle gradients, organic fading, paper grain, subtle imperfections, dreamy softness"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: anthotype print made with botanical dyes. Color: delicate pastel tones with natural fading. Texture: handmade paper grain and subtle irregularities. Mood: fragile, poetic, sun-kissed."
+        }
+      },
+      "tags": [
+        "photography",
+        "alt_process",
+        "anthotype",
+        "botanical"
+      ]
+    },
+    {
+      "id": "photo_alt_lumen_print",
+      "name": "Alt Process: Lumen Print (Sun Print)",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "professional photography, realistic lighting, coherent shadows, true-to-life textures, alternative photographic process, lumen print, sun print, organic color shifts, paper texture, dreamy highlights",
+        "suffix": "soft contrast, unpredictable hues, gentle gradients, paper grain, subtle process artifacts, ethereal mood"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: lumen print (sun print) with organic, unpredictable color shifts. Tone: soft contrast with gentle highlights. Texture: paper grain and subtle chemistry artifacts. Mood: dreamy, experimental, delicate."
+        }
+      },
+      "tags": [
+        "photography",
+        "alt_process",
+        "lumen_print",
+        "sun_print"
+      ]
+    },
+    {
+      "id": "photo_alt_photogram_rayograph",
+      "name": "Alt Process: Photogram (Rayograph)",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "professional photography, realistic lighting, coherent shadows, true-to-life textures, darkroom print, photogram, rayograph, direct exposure, high contrast silhouettes, graphic composition",
+        "suffix": "crisp edges, strong contrast, paper texture, subtle darkroom grain, clean shapes, minimal background"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: darkroom photogram (rayograph). Composition: graphic silhouettes and clean negative space. Contrast: strong black and white with crisp edges. Mood: modernist, minimal, experimental."
+        }
+      },
+      "tags": [
+        "photography",
+        "alt_process",
+        "photogram",
+        "rayograph"
+      ]
+    },
+    {
+      "id": "photo_alt_chemigram",
+      "name": "Alt Process: Chemigram",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "professional photography, realistic lighting, coherent shadows, true-to-life textures, darkroom chemistry, chemigram, abstract stains, emulsion textures, organic patterns, experimental print",
+        "suffix": "chemical marks, paper grain, unpredictable textures, high detail, tactile surface, handmade imperfections"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: chemigram darkroom experiment with abstract chemical patterns. Texture: emulsion stains, organic marks, paper grain. Color: subtle photographic tones with process artifacts. Mood: exploratory, handcrafted, tactile."
+        }
+      },
+      "tags": [
+        "photography",
+        "alt_process",
+        "chemigram",
+        "experimental"
+      ]
+    },
+    {
+      "id": "photo_alt_wet_plate_collodion_tintype",
+      "name": "Alt Process: Wet Plate Collodion (Tintype)",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "professional photography, realistic lighting, coherent shadows, true-to-life textures, wet plate collodion, tintype, antique portrait, blackened metal plate, silver highlights, edge artifacts, vintage look",
+        "suffix": "low saturation, rich tonal range, subtle scratches, chemical streaks, vignette, fine detail, archival feel"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: wet plate collodion tintype on dark metal. Tone: monochrome with silver highlights and a vintage contrast curve. Texture: edge artifacts, small scratches, subtle chemical streaks. Mood: antique, intimate, historical."
+        }
+      },
+      "tags": [
+        "photography",
+        "alt_process",
+        "wet_plate",
+        "tintype"
+      ]
+    },
+    {
+      "id": "photo_alt_wet_plate_collodion_ambrotype",
+      "name": "Alt Process: Wet Plate Collodion (Ambrotype)",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "professional photography, realistic lighting, coherent shadows, true-to-life textures, wet plate collodion, ambrotype, antique portrait, glass plate, milky blacks, haloed highlights, vintage photograph",
+        "suffix": "soft contrast, subtle glow, fine scratches, edge artifacts, vignette, archival feel, paper-like texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: wet plate collodion ambrotype on glass. Tone: soft contrast with milky blacks and haloed highlights. Texture: fine scratches, edge artifacts, gentle vignetting. Mood: antique, delicate, historical."
+        }
+      },
+      "tags": [
+        "photography",
+        "alt_process",
+        "wet_plate",
+        "ambrotype"
+      ]
+    },
+    {
+      "id": "photo_alt_daguerreotype_look",
+      "name": "Alt Process: Daguerreotype Look",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "professional photography, realistic lighting, coherent shadows, true-to-life textures, daguerreotype, mirrored silver plate, antique photograph, microdetail, soft falloff, vignette",
+        "suffix": "silvery highlights, deep shadows, subtle surface sheen, fine scratches, archival feel, gentle contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: daguerreotype-like photograph on a reflective silver plate. Tone: silvery highlights with deep shadows and gentle contrast. Texture: faint scratches and subtle surface sheen. Mood: historical, precious, intimate."
+        }
+      },
+      "tags": [
+        "photography",
+        "alt_process",
+        "daguerreotype",
+        "antique"
+      ]
+    },
+    {
+      "id": "photo_alt_autochrome_plate",
+      "name": "Alt Process: Autochrome Plate Color",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "professional photography, realistic lighting, coherent shadows, true-to-life textures, autochrome plate, early color photograph, grainy color mosaic, soft focus, muted palette, vintage color",
+        "suffix": "fine color grain, gentle contrast, subtle blur, aged tones, paper texture, nostalgic feel"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: autochrome plate early color photograph. Color: muted and slightly faded with a fine color mosaic grain. Focus: soft with gentle contrast. Mood: nostalgic, archival, early-1900s color."
+        }
+      },
+      "tags": [
+        "photography",
+        "alt_process",
+        "autochrome",
+        "vintage_color"
+      ]
+    },
+    {
+      "id": "photo_alt_silver_gelatin_darkroom_print",
+      "name": "Alt Process: Silver Gelatin Print (Darkroom)",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "professional photography, realistic lighting, coherent shadows, true-to-life textures, silver gelatin print, darkroom print, neutral monochrome, rich tonal range, classic black and white photograph",
+        "suffix": "clean blacks, bright highlights, subtle film grain, paper texture, fine detail, balanced exposure"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: classic silver gelatin darkroom print. Tone: neutral black and white with rich midtones and clean highlights. Texture: subtle grain and paper surface. Mood: documentary, timeless, photographic."
+        }
+      },
+      "tags": [
+        "photography",
+        "alt_process",
+        "silver_gelatin",
+        "black_and_white"
+      ]
+    },
+    {
+      "id": "photo_alt_photogravure_print",
+      "name": "Alt Process: Photogravure Print",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "professional photography, realistic lighting, coherent shadows, true-to-life textures, photogravure, ink-based photo print, intaglio-like texture, plate tone, rich blacks, archival print",
+        "suffix": "ink texture, paper grain, subtle plate mark, deep shadows, gentle highlights, fine detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: photogravure print with ink-rich blacks and a tactile intaglio feel. Texture: paper grain, subtle plate tone, faint plate mark. Tone mapping: deep shadows with gentle highlights. Mood: archival, crafted, museum print."
+        }
+      },
+      "tags": [
+        "photography",
+        "alt_process",
+        "photogravure",
+        "ink_print"
+      ]
+    },
+    {
+      "id": "photo_alt_carbon_pigment_print",
+      "name": "Alt Process: Carbon Print (Pigment)",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "professional photography, realistic lighting, coherent shadows, true-to-life textures, carbon print, pigment print, matte surface, deep blacks, archival fine art print, subtle relief texture",
+        "suffix": "rich tonal depth, matte highlights, paper texture, fine detail, smooth gradients, premium craftsmanship"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: carbon pigment print with a matte surface and deep tonal depth. Texture: subtle relief and paper grain. Tone mapping: smooth gradients with rich blacks and restrained highlights. Mood: refined, archival, gallery-quality."
+        }
+      },
+      "tags": [
+        "photography",
+        "alt_process",
+        "carbon_print",
+        "pigment"
+      ]
+    },
+    {
+      "id": "photo_alt_bromoil_print",
+      "name": "Alt Process: Bromoil Print",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "professional photography, realistic lighting, coherent shadows, true-to-life textures, bromoil print, painterly oils, textured paper, soft details, handcrafted photographic print",
+        "suffix": "brush texture, matte surface, subtle smudging, paper grain, gentle contrast, artisanal feel"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: bromoil print with painterly inked textures. Texture: brush marks and paper grain with soft photographic detail. Tone: matte, handcrafted, slightly imperfect. Mood: artistic, tactile, fine-art print."
+        }
+      },
+      "tags": [
+        "photography",
+        "alt_process",
+        "bromoil",
+        "painterly"
+      ]
+    },
+    {
+      "id": "photo_alt_ilfochrome_cibachrome_print",
+      "name": "Alt Process: Ilfochrome Print (Cibachrome)",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "professional photography, realistic lighting, coherent shadows, true-to-life textures, ilfochrome print, cibachrome, glossy surface, high saturation, deep blacks, luminous colors",
+        "suffix": "crisp color separation, strong contrast, clean highlights, subtle film grain, premium print finish"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Ilfochrome (Cibachrome) photographic print. Color: luminous, highly saturated with deep blacks. Finish: glossy, punchy contrast and crisp color separation. Mood: vivid, high-impact, gallery print."
+        }
+      },
+      "tags": [
+        "photography",
+        "alt_process",
+        "ilfochrome",
+        "cibachrome"
+      ]
+    },
+    {
+      "id": "photo_alt_dye_transfer_print",
+      "name": "Alt Process: Dye Transfer Print",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "professional photography, realistic lighting, coherent shadows, true-to-life textures, dye transfer print, rich color separation, saturated yet controlled, archival color print, fine detail",
+        "suffix": "clean tones, smooth gradients, crisp edges, balanced exposure, subtle film grain, premium print quality"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: dye transfer print with rich, controlled color separation. Color: saturated but refined, with smooth gradients. Detail: crisp and clean with premium print character. Mood: polished, archival, high-end color print."
+        }
+      },
+      "tags": [
+        "photography",
+        "alt_process",
+        "dye_transfer",
+        "color_print"
+      ]
+    },
+    {
+      "id": "photo_alt_hand_tinted_photograph",
+      "name": "Alt Process: Hand-tinted Photograph",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "professional photography, realistic lighting, coherent shadows, true-to-life textures, hand-tinted photograph, subtle color washes, vintage portrait, paper texture, delicate pigments, archival look",
+        "suffix": "soft color overlays, gentle contrast, paper grain, fine detail, nostalgic mood, handcrafted imperfections"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: hand-tinted vintage photograph. Color: delicate pigment washes layered over a photographic base. Texture: paper grain with subtle handmade variations. Mood: nostalgic, intimate, gently romantic."
+        }
+      },
+      "tags": [
+        "photography",
+        "alt_process",
+        "hand_tinted",
+        "vintage"
+      ]
+    },
+    {
+      "id": "photo_alt_solarization_sabattier",
+      "name": "Alt Process: Solarization (Sabattier Effect)",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "professional photography, realistic lighting, coherent shadows, true-to-life textures, solarization, sabattier effect, darkroom technique, tonal inversion edges, surreal highlights, graphic contrast",
+        "suffix": "halo outlines, inverted tonal boundaries, high contrast, subtle grain, experimental darkroom look, crisp shapes"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: photographic solarization (Sabattier effect). Tone: partial inversions with bright halo outlines along edges. Contrast: graphic and surreal while retaining photographic detail. Mood: experimental, dreamlike, darkroom-crafted."
+        }
+      },
+      "tags": [
+        "photography",
+        "alt_process",
+        "solarization",
+        "darkroom"
+      ]
+    },
+    {
+      "id": "photo_alt_pinhole_camera_photograph",
+      "name": "Alt Process: Pinhole Camera Photograph",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "professional photography, realistic lighting, coherent shadows, true-to-life textures, pinhole camera, long exposure, soft focus, heavy vignetting, dreamy blur, analog photograph",
+        "suffix": "soft edges, gentle motion blur, subtle grain, vignette, nostalgic mood, low contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: pinhole camera photograph. Focus: soft with a dreamy blur and strong vignetting. Exposure: long-exposure character with gentle motion softness. Mood: nostalgic, quiet, handmade."
+        }
+      },
+      "tags": [
+        "photography",
+        "alt_process",
+        "pinhole",
+        "analog"
+      ]
+    },
+    {
+      "id": "photo_alt_instant_film_snapshot_polaroid",
+      "name": "Alt Process: Instant Film Snapshot (Polaroid)",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "professional photography, realistic lighting, coherent shadows, true-to-life textures, instant film, polaroid snapshot, soft contrast, slight color cast, film border, nostalgic aesthetic",
+        "suffix": "subtle grain, gentle highlights, slightly faded colors, minor imperfections, casual framing, warm nostalgia"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: instant film snapshot (Polaroid-like). Color: soft contrast with a slight analog color cast and mild fading. Texture: subtle grain and small imperfections, with a simple snapshot feel. Mood: nostalgic, personal, warm."
+        }
+      },
+      "tags": [
+        "photography",
+        "alt_process",
+        "instant_film",
+        "polaroid"
+      ]
+    }
+  ]
+}

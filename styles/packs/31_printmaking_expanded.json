@@ -1,0 +1,505 @@
+{
+  "version": 1,
+  "styles": [
+    {
+      "id": "print_exp_aquatint_tonal",
+      "name": "Printmaking: Aquatint (Tonal)",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, high contrast, aquatint, tonal intaglio, fine grain rosin texture, plate mark, subtle gradients",
+        "suffix": "paper texture, ink texture, plate tone, soft tonal transitions, slight uneven inking, archival print"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: aquatint intaglio print with tonal grain. Texture: fine rosin-like grain and a faint plate mark in the paper. Tone: smooth gradients with handcrafted unevenness. Mood: archival, crafted, print studio."
+        }
+      },
+      "tags": [
+        "printmaking",
+        "aquatint",
+        "intaglio"
+      ]
+    },
+    {
+      "id": "print_exp_mezzotint_velvety",
+      "name": "Printmaking: Mezzotint (Velvety Blacks)",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, mezzotint, velvety blacks, rich chiaroscuro, soft edges, plate mark, tonal intaglio",
+        "suffix": "deep blacks, smooth midtones, subtle grain, paper texture, ink richness, dramatic tonal range"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mezzotint print with velvety blacks and smooth tonal transitions. Contrast: dramatic chiaroscuro without harsh linework. Texture: rich ink, paper grain, faint plate mark. Mood: classic, intimate, museum print."
+        }
+      },
+      "tags": [
+        "printmaking",
+        "mezzotint",
+        "intaglio"
+      ]
+    },
+    {
+      "id": "print_exp_drypoint_burr_lines",
+      "name": "Printmaking: Drypoint (Burr Lines)",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, drypoint, burr lines, scratchy linework, soft ink burr, plate mark, intimate detail",
+        "suffix": "fuzzy line edges, rich blacks, paper texture, subtle plate tone, handmade imperfections, high contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: drypoint intaglio print. Linework: scratchy etched lines with soft burr edges and inky fuzz. Texture: paper grain and a slight plate mark. Mood: intimate, raw, handcrafted."
+        }
+      },
+      "tags": [
+        "printmaking",
+        "drypoint",
+        "intaglio"
+      ]
+    },
+    {
+      "id": "print_exp_collagraph_textured_plate",
+      "name": "Printmaking: Collagraph (Textured Plate)",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, collagraph, textured plate, layered materials, rough surfaces, tactile marks, plate mark",
+        "suffix": "inked textures, paper grain, irregular edges, tactile relief, handmade print, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: collagraph print made from a textured plate. Texture: layered materials and tactile relief translated into ink patterns. Paper: visible grain with slight plate mark. Mood: experimental, crafty, tactile."
+        }
+      },
+      "tags": [
+        "printmaking",
+        "collagraph",
+        "texture"
+      ]
+    },
+    {
+      "id": "print_exp_monotype_ink_transfer",
+      "name": "Printmaking: Monotype (Ink Transfer)",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, monotype, ink transfer, painterly smears, soft edges, one-of-a-kind print, brayer marks",
+        "suffix": "ink smudges, paper texture, organic gradients, handmade feel, subtle imperfections, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: monotype print with painterly ink transfer. Edges: soft and organic with brayer marks and smears. Texture: paper grain and uneven ink density. Mood: expressive, handmade, studio print."
+        }
+      },
+      "tags": [
+        "printmaking",
+        "monotype",
+        "ink_transfer"
+      ]
+    },
+    {
+      "id": "print_exp_chine_colle_tissue_inlay",
+      "name": "Printmaking: Chine-collé (Tissue Inlay)",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, chine-colle, thin tissue inlay, layered paper, soft color fields, plate mark, delicate fibers",
+        "suffix": "paper layers, visible deckle edges, subtle wrinkles, ink texture, tactile surface, archival print"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: chine-collé print with thin tissue layers adhered to paper. Texture: layered fibers, slight wrinkles, delicate deckle edges. Tone: inked marks over soft inlaid color fields. Mood: refined, handmade, archival."
+        }
+      },
+      "tags": [
+        "printmaking",
+        "chine_colle",
+        "paper"
+      ]
+    },
+    {
+      "id": "print_exp_stone_lithography_crayon",
+      "name": "Printmaking: Stone Lithography (Crayon)",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, stone lithography, greasy crayon marks, soft grain, tonal shading, smudged texture, vintage print",
+        "suffix": "litho grain, soft transitions, paper texture, ink richness, slight registration drift, archival look"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: stone lithograph with greasy crayon marks and soft litho grain. Shading: tonal and smudged with natural transitions. Texture: paper grain and ink richness. Mood: classic, print studio, archival."
+        }
+      },
+      "tags": [
+        "printmaking",
+        "lithography",
+        "stone"
+      ]
+    },
+    {
+      "id": "print_exp_tusche_wash_lithograph",
+      "name": "Printmaking: Tusche Wash Lithograph",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, tusche wash lithograph, ink wash textures, watercolor-like shading, tonal lithography, soft gradients",
+        "suffix": "wash blooms, litho grain, paper texture, organic edges, gentle contrast, archival print"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: tusche wash lithograph with ink-wash textures. Tone: watercolor-like blooms and soft tonal gradients over litho grain. Texture: paper fibers and organic edges. Mood: airy, painterly, handcrafted."
+        }
+      },
+      "tags": [
+        "printmaking",
+        "lithography",
+        "tusche"
+      ]
+    },
+    {
+      "id": "print_exp_pochoir_stencil_print",
+      "name": "Printmaking: Pochoir Stencil Print",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, handcrafted texture, pochoir stencil print, hand-colored layers, crisp cut stencils, flat color fields, slight misregistration, artisanal",
+        "suffix": "matte pigments, crisp boundaries, layered color passes, subtle texture, handmade imperfections, high contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: pochoir stencil print with hand-applied color layers. Color: flat matte pigments with crisp stencil boundaries and slight misregistration. Texture: subtle paper grain and artisanal handling. Mood: decorative, vintage, crafted."
+        }
+      },
+      "tags": [
+        "printmaking",
+        "pochoir",
+        "stencil"
+      ]
+    },
+    {
+      "id": "print_exp_fine_art_screenprint",
+      "name": "Printmaking: Fine Art Screenprint",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, handcrafted texture, fine art screenprint, serigraphy, layered ink passes, flat colors, crisp shapes, registration marks, poster ink",
+        "suffix": "ink coverage, slight misregistration, paper texture, crisp edges, bold contrast, studio print"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: fine art screenprint (serigraphy). Color: layered ink passes with flat fields and crisp shapes. Texture: ink coverage on paper with tiny registration drift. Mood: graphic, deliberate, studio print."
+        }
+      },
+      "tags": [
+        "printmaking",
+        "screenprint",
+        "serigraphy"
+      ]
+    },
+    {
+      "id": "print_exp_letterpress_deep_impression",
+      "name": "Printmaking: Letterpress (Deep Impression)",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, letterpress, deep impression, debossed paper, tactile type, inked blocks, handmade stationery, crisp typography",
+        "suffix": "paper texture, visible impression, clean edges, ink texture, premium craftsmanship, tactile surface"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: letterpress print with deep paper impression. Texture: debossed surface, tactile type edges, ink pressed into fibers. Lighting: soft raking light to reveal relief. Mood: premium, crafted, minimal."
+        }
+      },
+      "tags": [
+        "printmaking",
+        "letterpress",
+        "typography"
+      ]
+    },
+    {
+      "id": "print_exp_blind_emboss_no_ink",
+      "name": "Printmaking: Blind Emboss (No Ink)",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, blind emboss, no ink, paper relief, debossed texture, minimal, tactile paper, subtle shadows, craftsmanship",
+        "suffix": "raised relief, soft raking light, paper grain, clean composition, subtle contrast, premium finish"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: blind emboss with no ink. Texture: paper relief and subtle raised forms revealed by soft raking light. Contrast: minimal and elegant, focused on shadow depth. Mood: refined, premium, tactile."
+        }
+      },
+      "tags": [
+        "printmaking",
+        "emboss",
+        "paper"
+      ]
+    },
+    {
+      "id": "print_exp_wood_engraving_fine_lines",
+      "name": "Printmaking: Wood Engraving (Fine Lines)",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, wood engraving, ultra fine linework, dense hatching, crisp contrast, vintage illustration, carved lines",
+        "suffix": "paper texture, ink texture, sharp line detail, high contrast, rough edges, archival print"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: wood engraving with extremely fine carved linework. Detail: dense hatching and crisp contrast reminiscent of vintage book illustrations. Texture: paper grain and ink richness. Mood: classic, meticulous, archival."
+        }
+      },
+      "tags": [
+        "printmaking",
+        "wood_engraving",
+        "hatching"
+      ]
+    },
+    {
+      "id": "print_exp_relief_print_bold_shapes",
+      "name": "Printmaking: Relief Print (Bold Shapes)",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, relief print, bold shapes, carved block texture, flat ink areas, graphic composition, high contrast",
+        "suffix": "ink texture, rough edges, paper grain, bold contrast, handmade imperfections, crisp silhouettes"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: relief print with bold carved shapes and flat ink fields. Texture: slight block chatter, rough edges, paper grain. Contrast: strong and graphic. Mood: bold, handmade, print studio."
+        }
+      },
+      "tags": [
+        "printmaking",
+        "relief",
+        "bold"
+      ]
+    },
+    {
+      "id": "print_exp_intaglio_plate_mark",
+      "name": "Printmaking: Intaglio (Plate Mark)",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, intaglio print, plate mark, wiped plate tone, rich blacks, subtle embossing, studio print",
+        "suffix": "paper texture, ink texture, plate tone, crisp lines, subtle relief, archival feel"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: intaglio print with a visible plate mark and wiped plate tone. Texture: ink richness pressed into paper fibers with slight embossing. Tone: deep blacks with handcrafted variation. Mood: archival, studio-crafted, classic."
+        }
+      },
+      "tags": [
+        "printmaking",
+        "intaglio",
+        "plate_mark"
+      ]
+    },
+    {
+      "id": "print_exp_sugar_lift_aquatint",
+      "name": "Printmaking: Sugar-lift Aquatint",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, sugar-lift aquatint, painterly brush marks, tonal intaglio, expressive washes, plate mark",
+        "suffix": "brushy textures, aquatint grain, paper texture, ink richness, organic edges, handmade feel"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: sugar-lift aquatint with painterly brush marks translated into tonal grain. Texture: aquatint speckle, organic edges, plate mark. Tone: expressive washes with ink richness. Mood: energetic, handcrafted, studio print."
+        }
+      },
+      "tags": [
+        "printmaking",
+        "aquatint",
+        "sugar_lift"
+      ]
+    },
+    {
+      "id": "print_exp_spit_bite_aquatint",
+      "name": "Printmaking: Spit-bite Aquatint",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, spit-bite aquatint, fluid tonal etching, expressive stains, watercolor-like marks, plate tone",
+        "suffix": "organic gradients, etched blooms, paper texture, ink texture, subtle plate mark, high detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: spit-bite aquatint with fluid, watercolor-like tonal etching. Texture: etched blooms and organic gradients over paper grain. Detail: handcrafted plate tone with subtle plate mark. Mood: expressive, painterly, artisanal."
+        }
+      },
+      "tags": [
+        "printmaking",
+        "aquatint",
+        "spit_bite"
+      ]
+    },
+    {
+      "id": "print_exp_soft_ground_etching",
+      "name": "Printmaking: Soft-ground Etching",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, soft-ground etching, pencil-like texture, textured rubbings, delicate linework, plate mark",
+        "suffix": "soft line edges, paper texture, ink texture, subtle plate tone, handmade imperfections, high contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: soft-ground etching with pencil-like textures and delicate lines. Texture: subtle rubbings and grainy marks, with a faint plate mark. Tone: ink richness on paper fibers. Mood: intimate, subtle, handcrafted."
+        }
+      },
+      "tags": [
+        "printmaking",
+        "etching",
+        "soft_ground"
+      ]
+    },
+    {
+      "id": "print_exp_hard_ground_etching",
+      "name": "Printmaking: Hard-ground Etching",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, hard-ground etching, crisp bitten lines, crosshatching, plate mark, classic intaglio",
+        "suffix": "sharp line detail, paper texture, ink texture, plate tone, rough edges, archival print"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: hard-ground etching with crisp bitten lines and dense crosshatching. Detail: sharp linework with classic intaglio character. Texture: paper grain, ink richness, and a light plate mark. Mood: traditional, archival, print studio."
+        }
+      },
+      "tags": [
+        "printmaking",
+        "etching",
+        "hard_ground"
+      ]
+    },
+    {
+      "id": "print_exp_photopolymer_plate_etching",
+      "name": "Printmaking: Photopolymer Plate Etching",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, photopolymer plate etching, photo-based intaglio, fine tonal detail, plate mark, ink transfer",
+        "suffix": "paper texture, ink texture, subtle plate tone, high detail, smooth tonal range, archival print"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: photopolymer plate etching with photo-based tonal detail. Tone: smooth transitions with fine intaglio texture. Paper: visible grain and a subtle plate mark. Mood: contemporary printmaking, precise, archival."
+        }
+      },
+      "tags": [
+        "printmaking",
+        "photopolymer",
+        "intaglio"
+      ]
+    },
+    {
+      "id": "print_exp_carborundum_etching",
+      "name": "Printmaking: Carborundum Etching",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, carborundum etching, gritty textures, heavy ink, deep relief, tactile marks, plate mark",
+        "suffix": "thick ink texture, paper grain, rough surfaces, high contrast, tactile depth, handmade print"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: carborundum etching with gritty, heavily inked textures. Texture: thick ink deposits, rough grain, tactile depth in the paper. Contrast: bold with deep shadows. Mood: visceral, material, handcrafted."
+        }
+      },
+      "tags": [
+        "printmaking",
+        "carborundum",
+        "texture"
+      ]
+    },
+    {
+      "id": "print_exp_reduction_linocut",
+      "name": "Printmaking: Reduction Linocut",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, reduction linocut, multi-pass carving, layered color blocks, registration, carved textures, handmade print",
+        "suffix": "layered ink passes, slight misregistration, paper texture, rough edges, bold color, high contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: reduction linocut print with layered color blocks from multiple carving passes. Texture: carved marks, slight registration drift, paper grain. Color: bold and graphic. Mood: handmade, print studio, deliberate."
+        }
+      },
+      "tags": [
+        "printmaking",
+        "linocut",
+        "reduction"
+      ]
+    },
+    {
+      "id": "print_exp_multiblock_linocut",
+      "name": "Printmaking: Multi-block Linocut",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, multi-block linocut, separate color blocks, layered passes, registration marks, carved textures, bold shapes",
+        "suffix": "layered ink fields, crisp edges, paper texture, slight misalignment, bold contrast, handmade imperfections"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: multi-block linocut with distinct color blocks printed in layers. Edges: crisp with occasional registration drift. Texture: carved marks and paper grain. Mood: graphic, handcrafted, traditional printmaking."
+        }
+      },
+      "tags": [
+        "printmaking",
+        "linocut",
+        "multiblock"
+      ]
+    },
+    {
+      "id": "print_exp_expressionist_woodcut",
+      "name": "Printmaking: Expressionist Woodcut",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, expressionist woodcut, rough carved lines, bold contrast, energetic marks, visible gouges, raw texture",
+        "suffix": "rough edges, heavy ink, paper grain, high contrast, dramatic shapes, handmade print"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: expressionist woodcut with rough carved gouges and energetic marks. Contrast: bold black and white with raw textures. Texture: heavy ink, paper grain, jagged edges. Mood: intense, dramatic, handmade."
+        }
+      },
+      "tags": [
+        "printmaking",
+        "woodcut",
+        "expressionist"
+      ]
+    },
+    {
+      "id": "print_exp_gyotaku_fish_print",
+      "name": "Printmaking: Gyotaku Fish Print",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, gyotaku fish print, direct body printing, sumi ink, scale detail, organic impression, Japanese print",
+        "suffix": "fine texture detail, paper grain, ink texture, natural imperfections, crisp silhouette, artisanal feel"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: gyotaku fish print made by direct ink impression. Detail: visible scale textures and organic uneven inking. Texture: sumi-like ink on paper with handmade imperfections. Mood: calm, natural, traditional."
+        }
+      },
+      "tags": [
+        "printmaking",
+        "gyotaku",
+        "sumi"
+      ]
+    }
+  ]
+}

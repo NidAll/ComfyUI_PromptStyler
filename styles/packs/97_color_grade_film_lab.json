@@ -1,0 +1,521 @@
+{
+  "version": 1,
+  "styles": [
+    {
+      "id": "grade_film_lab_cross_process_e6_in_c41",
+      "name": "Film Lab: Cross-Processed (E-6 in C-41)",
+      "category": "Color Grade/Film Lab",
+      "default": {
+        "prefix": "intentional color grade, filmic tone mapping, cross-processed film, E-6 in C-41, strong color shifts, high saturation, contrasty highlights, analog film scan",
+        "suffix": "color casts, punchy contrast, subtle grain, smooth highlight rolloff, clean shadows, color separation, balanced contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: cross-processed film look (E-6 developed in C-41). Color: bold shifts and punchy saturation with unusual casts. Tone mapping: contrasty highlights with filmic rolloff. Texture: subtle film grain and scan character."
+        }
+      },
+      "tags": [
+        "grade",
+        "film",
+        "cross_process"
+      ]
+    },
+    {
+      "id": "grade_film_lab_cross_process_c41_in_e6",
+      "name": "Film Lab: Cross-Processed (C-41 in E-6)",
+      "category": "Color Grade/Film Lab",
+      "default": {
+        "prefix": "intentional color grade, filmic tone mapping, cross-processed film, C-41 in E-6, harsh contrast, quirky color casts, high saturation, analog film scan",
+        "suffix": "color shifts, crunchy contrast, subtle grain, smooth highlight rolloff, clean shadows, color separation, balanced contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: cross-processed film look (C-41 developed in E-6). Color: quirky casts and unexpected shifts with high saturation. Tone mapping: crunchy contrast with filmic character. Texture: subtle film grain and scan texture."
+        }
+      },
+      "tags": [
+        "grade",
+        "film",
+        "cross_process"
+      ]
+    },
+    {
+      "id": "grade_film_lab_push_process_plus_2",
+      "name": "Film Lab: Push Process (+2 Stops)",
+      "category": "Color Grade/Film Lab",
+      "default": {
+        "prefix": "intentional color grade, filmic tone mapping, push processed film, +2 stops, increased grain, higher contrast, brighter mids, punchy highlights, film scan",
+        "suffix": "stronger grain, contrast boost, highlight bloom, clean shadows, smooth highlight rolloff, color separation"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: push-processed film look (+2 stops). Tone mapping: higher contrast with brighter midtones and punchy highlights. Texture: noticeably increased grain and slight highlight bloom. Mood: energetic, gritty, night-friendly."
+        }
+      },
+      "tags": [
+        "grade",
+        "film",
+        "push_process"
+      ]
+    },
+    {
+      "id": "grade_film_lab_pull_process_minus_1",
+      "name": "Film Lab: Pull Process (-1 Stop)",
+      "category": "Color Grade/Film Lab",
+      "default": {
+        "prefix": "intentional color grade, filmic tone mapping, pull processed film, -1 stop, lower contrast, soft highlights, gentle saturation, smooth tones, film scan",
+        "suffix": "soft contrast, smooth highlight rolloff, gentle shadows, subtle grain, clean tones, balanced contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: pull-processed film look (-1 stop). Tone mapping: softer contrast with smooth highlights and gentle shadows. Color: restrained saturation with clean tones. Texture: subtle grain. Mood: calm, airy, natural."
+        }
+      },
+      "tags": [
+        "grade",
+        "film",
+        "pull_process"
+      ]
+    },
+    {
+      "id": "grade_film_lab_expired_film_color_shift",
+      "name": "Film Lab: Expired Film Color Shift",
+      "category": "Color Grade/Film Lab",
+      "default": {
+        "prefix": "intentional color grade, filmic tone mapping, expired film look, unpredictable color shift, faded saturation, warm yellowing, magenta cast, film scan artifacts",
+        "suffix": "soft contrast, slight haze, subtle grain, faded colors, uneven tones, smooth highlight rolloff"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: expired film look with imperfect chemistry. Color: faded saturation with warm yellowing and a slight magenta cast. Tone mapping: soft contrast with a gentle haze. Texture: film grain and subtle scan artifacts."
+        }
+      },
+      "tags": [
+        "grade",
+        "film",
+        "expired_film"
+      ]
+    },
+    {
+      "id": "grade_film_lab_light_leaks",
+      "name": "Film Lab: Light Leaks",
+      "category": "Color Grade/Film Lab",
+      "default": {
+        "prefix": "intentional color grade, filmic tone mapping, film scan, light leaks, warm flare streaks, edge fogging, analog artifacts, nostalgic",
+        "suffix": "warm leak glow, subtle grain, smooth highlight rolloff, gentle contrast, color separation, balanced tones"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: film scan with light leaks. Artifacts: warm flare streaks and edge fogging that feel analog and imperfect. Tone mapping: filmic highlights with gentle contrast. Texture: subtle grain and scanning character."
+        }
+      },
+      "tags": [
+        "grade",
+        "film",
+        "light_leaks"
+      ]
+    },
+    {
+      "id": "grade_film_lab_halation_glow_tungsten",
+      "name": "Film Lab: Halation Glow (Tungsten)",
+      "category": "Color Grade/Film Lab",
+      "default": {
+        "prefix": "intentional color grade, filmic tone mapping, tungsten night film look, halation glow, red-orange highlight bloom, neon reflections, film scan",
+        "suffix": "highlight halation, soft bloom, subtle grain, smooth highlight rolloff, clean shadows, color separation"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: tungsten-balanced film look with strong halation. Highlights: red-orange glow and soft bloom around bright lights. Tone mapping: filmic rolloff with clean shadows. Texture: subtle grain and scan character."
+        }
+      },
+      "tags": [
+        "grade",
+        "film",
+        "halation",
+        "tungsten"
+      ]
+    },
+    {
+      "id": "grade_film_lab_heavy_grain_high_iso",
+      "name": "Film Lab: Heavy Grain (High ISO)",
+      "category": "Color Grade/Film Lab",
+      "default": {
+        "prefix": "intentional color grade, filmic tone mapping, high ISO film look, heavy grain, gritty texture, contrasty mids, analog scan",
+        "suffix": "strong grain, gritty texture, slightly desaturated colors, clean highlights, smooth highlight rolloff, balanced contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: high ISO film look with heavy grain. Texture: gritty, visible grain structure and slight roughness. Tone mapping: contrasty midtones with filmic highlights. Mood: documentary, raw, nighttime."
+        }
+      },
+      "tags": [
+        "grade",
+        "film",
+        "grain"
+      ]
+    },
+    {
+      "id": "grade_film_lab_dust_and_scratches_scan",
+      "name": "Film Lab: Dust and Scratches (Scan)",
+      "category": "Color Grade/Film Lab",
+      "default": {
+        "prefix": "intentional color grade, filmic tone mapping, scanned film, dust and scratches, tiny specks, hairline scratches, analog scan artifacts, nostalgic",
+        "suffix": "subtle dust, fine scratches, slight grain, smooth highlight rolloff, clean shadows, balanced contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: scanned film with dust and scratches. Artifacts: tiny dust specks and occasional hairline scratches. Tone mapping: filmic, not overly digital. Texture: subtle grain plus scan imperfections. Mood: archival, nostalgic."
+        }
+      },
+      "tags": [
+        "grade",
+        "film",
+        "scan",
+        "dust_scratches"
+      ]
+    },
+    {
+      "id": "grade_film_lab_gate_weave_jitter",
+      "name": "Film Lab: Gate Weave (Frame Jitter)",
+      "category": "Color Grade/Film Lab",
+      "default": {
+        "prefix": "intentional color grade, filmic tone mapping, analog film scan, gate weave, subtle frame jitter, archival transfer, film texture",
+        "suffix": "subtle scan character, gentle grain, smooth highlight rolloff, clean shadows, balanced contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: archival film transfer with gate weave. Motion: subtle frame jitter that feels like real film transport. Tone mapping: filmic highlights and stable shadows. Texture: fine grain and scan character."
+        }
+      },
+      "tags": [
+        "grade",
+        "film",
+        "scan",
+        "gate_weave"
+      ]
+    },
+    {
+      "id": "grade_film_lab_film_border_sprocket",
+      "name": "Film Lab: Film Border (Sprocket)",
+      "category": "Color Grade/Film Lab",
+      "default": {
+        "prefix": "intentional color grade, filmic tone mapping, film scan border, sprocket hole aesthetic, frame edge markings, analog scan, nostalgic",
+        "suffix": "scan border feel, subtle grain, smooth highlight rolloff, balanced contrast, clean tones"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: film scan with visible border and sprocket-hole aesthetic. Composition: frame edge markings and analog scan framing cues. Texture: subtle grain. Tone mapping: clean filmic highlights and stable shadows."
+        }
+      },
+      "tags": [
+        "grade",
+        "film",
+        "scan",
+        "border"
+      ]
+    },
+    {
+      "id": "grade_film_lab_negative_scan_orange_mask",
+      "name": "Film Lab: Negative Scan (Orange Mask)",
+      "category": "Color Grade/Film Lab",
+      "default": {
+        "prefix": "intentional color grade, filmic tone mapping, color negative scan, orange mask influence, slightly warm mids, cyan shadows, film scan character",
+        "suffix": "smooth tonal curve, subtle grain, clean highlights, coherent shadows, color separation, balanced contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: color negative scan look with orange-mask character. Color: slightly warm midtones with cooler shadows and gentle separation. Tone mapping: smooth filmic curve with clean highlight rolloff. Texture: subtle scan grain."
+        }
+      },
+      "tags": [
+        "grade",
+        "film",
+        "scan",
+        "negative"
+      ]
+    },
+    {
+      "id": "grade_film_lab_matte_print_lifted_blacks",
+      "name": "Film Lab: Matte Print (Lifted Blacks)",
+      "category": "Color Grade/Film Lab",
+      "default": {
+        "prefix": "intentional color grade, filmic tone mapping, matte print look, lifted blacks, soft contrast, gentle highlights, film scan texture",
+        "suffix": "lifted shadows, smooth highlight rolloff, subtle grain, clean tones, color separation, balanced contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: matte print look with lifted blacks. Tone mapping: soft contrast and gentle highlights, avoiding harsh clipping. Texture: subtle grain and print character. Mood: modern film print, calm and refined."
+        }
+      },
+      "tags": [
+        "grade",
+        "film",
+        "matte"
+      ]
+    },
+    {
+      "id": "grade_film_lab_split_tone_cool_shadows_warm_highlights",
+      "name": "Film Lab: Split Toning (Cool Shadows, Warm Highlights)",
+      "category": "Color Grade/Film Lab",
+      "default": {
+        "prefix": "intentional color grade, filmic tone mapping, split toning, cool shadows, warm highlights, cinematic balance, film scan",
+        "suffix": "color separation, smooth highlight rolloff, clean shadows, balanced contrast, subtle grain"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: filmic split toning with cool shadows and warm highlights. Color: intentional separation without neon oversaturation. Tone mapping: smooth highlight rolloff with stable shadows. Texture: subtle grain and scan character."
+        }
+      },
+      "tags": [
+        "grade",
+        "film",
+        "split_tone"
+      ]
+    },
+    {
+      "id": "grade_film_lab_vision3_500t_night",
+      "name": "Film Lab: Vision3 500T Night",
+      "category": "Color Grade/Film Lab",
+      "default": {
+        "prefix": "intentional color grade, filmic tone mapping, cinema film scan, Vision3 500T look, tungsten night, cool shadows, warm practical lights, subtle halation, grain",
+        "suffix": "filmic highlights, smooth highlight rolloff, clean shadows, subtle grain, color separation, balanced contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: cinema film scan inspired by Vision3 500T at night. Color: cool shadows with warm practical lights and filmic separation. Highlights: gentle halation and smooth rolloff. Texture: subtle grain, clean shadows."
+        }
+      },
+      "tags": [
+        "grade",
+        "film",
+        "vision3",
+        "500t"
+      ]
+    },
+    {
+      "id": "grade_film_lab_vision3_250d_daylight",
+      "name": "Film Lab: Vision3 250D Daylight",
+      "category": "Color Grade/Film Lab",
+      "default": {
+        "prefix": "intentional color grade, filmic tone mapping, cinema film scan, Vision3 250D look, daylight neutral, natural saturation, clean skin tones, fine grain",
+        "suffix": "smooth highlight rolloff, clean shadows, balanced contrast, subtle grain, clean tones, color separation"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: daylight cinema film scan inspired by Vision3 250D. Color: neutral daylight balance with natural saturation and clean skin tones. Tone mapping: smooth highlights with stable shadows. Texture: fine grain and filmic clarity."
+        }
+      },
+      "tags": [
+        "grade",
+        "film",
+        "vision3",
+        "250d"
+      ]
+    },
+    {
+      "id": "grade_film_lab_kodak_portra_400",
+      "name": "Film Lab: Kodak Portra 400",
+      "category": "Color Grade/Film Lab",
+      "default": {
+        "prefix": "intentional color grade, filmic tone mapping, Portra 400 look, soft pastel colors, natural skin tones, gentle contrast, fine grain, film scan",
+        "suffix": "smooth highlight rolloff, clean shadows, balanced exposure, subtle grain, clean tones, balanced contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: film scan inspired by Kodak Portra 400. Color: soft pastel palette with natural, flattering skin tones. Tone mapping: gentle contrast with smooth highlight rolloff. Texture: fine grain and clean scan character."
+        }
+      },
+      "tags": [
+        "grade",
+        "film",
+        "portra",
+        "portrait"
+      ]
+    },
+    {
+      "id": "grade_film_lab_kodak_ektar_100",
+      "name": "Film Lab: Kodak Ektar 100",
+      "category": "Color Grade/Film Lab",
+      "default": {
+        "prefix": "intentional color grade, filmic tone mapping, Ektar 100 look, vibrant colors, crisp saturation, clean contrast, fine grain, film scan",
+        "suffix": "color separation, clean highlights, smooth highlight rolloff, balanced contrast, subtle grain, crisp tones"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: film scan inspired by Kodak Ektar 100. Color: vibrant saturation with crisp color separation and clean contrast. Tone mapping: bright highlights with filmic rolloff. Texture: fine grain and sharp, clean scan feel."
+        }
+      },
+      "tags": [
+        "grade",
+        "film",
+        "ektar",
+        "vibrant"
+      ]
+    },
+    {
+      "id": "grade_film_lab_fujifilm_velvia_50",
+      "name": "Film Lab: Fujifilm Velvia 50",
+      "category": "Color Grade/Film Lab",
+      "default": {
+        "prefix": "intentional color grade, filmic tone mapping, Velvia 50 look, punchy saturation, deep greens, vivid blues, slide film contrast, film scan",
+        "suffix": "strong color separation, rich contrast, clean highlights, smooth highlight rolloff, subtle grain"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: slide-film scan inspired by Fujifilm Velvia 50. Color: punchy saturation with vivid greens and blues. Contrast: rich slide-film snap while preserving filmic rolloff. Texture: subtle grain and scan clarity."
+        }
+      },
+      "tags": [
+        "grade",
+        "film",
+        "velvia",
+        "slide"
+      ]
+    },
+    {
+      "id": "grade_film_lab_fujifilm_provia_100f",
+      "name": "Film Lab: Fujifilm Provia 100F",
+      "category": "Color Grade/Film Lab",
+      "default": {
+        "prefix": "intentional color grade, filmic tone mapping, Provia 100F look, clean slide colors, neutral balance, crisp saturation, fine grain, film scan",
+        "suffix": "clean tones, balanced contrast, smooth highlight rolloff, subtle grain, color separation"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: slide-film scan inspired by Fujifilm Provia 100F. Color: clean and neutral with crisp saturation and balanced tones. Tone mapping: smooth highlights and stable shadows. Texture: fine grain, clear scan character."
+        }
+      },
+      "tags": [
+        "grade",
+        "film",
+        "provia",
+        "slide"
+      ]
+    },
+    {
+      "id": "grade_film_lab_kodachrome_vintage_slide",
+      "name": "Film Lab: Kodachrome Vintage Slide",
+      "category": "Color Grade/Film Lab",
+      "default": {
+        "prefix": "intentional color grade, filmic tone mapping, Kodachrome look, vintage slide colors, warm reds, deep blues, crisp contrast, film scan",
+        "suffix": "clean highlights, strong color separation, subtle grain, smooth highlight rolloff, balanced contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: vintage slide-film scan inspired by Kodachrome. Color: warm reds and deep blues with crisp contrast and strong separation. Tone mapping: bright, clean highlights with filmic rolloff. Texture: subtle grain and archival slide character."
+        }
+      },
+      "tags": [
+        "grade",
+        "film",
+        "kodachrome",
+        "slide"
+      ]
+    },
+    {
+      "id": "grade_film_lab_kodak_ektachrome_cool_slide",
+      "name": "Film Lab: Kodak Ektachrome Cool Slide",
+      "category": "Color Grade/Film Lab",
+      "default": {
+        "prefix": "intentional color grade, filmic tone mapping, Ektachrome look, cool slide tones, clean blues, slightly cooler highlights, fine grain, film scan",
+        "suffix": "clean tones, color separation, smooth highlight rolloff, subtle grain, balanced contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: slide-film scan inspired by Kodak Ektachrome. Color: clean blues with slightly cooler highlights and a crisp, modern slide feel. Tone mapping: smooth highlight rolloff with stable shadows. Texture: fine grain and scan clarity."
+        }
+      },
+      "tags": [
+        "grade",
+        "film",
+        "ektachrome",
+        "slide"
+      ]
+    },
+    {
+      "id": "grade_film_lab_ilford_hp5_plus_bw",
+      "name": "Film Lab: Ilford HP5 Plus (B&W)",
+      "category": "Color Grade/Film Lab",
+      "default": {
+        "prefix": "intentional color grade, filmic tone mapping, black and white film, Ilford HP5 Plus look, gritty monochrome, documentary contrast, visible grain, film scan",
+        "suffix": "strong grain, rich blacks, bright highlights, smooth highlight rolloff, clean shadows, classic monochrome"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: black-and-white film scan inspired by Ilford HP5 Plus. Tone: gritty monochrome with a documentary feel and visible grain. Contrast: rich blacks with clean highlights and filmic rolloff. Mood: candid, street, classic."
+        }
+      },
+      "tags": [
+        "grade",
+        "film",
+        "hp5",
+        "black_and_white"
+      ]
+    },
+    {
+      "id": "grade_film_lab_kodak_tri_x_bw",
+      "name": "Film Lab: Kodak Tri-X (B&W)",
+      "category": "Color Grade/Film Lab",
+      "default": {
+        "prefix": "intentional color grade, filmic tone mapping, black and white film, Kodak Tri-X look, punchy contrast, gritty grain, classic street photography, film scan",
+        "suffix": "grainy texture, punchy mids, rich blacks, smooth highlight rolloff, clean shadows, classic monochrome"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: black-and-white film scan inspired by Kodak Tri-X. Contrast: punchy midtones with gritty grain and classic street-photo character. Tone mapping: filmic highlights and strong blacks. Mood: bold, documentary, timeless."
+        }
+      },
+      "tags": [
+        "grade",
+        "film",
+        "tri_x",
+        "black_and_white"
+      ]
+    },
+    {
+      "id": "grade_film_lab_selenium_toned_bw_print",
+      "name": "Film Lab: Selenium-toned B&W Print",
+      "category": "Color Grade/Film Lab",
+      "default": {
+        "prefix": "intentional color grade, filmic tone mapping, selenium toned black and white, slight purplish tone, deepened shadows, darkroom print look, archival",
+        "suffix": "deep blacks, subtle cool tone, smooth highlight rolloff, paper texture, fine grain, classic print feel"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: selenium-toned black-and-white darkroom print. Tone: subtle cool purplish tint with deepened shadows. Texture: fine grain and paper-like print character. Mood: archival, classic, museum-quality."
+        }
+      },
+      "tags": [
+        "grade",
+        "film",
+        "selenium_tone",
+        "black_and_white"
+      ]
+    }
+  ]
+}

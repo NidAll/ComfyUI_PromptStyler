@@ -1,9 +1,9 @@
 # Style Library Review & Expansion Notes
 
-## Current Library Snapshot (as of 2026-01-30)
+## Current Library Snapshot (as of 2026-01-31)
 
-- Total styles: 400 (merged from `styles/packs/*.json` in filename order).
-- Categories are consistent and already cover the big buckets: Photography, Cinema, Illustration/Printmaking, Fine Art, Graphic Design, 3D/CG, Architecture/Interior, Fashion/Product, Nature, Experimental, Color Grade.
+- Total styles: 500 (merged from `styles/packs/*.json` in filename order).
+- Categories are consistent and already cover the big buckets: Photography, Cinema, Illustration, Fine Art, Graphic Design, 3D/CG, Architecture/Interior, Fashion/Product, Nature, Experimental, Color Grade, plus focused sub-buckets (e.g. `Photography/Alt Process`, `Decorative Arts/Textiles`, `Color Grade/Film Lab`).
 - Style format is stable: each style has `id`, `name`, `category`, and `default.prefix`/`default.suffix` (comma+space separated phrases). The node de-dupes phrases case-insensitively.
 
 Quick checks:
@@ -21,9 +21,18 @@ C:\Comfyui\python_embeded\python.exe .\tools\audit_styles.py
 
 ## Deep Review: Opportunities / Gaps
 
-- **Underrepresented mediums:** Mixed Media (7) and Printmaking (6) are relatively small compared to Photography/Cinema. Adding more tactile/handmade mediums improves variety and reduces “everything looks like a photo” bias.
+- **Underrepresented mediums:** Mixed Media (7) is still relatively small compared to Photography/Cinema. Printmaking has been expanded via `Printmaking/Expanded` (25), but additional tactile mediums are always valuable for variety and controllability.
 - **Technique-level styles:** Many styles are movement-level (e.g., Impressionism, Cubism). Adding more “how it’s made” styles (materials, surface, process) tends to produce more controllable results across different subjects.
 - **Prompt token consistency:** The node splits on `", "` (comma + space). Avoid using commas without a following space inside a single token, or the phrase won’t split as expected.
+
+## New Additions: 500-style Expansion Packs
+
+Added four focused packs (25 styles each) to reach 500 total styles:
+
+- `styles/packs/21_photography_alt_process.json` (`Photography/Alt Process`) - alternative photo processes, printing looks, darkroom effects.
+- `styles/packs/31_printmaking_expanded.json` (`Printmaking/Expanded`) - broader printmaking techniques beyond the core set.
+- `styles/packs/41_decorative_arts_textiles.json` (`Decorative Arts/Textiles`) - fiber/textile techniques and tactile fabric aesthetics.
+- `styles/packs/97_color_grade_film_lab.json` (`Color Grade/Film Lab`) - film lab looks (scan/process/stock-inspired grades and artifacts).
 
 ## New Additions: Decorative Arts Pack
 
@@ -60,6 +69,19 @@ Highlights:
 ## Node UX Update: Disabling Styles
 
 The node now includes `apply_style` (BOOLEAN). When disabled, the node passes the prompt through unchanged and only performs CLIP tokenization/encoding.
+
+## Node UX Update: Flux Variant + Direct ID
+
+- `template_variant`: choose `default` (comma-phrase templates) or `flux_2_klein` (use `models.flux_2_klein.suffix` prose guidance when available).
+- `style_id_override`: apply a style directly by `id` (useful for freshly-added user styles without reloading nodes).
+
+## User Style Wizard
+
+Use the CLI wizard to add styles into `styles/packs/99_user_custom.json` (gitignored) under `User/<Subcategory>`:
+
+```powershell
+C:\Comfyui\python_embeded\python.exe .\tools\add_styles.py wizard
+```
 
 ## Web Search Plan (for Future Style Expansion)
 
