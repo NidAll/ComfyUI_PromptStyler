@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>ComfyUI PromptStyler - App Summary</title>
+  <style>
+    @page { size: Letter; margin: 0.42in; }
+    :root { --ink:#13212f; --muted:#526171; --rule:#d7dee7; --panel:#f4f7fa; --accent:#1f5f8b; --accent-soft:#dbeaf5; }
+    * { box-sizing: border-box; }
+    html, body { margin:0; padding:0; font-family:"Segoe UI", Arial, sans-serif; color:var(--ink); background:#fff; }
+    body { font-size:10.3pt; line-height:1.28; }
+    .hero { display:grid; grid-template-columns:1.55fr 0.95fr; gap:14px; margin-bottom:10px; padding-bottom:10px; border-bottom:1px solid var(--rule); }
+    .title { margin:0 0 4px 0; font-size:22pt; line-height:1.05; letter-spacing:-0.02em; }
+    .subtitle { margin:0; color:var(--muted); font-size:10pt; }
+    .badge { display:inline-block; margin-bottom:8px; padding:4px 8px; border-radius:999px; background:var(--accent-soft); color:var(--accent); font-size:8.5pt; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; }
+    .meta { background:linear-gradient(180deg, #f9fbfd 0%, var(--panel) 100%); border:1px solid var(--rule); border-radius:10px; padding:10px 11px; }
+    .meta-row { margin:0 0 8px 0; }
+    .meta-row:last-child { margin-bottom:0; }
+    .label { display:block; margin-bottom:2px; color:var(--muted); font-size:8.2pt; font-weight:700; text-transform:uppercase; letter-spacing:0.05em; }
+    .value { margin:0; font-size:9.9pt; }
+    .grid { display:grid; grid-template-columns:1fr 1fr; gap:12px 14px; }
+    section { break-inside:avoid; }
+    h2 { margin:0 0 6px 0; padding-bottom:3px; border-bottom:1px solid var(--rule); font-size:10pt; letter-spacing:0.02em; text-transform:uppercase; }
+    p { margin:0 0 6px 0; }
+    ul { margin:0; padding-left:16px; }
+    li { margin:0 0 4px 0; }
+    .architecture { grid-column:1 / -1; }
+    .small { font-size:9.1pt; color:var(--muted); }
+    .code { font-family:Consolas, "Courier New", monospace; font-size:9pt; }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <div>
+      <div class="badge">Repo Summary</div>
+      <h1 class="title">ComfyUI PromptStyler</h1>
+      <p class="subtitle">Version 3.1.1. Custom ComfyUI node pack that applies curated style templates to a positive prompt and returns conditioning for downstream generation. It is structured around JSON style packs plus lightweight Python runtime code that composes the final prompt text at node execution time.</p>
+    </div>
+    <div class="meta">
+      <div class="meta-row">
+        <span class="label">Who It’s For</span>
+        <p class="value">Primary persona: ComfyUI users building image-generation workflows who want reusable, curated prompt styling without hand-writing long style suffixes.</p>
+      </div>
+      <div class="meta-row">
+        <span class="label">Install Shape</span>
+        <p class="value">Drop the repo into <span class="code">ComfyUI/custom_nodes/ComfyUI_PromptStyler</span> and reload custom nodes.</p>
+      </div>
+    </div>
+  </div>
+  <div class="grid">
+    <section>
+      <h2>What It Does</h2>
+      <ul>
+        <li>Exposes a ComfyUI node named <span class="code">PromptStyler: Prompt -&gt; Conditioning (Style Picker)</span>.</li>
+        <li>Loads style templates from <span class="code">styles/packs/*.json</span> in filename order.</li>
+        <li>Falls back to <span class="code">styles/styles_v1.json</span> if packs are missing or unusable.</li>
+        <li>Presents styles as categorized dropdown choices in <span class="code">Category | Name | id</span> format.</li>
+        <li>Supports direct <span class="code">style_id_override</span> and a <span class="code">template_variant</span> selector.</li>
+        <li>Builds a deduplicated styled prompt, then tokenizes and encodes it through the connected CLIP text encoder.</li>
+        <li>Ships maintainer tools to validate, audit, generate, sync, and add style packs.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>How To Run</h2>
+      <ul>
+        <li>Clone or copy this folder into <span class="code">ComfyUI/custom_nodes/ComfyUI_PromptStyler</span>.</li>
+        <li>Restart ComfyUI or use "Reload custom nodes".</li>
+        <li>Add <span class="code">CheckpointLoaderSimple</span>, PromptStyler, and <span class="code">KSampler</span> to a workflow.</li>
+        <li>Wire <span class="code">CLIP -&gt; text_encoder</span>, your prompt text into <span class="code">prompt</span>, and <span class="code">positive -&gt; KSampler.positive</span>.</li>
+        <li>Optional repo validation: run <span class="code">tools/validate_styles.py</span>; audit with <span class="code">tools/audit_styles.py</span>.</li>
+      </ul>
+    </section>
+    <section class="architecture">
+      <h2>How It Works</h2>
+      <ul>
+        <li><span class="code">__init__.py</span> is the ComfyUI entry point: it reads <span class="code">VERSION</span> and exports node mappings.</li>
+        <li><span class="code">nodes.py</span> defines the runtime node that accepts the user prompt, style selection inputs, and a ComfyUI <span class="code">CLIP</span> text encoder connection.</li>
+        <li>The node scans <span class="code">styles/packs/</span>, merges JSON packs in sorted order, or falls back to the legacy single-file library.</li>
+        <li>Selected style prefix/suffix phrases are combined with the user prompt, normalized, and de-duplicated before encoding.</li>
+        <li>The encoded result is returned as <span class="code">CONDITIONING</span> plus the exact <span class="code">styled_prompt</span> string for inspection/debugging.</li>
+        <li><span class="code">style_library.py</span>, tests, and maintainer docs describe broader search/overlay logic, but an advanced node implementation was <strong>Not found in repo</strong> in the current <span class="code">nodes.py</span>.</li>
+        <li><span class="code">.github/workflows/ci.yml</span> runs version sync, style validation, style audit, and unit tests on pushes and pull requests.</li>
+      </ul>
+      <p class="small">If you need external services, hosted APIs, or a packaged installer: <strong>Not found in repo</strong>.</p>
+    </section>
+  </div>
+</body>
+</html>

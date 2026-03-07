@@ -6,10 +6,10 @@ The format is based on Keep a Changelog, and this project follows Semantic Versi
 
 ## [Unreleased]
 
+## [0.3.2] - 2026-03-07
+
 ### Added
 
-- `PromptStyler: Advanced Prompt -> Conditioning` for search-based style resolution, color-grade overlays, style strength controls, and JSON debug metadata.
-- Shared `style_library.py` used by the runtime node and maintainer tooling.
 - CI checks for version sync, style validation, style audit, and runtime regression tests.
 - `tools/sync_legacy_styles.py` and `tools/version_sync.py` for compatibility snapshot and release metadata maintenance.
 - New medium-first style packs: `styles/packs/32_print_reprographic.json`, `styles/packs/42_decorative_arts_material_processes.json`, and `styles/packs/43_digital_craft.json`.
@@ -22,7 +22,7 @@ The format is based on Keep a Changelog, and this project follows Semantic Versi
 - `PromptStyler: Prompt -> Conditioning (Style Picker)` now uses the narrow legacy-compatible prompt-to-conditioning contract again for stability.
 - Broken or non-finite conditioning now raises an explicit node error instead of silently returning a malformed output.
 - `styles/styles_v1.json` is now treated as a generated compatibility snapshot of merged packs.
-- README and maintainer documentation now describe the stable/advanced node split.
+- README and maintainer documentation now describe the restored stable-node runtime surface and release workflow.
 
 ## [0.3.1] - 2026-01-31
 
@@ -71,4 +71,3 @@ The format is based on Keep a Changelog, and this project follows Semantic Versi
 ### Changed
 
 - README updates for new node input.
-
