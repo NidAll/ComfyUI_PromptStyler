@@ -9,11 +9,17 @@ from __future__ import annotations
 
 import json
 import os
+import sys
 from dataclasses import dataclass
 from typing import Dict, Iterable, List, Optional, Sequence
 
 
 ROOT = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+if ROOT not in sys.path:
+    sys.path.insert(0, ROOT)
+
+from style_library import write_legacy_snapshot
+
 PACKS_DIR = os.path.join(ROOT, "styles", "packs")
 
 
@@ -1626,8 +1632,13 @@ def build() -> None:
             grades,
         )
     )
+    snapshot_total = write_legacy_snapshot()
     print(f"Wrote style packs: {total} styles -> {PACKS_DIR}")
+    print(f"Updated legacy snapshot: {snapshot_total} styles -> {os.path.join(ROOT, 'styles', 'styles_v1.json')}")
 
 
 if __name__ == "__main__":
     build()
+
+
+

@@ -1,127 +1,91 @@
-import json
 import os
 import re
+import sys
 from collections import Counter
-from typing import Any, Dict, Iterable, List, Tuple
-
+from typing import List, Tuple
 
 ROOT = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
-PACKS_DIR = os.path.join(ROOT, "styles", "packs")
+if ROOT not in sys.path:
+    sys.path.insert(0, ROOT)
+
+from style_library import LOAD_POLICY_STRICT, StyleLibraryError, iter_pack_paths, load_style_library
 
 
-def _iter_pack_paths() -> Iterable[str]:
-    if not os.path.isdir(PACKS_DIR):
-        return []
-    for name in sorted(os.listdir(PACKS_DIR)):
-        if name.lower().endswith(".json"):
-            yield os.path.join(PACKS_DIR, name)
-
-
-def _load_all_styles() -> Tuple[List[Dict[str, Any]], List[str]]:
-    styles: List[Dict[str, Any]] = []
-    bad_packs: List[str] = []
-    for path in _iter_pack_paths():
-        try:
-            with open(path, "r", encoding="utf-8") as f:
-                data = json.load(f) or {}
-        except Exception:
-            bad_packs.append(path)
-            continue
-        styles.extend(data.get("styles", []) or [])
-    return styles, bad_packs
+ID_RE = re.compile(r"^[a-z0-9_]+$")
+COMMA_RE = re.compile(r",(?!\s)")
+BANNED_GEAR_TERMS = (
+    "softbox",
+    "soft box",
+    "strobe",
+    "speedlight",
+    "beauty dish",
+    "octabox",
+    "umbrella",
+    "ring light",
+    "ringlight",
+    "on-camera",
+    "on camera",
+    "tripod shot",
+)
+BANNED_GEAR_RES = [(term, re.compile(re.escape(term), re.IGNORECASE)) for term in BANNED_GEAR_TERMS]
 
 
 def main() -> int:
-    styles, bad_packs = _load_all_styles()
+    try:
+        library = load_style_library(load_policy=LOAD_POLICY_STRICT)
+    except StyleLibraryError as exc:
+        print(f"ERROR: {exc}")
+        return 2
 
-    if bad_packs:
-        print("WARN: unable to read some packs:")
-        for p in bad_packs:
-            print(f"  - {p}")
-
-    ids = [str(s.get("id", "")) for s in styles]
-    names = [str(s.get("name", "")) for s in styles]
-    cats = [str(s.get("category", "Uncategorized")) for s in styles]
+    styles = list(library.styles)
+    ids = [style.id for style in styles]
+    names = [style.name for style in styles]
+    categories = [style.category or "Uncategorized" for style in styles]
 
     print(f"styles: {len(styles)}")
-    print(f"packs: {len(list(_iter_pack_paths()))}")
+    print(f"packs: {len(iter_pack_paths())}")
     print("categories:")
-    for c, n in Counter(cats).most_common():
-        print(f"  {n:4d}  {c}")
+    for category, count in Counter(categories).most_common():
+        print(f"  {count:4d}  {category}")
 
     warnings: List[str] = []
-
-    id_re = re.compile(r"^[a-z0-9_]+$")
-    bad_ids = [sid for sid in ids if sid and not id_re.match(sid)]
+    bad_ids = [style_id for style_id in ids if style_id and not ID_RE.match(style_id)]
     if bad_ids:
         warnings.append(f"bad_ids: {len(bad_ids)} (expected snake_case [a-z0-9_])")
 
     empty_prefix = 0
     empty_suffix = 0
-    missing_default = 0
     missing_tags = 0
-    missing_flux_2_klein = 0
+    missing_variant = 0
     comma_without_space: List[Tuple[str, str]] = []
-    comma_re = re.compile(r",(?!\s)")
+    banned_gear_hits: List[Tuple[str, str, str]] = []
 
-    banned_gear_terms = (
-        "softbox",
-        "soft box",
-        "strobe",
-        "speedlight",
-        "beauty dish",
-        "octabox",
-        "umbrella",
-        "ring light",
-        "ringlight",
-        "on-camera",
-        "on camera",
-        "tripod shot",
-    )
-    banned_gear_hits: List[Tuple[str, str, str]] = []  # (id, field, term)
-    banned_gear_res = [(t, re.compile(re.escape(t), re.IGNORECASE)) for t in banned_gear_terms]
-
-    for s in styles:
-        sid = str(s.get("id", ""))
-        default = s.get("default", None)
-        if not isinstance(default, dict):
-            missing_default += 1
-            continue
-
-        prefix = str(default.get("prefix", "") or "")
-        suffix = str(default.get("suffix", "") or "")
+    for style in styles:
+        prefix = style.prefix or ""
+        suffix = style.suffix or ""
         if not prefix.strip():
             empty_prefix += 1
         if not suffix.strip():
             empty_suffix += 1
 
         for field, text in (("prefix", prefix), ("suffix", suffix)):
-            if comma_re.search(text):
-                comma_without_space.append((sid, field))
+            if COMMA_RE.search(text):
+                comma_without_space.append((style.id, field))
 
-        models = s.get("models", {})
-        flux_suffix = ""
-        if isinstance(models, dict):
-            flux = models.get("flux_2_klein", {})
-            if isinstance(flux, dict):
-                flux_suffix = str(flux.get("suffix", "") or "")
+        variant_prefix, variant_suffix = style.variants.get("flux_2_klein", ("", ""))
+        if "flux_2_klein" not in style.variants:
+            missing_variant += 1
 
-        for field, text in (("prefix", prefix), ("suffix", suffix), ("flux_2_klein.suffix", flux_suffix)):
+        for field, text in (("prefix", prefix), ("suffix", suffix), ("flux_2_klein.prefix", variant_prefix), ("flux_2_klein.suffix", variant_suffix)):
             if not text:
                 continue
-            for term, rx in banned_gear_res:
-                if rx.search(text):
-                    banned_gear_hits.append((sid, field, term))
+            for term, pattern in BANNED_GEAR_RES:
+                if pattern.search(text):
+                    banned_gear_hits.append((style.id, field, term))
 
-        tags = s.get("tags", None)
-        if not isinstance(tags, list) or not any(str(t).strip() for t in tags):
+        if not style.tags:
             missing_tags += 1
 
-        if not (isinstance(models, dict) and "flux_2_klein" in models):
-            missing_flux_2_klein += 1
-
-    if missing_default:
-        warnings.append(f"missing_or_bad_default: {missing_default}")
     if empty_prefix:
         warnings.append(f"empty_prefix: {empty_prefix}")
     if empty_suffix:
@@ -130,25 +94,23 @@ def main() -> int:
         warnings.append(f"comma_without_space: {len(comma_without_space)} (node splits on ', ')")
     if missing_tags:
         warnings.append(f"missing_tags: {missing_tags}")
-    if missing_flux_2_klein:
-        warnings.append(f"missing_models.flux_2_klein: {missing_flux_2_klein}")
-    if banned_gear_hits:
-        warnings.append(f"banned_gear_terms: {len({sid for sid, _field, _term in banned_gear_hits})} styles")
-
-    # Quick uniqueness sanity (validate_styles.py is the source of truth).
+    if missing_variant:
+        warnings.append(f"missing_models.flux_2_klein: {missing_variant}")
     if len(set(ids)) != len(ids):
         warnings.append("duplicate_ids: detected")
     if len(set(names)) != len(names):
         warnings.append("duplicate_names: detected")
+    if banned_gear_hits:
+        warnings.append(f"banned_gear_terms: {len({style_id for style_id, _field, _term in banned_gear_hits})} styles")
 
     if warnings:
         print("warnings:")
-        for w in warnings:
-            print(f"  - {w}")
+        for warning in warnings:
+            print(f"  - {warning}")
         if banned_gear_hits:
             print("banned gear term examples:")
-            for sid, field, term in banned_gear_hits[:20]:
-                print(f"  - {sid} ({field}): {term}")
+            for style_id, field, term in banned_gear_hits[:20]:
+                print(f"  - {style_id} ({field}): {term}")
     else:
         print("warnings: none")
 
@@ -157,4 +119,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

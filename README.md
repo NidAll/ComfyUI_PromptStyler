@@ -1,44 +1,43 @@
 # ComfyUI PromptStyler
 
-PromptStyler is a **custom ComfyUI node** that helps you keep your prompts consistent by applying a selected “style template” to your **positive prompt**, then outputting **CONDITIONING** for KSampler.
+PromptStyler is a custom ComfyUI node that applies a curated style template to your positive prompt and outputs `CONDITIONING` for KSampler.
 
-If you are new to ComfyUI: you can think of CONDITIONING as the “encoded text prompt” that the sampler uses. PromptStyler builds a *styled prompt string*, encodes it with the model’s text encoder (CLIP), and passes the result to KSampler.
+The node stays lightweight in graphs, but it now supports three ways to resolve a style:
 
-## What This Node Does (Exact Behavior)
+- dropdown selection
+- direct `id` lookup
+- offline search across style id, name, category, and tags
 
-Node name in ComfyUI:
+It also supports an optional color-grade overlay, search hints, and debug metadata without changing the existing node name or the first two outputs.
+
+## Node
+
+ComfyUI display name:
 
 - `PromptStyler: Prompt -> Conditioning (Style Picker)`
 
-Step-by-step:
+Outputs:
 
-1. You type a normal prompt in `prompt` (your subject + what you want).
-2. You pick one style from the dropdown (the node loads style templates from JSON packs).
-3. If `apply_style` is enabled:
-   - It builds a new prompt: `style.prefix + your prompt + style.suffix`
-   - For `template_variant=default`, it merges comma-separated phrases and de-dupes duplicates.
-   - For `template_variant=flux_2_klein`, it appends a short prose style guide after your prompt (when available).
-4. It tokenizes and encodes the final prompt using the `text_encoder` (CLIP).
-5. It outputs:
-   - `positive` (CONDITIONING) for KSampler
-   - `styled_prompt` (STRING) so you can see the exact final prompt
+- `positive` (`CONDITIONING`)
+- `styled_prompt` (`STRING`)
+- `resolved_style_id` (`STRING`)
+- `resolved_style_meta` (`STRING`, JSON)
 
-Important: styles are written to describe **style only** (medium/process/lighting/palette/texture/composition) and to avoid injecting unrelated objects that you didn’t ask for.
+## What It Does
 
-## Install (Beginner Friendly)
+1. You enter a subject prompt.
+2. PromptStyler resolves a base style from the dropdown, a style id, or a search query.
+3. It applies the style to your prompt.
+4. Optionally, it appends one `Color Grade*` overlay style.
+5. It tokenizes the final prompt with the connected text encoder and returns `CONDITIONING`.
 
-1. Copy or clone this repo into:
+The default behavior remains compatible with older graphs:
 
-```text
-ComfyUI/custom_nodes/ComfyUI_PromptStyler/
-```
+- the node name is unchanged
+- `style_id_override` still works in saved workflows
+- default strength is `strong`, which preserves the prior full-style application behavior
 
-2. Restart ComfyUI (or use **Reload custom nodes**).
-3. Confirm the node exists by searching for `PromptStyler` in the node menu.
-
-## How To Use (Recommended Wiring)
-
-Typical workflow:
+## Recommended Wiring
 
 1. Add `CheckpointLoaderSimple`
 2. Add `PromptStyler: Prompt -> Conditioning (Style Picker)`
@@ -47,44 +46,77 @@ Typical workflow:
 Connect:
 
 - `CheckpointLoaderSimple.CLIP` -> `PromptStyler.text_encoder`
-- Your text -> `PromptStyler.prompt`
+- your text source -> `PromptStyler.prompt`
 - `PromptStyler.positive` -> `KSampler.positive`
 
-Optional (debugging):
+Use `styled_prompt` and `resolved_style_meta` for debugging when a style is not resolving the way you expect.
 
-- Use the `styled_prompt` output to verify that the style template is doing what you expect.
+## Inputs
 
-## Inputs / Outputs (Explained)
+Core inputs:
 
-Inputs:
+- `prompt`: your positive prompt
+- `apply_style`: bypass styling while still encoding the prompt
+- `style`: main dropdown entry in `Category | Name | id` format
+- `template_variant`: `default` or any model-specific variant present in the style packs
+- `style_id_override`: direct id selection, mainly useful with newly-added user styles
+- `text_encoder`: connect from your checkpoint/model loader
 
-- `prompt` (STRING): your prompt text (subject/action/attributes). Works best with comma+space phrases.
-- `apply_style` (BOOLEAN): when off, PromptStyler passes your prompt through unchanged (still outputs conditioning).
-- `style` (dropdown): pick **one** style. Dropdown entries are `Category | Name | id`.
-- `template_variant`:
-  - `default`: uses comma+space “phrase tokens” (best for SD-like prompt token lists).
-  - `flux_2_klein`: uses prose guidance when present (helpful for Flux-like models).
-- `style_id_override` (STRING): advanced. If set, the node uses that style `id` directly (useful right after adding a new style).
-- `text_encoder` (CLIP): wire this from your checkpoint/model loader.
+Selection controls:
 
-Outputs:
+- `selection_mode`: `dropdown`, `search`, or `id`
+- `style_search`: free-text style lookup used by `selection_mode=search`
+- `category_hint`: optional substring filter applied before search scoring
+- `tag_hint`: optional comma-separated tag filter applied before search scoring
+- `on_missing_style`: `error` or `passthrough`
 
-- `positive` (CONDITIONING): connect to KSampler `positive`.
-- `styled_prompt` (STRING): the final prompt string used for conditioning.
+Composition controls:
 
-## Style Library (Where Styles Live)
+- `style_strength`: `subtle`, `normal`, or `strong`
+- `dedupe_mode`: `smart` or `off`
+- `overlay_style_id`: optional secondary style id, restricted to categories starting with `Color Grade`
 
-Styles live in JSON packs:
+### Selection Behavior
 
-- `styles/packs/*.json` (merged at runtime in filename order)
-- Example curated pack: `styles/packs/34_fine_art_artists.json` (`Fine Art/Artists`) for artist-referenced fine art templates
-- Legacy fallback (only used if packs are missing): `styles/styles_v1.json`
+- `dropdown`: uses the selected dropdown entry
+- `id`: uses `style_id_override`
+- `search`: scores exact id matches first, then exact name, then token matches across id, name, category, and tags
+- `category_hint` and `tag_hint` narrow the candidate pool before scoring
+- ambiguous searches fail with the top candidates listed in the error
 
-Pack file naming:
+### Composition Model
 
-- Numeric prefixes control merge order (example: `10_cinema.json` loads before `20_photography.json`).
+Recommended mental model:
 
-Style entry schema:
+- base style
+- optional color-grade overlay
+- optional search-based style resolution
+
+`style_strength` only affects the default phrase-based variant:
+
+- `subtle`: first 3 unique prefix phrases and first 3 unique suffix phrases
+- `normal`: first 6 unique prefix phrases and first 6 unique suffix phrases
+- `strong`: all phrases
+
+`dedupe_mode=smart` only removes duplicate style-added phrases. It does not rewrite or collapse repeated phrases inside the user prompt.
+
+## Style Library
+
+Styles are loaded from JSON packs in filename order:
+
+- `styles/packs/*.json`
+
+Compatibility snapshot:
+
+- `styles/styles_v1.json`
+
+Pack file naming uses numeric prefixes for merge order. Example:
+
+- `10_cinema.json`
+- `96_color_grades.json`
+- `99_user_custom.json`
+
+Schema:
 
 ```json
 {
@@ -97,22 +129,11 @@ Style entry schema:
 }
 ```
 
-## Adding Your Own Styles (No Coding Required)
+## Adding Your Own Styles
 
-This repo includes a helper tool that writes a custom pack file (gitignored by default):
+Default user-local pack:
 
-- Default user pack: `styles/packs/99_user_custom.json`
-
-Wizard (recommended):
-
-```powershell
-C:\Comfyui\python_embeded\python.exe .\tools\add_styles.py wizard
-```
-
-After adding a style:
-
-- Copy the printed `id`
-- Paste it into `style_id_override` to use it immediately (no ComfyUI reload required)
+- `styles/packs/99_user_custom.json`
 
 List categories:
 
@@ -120,65 +141,72 @@ List categories:
 C:\Comfyui\python_embeded\python.exe .\tools\add_styles.py categories
 ```
 
-Add a style directly:
+Launch the wizard:
+
+```powershell
+C:\Comfyui\python_embeded\python.exe .\tools\add_styles.py wizard
+```
+
+Add one style directly:
 
 ```powershell
 C:\Comfyui\python_embeded\python.exe .\tools\add_styles.py add --name "Ink Noir (Modern)" --category "Fine Art" --core "ink wash, chiaroscuro, high contrast" --details "paper texture, soft bleed, dramatic mood" --tags "ink,noir"
 ```
 
-## Prompting Tips (So Styles Stay Accurate)
+After adding a style, paste the generated id into `style_id_override` to use it immediately.
 
-- Put **subjects/objects** in your `prompt` (the user input), not in the style template.
-- Write prompts as comma+space phrases: `", "` is the splitter used by the node’s default template mode.
-- If a style is explicitly specific (its name is a scene/subject), it may include those nouns. Otherwise templates aim to stay subject-agnostic.
+## Maintainer Commands
 
-## Validate / Audit (Recommended Before Editing Packs)
-
-Validate required fields and uniqueness:
+Validate packs:
 
 ```powershell
 C:\Comfyui\python_embeded\python.exe .\tools\validate_styles.py
 ```
 
-Optional consistency audit (also flags banned gear terms):
+Audit pack consistency:
 
 ```powershell
 C:\Comfyui\python_embeded\python.exe .\tools\audit_styles.py
 ```
 
-## Regenerate Curated Packs (For Maintainers)
+Sync the legacy compatibility snapshot:
 
-Curated packs are generated by:
+```powershell
+C:\Comfyui\python_embeded\python.exe .\tools\sync_legacy_styles.py
+```
+
+Regenerate curated packs and refresh the legacy snapshot:
 
 ```powershell
 C:\Comfyui\python_embeded\python.exe .\tools\generate_style_packs.py
 ```
 
-After regenerating packs, restart ComfyUI (or reload custom nodes) to refresh the dropdown.
+Check release/version metadata consistency:
+
+```powershell
+C:\Comfyui\python_embeded\python.exe .\tools\version_sync.py check
+```
 
 ## Troubleshooting
 
-- Node doesn’t show up:
-  - Verify the folder path is exactly `ComfyUI/custom_nodes/ComfyUI_PromptStyler/`
-  - Restart ComfyUI or use **Reload custom nodes**
-- Styles missing or dropdown says “(no styles found)”:
-  - Check that `styles/packs/*.json` exists and is valid JSON
-  - Run `.\tools\validate_styles.py`
-- A style feels like it “adds extra objects”:
-  - Try `template_variant=default` first (token style)
-  - Keep your subject strongly stated in the user `prompt`
-  - If you find a template adding unwanted nouns, it should be fixed in the pack (PRs welcome)
+- Node does not appear:
+  - verify the folder is `ComfyUI/custom_nodes/ComfyUI_PromptStyler/`
+  - restart ComfyUI or reload custom nodes
+- Search fails unexpectedly:
+  - relax `category_hint` and `tag_hint`
+  - use the `resolved_style_meta` output to inspect the resolution inputs and applied variant
+- A saved graph should keep running while you edit packs:
+  - use `on_missing_style=passthrough` if you want the node to fall back to the raw prompt during live pack edits
+- Styles look stale:
+  - rerun `tools/sync_legacy_styles.py` or `tools/generate_style_packs.py`
+  - reload custom nodes in ComfyUI
 
-## Versioning / GitHub Releases (Preparing v0.3.0)
+## Release Notes
 
-Source of truth:
+Version metadata is managed from `VERSION`.
 
-- Version: `VERSION` (mirrored in `__init__.py` as `__version__`)
-- Changelog: `CHANGELOG.md` (Keep a Changelog)
+- `__init__.py` reads `VERSION` at runtime
+- `.release-please-manifest.json` should be synced from `VERSION` with `tools/version_sync.py write`
+- `CHANGELOG.md` follows Keep a Changelog
 
-Suggested release checklist:
-
-1. Run `.\tools\validate_styles.py` and `.\tools\audit_styles.py` (include output in your PR).
-2. Ensure `README.md` describes new behavior/inputs.
-3. Ensure `CHANGELOG.md` has the release notes under the new version.
-4. Push to GitHub and let Release Please create the release PR (see `RELEASING.md`).
+See `RELEASING.md` for the maintainer flow.

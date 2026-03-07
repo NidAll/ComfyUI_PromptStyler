@@ -4,6 +4,19 @@ All notable changes to this project are documented in this file.
 
 The format is based on Keep a Changelog, and this project follows Semantic Versioning.
 
+## [Unreleased]
+
+### Added
+
+- Search-based style resolution, color-grade overlays, style strength controls, and JSON debug metadata on the main node.
+- Shared `style_library.py` used by the runtime node and maintainer tooling.
+- CI checks for version sync, style validation, and style audit.
+- `tools/sync_legacy_styles.py` and `tools/version_sync.py` for compatibility snapshot and release metadata maintenance.
+
+### Changed
+
+- `styles/styles_v1.json` is now treated as a generated compatibility snapshot of merged packs.
+- README and maintainer documentation now describe the current search/composition behavior instead of hardcoded implementation details.
 
 ## [0.3.1] - 2026-01-31
 
@@ -52,3 +65,4 @@ The format is based on Keep a Changelog, and this project follows Semantic Versi
 ### Changed
 
 - README updates for new node input.
+

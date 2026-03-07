@@ -1,25 +1,50 @@
 # Releasing
 
-This repo uses **Semantic Versioning** and **Release Please** to keep releases organized.
+This repo uses Semantic Versioning and Release Please.
 
-## Normal Release Flow (recommended)
+## Source Of Truth
 
-1. Merge changes into `main`.
-2. The `release-please` workflow opens/updates a **Release PR** that:
-   - bumps the version
-   - updates `CHANGELOG.md`
-3. Merge the Release PR.
-4. Release Please creates a Git tag (e.g. `v0.2.0`) and a GitHub Release.
+Human-edited version source:
 
-## Manual Release (if automation is disabled)
+- `VERSION`
 
-1. Update `__init__.py` `__version__` and `VERSION` to the new version.
-2. Add notes under `CHANGELOG.md` and move them into a new version section.
-3. Commit with a message like: `chore(release): vX.Y.Z`
-4. Tag and push:
+Mirrors and checks:
+
+- `__init__.py` reads `VERSION` at runtime
+- `.release-please-manifest.json` is synced from `VERSION` with `python tools/version_sync.py write`
+- CI verifies version alignment with `python tools/version_sync.py check`
+
+## Normal Maintainer Flow
+
+1. Update `VERSION`.
+2. Run `python tools/version_sync.py write`.
+3. Run `python tools/validate_styles.py`.
+4. Run `python tools/audit_styles.py`.
+5. If packs changed, run `python tools/sync_legacy_styles.py` or `python tools/generate_style_packs.py`.
+6. Update `CHANGELOG.md` and any user-facing docs that changed behavior.
+7. Merge to `main`.
+8. Release Please updates or opens the release PR.
+9. Merge the release PR.
+
+## CI
+
+The repository CI job runs on pushes to `main` and on pull requests. It checks:
+
+- version sync
+- style validation
+- style audit
+
+## Manual Release
+
+If automation is disabled:
+
+1. Update `VERSION`.
+2. Run `python tools/version_sync.py write`.
+3. Update `CHANGELOG.md`.
+4. Commit the release metadata.
+5. Tag the commit:
 
 ```bash
 git tag vX.Y.Z
 git push --tags
 ```
-
