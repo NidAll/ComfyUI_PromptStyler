@@ -4028,6 +4028,286 @@
       ]
     },
     {
+      "id": "repro_mimeograph_duplication",
+      "name": "Reprographic: Mimeograph Duplication",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, carved lines, high contrast, mimeograph duplication, stencil master, inked drum texture, duplicated sheets",
+        "suffix": "slight misregistration, inky density shifts, porous paper texture, office-print rhythm, paper texture, ink texture, rough edges, high contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mimeograph duplication with stencil-master imperfections. Lighting: flat even light preserving paper and ink density variation. Texture: inked drum transfer, porous paper, and repeated-sheet inconsistency. Key cues: mimeograph duplication, stencil master, inked drum texture, duplicated sheets. Finish cues: slight misregistration, inky density shifts, porous paper texture, office-print rhythm. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "reprographic",
+        "mimeograph",
+        "print"
+      ]
+    },
+    {
+      "id": "repro_spirit_duplicator_copy",
+      "name": "Reprographic: Spirit Duplicator",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, carved lines, high contrast, spirit duplicator copy, purple aniline tones, soft duplicate texturing, school-office print",
+        "suffix": "lavender cast, soft edges, faded pressure transfer, paper softness, paper texture, ink texture, rough edges, high contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: spirit-duplicator copy with characteristic purple cast. Lighting: flat diffuse light that keeps the faded duplicate texture legible. Texture: soft transfer edges, pale dye density, and absorbent paper. Key cues: spirit duplicator copy, purple aniline tones, soft duplicate texturing, school-office print. Finish cues: lavender cast, soft edges, faded pressure transfer, paper softness. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "reprographic",
+        "spirit_duplicator",
+        "print"
+      ]
+    },
+    {
+      "id": "repro_diazo_blueprint",
+      "name": "Reprographic: Diazo Blueprint",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, diazo blueprint, white lines on blue ground, ammonia process, technical reproduction",
+        "suffix": "paper grain, slight fading, high line clarity, plan-sheet texture, sharp focus, high detail, balanced exposure, fine texture detail, natural contrast, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: diazo blueprint reproduction with crisp white linework on blue ground. Lighting: flat even light emphasizing line precision and paper texture. Texture: plan-sheet grain, slight process fading, and clean reproduction edges. Key cues: diazo blueprint, white lines on blue ground, ammonia process, technical reproduction. Finish cues: paper grain, slight fading, high line clarity, plan-sheet texture. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "reprographic",
+        "diazo",
+        "blueprint"
+      ]
+    },
+    {
+      "id": "repro_whiteprint_copy",
+      "name": "Reprographic: Whiteprint Copy",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, whiteprint copy, blue lines on pale ground, engineering repro, technical sheet",
+        "suffix": "fine paper grain, faint process tint, clean line clarity, document texture, sharp focus, high detail, balanced exposure, fine texture detail, natural contrast, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: whiteprint engineering copy with blue line reproduction on pale stock. Lighting: neutral even light preserving line clarity and sheet texture. Texture: lightly tinted paper, crisp reproduced lines, and document wear. Key cues: whiteprint copy, blue lines on pale ground, engineering repro, technical sheet. Finish cues: fine paper grain, faint process tint, clean line clarity, document texture. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "reprographic",
+        "whiteprint",
+        "technical_copy"
+      ]
+    },
+    {
+      "id": "repro_offset_litho_misregistration",
+      "name": "Reprographic: Offset Misregistration",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, offset litho misregistration, CMYK separation drift, press-sheet look, graphic overprint",
+        "suffix": "registration drift, ink overlap edges, paper texture, press imperfections, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: offset lithographic print with visible CMYK misregistration. Lighting: flat print-preview lighting with minimal shading. Texture: ink overlap edges, slight press drift, and printed paper surface. Key cues: offset litho misregistration, CMYK separation drift, press-sheet look, graphic overprint. Finish cues: registration drift, ink overlap edges, paper texture, press imperfections. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "reprographic",
+        "offset",
+        "graphic"
+      ]
+    },
+    {
+      "id": "repro_newsprint_halftone",
+      "name": "Reprographic: Newsprint Halftone",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, newsprint halftone, coarse dot screen, cheap paper stock, high-contrast reproduction",
+        "suffix": "dot gain, paper fuzz, ink spread, low-cost press texture, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: newsprint halftone reproduction with coarse screened dots. Lighting: flat editorial lighting that keeps dot structure readable. Texture: dot gain, paper fuzz, and soft ink spread on cheap stock. Key cues: newsprint halftone, coarse dot screen, cheap paper stock, high-contrast reproduction. Finish cues: dot gain, paper fuzz, ink spread, low-cost press texture. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "reprographic",
+        "newsprint",
+        "halftone"
+      ]
+    },
+    {
+      "id": "repro_xerox_zine_photocopy",
+      "name": "Reprographic: Xerox Zine Photocopy",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, xerox zine photocopy, high-contrast black toner, collaged copy art, DIY publication feel",
+        "suffix": "toner speckle, copy shadow bands, paper curl, rough photocopy texture, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: zine photocopy aesthetic with stark black toner and copy-art artifacts. Lighting: flat copy-table lighting with no dramatic shading. Texture: toner speckle, edge shadowing, and cheap paper curl. Key cues: xerox zine photocopy, high-contrast black toner, collaged copy art, DIY publication feel. Finish cues: toner speckle, copy shadow bands, paper curl, rough photocopy texture. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "reprographic",
+        "photocopy",
+        "zine"
+      ]
+    },
+    {
+      "id": "repro_carbon_copy_manifold",
+      "name": "Reprographic: Carbon Copy Manifold",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, carved lines, high contrast, carbon copy manifold, pressure transfer typing, duplicate form, ghosted text impression",
+        "suffix": "soft duplicate offset, paper stack pressure marks, form-stock texture, typed imprint feel, paper texture, ink texture, rough edges, high contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: carbon-copy manifold form with pressure-transferred duplicate impression. Lighting: neutral even light revealing paper stack pressure and duplicate offset. Texture: soft transfer, form-stock grain, and faint stacked-sheet marks. Key cues: carbon copy manifold, pressure transfer typing, duplicate form, ghosted text impression. Finish cues: soft duplicate offset, paper stack pressure marks, form-stock texture, typed imprint feel. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "reprographic",
+        "carbon_copy",
+        "office_print"
+      ]
+    },
+    {
+      "id": "repro_contact_sheet_proof",
+      "name": "Reprographic: Contact Sheet Proof",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "professional photography, realistic lighting, natural color rendition, coherent shadows, true-to-life textures, contact sheet proof, small frame grid, black border frames, darkroom proof sheet",
+        "suffix": "glossy paper sheen, frame spacing, proof-sheet layout, archival print texture, sharp focus, high detail, balanced exposure, fine texture detail, natural contrast, clean highlights"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: darkroom contact-sheet proof with a tidy grid of small frames. Lighting: soft even light that preserves glossy paper and frame borders. Texture: proof-sheet sheen, frame spacing, and archival paper feel. Key cues: contact sheet proof, small frame grid, black border frames, darkroom proof sheet. Finish cues: glossy paper sheen, frame spacing, proof-sheet layout, archival print texture. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "reprographic",
+        "contact_sheet",
+        "analog_print"
+      ]
+    },
+    {
+      "id": "repro_rotogravure_ink_pattern",
+      "name": "Reprographic: Rotogravure Ink Pattern",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, carved lines, high contrast, rotogravure print, copper-cell ink pattern, smooth tonal reproduction, press cylinder texture",
+        "suffix": "fine cell grain, velvety darks, printed paper texture, high-volume press character, paper texture, ink texture, rough edges, high contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: rotogravure reproduction with smooth tonal printing and fine cell patterning. Lighting: flat print-preview light preserving tonal reproduction and cell grain. Texture: velvety darks, fine gravure grain, and coated paper response. Key cues: rotogravure print, copper-cell ink pattern, smooth tonal reproduction, press cylinder texture. Finish cues: fine cell grain, velvety darks, printed paper texture, high-volume press character. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "reprographic",
+        "rotogravure",
+        "print"
+      ]
+    },
+    {
+      "id": "repro_cmyk_registration_proof",
+      "name": "Reprographic: CMYK Registration Proof",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, CMYK registration proof, crop marks, color bars, prepress sheet",
+        "suffix": "registration marks, ink alignment cues, press proof texture, clean paper stock, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: prepress CMYK registration proof with crop marks and color bars. Lighting: flat inspection light with minimal glare on the proof sheet. Texture: clean proof stock, registration marks, and precise prepress cues. Key cues: CMYK registration proof, crop marks, color bars, prepress sheet. Finish cues: registration marks, ink alignment cues, press proof texture, clean paper stock. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "reprographic",
+        "cmyk",
+        "proof"
+      ]
+    },
+    {
+      "id": "repro_thermographic_raised_ink",
+      "name": "Reprographic: Thermographic Raised Ink",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, carved lines, high contrast, thermographic raised ink, powder-fused lettering, slight gloss, printed stationery",
+        "suffix": "raised ink relief, subtle sheen, paper texture, formal print finish, ink texture, rough edges, high contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: thermographic print with powder-fused raised ink. Lighting: soft raking light revealing slight relief and glossy edges. Texture: raised lettering, subtle sheen, and fine stationery stock. Key cues: thermographic raised ink, powder-fused lettering, slight gloss, printed stationery. Finish cues: raised ink relief, subtle sheen, paper texture, formal print finish. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "reprographic",
+        "thermography",
+        "raised_ink"
+      ]
+    },
+    {
+      "id": "repro_rubber_stamp_overprint",
+      "name": "Reprographic: Rubber Stamp Overprint",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, carved lines, high contrast, rubber stamp overprint, layered ink stamps, imperfect repeat, manual registration",
+        "suffix": "ink pooling, stamp edge chatter, paper tooth, hand-pressed irregularity, paper texture, ink texture, rough edges, high contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: rubber-stamped overprint with imperfect manual registration. Lighting: flat diffuse light preserving ink pooling and stamp edge chatter. Texture: hand-pressed irregularity, paper tooth, and layered ink density. Key cues: rubber stamp overprint, layered ink stamps, imperfect repeat, manual registration. Finish cues: ink pooling, stamp edge chatter, paper tooth, hand-pressed irregularity. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "reprographic",
+        "rubber_stamp",
+        "overprint"
+      ]
+    },
+    {
+      "id": "repro_dot_gain_press_sheet",
+      "name": "Reprographic: Dot Gain Press Sheet",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "graphic design, poster-like composition, clear hierarchy, bold shapes, limited palette, print-ready layout, dot gain press sheet, ink spread, screened color build, printed calibration feel",
+        "suffix": "softened dot edges, paper absorbency, press-sheet texture, density variation, crisp edges, high contrast, clean alignment, balanced negative space, print texture"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: printed press sheet showing dot gain and ink spread. Lighting: neutral inspection light that keeps screened structure readable. Texture: softened dot edges, absorbent stock, and printed calibration character. Key cues: dot gain press sheet, ink spread, screened color build, printed calibration feel. Finish cues: softened dot edges, paper absorbency, press-sheet texture, density variation. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "reprographic",
+        "dot_gain",
+        "press"
+      ]
+    },
+    {
       "id": "artist_leonardo_da_vinci_sfumato",
       "name": "Artist: Leonardo da Vinci (Sfumato + Subtle Chiaroscuro)",
       "category": "Fine Art/Artists",
@@ -5262,6 +5542,278 @@
       ]
     },
     {
+      "id": "mixed_acrylic_sgraffito_ground",
+      "name": "Acrylic Sgraffito Ground",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, acrylic sgraffito, scraped paint layers, revealed underpainting, layered acrylic ground",
+        "suffix": "incised grooves, color reveal, matte paint texture, layered scraping marks, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media acrylic surface worked with sgraffito scraping. Lighting: soft raking light that catches incised grooves and revealed color layers. Texture: matte acrylic, scraped channels, and exposed underpainting. Key cues: acrylic sgraffito, scraped paint layers, revealed underpainting, layered acrylic ground. Finish cues: incised grooves, color reveal, matte paint texture, layered scraping marks. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "sgraffito",
+        "acrylic"
+      ]
+    },
+    {
+      "id": "mixed_assemblage_artwork",
+      "name": "Assemblage Artwork",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, assemblage, found objects, mixed materials, handcrafted",
+        "suffix": "tactile texture, rough surfaces, layered depth, high detail, paper grain, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: assemblage artwork built from found objects and mixed materials. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: rough surfaces, layered depth, tactile materials. Key cues: assemblage, found objects, mixed materials, handcrafted. Finish cues: tactile texture, rough surfaces, layered depth. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media"
+      ]
+    },
+    {
+      "id": "mixed_cyanotype_print_analog",
+      "name": "Cyanotype Print (Analog)",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, cyanotype print, blue monochrome, sun print, paper texture",
+        "suffix": "grain, chemical texture, vintage print, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: analog cyanotype print on paper. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Mood: minimal, photographic, deep blue. Key cues: cyanotype print, blue monochrome, sun print, paper texture. Finish cues: grain, chemical texture, vintage print. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media"
+      ]
+    },
+    {
+      "id": "mixed_decollage_poster_peel",
+      "name": "Decollage Poster Peel",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, decollage poster peel, torn poster layers, weathered paste, exposed underlayers",
+        "suffix": "ragged tears, glue residue, paper strata, urban paper texture, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media decollage with peeled poster layers and exposed strata. Lighting: flat daylight that keeps the layered tears and residue readable. Texture: ragged tears, glue residue, and stacked paper history. Key cues: decollage poster peel, torn poster layers, weathered paste, exposed underlayers. Finish cues: ragged tears, glue residue, paper strata, urban paper texture. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "decollage",
+        "paper"
+      ]
+    },
+    {
+      "id": "mixed_encaustic_collage",
+      "name": "Encaustic Collage",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, encaustic collage, translucent wax layers, embedded paper fragments, scraped surface",
+        "suffix": "wax bloom, subtle crackle, tactile depth, layered translucency, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media encaustic collage with embedded paper fragments. Lighting: soft gallery light with gentle falloff and mild surface sheen. Texture: translucent wax layers, scraped marks, and tactile depth. Key cues: encaustic collage, translucent wax layers, embedded paper fragments, scraped surface. Finish cues: wax bloom, subtle crackle, tactile depth, layered translucency. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "encaustic",
+        "collage"
+      ]
+    },
+    {
+      "id": "mixed_fabric_scrap_collage",
+      "name": "Fabric Scrap Collage",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, fabric scrap collage, stitched textile fragments, raw edges, patchwork layering",
+        "suffix": "frayed fibers, cloth weave, stitched joins, soft tactile depth, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media collage assembled from layered textile scraps. Lighting: soft diffuse light revealing cloth weave and stitched joins. Texture: frayed fibers, raw edges, and patchwork depth. Key cues: fabric scrap collage, stitched textile fragments, raw edges, patchwork layering. Finish cues: frayed fibers, cloth weave, stitched joins, soft tactile depth. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "fabric",
+        "collage"
+      ]
+    },
+    {
+      "id": "mixed_foil_leaf_overlay",
+      "name": "Foil Leaf Overlay",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, foil leaf overlay, metal leaf fragments, mixed surface, hand-applied shimmer",
+        "suffix": "broken foil edges, micro-reflections, adhesive texture, layered contrast, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media surface with hand-applied foil leaf overlays. Lighting: controlled light that catches metallic fragments without blowing them out. Texture: broken foil edges, adhesive texture, and small reflective flashes. Key cues: foil leaf overlay, metal leaf fragments, mixed surface, hand-applied shimmer. Finish cues: broken foil edges, micro-reflections, adhesive texture, layered contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "foil",
+        "leaf"
+      ]
+    },
+    {
+      "id": "mixed_frottage_rubbing_study",
+      "name": "Frottage Rubbing Study",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, frottage rubbing, found-surface textures, graphite transfer, pressure marks",
+        "suffix": "rubbed grain, uneven density, paper drag marks, tactile impressions, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media frottage study built from rubbed surface textures. Lighting: soft raking light that reveals paper tooth and rubbing variation. Texture: transferred grain, pressure marks, and uneven graphite density. Key cues: frottage rubbing, found-surface textures, graphite transfer, pressure marks. Finish cues: rubbed grain, uneven density, paper drag marks, tactile impressions. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "frottage",
+        "rubbing"
+      ]
+    },
+    {
+      "id": "mixed_gel_medium_image_transfer",
+      "name": "Gel Medium Image Transfer",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, gel medium image transfer, lifted image layers, translucent medium, paper support",
+        "suffix": "soft edge lifting, adhesive sheen, surface irregularities, layered translucency, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media gel-medium transfer with lifted translucent image layers. Lighting: soft gallery light with enough angle to reveal transfer texture. Texture: adhesive sheen, edge lifting, and layered translucent film. Key cues: gel medium image transfer, lifted image layers, translucent medium, paper support. Finish cues: soft edge lifting, adhesive sheen, surface irregularities, layered translucency. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "transfer",
+        "acrylic"
+      ]
+    },
+    {
+      "id": "mixed_gel_plate_monoprint",
+      "name": "Gel Plate Monoprint",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, gel plate monoprint, ink layers, brayer texture, printmaking",
+        "suffix": "paper grain, ink transfer artifacts, handmade print, high detail, tactile texture, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: gel plate monoprint with layered ink textures. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: ink transfer artifacts, paper grain, layered prints. Key cues: gel plate monoprint, ink layers, brayer texture, printmaking. Finish cues: paper grain, ink transfer artifacts, handmade print. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media"
+      ]
+    },
+    {
+      "id": "mixed_gesso_charcoal_board",
+      "name": "Gesso and Charcoal Board",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, gesso ground, charcoal marks, chalky board surface, erased highlights",
+        "suffix": "powdery smudge, toothy ground, lifted erasures, matte surface, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media board with gesso ground and charcoal drawing. Lighting: soft studio light revealing chalky tooth and erased highlights. Texture: powdery charcoal, matte gesso, and lifted erasure marks. Key cues: gesso ground, charcoal marks, chalky board surface, erased highlights. Finish cues: powdery smudge, toothy ground, lifted erasures, matte surface. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "gesso",
+        "charcoal"
+      ]
+    },
+    {
+      "id": "mixed_handmade_paper_pulp_relief",
+      "name": "Handmade Paper Pulp Relief",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, handmade paper pulp, cast relief, fibrous surface, pressed pulp forms",
+        "suffix": "deckled edges, fiber clumps, raised paper relief, soft shadow depth, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media handmade paper relief with cast pulp forms. Lighting: soft raking light to reveal paper relief and deckled edges. Texture: fibrous pulp, soft relief shadows, and visible paper formation. Key cues: handmade paper pulp, cast relief, fibrous surface, pressed pulp forms. Finish cues: deckled edges, fiber clumps, raised paper relief, soft shadow depth. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "paper",
+        "relief"
+      ]
+    },
+    {
+      "id": "mixed_mixed_media_acrylic_ink",
+      "name": "Mixed Media Acrylic + Ink",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, mixed media, acrylic paint, ink linework, layered marks",
+        "suffix": "texture paste, splatter, handmade imperfections, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media artwork combining acrylic paint and ink linework. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: layered paint, ink marks, tactile surface. Key cues: mixed media, acrylic paint, ink linework, layered marks. Finish cues: texture paste, splatter, handmade imperfections. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media"
+      ]
+    },
+    {
+      "id": "mixed_monoprint_collage",
+      "name": "Monoprint Collage",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, monoprint collage, ink pull textures, layered cut paper, one-off print fragments",
+        "suffix": "brayer texture, ink ghosts, paper layering, soft registration drift, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media collage assembled from monoprint pulls and paper fragments. Lighting: soft gallery light keeping ink texture and layered edges visible. Texture: brayer marks, ink ghosts, and collage depth. Key cues: monoprint collage, ink pull textures, layered cut paper, one-off print fragments. Finish cues: brayer texture, ink ghosts, paper layering, soft registration drift. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "monoprint",
+        "collage"
+      ]
+    },
+    {
       "id": "mixed_paper_collage_mixed_media",
       "name": "Paper Collage (Mixed Media)",
       "category": "Mixed Media",
@@ -5298,75 +5850,63 @@
       ]
     },
     {
-      "id": "mixed_mixed_media_acrylic_ink",
-      "name": "Mixed Media Acrylic + Ink",
+      "id": "mixed_resin_sealed_collage",
+      "name": "Resin-Sealed Collage",
       "category": "Mixed Media",
       "default": {
-        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, mixed media, acrylic paint, ink linework, layered marks",
-        "suffix": "texture paste, splatter, handmade imperfections, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, resin-sealed collage, encapsulated layers, embedded fragments, glossy surface",
+        "suffix": "glass-like sheen, suspended depth, trapped inclusions, smooth surface reflections, high detail, tactile texture, paper grain, layered depth, cohesive composition"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: mixed media artwork combining acrylic paint and ink linework. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: layered paint, ink marks, tactile surface. Key cues: mixed media, acrylic paint, ink linework, layered marks. Finish cues: texture paste, splatter, handmade imperfections. Instruction: preserve the user prompt subject and add only stylistic cues."
+          "suffix": "Style: mixed media collage sealed under a glossy resin layer. Lighting: controlled light with smooth reflections and visible embedded depth. Texture: glass-like sheen, suspended fragments, and encapsulated layers. Key cues: resin-sealed collage, encapsulated layers, embedded fragments, glossy surface. Finish cues: glass-like sheen, suspended depth, trapped inclusions, smooth surface reflections. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
-        "mixed_media"
+        "mixed_media",
+        "resin",
+        "collage"
       ]
     },
     {
-      "id": "mixed_gel_plate_monoprint",
-      "name": "Gel Plate Monoprint",
+      "id": "mixed_sand_pigment_ground",
+      "name": "Sand and Pigment Ground",
       "category": "Mixed Media",
       "default": {
-        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, gel plate monoprint, ink layers, brayer texture, printmaking",
-        "suffix": "paper grain, ink transfer artifacts, handmade print, high detail, tactile texture, layered depth, cohesive composition"
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, sand and pigment ground, granular surface, earth pigments, rough substrate",
+        "suffix": "gritty relief, dry brush drag, mineral texture, matte layered surface, high detail, tactile texture, paper grain, layered depth, cohesive composition"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: gel plate monoprint with layered ink textures. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: ink transfer artifacts, paper grain, layered prints. Key cues: gel plate monoprint, ink layers, brayer texture, printmaking. Finish cues: paper grain, ink transfer artifacts, handmade print. Instruction: preserve the user prompt subject and add only stylistic cues."
+          "suffix": "Style: mixed media surface built from sanded ground and dry pigments. Lighting: raking light to reveal granular relief and dry brush drag. Texture: mineral grit, matte layering, and rough substrate variation. Key cues: sand and pigment ground, granular surface, earth pigments, rough substrate. Finish cues: gritty relief, dry brush drag, mineral texture, matte layered surface. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
-        "mixed_media"
+        "mixed_media",
+        "sand",
+        "pigment"
       ]
     },
     {
-      "id": "mixed_cyanotype_print_analog",
-      "name": "Cyanotype Print (Analog)",
+      "id": "mixed_scratchboard_ink_wash",
+      "name": "Scratchboard Ink Wash",
       "category": "Mixed Media",
       "default": {
-        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, cyanotype print, blue monochrome, sun print, paper texture",
-        "suffix": "grain, chemical texture, vintage print, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, scratchboard, ink wash, scraped highlights, black ground",
+        "suffix": "incised lines, white reveal marks, ink pooling, high contrast surface, high detail, tactile texture, paper grain, layered depth, cohesive composition"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: analog cyanotype print on paper. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Mood: minimal, photographic, deep blue. Key cues: cyanotype print, blue monochrome, sun print, paper texture. Finish cues: grain, chemical texture, vintage print. Instruction: preserve the user prompt subject and add only stylistic cues."
+          "suffix": "Style: scratchboard mixed media with ink wash and scraped highlights. Lighting: controlled studio light emphasizing incised lines and contrast. Texture: sharp reveal marks, pooled ink, and a dense black ground. Key cues: scratchboard, ink wash, scraped highlights, black ground. Finish cues: incised lines, white reveal marks, ink pooling, high contrast surface. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
-        "mixed_media"
-      ]
-    },
-    {
-      "id": "mixed_assemblage_artwork",
-      "name": "Assemblage Artwork",
-      "category": "Mixed Media",
-      "default": {
-        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, assemblage, found objects, mixed materials, handcrafted",
-        "suffix": "tactile texture, rough surfaces, layered depth, high detail, paper grain, cohesive composition"
-      },
-      "models": {
-        "flux_2_klein": {
-          "prefix": "",
-          "suffix": "Style: assemblage artwork built from found objects and mixed materials. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: rough surfaces, layered depth, tactile materials. Key cues: assemblage, found objects, mixed materials, handcrafted. Finish cues: tactile texture, rough surfaces, layered depth. Instruction: preserve the user prompt subject and add only stylistic cues."
-        }
-      },
-      "tags": [
-        "mixed_media"
+        "mixed_media",
+        "scratchboard",
+        "ink"
       ]
     },
     {
@@ -5385,6 +5925,106 @@
       },
       "tags": [
         "mixed_media"
+      ]
+    },
+    {
+      "id": "mixed_thread_stitched_paper_collage",
+      "name": "Thread-Stitched Paper Collage",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, thread-stitched paper collage, pierced paper, visible seams, layered cut paper",
+        "suffix": "thread relief, needle holes, paper grain, hand-sewn irregularity, high detail, tactile texture, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media paper collage held together with visible stitched seams. Lighting: soft raking light that reveals thread relief and pierced paper. Texture: needle holes, paper grain, and hand-sewn irregularity. Key cues: thread-stitched paper collage, pierced paper, visible seams, layered cut paper. Finish cues: thread relief, needle holes, paper grain, hand-sewn irregularity. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "thread",
+        "paper"
+      ]
+    },
+    {
+      "id": "mixed_tissue_paper_layering",
+      "name": "Tissue Paper Layering",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, tissue paper layering, translucent color veils, wrinkled paper films, stacked fragments",
+        "suffix": "soft wrinkles, color veiling, feathered overlap edges, lightweight translucency, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media layering built from translucent tissue fragments. Lighting: soft top light preserving the color veils and overlap shadows. Texture: tissue wrinkles, feathered edges, and lightweight translucency. Key cues: tissue paper layering, translucent color veils, wrinkled paper films, stacked fragments. Finish cues: soft wrinkles, color veiling, feathered overlap edges, lightweight translucency. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "tissue_paper",
+        "layered"
+      ]
+    },
+    {
+      "id": "mixed_vellum_overlay_assemblage",
+      "name": "Vellum Overlay Assemblage",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, vellum overlays, translucent sheets, stacked drawing layers, soft veiling",
+        "suffix": "semi-transparent layers, paper curl, subtle overlap shadows, airy depth, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media assemblage built from translucent vellum overlays. Lighting: soft top light creating delicate overlap shadows between sheets. Texture: vellum curl, semi-transparent stacking, and layered veiling. Key cues: vellum overlays, translucent sheets, stacked drawing layers, soft veiling. Finish cues: semi-transparent layers, paper curl, subtle overlap shadows, airy depth. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "vellum",
+        "assemblage"
+      ]
+    },
+    {
+      "id": "mixed_wax_resist_layers",
+      "name": "Wax Resist Mixed Media",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, wax resist, layered inks, masked paper, drawn resist lines",
+        "suffix": "resist crackle, ink pooling, paper tooth, layered transparency, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media wax-resist artwork with masked lines and layered inks. Lighting: soft diffuse light that keeps paper texture and layered transparencies visible. Texture: resist crackle, pooled pigment, and masked edge variation. Key cues: wax resist, layered inks, masked paper, drawn resist lines. Finish cues: resist crackle, ink pooling, paper tooth, layered transparency. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "wax_resist",
+        "layered"
+      ]
+    },
+    {
+      "id": "mixed_xerox_transfer_collage",
+      "name": "Xerox Transfer Collage",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, xerox transfer collage, toner transfer, distressed paper, layered copy fragments",
+        "suffix": "toner wear, uneven transfer, matte paper texture, zine-like edges, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media collage built from toner-transfer copy fragments. Lighting: flat diffuse light that keeps paper layers readable. Texture: toner wear, distressed edges, and matte paper grain. Key cues: xerox transfer collage, toner transfer, distressed paper, layered copy fragments. Finish cues: toner wear, uneven transfer, matte paper texture, zine-like edges. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "transfer",
+        "photocopy"
       ]
     },
     {
@@ -7651,6 +8291,566 @@
         "textiles",
         "screenprint",
         "fabric"
+      ]
+    },
+    {
+      "id": "decor_copper_foil_stained_glass",
+      "name": "Copper Foil Stained Glass",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, copper foil stained glass, soldered seams, colored glass pieces, translucent mosaic",
+        "suffix": "backlit glow, solder line detail, glass texture, jewel-toned translucency, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: copper-foil stained glass with soldered seams and translucent color. Lighting: backlit illumination creating jewel-like glow through the glass. Texture: solder line detail, subtle rippled glass, and luminous color panels. Key cues: copper foil stained glass, soldered seams, colored glass pieces, translucent mosaic. Finish cues: backlit glow, solder line detail, glass texture, jewel-toned translucency. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "glass",
+        "foil"
+      ]
+    },
+    {
+      "id": "decor_pate_de_verre_glass",
+      "name": "Pate de Verre Glass",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, pate de verre glass, granular cast glass, soft translucency, powdered glass color",
+        "suffix": "frosted surface, subtle translucence, cast texture, powder-soft color, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: pate de verre glass with softly cast translucent color. Lighting: soft transmitted light with gentle highlights on frosted surfaces. Texture: granular cast glass, matte translucency, and powder-soft color depth. Key cues: pate de verre glass, granular cast glass, soft translucency, powdered glass color. Finish cues: frosted surface, subtle translucence, cast texture, powder-soft color. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "glass",
+        "cast"
+      ]
+    },
+    {
+      "id": "decor_slumped_kiln_formed_glass",
+      "name": "Slumped Kiln-Formed Glass",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, slumped kiln-formed glass, flowed glass contours, heat-shaped form, smooth translucent surface",
+        "suffix": "soft edge rounding, subtle thickness variation, glass sheen, formed contour shadows, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: kiln-formed slumped glass with heat-shaped contours. Lighting: controlled studio light emphasizing contour thickness and translucency. Texture: smooth glass sheen, softened edges, and gentle thickness variation. Key cues: slumped kiln-formed glass, flowed glass contours, heat-shaped form, smooth translucent surface. Finish cues: soft edge rounding, subtle thickness variation, glass sheen, formed contour shadows. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "glass",
+        "kiln_formed"
+      ]
+    },
+    {
+      "id": "decor_raku_crackle_ceramic",
+      "name": "Raku Crackle Ceramic",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, raku ceramic, crackle glaze, smoke-fired surface, irregular luster",
+        "suffix": "black crack lines, smoky glaze variation, porous clay texture, unpredictable firing marks, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: raku-fired ceramic with crackled glaze and smoky variation. Lighting: soft studio light revealing crackle networks and firing irregularities. Texture: black crack lines, porous clay, and unpredictable glaze shifts. Key cues: raku ceramic, crackle glaze, smoke-fired surface, irregular luster. Finish cues: black crack lines, smoky glaze variation, porous clay texture, unpredictable firing marks. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "ceramic",
+        "raku"
+      ]
+    },
+    {
+      "id": "decor_pit_fired_ceramic",
+      "name": "Pit-Fired Ceramic",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, pit-fired ceramic, fire clouds, smoke marks, unglazed clay surface",
+        "suffix": "burnished sheen, smoke staining, earthy mineral variation, handmade surface, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: pit-fired ceramic with smoke clouds and earthy firing marks. Lighting: warm studio light showing burnished highlights and smoke variation. Texture: unglazed clay, mineral staining, and atmospheric fire marking. Key cues: pit-fired ceramic, fire clouds, smoke marks, unglazed clay surface. Finish cues: burnished sheen, smoke staining, earthy mineral variation, handmade surface. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "ceramic",
+        "pit_fired"
+      ]
+    },
+    {
+      "id": "decor_celadon_glaze_stoneware",
+      "name": "Celadon Glaze Stoneware",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, celadon glaze, pale green stoneware, pooled glaze, refined ceramic surface",
+        "suffix": "glaze pooling, cool translucence, soft crackle, subtle sheen, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: celadon-glazed stoneware with cool translucent pooling. Lighting: soft controlled light preserving glaze depth and subtle crackle. Texture: pooled glaze, pale green translucence, and refined ceramic sheen. Key cues: celadon glaze, pale green stoneware, pooled glaze, refined ceramic surface. Finish cues: glaze pooling, cool translucence, soft crackle, subtle sheen. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "ceramic",
+        "celadon"
+      ]
+    },
+    {
+      "id": "decor_crystalline_glaze_porcelain",
+      "name": "Crystalline Glaze Porcelain",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, crystalline glaze porcelain, starburst crystal blooms, glossy fired surface, porcelain body",
+        "suffix": "crystal clusters, gloss reflections, glaze depth, smooth porcelain surface, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: crystalline-glazed porcelain with visible starburst crystal blooms. Lighting: controlled highlights emphasizing glossy glaze and crystal structure. Texture: smooth porcelain, glossy depth, and flower-like crystal growth. Key cues: crystalline glaze porcelain, starburst crystal blooms, glossy fired surface, porcelain body. Finish cues: crystal clusters, gloss reflections, glaze depth, smooth porcelain surface. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "ceramic",
+        "crystalline_glaze"
+      ]
+    },
+    {
+      "id": "decor_mishima_inlay_pottery",
+      "name": "Mishima Inlay Pottery",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, mishima inlay pottery, incised lines, contrasting slip inlay, refined ceramic pattern",
+        "suffix": "filled linework, matte glaze, fine carving detail, quiet surface contrast, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Mishima pottery with incised patterns filled by contrasting slip. Lighting: soft studio light revealing carved linework and matte ceramic surface. Texture: filled incisions, quiet glaze, and fine carved detail. Key cues: mishima inlay pottery, incised lines, contrasting slip inlay, refined ceramic pattern. Finish cues: filled linework, matte glaze, fine carving detail, quiet surface contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "ceramic",
+        "inlay"
+      ]
+    },
+    {
+      "id": "decor_sgraffito_pottery",
+      "name": "Sgraffito Pottery",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, sgraffito pottery, scratched slip decoration, revealed clay body, layered ceramic surface",
+        "suffix": "incised motifs, matte slip texture, fine carving marks, earthy fired surface, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: sgraffito-decorated pottery with scratched slip and revealed clay. Lighting: soft angled light that catches carved ceramic marks. Texture: matte slip, incised motifs, and an earthy fired surface. Key cues: sgraffito pottery, scratched slip decoration, revealed clay body, layered ceramic surface. Finish cues: incised motifs, matte slip texture, fine carving marks, earthy fired surface. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "ceramic",
+        "sgraffito"
+      ]
+    },
+    {
+      "id": "decor_hammered_copper_patina",
+      "name": "Hammered Copper Patina",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, hammered copper, hand-raised metal surface, aged patina, warm metallic tones",
+        "suffix": "hammer marks, oxidized color shifts, soft metallic sheen, worked metal relief, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: hammered copper decorative metalwork with aged patina. Lighting: warm studio light emphasizing hammered relief and patinated color shifts. Texture: hand-raised dimples, oxidized surface, and soft metallic sheen. Key cues: hammered copper, hand-raised metal surface, aged patina, warm metallic tones. Finish cues: hammer marks, oxidized color shifts, soft metallic sheen, worked metal relief. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "metal",
+        "patina"
+      ]
+    },
+    {
+      "id": "decor_repousse_metalwork",
+      "name": "Repousse Metalwork",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, repousse metalwork, raised relief ornament, chased detailing, worked sheet metal",
+        "suffix": "relief contours, fine chased lines, aged metallic finish, ornamental depth, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: repousse metalwork with raised relief and chased detail. Lighting: directional studio light to reveal relief contours and fine tooling. Texture: raised ornament, chased lines, and aged metallic finish. Key cues: repousse metalwork, raised relief ornament, chased detailing, worked sheet metal. Finish cues: relief contours, fine chased lines, aged metallic finish, ornamental depth. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "metal",
+        "repousse"
+      ]
+    },
+    {
+      "id": "decor_guilloche_enamel",
+      "name": "Guilloche Enamel",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, guilloche enamel, engine-turned pattern, translucent enamel layer, radiating metal geometry",
+        "suffix": "subsurface pattern shimmer, gloss enamel finish, precise engraved rhythm, luxury surface, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: guilloche enamel over engine-turned metal patterning. Lighting: controlled highlights that reveal the pattern beneath translucent enamel. Texture: glossy enamel depth, precise engraved rhythm, and subsurface shimmer. Key cues: guilloche enamel, engine-turned pattern, translucent enamel layer, radiating metal geometry. Finish cues: subsurface pattern shimmer, gloss enamel finish, precise engraved rhythm, luxury surface. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "enamel",
+        "guilloche"
+      ]
+    },
+    {
+      "id": "decor_acid_etched_glass",
+      "name": "Acid-Etched Glass",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, acid-etched glass, frosted transparency, matte glass surface, ornamental etching",
+        "suffix": "soft diffusion, satin glass finish, etched motif edges, subtle translucence, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: acid-etched glass with frosted translucency and engraved motifs. Lighting: soft transmitted light with minimal glare to preserve the satin finish. Texture: matte frosted glass, subtle translucence, and etched boundaries. Key cues: acid-etched glass, frosted transparency, matte glass surface, ornamental etching. Finish cues: soft diffusion, satin glass finish, etched motif edges, subtle translucence. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "glass",
+        "etched"
+      ]
+    },
+    {
+      "id": "decor_cut_crystal_faceting",
+      "name": "Cut Crystal Faceting",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, cut crystal, faceted glass, prismatic refraction, precision cutting",
+        "suffix": "sharp facets, caustic sparkle, high clarity, polished reflections, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: cut crystal decorative glass with sharp faceting and prismatic sparkle. Lighting: crisp controlled highlights and small caustics across polished facets. Texture: sharp facet edges, high clarity, and jewel-like reflections. Key cues: cut crystal, faceted glass, prismatic refraction, precision cutting. Finish cues: sharp facets, caustic sparkle, high clarity, polished reflections. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "glass",
+        "crystal"
+      ]
+    },
+    {
+      "id": "decor_lost_wax_cast_bronze",
+      "name": "Lost-Wax Cast Bronze",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, lost-wax cast bronze, cast metal surface, hand-finished patina, sculptural metalwork",
+        "suffix": "cast texture, warm bronze highlights, subtle tooling marks, aged patina depth, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: lost-wax cast bronze with hand-finished patina. Lighting: warm directional light showing cast surface, tooling, and metallic depth. Texture: cast grain, hand-finished marks, and aged bronze patina. Key cues: lost-wax cast bronze, cast metal surface, hand-finished patina, sculptural metalwork. Finish cues: cast texture, warm bronze highlights, subtle tooling marks, aged patina depth. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "bronze",
+        "cast"
+      ]
+    },
+    {
+      "id": "decor_pietra_dura_inlay",
+      "name": "Pietra Dura Stone Inlay",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, pietra dura inlay, polished stone mosaic, hardstone floral inlay, precise stone fitting",
+        "suffix": "polished stone sheen, crisp inlay seams, rich mineral color, luxury surface detail, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: pietra dura hardstone inlay with tightly fitted polished stone pieces. Lighting: soft controlled light revealing polished mineral surfaces and seam precision. Texture: crisp stone joins, polished sheen, and rich mineral color variation. Key cues: pietra dura inlay, polished stone mosaic, hardstone floral inlay, precise stone fitting. Finish cues: polished stone sheen, crisp inlay seams, rich mineral color, luxury surface detail. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "stone",
+        "inlay"
+      ]
+    },
+    {
+      "id": "tech_exploded_cutaway_diagram",
+      "name": "Exploded Cutaway Diagram",
+      "category": "Technical",
+      "default": {
+        "prefix": "technical illustration, clean lines, diagrammatic layout, precise geometry, labels and callouts, exploded technical cutaway, separated components, diagrammatic spacing, annotation callouts",
+        "suffix": "high legibility, clean line hierarchy, precise labels, sectioned detail, crisp lines, precise layout, flat lighting"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: technical cutaway diagram with exploded component spacing. Lighting: flat even rendering with no dramatic shading. Composition: precise labels, clean separations, and diagrammatic hierarchy. Key cues: exploded technical cutaway, separated components, diagrammatic spacing, annotation callouts. Finish cues: high legibility, clean line hierarchy, precise labels, sectioned detail. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "technical",
+        "cutaway",
+        "diagram"
+      ]
+    },
+    {
+      "id": "tech_orthographic_projection_plate",
+      "name": "Orthographic Projection Plate",
+      "category": "Technical",
+      "default": {
+        "prefix": "technical illustration, clean lines, diagrammatic layout, precise geometry, labels and callouts, orthographic projection, front side top views, aligned drafting layout",
+        "suffix": "clean projection lines, measured spacing, flat rendering, drafting clarity, high legibility, crisp lines, precise layout, flat lighting"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: orthographic technical plate with aligned multiview projection. Lighting: flat drafting presentation with minimal tonal variation. Composition: measured spacing, crisp geometry, and projection clarity. Key cues: orthographic projection, front side top views, aligned drafting layout, precise geometry. Finish cues: clean projection lines, measured spacing, flat rendering, drafting clarity. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "technical",
+        "orthographic",
+        "blueprint"
+      ]
+    },
+    {
+      "id": "tech_patent_plate_diagram",
+      "name": "Patent Plate Diagram",
+      "category": "Technical",
+      "default": {
+        "prefix": "technical illustration, clean lines, diagrammatic layout, precise geometry, labels and callouts, patent plate diagram, numbered callouts, ink drafting lines, archival technical engraving",
+        "suffix": "fine linework, annotation numerals, paper grain, high legibility, crisp lines, precise layout, flat lighting"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: patent-style technical plate with numbered callouts and archival drafting lines. Lighting: flat document lighting that keeps linework and paper grain readable. Texture: fine linework, paper grain, and annotation numerals. Key cues: patent plate diagram, numbered callouts, ink drafting lines, archival technical engraving. Finish cues: fine linework, annotation numerals, paper grain, high legibility. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "technical",
+        "patent",
+        "diagram"
+      ]
+    },
+    {
+      "id": "tech_section_elevation_drawing",
+      "name": "Section and Elevation Drawing",
+      "category": "Technical",
+      "default": {
+        "prefix": "technical illustration, clean lines, diagrammatic layout, precise geometry, labels and callouts, section and elevation drawing, cut-plane hatch, architectural notation, measured layout",
+        "suffix": "hatching clarity, clean notation, precise line weights, document-grade contrast, high legibility, crisp lines, precise layout, flat lighting"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: technical section and elevation drawing with cut-plane hatching. Lighting: flat presentation emphasizing notation and line-weight hierarchy. Composition: measured layout, clean hatch patterns, and document clarity. Key cues: section and elevation drawing, cut-plane hatch, architectural notation, measured layout. Finish cues: hatching clarity, clean notation, precise line weights, document-grade contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "technical",
+        "section",
+        "elevation"
+      ]
+    },
+    {
+      "id": "vec_gradient_mesh_illustration",
+      "name": "Gradient Mesh Illustration",
+      "category": "Vector",
+      "default": {
+        "prefix": "vector illustration, flat colors, clean shapes, crisp edges, smooth curves, gradient mesh vector, smooth tonal blends, scalable curves, clean vector shapes",
+        "suffix": "smooth color transitions, crisp bezier edges, clean layout, polished vector finish, consistent stroke weight, crisp edges, smooth curves"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: vector illustration built from gradient-mesh color transitions. Lighting: graphic flat-light treatment with emphasis on controlled tonal blending. Texture: none; clean scalable curves and polished vector edges. Key cues: gradient mesh vector, smooth tonal blends, scalable curves, clean vector shapes. Finish cues: smooth color transitions, crisp bezier edges, clean layout, polished vector finish. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "vector",
+        "gradient_mesh",
+        "illustration"
+      ]
+    },
+    {
+      "id": "vec_monoline_icon_system",
+      "name": "Monoline Icon System",
+      "category": "Vector",
+      "default": {
+        "prefix": "vector illustration, flat colors, clean shapes, crisp edges, smooth curves, monoline icon system, uniform stroke weight, modular vector forms, grid alignment",
+        "suffix": "consistent line weight, crisp curves, balanced spacing, clean layout, consistent stroke weight, crisp edges, smooth curves"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: monoline vector icon system built on a modular grid. Lighting: flat graphic treatment with no material shading. Composition: uniform stroke weight, balanced spacing, and scalable clarity. Key cues: monoline icon system, uniform stroke weight, modular vector forms, grid alignment. Finish cues: consistent line weight, crisp curves, balanced spacing, clean layout. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "vector",
+        "icon",
+        "monoline"
+      ]
+    },
+    {
+      "id": "vec_wayfinding_graphic_system",
+      "name": "Wayfinding Graphic System",
+      "category": "Vector",
+      "default": {
+        "prefix": "vector illustration, flat colors, clean shapes, crisp edges, smooth curves, wayfinding graphic system, directional arrows, clear symbols, transit-sign layout",
+        "suffix": "high contrast clarity, clean alignment, modular spacing, legible hierarchy, clean layout, consistent stroke weight, crisp edges, smooth curves"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: vector wayfinding system with directional symbols and transit-sign clarity. Lighting: flat design presentation with emphasis on readability. Composition: modular spacing, strong hierarchy, and clear directional cues. Key cues: wayfinding graphic system, directional arrows, clear symbols, transit-sign layout. Finish cues: high contrast clarity, clean alignment, modular spacing, legible hierarchy. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "vector",
+        "wayfinding",
+        "infographic"
+      ]
+    },
+    {
+      "id": "vec_flat_isometric_explainer",
+      "name": "Flat Isometric Explainer",
+      "category": "Vector",
+      "default": {
+        "prefix": "vector illustration, flat colors, clean shapes, crisp edges, smooth curves, flat isometric vector, diagrammatic depth, clean geometry, explainer layout",
+        "suffix": "crisp isometric edges, consistent shadows, clean layout, smooth curves, consistent stroke weight, crisp edges"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: flat isometric vector explainer with clean geometric depth. Lighting: minimal graphic shading with controlled isometric shadowing. Composition: tidy diagram layout, crisp edges, and scalable geometry. Key cues: flat isometric vector, diagrammatic depth, clean geometry, explainer layout. Finish cues: crisp isometric edges, consistent shadows, clean layout, smooth curves. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "vector",
+        "isometric",
+        "diagram"
+      ]
+    },
+    {
+      "id": "pix_one_bit_dithered_pixel",
+      "name": "One-Bit Dithered Pixel",
+      "category": "Pixel Art",
+      "default": {
+        "prefix": "pixel art, 16-bit, limited palette, pixel-perfect, one-bit pixel art, black and white dithering, high contrast sprite look, coarse pixel grid",
+        "suffix": "checker dither, crisp pixels, readable silhouette, hard-edged contrast, dithered shading, sprite-like clarity"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: one-bit pixel art using black and white dithering only. Lighting: implied through dither pattern rather than gradients. Texture: coarse pixel grid, checker dithers, and hard-edged contrast. Key cues: one-bit pixel art, black and white dithering, high contrast sprite look, coarse pixel grid. Finish cues: checker dither, crisp pixels, readable silhouette, hard-edged contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "pixel_art",
+        "one_bit",
+        "dither"
+      ]
+    },
+    {
+      "id": "pix_four_color_handheld_pixel",
+      "name": "Four-Color Handheld Pixel",
+      "category": "Pixel Art",
+      "default": {
+        "prefix": "pixel art, 16-bit, limited palette, pixel-perfect, four-color handheld pixel art, tiny tile shading, portable-screen look",
+        "suffix": "restricted tones, crisp pixels, readable forms, small-scale tile texture, dithered shading, readable silhouette, sprite-like clarity"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: limited-palette handheld pixel art with only four tonal values. Lighting: implied with tiny tile shading and palette restriction. Texture: small pixel grid, restrained tones, and compact sprite readability. Key cues: four-color handheld pixel art, limited palette, tiny tile shading, portable-screen look. Finish cues: restricted tones, crisp pixels, readable forms, small-scale tile texture. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "pixel_art",
+        "handheld",
+        "limited_palette"
+      ]
+    },
+    {
+      "id": "pix_isometric_sprite_sheet",
+      "name": "Isometric Sprite Sheet",
+      "category": "Pixel Art",
+      "default": {
+        "prefix": "pixel art, 16-bit, limited palette, pixel-perfect, isometric sprite sheet, tile-based game art, modular sprites, pixel grid alignment",
+        "suffix": "crisp pixels, modular repetition, readable silhouette, dithered shading, sprite-like clarity"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: isometric sprite-sheet pixel art built from modular game tiles. Lighting: compact pixel shading supporting isometric form readability. Texture: crisp grid alignment, modular repetition, and dithered shading. Key cues: isometric sprite sheet, tile-based game art, modular sprites, pixel grid alignment. Finish cues: crisp pixels, modular repetition, readable silhouette, dithered shading. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "pixel_art",
+        "sprite_sheet",
+        "isometric"
+      ]
+    },
+    {
+      "id": "pix_tilemap_interface",
+      "name": "Tilemap Interface",
+      "category": "Pixel Art",
+      "default": {
+        "prefix": "pixel art, 16-bit, limited palette, pixel-perfect, tilemap interface, pixel UI panels, grid-based layout, retro game overlay",
+        "suffix": "sharp UI pixels, limited palette, clean tile seams, readable small text feel, crisp pixels, dithered shading, readable silhouette, sprite-like clarity"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: retro tilemap interface with pixel-grid panels and overlays. Lighting: flat UI-style presentation with palette-limited shading. Texture: sharp UI pixels, clean seams, and consistent grid structure. Key cues: tilemap interface, pixel UI panels, grid-based layout, retro game overlay. Finish cues: sharp UI pixels, limited palette, clean tile seams, readable small text feel. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "pixel_art",
+        "tilemap",
+        "interface"
       ]
     },
     {

@@ -476,6 +476,25 @@ def style_by_choice(styles: Sequence[StyleTemplate], choice: str) -> Optional[St
     return None
 
 
+def resolve_style_legacy(
+    library: StyleLibrary,
+    *,
+    choice: str,
+    style_id_override: str,
+) -> StyleTemplate:
+    style_id_override = (style_id_override or "").strip()
+    if style_id_override:
+        chosen = library.by_id.get(style_id_override)
+        if chosen is None:
+            raise StyleLibraryError(f"Unknown style_id_override: {style_id_override}")
+        return chosen
+
+    chosen = style_by_choice(library.styles, choice)
+    if chosen is None:
+        raise StyleLibraryError("No style selected.")
+    return chosen
+
+
 def parse_tag_hint(value: str) -> Tuple[str, ...]:
     if not value:
         return ()
@@ -728,6 +747,35 @@ def compose_prompt(
         "base_prefix_phrases": [],
         "base_suffix_phrases": [],
         "overlay_suffix_phrases": [],
+    }
+
+
+def compose_prompt_legacy(
+    prompt: str,
+    style: StyleTemplate,
+    *,
+    template_variant: str,
+) -> Tuple[str, Dict[str, Any]]:
+    prompt = prompt or ""
+    applied_variant, prefix, suffix = style.variant_prompt(template_variant)
+
+    if applied_variant != DEFAULT_VARIANT:
+        styled_prompt = norm_space(" ".join(part for part in (prompt, prefix, suffix) if part))
+        return styled_prompt, {
+            "variant": applied_variant,
+            "base_prefix_phrases": [],
+            "base_suffix_phrases": [],
+        }
+
+    prefix_phrases = split_phrases(style.prefix)
+    prompt_phrases = split_phrases(prompt)
+    suffix_phrases = split_phrases(style.suffix)
+    phrases = dedupe_phrases(prefix_phrases + prompt_phrases + suffix_phrases)
+    styled_prompt = DEFAULT_PHRASE_SEPARATOR.join(phrase for phrase in phrases if phrase)
+    return styled_prompt, {
+        "variant": DEFAULT_VARIANT,
+        "base_prefix_phrases": prefix_phrases,
+        "base_suffix_phrases": suffix_phrases,
     }
 
 

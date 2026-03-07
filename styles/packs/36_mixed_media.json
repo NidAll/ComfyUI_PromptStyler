@@ -2,6 +2,278 @@
   "version": 1,
   "styles": [
     {
+      "id": "mixed_acrylic_sgraffito_ground",
+      "name": "Acrylic Sgraffito Ground",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, acrylic sgraffito, scraped paint layers, revealed underpainting, layered acrylic ground",
+        "suffix": "incised grooves, color reveal, matte paint texture, layered scraping marks, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media acrylic surface worked with sgraffito scraping. Lighting: soft raking light that catches incised grooves and revealed color layers. Texture: matte acrylic, scraped channels, and exposed underpainting. Key cues: acrylic sgraffito, scraped paint layers, revealed underpainting, layered acrylic ground. Finish cues: incised grooves, color reveal, matte paint texture, layered scraping marks. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "sgraffito",
+        "acrylic"
+      ]
+    },
+    {
+      "id": "mixed_assemblage_artwork",
+      "name": "Assemblage Artwork",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, assemblage, found objects, mixed materials, handcrafted",
+        "suffix": "tactile texture, rough surfaces, layered depth, high detail, paper grain, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: assemblage artwork built from found objects and mixed materials. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: rough surfaces, layered depth, tactile materials. Key cues: assemblage, found objects, mixed materials, handcrafted. Finish cues: tactile texture, rough surfaces, layered depth. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media"
+      ]
+    },
+    {
+      "id": "mixed_cyanotype_print_analog",
+      "name": "Cyanotype Print (Analog)",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, cyanotype print, blue monochrome, sun print, paper texture",
+        "suffix": "grain, chemical texture, vintage print, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: analog cyanotype print on paper. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Mood: minimal, photographic, deep blue. Key cues: cyanotype print, blue monochrome, sun print, paper texture. Finish cues: grain, chemical texture, vintage print. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media"
+      ]
+    },
+    {
+      "id": "mixed_decollage_poster_peel",
+      "name": "Decollage Poster Peel",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, decollage poster peel, torn poster layers, weathered paste, exposed underlayers",
+        "suffix": "ragged tears, glue residue, paper strata, urban paper texture, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media decollage with peeled poster layers and exposed strata. Lighting: flat daylight that keeps the layered tears and residue readable. Texture: ragged tears, glue residue, and stacked paper history. Key cues: decollage poster peel, torn poster layers, weathered paste, exposed underlayers. Finish cues: ragged tears, glue residue, paper strata, urban paper texture. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "decollage",
+        "paper"
+      ]
+    },
+    {
+      "id": "mixed_encaustic_collage",
+      "name": "Encaustic Collage",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, encaustic collage, translucent wax layers, embedded paper fragments, scraped surface",
+        "suffix": "wax bloom, subtle crackle, tactile depth, layered translucency, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media encaustic collage with embedded paper fragments. Lighting: soft gallery light with gentle falloff and mild surface sheen. Texture: translucent wax layers, scraped marks, and tactile depth. Key cues: encaustic collage, translucent wax layers, embedded paper fragments, scraped surface. Finish cues: wax bloom, subtle crackle, tactile depth, layered translucency. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "encaustic",
+        "collage"
+      ]
+    },
+    {
+      "id": "mixed_fabric_scrap_collage",
+      "name": "Fabric Scrap Collage",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, fabric scrap collage, stitched textile fragments, raw edges, patchwork layering",
+        "suffix": "frayed fibers, cloth weave, stitched joins, soft tactile depth, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media collage assembled from layered textile scraps. Lighting: soft diffuse light revealing cloth weave and stitched joins. Texture: frayed fibers, raw edges, and patchwork depth. Key cues: fabric scrap collage, stitched textile fragments, raw edges, patchwork layering. Finish cues: frayed fibers, cloth weave, stitched joins, soft tactile depth. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "fabric",
+        "collage"
+      ]
+    },
+    {
+      "id": "mixed_foil_leaf_overlay",
+      "name": "Foil Leaf Overlay",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, foil leaf overlay, metal leaf fragments, mixed surface, hand-applied shimmer",
+        "suffix": "broken foil edges, micro-reflections, adhesive texture, layered contrast, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media surface with hand-applied foil leaf overlays. Lighting: controlled light that catches metallic fragments without blowing them out. Texture: broken foil edges, adhesive texture, and small reflective flashes. Key cues: foil leaf overlay, metal leaf fragments, mixed surface, hand-applied shimmer. Finish cues: broken foil edges, micro-reflections, adhesive texture, layered contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "foil",
+        "leaf"
+      ]
+    },
+    {
+      "id": "mixed_frottage_rubbing_study",
+      "name": "Frottage Rubbing Study",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, frottage rubbing, found-surface textures, graphite transfer, pressure marks",
+        "suffix": "rubbed grain, uneven density, paper drag marks, tactile impressions, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media frottage study built from rubbed surface textures. Lighting: soft raking light that reveals paper tooth and rubbing variation. Texture: transferred grain, pressure marks, and uneven graphite density. Key cues: frottage rubbing, found-surface textures, graphite transfer, pressure marks. Finish cues: rubbed grain, uneven density, paper drag marks, tactile impressions. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "frottage",
+        "rubbing"
+      ]
+    },
+    {
+      "id": "mixed_gel_medium_image_transfer",
+      "name": "Gel Medium Image Transfer",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, gel medium image transfer, lifted image layers, translucent medium, paper support",
+        "suffix": "soft edge lifting, adhesive sheen, surface irregularities, layered translucency, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media gel-medium transfer with lifted translucent image layers. Lighting: soft gallery light with enough angle to reveal transfer texture. Texture: adhesive sheen, edge lifting, and layered translucent film. Key cues: gel medium image transfer, lifted image layers, translucent medium, paper support. Finish cues: soft edge lifting, adhesive sheen, surface irregularities, layered translucency. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "transfer",
+        "acrylic"
+      ]
+    },
+    {
+      "id": "mixed_gel_plate_monoprint",
+      "name": "Gel Plate Monoprint",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, gel plate monoprint, ink layers, brayer texture, printmaking",
+        "suffix": "paper grain, ink transfer artifacts, handmade print, high detail, tactile texture, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: gel plate monoprint with layered ink textures. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: ink transfer artifacts, paper grain, layered prints. Key cues: gel plate monoprint, ink layers, brayer texture, printmaking. Finish cues: paper grain, ink transfer artifacts, handmade print. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media"
+      ]
+    },
+    {
+      "id": "mixed_gesso_charcoal_board",
+      "name": "Gesso and Charcoal Board",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, gesso ground, charcoal marks, chalky board surface, erased highlights",
+        "suffix": "powdery smudge, toothy ground, lifted erasures, matte surface, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media board with gesso ground and charcoal drawing. Lighting: soft studio light revealing chalky tooth and erased highlights. Texture: powdery charcoal, matte gesso, and lifted erasure marks. Key cues: gesso ground, charcoal marks, chalky board surface, erased highlights. Finish cues: powdery smudge, toothy ground, lifted erasures, matte surface. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "gesso",
+        "charcoal"
+      ]
+    },
+    {
+      "id": "mixed_handmade_paper_pulp_relief",
+      "name": "Handmade Paper Pulp Relief",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, handmade paper pulp, cast relief, fibrous surface, pressed pulp forms",
+        "suffix": "deckled edges, fiber clumps, raised paper relief, soft shadow depth, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media handmade paper relief with cast pulp forms. Lighting: soft raking light to reveal paper relief and deckled edges. Texture: fibrous pulp, soft relief shadows, and visible paper formation. Key cues: handmade paper pulp, cast relief, fibrous surface, pressed pulp forms. Finish cues: deckled edges, fiber clumps, raised paper relief, soft shadow depth. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "paper",
+        "relief"
+      ]
+    },
+    {
+      "id": "mixed_mixed_media_acrylic_ink",
+      "name": "Mixed Media Acrylic + Ink",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, mixed media, acrylic paint, ink linework, layered marks",
+        "suffix": "texture paste, splatter, handmade imperfections, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media artwork combining acrylic paint and ink linework. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: layered paint, ink marks, tactile surface. Key cues: mixed media, acrylic paint, ink linework, layered marks. Finish cues: texture paste, splatter, handmade imperfections. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media"
+      ]
+    },
+    {
+      "id": "mixed_monoprint_collage",
+      "name": "Monoprint Collage",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, monoprint collage, ink pull textures, layered cut paper, one-off print fragments",
+        "suffix": "brayer texture, ink ghosts, paper layering, soft registration drift, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media collage assembled from monoprint pulls and paper fragments. Lighting: soft gallery light keeping ink texture and layered edges visible. Texture: brayer marks, ink ghosts, and collage depth. Key cues: monoprint collage, ink pull textures, layered cut paper, one-off print fragments. Finish cues: brayer texture, ink ghosts, paper layering, soft registration drift. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "monoprint",
+        "collage"
+      ]
+    },
+    {
       "id": "mixed_paper_collage_mixed_media",
       "name": "Paper Collage (Mixed Media)",
       "category": "Mixed Media",
@@ -38,75 +310,63 @@
       ]
     },
     {
-      "id": "mixed_mixed_media_acrylic_ink",
-      "name": "Mixed Media Acrylic + Ink",
+      "id": "mixed_resin_sealed_collage",
+      "name": "Resin-Sealed Collage",
       "category": "Mixed Media",
       "default": {
-        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, mixed media, acrylic paint, ink linework, layered marks",
-        "suffix": "texture paste, splatter, handmade imperfections, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, resin-sealed collage, encapsulated layers, embedded fragments, glossy surface",
+        "suffix": "glass-like sheen, suspended depth, trapped inclusions, smooth surface reflections, high detail, tactile texture, paper grain, layered depth, cohesive composition"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: mixed media artwork combining acrylic paint and ink linework. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: layered paint, ink marks, tactile surface. Key cues: mixed media, acrylic paint, ink linework, layered marks. Finish cues: texture paste, splatter, handmade imperfections. Instruction: preserve the user prompt subject and add only stylistic cues."
+          "suffix": "Style: mixed media collage sealed under a glossy resin layer. Lighting: controlled light with smooth reflections and visible embedded depth. Texture: glass-like sheen, suspended fragments, and encapsulated layers. Key cues: resin-sealed collage, encapsulated layers, embedded fragments, glossy surface. Finish cues: glass-like sheen, suspended depth, trapped inclusions, smooth surface reflections. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
-        "mixed_media"
+        "mixed_media",
+        "resin",
+        "collage"
       ]
     },
     {
-      "id": "mixed_gel_plate_monoprint",
-      "name": "Gel Plate Monoprint",
+      "id": "mixed_sand_pigment_ground",
+      "name": "Sand and Pigment Ground",
       "category": "Mixed Media",
       "default": {
-        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, gel plate monoprint, ink layers, brayer texture, printmaking",
-        "suffix": "paper grain, ink transfer artifacts, handmade print, high detail, tactile texture, layered depth, cohesive composition"
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, sand and pigment ground, granular surface, earth pigments, rough substrate",
+        "suffix": "gritty relief, dry brush drag, mineral texture, matte layered surface, high detail, tactile texture, paper grain, layered depth, cohesive composition"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: gel plate monoprint with layered ink textures. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: ink transfer artifacts, paper grain, layered prints. Key cues: gel plate monoprint, ink layers, brayer texture, printmaking. Finish cues: paper grain, ink transfer artifacts, handmade print. Instruction: preserve the user prompt subject and add only stylistic cues."
+          "suffix": "Style: mixed media surface built from sanded ground and dry pigments. Lighting: raking light to reveal granular relief and dry brush drag. Texture: mineral grit, matte layering, and rough substrate variation. Key cues: sand and pigment ground, granular surface, earth pigments, rough substrate. Finish cues: gritty relief, dry brush drag, mineral texture, matte layered surface. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
-        "mixed_media"
+        "mixed_media",
+        "sand",
+        "pigment"
       ]
     },
     {
-      "id": "mixed_cyanotype_print_analog",
-      "name": "Cyanotype Print (Analog)",
+      "id": "mixed_scratchboard_ink_wash",
+      "name": "Scratchboard Ink Wash",
       "category": "Mixed Media",
       "default": {
-        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, cyanotype print, blue monochrome, sun print, paper texture",
-        "suffix": "grain, chemical texture, vintage print, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, scratchboard, ink wash, scraped highlights, black ground",
+        "suffix": "incised lines, white reveal marks, ink pooling, high contrast surface, high detail, tactile texture, paper grain, layered depth, cohesive composition"
       },
       "models": {
         "flux_2_klein": {
           "prefix": "",
-          "suffix": "Style: analog cyanotype print on paper. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Mood: minimal, photographic, deep blue. Key cues: cyanotype print, blue monochrome, sun print, paper texture. Finish cues: grain, chemical texture, vintage print. Instruction: preserve the user prompt subject and add only stylistic cues."
+          "suffix": "Style: scratchboard mixed media with ink wash and scraped highlights. Lighting: controlled studio light emphasizing incised lines and contrast. Texture: sharp reveal marks, pooled ink, and a dense black ground. Key cues: scratchboard, ink wash, scraped highlights, black ground. Finish cues: incised lines, white reveal marks, ink pooling, high contrast surface. Instruction: preserve the user prompt subject and add only stylistic cues."
         }
       },
       "tags": [
-        "mixed_media"
-      ]
-    },
-    {
-      "id": "mixed_assemblage_artwork",
-      "name": "Assemblage Artwork",
-      "category": "Mixed Media",
-      "default": {
-        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, assemblage, found objects, mixed materials, handcrafted",
-        "suffix": "tactile texture, rough surfaces, layered depth, high detail, paper grain, cohesive composition"
-      },
-      "models": {
-        "flux_2_klein": {
-          "prefix": "",
-          "suffix": "Style: assemblage artwork built from found objects and mixed materials. Lighting: soft gallery spotlights with gentle falloff and controlled highlights. Texture: rough surfaces, layered depth, tactile materials. Key cues: assemblage, found objects, mixed materials, handcrafted. Finish cues: tactile texture, rough surfaces, layered depth. Instruction: preserve the user prompt subject and add only stylistic cues."
-        }
-      },
-      "tags": [
-        "mixed_media"
+        "mixed_media",
+        "scratchboard",
+        "ink"
       ]
     },
     {
@@ -125,6 +385,106 @@
       },
       "tags": [
         "mixed_media"
+      ]
+    },
+    {
+      "id": "mixed_thread_stitched_paper_collage",
+      "name": "Thread-Stitched Paper Collage",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, thread-stitched paper collage, pierced paper, visible seams, layered cut paper",
+        "suffix": "thread relief, needle holes, paper grain, hand-sewn irregularity, high detail, tactile texture, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media paper collage held together with visible stitched seams. Lighting: soft raking light that reveals thread relief and pierced paper. Texture: needle holes, paper grain, and hand-sewn irregularity. Key cues: thread-stitched paper collage, pierced paper, visible seams, layered cut paper. Finish cues: thread relief, needle holes, paper grain, hand-sewn irregularity. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "thread",
+        "paper"
+      ]
+    },
+    {
+      "id": "mixed_tissue_paper_layering",
+      "name": "Tissue Paper Layering",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, tissue paper layering, translucent color veils, wrinkled paper films, stacked fragments",
+        "suffix": "soft wrinkles, color veiling, feathered overlap edges, lightweight translucency, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media layering built from translucent tissue fragments. Lighting: soft top light preserving the color veils and overlap shadows. Texture: tissue wrinkles, feathered edges, and lightweight translucency. Key cues: tissue paper layering, translucent color veils, wrinkled paper films, stacked fragments. Finish cues: soft wrinkles, color veiling, feathered overlap edges, lightweight translucency. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "tissue_paper",
+        "layered"
+      ]
+    },
+    {
+      "id": "mixed_vellum_overlay_assemblage",
+      "name": "Vellum Overlay Assemblage",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, vellum overlays, translucent sheets, stacked drawing layers, soft veiling",
+        "suffix": "semi-transparent layers, paper curl, subtle overlap shadows, airy depth, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media assemblage built from translucent vellum overlays. Lighting: soft top light creating delicate overlap shadows between sheets. Texture: vellum curl, semi-transparent stacking, and layered veiling. Key cues: vellum overlays, translucent sheets, stacked drawing layers, soft veiling. Finish cues: semi-transparent layers, paper curl, subtle overlap shadows, airy depth. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "vellum",
+        "assemblage"
+      ]
+    },
+    {
+      "id": "mixed_wax_resist_layers",
+      "name": "Wax Resist Mixed Media",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, wax resist, layered inks, masked paper, drawn resist lines",
+        "suffix": "resist crackle, ink pooling, paper tooth, layered transparency, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media wax-resist artwork with masked lines and layered inks. Lighting: soft diffuse light that keeps paper texture and layered transparencies visible. Texture: resist crackle, pooled pigment, and masked edge variation. Key cues: wax resist, layered inks, masked paper, drawn resist lines. Finish cues: resist crackle, ink pooling, paper tooth, layered transparency. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "wax_resist",
+        "layered"
+      ]
+    },
+    {
+      "id": "mixed_xerox_transfer_collage",
+      "name": "Xerox Transfer Collage",
+      "category": "Mixed Media",
+      "default": {
+        "prefix": "mixed media artwork, layered textures, handcrafted marks, tactile surface, xerox transfer collage, toner transfer, distressed paper, layered copy fragments",
+        "suffix": "toner wear, uneven transfer, matte paper texture, zine-like edges, high detail, tactile texture, paper grain, layered depth, cohesive composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mixed media collage built from toner-transfer copy fragments. Lighting: flat diffuse light that keeps paper layers readable. Texture: toner wear, distressed edges, and matte paper grain. Key cues: xerox transfer collage, toner transfer, distressed paper, layered copy fragments. Finish cues: toner wear, uneven transfer, matte paper texture, zine-like edges. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "mixed_media",
+        "transfer",
+        "photocopy"
       ]
     }
   ]

@@ -1,41 +1,24 @@
 # ComfyUI PromptStyler
 
-PromptStyler is a custom ComfyUI node that applies a curated style template to your positive prompt and outputs `CONDITIONING` for KSampler.
+PromptStyler is a custom ComfyUI node pack for applying curated style templates to a positive prompt and returning `CONDITIONING` for KSampler.
 
-The node stays lightweight in graphs, but it now supports three ways to resolve a style:
+This release intentionally splits the runtime surface into a stable default node and an opt-in advanced node.
 
-- dropdown selection
-- direct `id` lookup
-- offline search across style id, name, category, and tags
+## Nodes
 
-It also supports an optional color-grade overlay, search hints, and debug metadata without changing the existing node name or the first two outputs.
-
-## Node
-
-ComfyUI display name:
+Stable node:
 
 - `PromptStyler: Prompt -> Conditioning (Style Picker)`
+- outputs: `positive`, `styled_prompt`
+- behavior: legacy-compatible prompt composition and direct conditioning output
 
-Outputs:
+Advanced node:
 
-- `positive` (`CONDITIONING`)
-- `styled_prompt` (`STRING`)
-- `resolved_style_id` (`STRING`)
-- `resolved_style_meta` (`STRING`, JSON)
+- `PromptStyler: Advanced Prompt -> Conditioning`
+- outputs: `positive`, `styled_prompt`, `resolved_style_id`, `resolved_style_meta`
+- behavior: search, overlays, stronger filtering controls, and JSON debug metadata
 
-## What It Does
-
-1. You enter a subject prompt.
-2. PromptStyler resolves a base style from the dropdown, a style id, or a search query.
-3. It applies the style to your prompt.
-4. Optionally, it appends one `Color Grade*` overlay style.
-5. It tokenizes the final prompt with the connected text encoder and returns `CONDITIONING`.
-
-The default behavior remains compatible with older graphs:
-
-- the node name is unchanged
-- `style_id_override` still works in saved workflows
-- default strength is `strong`, which preserves the prior full-style application behavior
+Use the stable node unless you specifically need the advanced controls.
 
 ## Recommended Wiring
 
@@ -49,60 +32,45 @@ Connect:
 - your text source -> `PromptStyler.prompt`
 - `PromptStyler.positive` -> `KSampler.positive`
 
-Use `styled_prompt` and `resolved_style_meta` for debugging when a style is not resolving the way you expect.
+`styled_prompt` is the exact text that was encoded.
 
-## Inputs
-
-Core inputs:
+## Stable Node Inputs
 
 - `prompt`: your positive prompt
 - `apply_style`: bypass styling while still encoding the prompt
-- `style`: main dropdown entry in `Category | Name | id` format
-- `template_variant`: `default` or any model-specific variant present in the style packs
-- `style_id_override`: direct id selection, mainly useful with newly-added user styles
+- `style`: dropdown entry in `Category | Name | id` format
+- `template_variant`: `default` or any model-specific variant present in the packs
+- `style_id_override`: direct id selection for newly-added or scripted styles
 - `text_encoder`: connect from your checkpoint/model loader
 
-Selection controls:
+Stable node rules:
+
+- `style_id_override` takes precedence over the dropdown when set
+- `default` uses legacy comma-phrase composition and de-dupe behavior
+- model-specific variants use their explicit variant text and otherwise fall back to `default`
+- malformed conditioning now raises an explicit node error instead of silently returning a broken output
+
+## Advanced Node Inputs
+
+Core inputs are the same as the stable node, plus:
 
 - `selection_mode`: `dropdown`, `search`, or `id`
-- `style_search`: free-text style lookup used by `selection_mode=search`
+- `style_search`: free-text search used by `selection_mode=search`
 - `category_hint`: optional substring filter applied before search scoring
 - `tag_hint`: optional comma-separated tag filter applied before search scoring
-- `on_missing_style`: `error` or `passthrough`
-
-Composition controls:
-
 - `style_strength`: `subtle`, `normal`, or `strong`
 - `dedupe_mode`: `smart` or `off`
 - `overlay_style_id`: optional secondary style id, restricted to categories starting with `Color Grade`
+- `on_missing_style`: `error` or `passthrough`
 
-### Selection Behavior
+Advanced node outputs:
 
-- `dropdown`: uses the selected dropdown entry
-- `id`: uses `style_id_override`
-- `search`: scores exact id matches first, then exact name, then token matches across id, name, category, and tags
-- `category_hint` and `tag_hint` narrow the candidate pool before scoring
-- ambiguous searches fail with the top candidates listed in the error
-
-### Composition Model
-
-Recommended mental model:
-
-- base style
-- optional color-grade overlay
-- optional search-based style resolution
-
-`style_strength` only affects the default phrase-based variant:
-
-- `subtle`: first 3 unique prefix phrases and first 3 unique suffix phrases
-- `normal`: first 6 unique prefix phrases and first 6 unique suffix phrases
-- `strong`: all phrases
-
-`dedupe_mode=smart` only removes duplicate style-added phrases. It does not rewrite or collapse repeated phrases inside the user prompt.
+- `resolved_style_id`: the final base style id that was resolved
+- `resolved_style_meta`: JSON payload describing resolution inputs and composition details
 
 ## Style Library
 
-Styles are loaded from JSON packs in filename order:
+Primary runtime source:
 
 - `styles/packs/*.json`
 
@@ -110,7 +78,7 @@ Compatibility snapshot:
 
 - `styles/styles_v1.json`
 
-Pack file naming uses numeric prefixes for merge order. Example:
+Pack filenames use numeric prefixes for merge order, for example:
 
 - `10_cinema.json`
 - `96_color_grades.json`
@@ -187,16 +155,21 @@ Check release/version metadata consistency:
 C:\Comfyui\python_embeded\python.exe .\tools\version_sync.py check
 ```
 
+Run runtime regression tests:
+
+```powershell
+python -m unittest discover -s tests
+```
+
 ## Troubleshooting
 
-- Node does not appear:
-  - verify the folder is `ComfyUI/custom_nodes/ComfyUI_PromptStyler/`
-  - restart ComfyUI or reload custom nodes
-- Search fails unexpectedly:
+- Stable node returns an error instead of an image:
+  - inspect `styled_prompt`
+  - confirm the connected `text_encoder` matches the active model family
+  - if the error mentions invalid conditioning, compare the same `styled_prompt` through stock `CLIPTextEncode`
+- Advanced search fails unexpectedly:
   - relax `category_hint` and `tag_hint`
-  - use the `resolved_style_meta` output to inspect the resolution inputs and applied variant
-- A saved graph should keep running while you edit packs:
-  - use `on_missing_style=passthrough` if you want the node to fall back to the raw prompt during live pack edits
+  - inspect `resolved_style_meta`
 - Styles look stale:
   - rerun `tools/sync_legacy_styles.py` or `tools/generate_style_packs.py`
   - reload custom nodes in ComfyUI

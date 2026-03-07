@@ -17,6 +17,7 @@ Maintainer tooling:
 - `tools/generate_style_packs.py`: curated pack generation plus legacy snapshot refresh
 - `tools/sync_legacy_styles.py`: regenerate `styles/styles_v1.json` from merged packs
 - `tools/version_sync.py`: check or write release metadata derived from `VERSION`
+- `STYLE_TAXONOMY.md`: pack purpose, target size, and routing rules for future style additions
 
 Data sources:
 

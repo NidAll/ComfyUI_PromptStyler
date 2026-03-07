@@ -1,0 +1,325 @@
+{
+  "version": 1,
+  "styles": [
+    {
+      "id": "decor_copper_foil_stained_glass",
+      "name": "Copper Foil Stained Glass",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, copper foil stained glass, soldered seams, colored glass pieces, translucent mosaic",
+        "suffix": "backlit glow, solder line detail, glass texture, jewel-toned translucency, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: copper-foil stained glass with soldered seams and translucent color. Lighting: backlit illumination creating jewel-like glow through the glass. Texture: solder line detail, subtle rippled glass, and luminous color panels. Key cues: copper foil stained glass, soldered seams, colored glass pieces, translucent mosaic. Finish cues: backlit glow, solder line detail, glass texture, jewel-toned translucency. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "glass",
+        "foil"
+      ]
+    },
+    {
+      "id": "decor_pate_de_verre_glass",
+      "name": "Pate de Verre Glass",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, pate de verre glass, granular cast glass, soft translucency, powdered glass color",
+        "suffix": "frosted surface, subtle translucence, cast texture, powder-soft color, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: pate de verre glass with softly cast translucent color. Lighting: soft transmitted light with gentle highlights on frosted surfaces. Texture: granular cast glass, matte translucency, and powder-soft color depth. Key cues: pate de verre glass, granular cast glass, soft translucency, powdered glass color. Finish cues: frosted surface, subtle translucence, cast texture, powder-soft color. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "glass",
+        "cast"
+      ]
+    },
+    {
+      "id": "decor_slumped_kiln_formed_glass",
+      "name": "Slumped Kiln-Formed Glass",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, slumped kiln-formed glass, flowed glass contours, heat-shaped form, smooth translucent surface",
+        "suffix": "soft edge rounding, subtle thickness variation, glass sheen, formed contour shadows, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: kiln-formed slumped glass with heat-shaped contours. Lighting: controlled studio light emphasizing contour thickness and translucency. Texture: smooth glass sheen, softened edges, and gentle thickness variation. Key cues: slumped kiln-formed glass, flowed glass contours, heat-shaped form, smooth translucent surface. Finish cues: soft edge rounding, subtle thickness variation, glass sheen, formed contour shadows. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "glass",
+        "kiln_formed"
+      ]
+    },
+    {
+      "id": "decor_raku_crackle_ceramic",
+      "name": "Raku Crackle Ceramic",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, raku ceramic, crackle glaze, smoke-fired surface, irregular luster",
+        "suffix": "black crack lines, smoky glaze variation, porous clay texture, unpredictable firing marks, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: raku-fired ceramic with crackled glaze and smoky variation. Lighting: soft studio light revealing crackle networks and firing irregularities. Texture: black crack lines, porous clay, and unpredictable glaze shifts. Key cues: raku ceramic, crackle glaze, smoke-fired surface, irregular luster. Finish cues: black crack lines, smoky glaze variation, porous clay texture, unpredictable firing marks. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "ceramic",
+        "raku"
+      ]
+    },
+    {
+      "id": "decor_pit_fired_ceramic",
+      "name": "Pit-Fired Ceramic",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, pit-fired ceramic, fire clouds, smoke marks, unglazed clay surface",
+        "suffix": "burnished sheen, smoke staining, earthy mineral variation, handmade surface, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: pit-fired ceramic with smoke clouds and earthy firing marks. Lighting: warm studio light showing burnished highlights and smoke variation. Texture: unglazed clay, mineral staining, and atmospheric fire marking. Key cues: pit-fired ceramic, fire clouds, smoke marks, unglazed clay surface. Finish cues: burnished sheen, smoke staining, earthy mineral variation, handmade surface. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "ceramic",
+        "pit_fired"
+      ]
+    },
+    {
+      "id": "decor_celadon_glaze_stoneware",
+      "name": "Celadon Glaze Stoneware",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, celadon glaze, pale green stoneware, pooled glaze, refined ceramic surface",
+        "suffix": "glaze pooling, cool translucence, soft crackle, subtle sheen, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: celadon-glazed stoneware with cool translucent pooling. Lighting: soft controlled light preserving glaze depth and subtle crackle. Texture: pooled glaze, pale green translucence, and refined ceramic sheen. Key cues: celadon glaze, pale green stoneware, pooled glaze, refined ceramic surface. Finish cues: glaze pooling, cool translucence, soft crackle, subtle sheen. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "ceramic",
+        "celadon"
+      ]
+    },
+    {
+      "id": "decor_crystalline_glaze_porcelain",
+      "name": "Crystalline Glaze Porcelain",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, crystalline glaze porcelain, starburst crystal blooms, glossy fired surface, porcelain body",
+        "suffix": "crystal clusters, gloss reflections, glaze depth, smooth porcelain surface, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: crystalline-glazed porcelain with visible starburst crystal blooms. Lighting: controlled highlights emphasizing glossy glaze and crystal structure. Texture: smooth porcelain, glossy depth, and flower-like crystal growth. Key cues: crystalline glaze porcelain, starburst crystal blooms, glossy fired surface, porcelain body. Finish cues: crystal clusters, gloss reflections, glaze depth, smooth porcelain surface. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "ceramic",
+        "crystalline_glaze"
+      ]
+    },
+    {
+      "id": "decor_mishima_inlay_pottery",
+      "name": "Mishima Inlay Pottery",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, mishima inlay pottery, incised lines, contrasting slip inlay, refined ceramic pattern",
+        "suffix": "filled linework, matte glaze, fine carving detail, quiet surface contrast, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: Mishima pottery with incised patterns filled by contrasting slip. Lighting: soft studio light revealing carved linework and matte ceramic surface. Texture: filled incisions, quiet glaze, and fine carved detail. Key cues: mishima inlay pottery, incised lines, contrasting slip inlay, refined ceramic pattern. Finish cues: filled linework, matte glaze, fine carving detail, quiet surface contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "ceramic",
+        "inlay"
+      ]
+    },
+    {
+      "id": "decor_sgraffito_pottery",
+      "name": "Sgraffito Pottery",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, sgraffito pottery, scratched slip decoration, revealed clay body, layered ceramic surface",
+        "suffix": "incised motifs, matte slip texture, fine carving marks, earthy fired surface, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: sgraffito-decorated pottery with scratched slip and revealed clay. Lighting: soft angled light that catches carved ceramic marks. Texture: matte slip, incised motifs, and an earthy fired surface. Key cues: sgraffito pottery, scratched slip decoration, revealed clay body, layered ceramic surface. Finish cues: incised motifs, matte slip texture, fine carving marks, earthy fired surface. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "ceramic",
+        "sgraffito"
+      ]
+    },
+    {
+      "id": "decor_hammered_copper_patina",
+      "name": "Hammered Copper Patina",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, hammered copper, hand-raised metal surface, aged patina, warm metallic tones",
+        "suffix": "hammer marks, oxidized color shifts, soft metallic sheen, worked metal relief, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: hammered copper decorative metalwork with aged patina. Lighting: warm studio light emphasizing hammered relief and patinated color shifts. Texture: hand-raised dimples, oxidized surface, and soft metallic sheen. Key cues: hammered copper, hand-raised metal surface, aged patina, warm metallic tones. Finish cues: hammer marks, oxidized color shifts, soft metallic sheen, worked metal relief. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "metal",
+        "patina"
+      ]
+    },
+    {
+      "id": "decor_repousse_metalwork",
+      "name": "Repousse Metalwork",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, repousse metalwork, raised relief ornament, chased detailing, worked sheet metal",
+        "suffix": "relief contours, fine chased lines, aged metallic finish, ornamental depth, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: repousse metalwork with raised relief and chased detail. Lighting: directional studio light to reveal relief contours and fine tooling. Texture: raised ornament, chased lines, and aged metallic finish. Key cues: repousse metalwork, raised relief ornament, chased detailing, worked sheet metal. Finish cues: relief contours, fine chased lines, aged metallic finish, ornamental depth. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "metal",
+        "repousse"
+      ]
+    },
+    {
+      "id": "decor_guilloche_enamel",
+      "name": "Guilloche Enamel",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, guilloche enamel, engine-turned pattern, translucent enamel layer, radiating metal geometry",
+        "suffix": "subsurface pattern shimmer, gloss enamel finish, precise engraved rhythm, luxury surface, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: guilloche enamel over engine-turned metal patterning. Lighting: controlled highlights that reveal the pattern beneath translucent enamel. Texture: glossy enamel depth, precise engraved rhythm, and subsurface shimmer. Key cues: guilloche enamel, engine-turned pattern, translucent enamel layer, radiating metal geometry. Finish cues: subsurface pattern shimmer, gloss enamel finish, precise engraved rhythm, luxury surface. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "enamel",
+        "guilloche"
+      ]
+    },
+    {
+      "id": "decor_acid_etched_glass",
+      "name": "Acid-Etched Glass",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, acid-etched glass, frosted transparency, matte glass surface, ornamental etching",
+        "suffix": "soft diffusion, satin glass finish, etched motif edges, subtle translucence, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: acid-etched glass with frosted translucency and engraved motifs. Lighting: soft transmitted light with minimal glare to preserve the satin finish. Texture: matte frosted glass, subtle translucence, and etched boundaries. Key cues: acid-etched glass, frosted transparency, matte glass surface, ornamental etching. Finish cues: soft diffusion, satin glass finish, etched motif edges, subtle translucence. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "glass",
+        "etched"
+      ]
+    },
+    {
+      "id": "decor_cut_crystal_faceting",
+      "name": "Cut Crystal Faceting",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, cut crystal, faceted glass, prismatic refraction, precision cutting",
+        "suffix": "sharp facets, caustic sparkle, high clarity, polished reflections, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: cut crystal decorative glass with sharp faceting and prismatic sparkle. Lighting: crisp controlled highlights and small caustics across polished facets. Texture: sharp facet edges, high clarity, and jewel-like reflections. Key cues: cut crystal, faceted glass, prismatic refraction, precision cutting. Finish cues: sharp facets, caustic sparkle, high clarity, polished reflections. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "glass",
+        "crystal"
+      ]
+    },
+    {
+      "id": "decor_lost_wax_cast_bronze",
+      "name": "Lost-Wax Cast Bronze",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, lost-wax cast bronze, cast metal surface, hand-finished patina, sculptural metalwork",
+        "suffix": "cast texture, warm bronze highlights, subtle tooling marks, aged patina depth, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: lost-wax cast bronze with hand-finished patina. Lighting: warm directional light showing cast surface, tooling, and metallic depth. Texture: cast grain, hand-finished marks, and aged bronze patina. Key cues: lost-wax cast bronze, cast metal surface, hand-finished patina, sculptural metalwork. Finish cues: cast texture, warm bronze highlights, subtle tooling marks, aged patina depth. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "bronze",
+        "cast"
+      ]
+    },
+    {
+      "id": "decor_pietra_dura_inlay",
+      "name": "Pietra Dura Stone Inlay",
+      "category": "Decorative Arts",
+      "default": {
+        "prefix": "decorative arts, handcrafted, artisan-made, museum-quality, pietra dura inlay, polished stone mosaic, hardstone floral inlay, precise stone fitting",
+        "suffix": "polished stone sheen, crisp inlay seams, rich mineral color, luxury surface detail, tactile surface, premium craftsmanship, controlled studio lighting, clean composition"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: pietra dura hardstone inlay with tightly fitted polished stone pieces. Lighting: soft controlled light revealing polished mineral surfaces and seam precision. Texture: crisp stone joins, polished sheen, and rich mineral color variation. Key cues: pietra dura inlay, polished stone mosaic, hardstone floral inlay, precise stone fitting. Finish cues: polished stone sheen, crisp inlay seams, rich mineral color, luxury surface detail. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "decorative_arts",
+        "stone",
+        "inlay"
+      ]
+    }
+  ]
+}

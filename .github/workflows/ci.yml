@@ -20,3 +20,5 @@ jobs:
         run: python tools/validate_styles.py
       - name: Audit styles
         run: python tools/audit_styles.py
+      - name: Runtime regression tests
+        run: python -m unittest discover -s tests

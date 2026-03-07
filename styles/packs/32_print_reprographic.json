@@ -1,0 +1,285 @@
+{
+  "version": 1,
+  "styles": [
+    {
+      "id": "repro_mimeograph_duplication",
+      "name": "Reprographic: Mimeograph Duplication",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, carved lines, high contrast, mimeograph duplication, stencil master, inked drum texture, duplicated sheets",
+        "suffix": "slight misregistration, inky density shifts, porous paper texture, office-print rhythm, paper texture, ink texture, rough edges, high contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: mimeograph duplication with stencil-master imperfections. Lighting: flat even light preserving paper and ink density variation. Texture: inked drum transfer, porous paper, and repeated-sheet inconsistency. Key cues: mimeograph duplication, stencil master, inked drum texture, duplicated sheets. Finish cues: slight misregistration, inky density shifts, porous paper texture, office-print rhythm. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "reprographic",
+        "mimeograph",
+        "print"
+      ]
+    },
+    {
+      "id": "repro_spirit_duplicator_copy",
+      "name": "Reprographic: Spirit Duplicator",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, carved lines, high contrast, spirit duplicator copy, purple aniline tones, soft duplicate texturing, school-office print",
+        "suffix": "lavender cast, soft edges, faded pressure transfer, paper softness, paper texture, ink texture, rough edges, high contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: spirit-duplicator copy with characteristic purple cast. Lighting: flat diffuse light that keeps the faded duplicate texture legible. Texture: soft transfer edges, pale dye density, and absorbent paper. Key cues: spirit duplicator copy, purple aniline tones, soft duplicate texturing, school-office print. Finish cues: lavender cast, soft edges, faded pressure transfer, paper softness. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "reprographic",
+        "spirit_duplicator",
+        "print"
+      ]
+    },
+    {
+      "id": "repro_diazo_blueprint",
+      "name": "Reprographic: Diazo Blueprint",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "cyanotype print, blueprint blue, pale white linework, coated paper texture, graphic plan aesthetic",
+        "suffix": "paper grain, soft process fading, crisp line edges, matte coated sheet, controlled contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: cyanotype-like blueprint print with pale linework on deep blue paper. Lighting: flat even light preserving paper grain and line clarity. Texture: matte coated paper, soft process fading, and crisp pale lines. Key cues: blueprint blue, pale white linework, coated paper texture, graphic plan aesthetic. Finish cues: paper grain, soft process fading, crisp line edges, matte coated sheet. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "reprographic",
+        "diazo",
+        "blueprint"
+      ]
+    },
+    {
+      "id": "repro_whiteprint_copy",
+      "name": "Reprographic: Whiteprint Copy",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "whiteprint aesthetic, pale paper ground, soft blue linework, engineering-print look, matte sheet texture",
+        "suffix": "fine paper grain, faint blue tint, clean line edges, document paper wear, restrained contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: whiteprint-style reproduction with blue linework on pale paper. Lighting: neutral even light preserving line clarity and sheet texture. Texture: matte paper, faint blue tint, and lightly worn print edges. Key cues: pale paper ground, soft blue linework, engineering-print look, matte sheet texture. Finish cues: fine paper grain, faint blue tint, clean line edges, document paper wear. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "reprographic",
+        "whiteprint",
+        "technical_copy"
+      ]
+    },
+    {
+      "id": "repro_offset_litho_misregistration",
+      "name": "Reprographic: Offset Misregistration",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "offset print look, slight CMYK drift, layered overprint color, poster ink texture, graphic print surface",
+        "suffix": "registration drift, ink overlap edges, paper tooth, press imperfection texture, bold printed contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: offset print with slight CMYK misregistration and overprinted color layers. Lighting: flat print-preview light with minimal shading. Texture: paper tooth, ink overlap edges, and gentle press drift. Key cues: offset print look, slight CMYK drift, layered overprint color, poster ink texture. Finish cues: registration drift, ink overlap edges, paper tooth, press imperfection texture. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "reprographic",
+        "offset",
+        "graphic"
+      ]
+    },
+    {
+      "id": "repro_newsprint_halftone",
+      "name": "Reprographic: Newsprint Halftone",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "newsprint print look, coarse halftone dots, absorbent paper stock, editorial print texture, monochrome or limited color",
+        "suffix": "dot gain, soft ink spread, paper fuzz, cheap stock texture, gritty printed contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: newsprint reproduction with coarse halftone dots and absorbent paper texture. Lighting: flat editorial light keeping dot structure readable. Texture: dot gain, soft ink spread, and cheap stock fuzz. Key cues: coarse halftone dots, absorbent paper stock, editorial print texture, limited-color print. Finish cues: dot gain, soft ink spread, paper fuzz, cheap stock texture. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "reprographic",
+        "newsprint",
+        "halftone"
+      ]
+    },
+    {
+      "id": "repro_xerox_zine_photocopy",
+      "name": "Reprographic: Xerox Zine Photocopy",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "photocopy zine aesthetic, stark black toner, rough collage print, DIY copy-art texture, matte office paper",
+        "suffix": "toner speckle, edge shadowing, paper curl, rough copy texture, gritty contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: photocopy zine print with stark black toner and rough copy-art texture. Lighting: flat copy-table light with no dramatic shading. Texture: toner speckle, edge shadowing, and matte office paper curl. Key cues: photocopy zine aesthetic, stark black toner, rough collage print, DIY copy-art texture. Finish cues: toner speckle, edge shadowing, paper curl, rough copy texture. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "reprographic",
+        "photocopy",
+        "zine"
+      ]
+    },
+    {
+      "id": "repro_carbon_copy_manifold",
+      "name": "Reprographic: Carbon Copy Manifold",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, carved lines, high contrast, carbon copy manifold, pressure transfer typing, duplicate form, ghosted text impression",
+        "suffix": "soft duplicate offset, paper stack pressure marks, form-stock texture, typed imprint feel, paper texture, ink texture, rough edges, high contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: carbon-copy manifold form with pressure-transferred duplicate impression. Lighting: neutral even light revealing paper stack pressure and duplicate offset. Texture: soft transfer, form-stock grain, and faint stacked-sheet marks. Key cues: carbon copy manifold, pressure transfer typing, duplicate form, ghosted text impression. Finish cues: soft duplicate offset, paper stack pressure marks, form-stock texture, typed imprint feel. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "reprographic",
+        "carbon_copy",
+        "office_print"
+      ]
+    },
+    {
+      "id": "repro_contact_sheet_proof",
+      "name": "Reprographic: Contact Sheet Proof",
+      "category": "Photography/Alt Process",
+      "default": {
+        "prefix": "contact-sheet darkroom print, small photo borders, glossy proof paper, analog print-sheet aesthetic",
+        "suffix": "glossy paper sheen, narrow frame borders, archival print texture, soft darkroom proof feel"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: darkroom contact-sheet print with small bordered frames and glossy proof paper. Lighting: soft even light preserving paper sheen and border traces. Texture: glossy proof paper, archival print surface, and subtle frame spacing. Key cues: contact-sheet darkroom print, small photo borders, glossy proof paper, analog print-sheet aesthetic. Finish cues: glossy paper sheen, narrow frame borders, archival print texture, soft darkroom proof feel. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "reprographic",
+        "contact_sheet",
+        "analog_print"
+      ]
+    },
+    {
+      "id": "repro_rotogravure_ink_pattern",
+      "name": "Reprographic: Rotogravure Ink Pattern",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, carved lines, high contrast, rotogravure print, copper-cell ink pattern, smooth tonal reproduction, press cylinder texture",
+        "suffix": "fine cell grain, velvety darks, printed paper texture, high-volume press character, paper texture, ink texture, rough edges, high contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: rotogravure reproduction with smooth tonal printing and fine cell patterning. Lighting: flat print-preview light preserving tonal reproduction and cell grain. Texture: velvety darks, fine gravure grain, and coated paper response. Key cues: rotogravure print, copper-cell ink pattern, smooth tonal reproduction, press cylinder texture. Finish cues: fine cell grain, velvety darks, printed paper texture, high-volume press character. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "reprographic",
+        "rotogravure",
+        "print"
+      ]
+    },
+    {
+      "id": "repro_cmyk_registration_proof",
+      "name": "Reprographic: CMYK Registration Proof",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "CMYK proof print, layered process color, slight registration drift, print-shop proof texture, offset ink surface",
+        "suffix": "ink alignment variation, paper tooth, printed color layering, proof-sheet texture, clean graphic contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: CMYK proof print with layered process color and slight registration drift. Lighting: neutral inspection light with minimal glare. Texture: paper tooth, printed color layering, and subtle alignment variation. Key cues: CMYK proof print, layered process color, slight registration drift, print-shop proof texture. Finish cues: ink alignment variation, paper tooth, printed color layering, proof-sheet texture. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "reprographic",
+        "cmyk",
+        "proof"
+      ]
+    },
+    {
+      "id": "repro_thermographic_raised_ink",
+      "name": "Reprographic: Thermographic Raised Ink",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, carved lines, high contrast, thermographic raised ink, powder-fused lettering, slight gloss, printed stationery",
+        "suffix": "raised ink relief, subtle sheen, paper texture, formal print finish, ink texture, rough edges, high contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: thermographic print with powder-fused raised ink. Lighting: soft raking light revealing slight relief and glossy edges. Texture: raised lettering, subtle sheen, and fine stationery stock. Key cues: thermographic raised ink, powder-fused lettering, slight gloss, printed stationery. Finish cues: raised ink relief, subtle sheen, paper texture, formal print finish. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "reprographic",
+        "thermography",
+        "raised_ink"
+      ]
+    },
+    {
+      "id": "repro_rubber_stamp_overprint",
+      "name": "Reprographic: Rubber Stamp Overprint",
+      "category": "Printmaking/Expanded",
+      "default": {
+        "prefix": "printmaking, ink on paper, handcrafted texture, carved lines, high contrast, rubber stamp overprint, layered ink stamps, imperfect repeat, manual registration",
+        "suffix": "ink pooling, stamp edge chatter, paper tooth, hand-pressed irregularity, paper texture, ink texture, rough edges, high contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: rubber-stamped overprint with imperfect manual registration. Lighting: flat diffuse light preserving ink pooling and stamp edge chatter. Texture: hand-pressed irregularity, paper tooth, and layered ink density. Key cues: rubber stamp overprint, layered ink stamps, imperfect repeat, manual registration. Finish cues: ink pooling, stamp edge chatter, paper tooth, hand-pressed irregularity. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "reprographic",
+        "rubber_stamp",
+        "overprint"
+      ]
+    },
+    {
+      "id": "repro_dot_gain_press_sheet",
+      "name": "Reprographic: Dot Gain Press Sheet",
+      "category": "Graphic Design",
+      "default": {
+        "prefix": "screened print texture, dot gain, soft ink spread, absorbent press paper, calibration-print look",
+        "suffix": "softened dot edges, paper absorbency, density variation, press-sheet texture, matte printed surface"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: screened print showing dot gain and soft ink spread on absorbent paper. Lighting: neutral inspection light that keeps screened texture readable. Texture: softened dot edges, density variation, and matte press paper. Key cues: screened print texture, dot gain, soft ink spread, absorbent press paper. Finish cues: softened dot edges, paper absorbency, density variation, press-sheet texture. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "reprographic",
+        "dot_gain",
+        "press"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "version": 1,
+  "styles": [
+    {
+      "id": "tech_exploded_cutaway_diagram",
+      "name": "Exploded Cutaway Diagram",
+      "category": "Technical",
+      "default": {
+        "prefix": "technical illustration, clean lines, precise geometry, exploded cutaway view, separated components, sectional clarity",
+        "suffix": "clean line hierarchy, crisp geometry, sectional detail, flat rendering, high legibility"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: technical cutaway illustration with separated components and crisp geometry. Lighting: flat even rendering with no dramatic shading. Composition: clear separations, sectional clarity, and measured structure. Key cues: exploded cutaway view, separated components, technical linework, precise geometry. Finish cues: clean line hierarchy, crisp geometry, sectional detail, flat rendering. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "technical",
+        "cutaway",
+        "diagram"
+      ]
+    },
+    {
+      "id": "tech_orthographic_projection_plate",
+      "name": "Orthographic Projection Plate",
+      "category": "Technical",
+      "default": {
+        "prefix": "technical line illustration, orthographic views, aligned geometry, drafting clarity, multiview structure",
+        "suffix": "clean projection lines, measured spacing, flat rendering, crisp technical linework, restrained contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: orthographic technical illustration with aligned multiview geometry. Lighting: flat drafting presentation with minimal tonal variation. Composition: measured spacing, crisp geometry, and projection clarity. Key cues: orthographic views, aligned geometry, drafting clarity, multiview structure. Finish cues: clean projection lines, measured spacing, flat rendering, crisp technical linework. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "technical",
+        "orthographic",
+        "blueprint"
+      ]
+    },
+    {
+      "id": "tech_patent_plate_diagram",
+      "name": "Patent Plate Diagram",
+      "category": "Technical",
+      "default": {
+        "prefix": "technical engraving style, fine drafting lines, archival patent aesthetic, precise mechanical illustration, paper grain",
+        "suffix": "fine linework, etched line texture, paper grain, restrained contrast, crisp technical detail"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: archival patent-style technical illustration with fine drafting lines and paper grain. Lighting: flat document light that keeps linework readable. Texture: etched line detail, paper grain, and restrained contrast. Key cues: technical engraving style, archival patent aesthetic, precise mechanical illustration, fine drafting lines. Finish cues: fine linework, etched line texture, paper grain, restrained contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "technical",
+        "patent",
+        "diagram"
+      ]
+    },
+    {
+      "id": "tech_section_elevation_drawing",
+      "name": "Section and Elevation Drawing",
+      "category": "Technical",
+      "default": {
+        "prefix": "technical architectural drawing, section cut hatching, elevation linework, measured geometry, clean drafting",
+        "suffix": "hatching clarity, precise line weights, crisp geometry, flat rendering, restrained document contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: architectural technical drawing with section hatching and elevation linework. Lighting: flat presentation emphasizing geometry and line-weight hierarchy. Composition: measured structure, clean hatch patterns, and crisp drafting. Key cues: section cut hatching, elevation linework, measured geometry, clean drafting. Finish cues: hatching clarity, precise line weights, crisp geometry, flat rendering. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "technical",
+        "section",
+        "elevation"
+      ]
+    },
+    {
+      "id": "vec_gradient_mesh_illustration",
+      "name": "Gradient Mesh Illustration",
+      "category": "Vector",
+      "default": {
+        "prefix": "vector illustration, flat colors, clean shapes, crisp edges, smooth curves, gradient mesh vector, smooth tonal blends, scalable curves, clean vector shapes",
+        "suffix": "smooth color transitions, crisp bezier edges, clean layout, polished vector finish, consistent stroke weight, crisp edges, smooth curves"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: vector illustration built from gradient-mesh color transitions. Lighting: graphic flat-light treatment with emphasis on controlled tonal blending. Texture: none; clean scalable curves and polished vector edges. Key cues: gradient mesh vector, smooth tonal blends, scalable curves, clean vector shapes. Finish cues: smooth color transitions, crisp bezier edges, clean layout, polished vector finish. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "vector",
+        "gradient_mesh",
+        "illustration"
+      ]
+    },
+    {
+      "id": "vec_monoline_icon_system",
+      "name": "Monoline Icon System",
+      "category": "Vector",
+      "default": {
+        "prefix": "vector illustration, clean shapes, monoline forms, uniform stroke weight, modular geometry, flat graphic style",
+        "suffix": "consistent line weight, crisp curves, balanced spacing, polished vector edges, clean flat finish"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: monoline vector illustration with modular geometry and uniform stroke weight. Lighting: flat graphic treatment with no material shading. Composition: balanced spacing, crisp curves, and scalable clarity. Key cues: monoline forms, uniform stroke weight, modular geometry, flat graphic style. Finish cues: consistent line weight, crisp curves, balanced spacing, polished vector edges. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "vector",
+        "icon",
+        "monoline"
+      ]
+    },
+    {
+      "id": "vec_wayfinding_graphic_system",
+      "name": "Wayfinding Graphic System",
+      "category": "Vector",
+      "default": {
+        "prefix": "vector illustration, bold graphic symbols, flat colors, clean geometry, strong directional shapes, transit-graphic aesthetic",
+        "suffix": "high contrast clarity, clean alignment, modular spacing, crisp vector edges, polished flat finish"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: bold vector graphics with strong directional shapes and flat-color clarity. Lighting: flat design presentation with emphasis on readability. Composition: modular spacing, crisp geometry, and strong symbol silhouettes. Key cues: bold graphic symbols, clean geometry, strong directional shapes, transit-graphic aesthetic. Finish cues: high contrast clarity, clean alignment, modular spacing, crisp vector edges. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "vector",
+        "wayfinding",
+        "infographic"
+      ]
+    },
+    {
+      "id": "vec_flat_isometric_explainer",
+      "name": "Flat Isometric Explainer",
+      "category": "Vector",
+      "default": {
+        "prefix": "vector illustration, flat isometric geometry, clean planes, simplified depth, crisp graphic shapes",
+        "suffix": "crisp isometric edges, controlled flat shadows, clean geometry, polished vector finish, restrained contrast"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: flat isometric vector illustration with clean geometric depth. Lighting: minimal graphic shading with controlled flat shadows. Composition: tidy geometry, crisp edges, and scalable forms. Key cues: flat isometric geometry, clean planes, simplified depth, crisp graphic shapes. Finish cues: crisp isometric edges, controlled flat shadows, clean geometry, polished vector finish. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "vector",
+        "isometric",
+        "diagram"
+      ]
+    },
+    {
+      "id": "pix_one_bit_dithered_pixel",
+      "name": "One-Bit Dithered Pixel",
+      "category": "Pixel Art",
+      "default": {
+        "prefix": "pixel art, 16-bit, limited palette, pixel-perfect, one-bit pixel art, black and white dithering, high contrast sprite look, coarse pixel grid",
+        "suffix": "checker dither, crisp pixels, readable silhouette, hard-edged contrast, dithered shading, sprite-like clarity"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: one-bit pixel art using black and white dithering only. Lighting: implied through dither pattern rather than gradients. Texture: coarse pixel grid, checker dithers, and hard-edged contrast. Key cues: one-bit pixel art, black and white dithering, high contrast sprite look, coarse pixel grid. Finish cues: checker dither, crisp pixels, readable silhouette, hard-edged contrast. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "pixel_art",
+        "one_bit",
+        "dither"
+      ]
+    },
+    {
+      "id": "pix_four_color_handheld_pixel",
+      "name": "Four-Color Handheld Pixel",
+      "category": "Pixel Art",
+      "default": {
+        "prefix": "pixel art, 16-bit, limited palette, pixel-perfect, four-color handheld pixel art, tiny tile shading, portable-screen look",
+        "suffix": "restricted tones, crisp pixels, readable forms, small-scale tile texture, dithered shading, readable silhouette, sprite-like clarity"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: limited-palette handheld pixel art with only four tonal values. Lighting: implied with tiny tile shading and palette restriction. Texture: small pixel grid, restrained tones, and compact sprite readability. Key cues: four-color handheld pixel art, limited palette, tiny tile shading, portable-screen look. Finish cues: restricted tones, crisp pixels, readable forms, small-scale tile texture. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "pixel_art",
+        "handheld",
+        "limited_palette"
+      ]
+    },
+    {
+      "id": "pix_isometric_sprite_sheet",
+      "name": "Isometric Sprite Sheet",
+      "category": "Pixel Art",
+      "default": {
+        "prefix": "pixel art, 16-bit, limited palette, pixel-perfect, isometric sprite sheet, tile-based game art, modular sprites, pixel grid alignment",
+        "suffix": "crisp pixels, modular repetition, readable silhouette, dithered shading, sprite-like clarity"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: isometric sprite-sheet pixel art built from modular game tiles. Lighting: compact pixel shading supporting isometric form readability. Texture: crisp grid alignment, modular repetition, and dithered shading. Key cues: isometric sprite sheet, tile-based game art, modular sprites, pixel grid alignment. Finish cues: crisp pixels, modular repetition, readable silhouette, dithered shading. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "pixel_art",
+        "sprite_sheet",
+        "isometric"
+      ]
+    },
+    {
+      "id": "pix_tilemap_interface",
+      "name": "Tilemap Interface",
+      "category": "Pixel Art",
+      "default": {
+        "prefix": "pixel art, limited palette, crisp pixel grid, retro game overlay aesthetic, chunky interface framing, modular tiles",
+        "suffix": "sharp pixels, clean tile seams, limited tones, compact shading, readable silhouette, sprite clarity"
+      },
+      "models": {
+        "flux_2_klein": {
+          "prefix": "",
+          "suffix": "Style: retro pixel-art overlay with chunky framing and modular tile structure. Lighting: flat pixel shading with palette-limited contrast. Texture: crisp grid alignment, clean tile seams, and sharp pixels. Key cues: retro game overlay aesthetic, chunky interface framing, modular tiles, crisp pixel grid. Finish cues: sharp pixels, clean tile seams, limited tones, compact shading. Instruction: preserve the user prompt subject and add only stylistic cues."
+        }
+      },
+      "tags": [
+        "pixel_art",
+        "tilemap",
+        "interface"
+      ]
+    }
+  ]
+}
